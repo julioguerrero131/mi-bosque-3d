@@ -1,0 +1,18 @@
+{
+  "lista": [
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "game_data",
+      "FechaInterna": "31/07/2025 11:03:26 p. m.",
+      "data": {
+        "Start_Date": "31/07/2025 11:03:06 p. m.",
+        "End_Date": "31/07/2025 11:03:26 p. m.",
+        "duration": 0,
+        "score": 0,
+        "NumberImages": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,3340 @@
+[
+  {
+    "ChallengeID": 1,
+    "codename": "challenge_1",
+    "question": "What is the diet of the Saffron Grass Finch?",
+    "score": 1,
+    "image": "files/Qe-HtdCBsAlmx4icA0Vy0.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 1,
+        "codename": "option_1A",
+        "correctOption": false,
+        "text": "Fruits",
+        "image": "files/M8f03Re5AQs60YzQ0enlT.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 2,
+        "codename": "option_1B",
+        "correctOption": true,
+        "text": "Grains and seeds",
+        "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 3,
+        "codename": "option_1C",
+        "correctOption": false,
+        "text": "Worms",
+        "image": "files/pEKbR_9M19TNvtgf_m9cK.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 4,
+        "codename": "option_1D",
+        "correctOption": false,
+        "text": "Insects",
+        "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 1,
+      "feedback": "The diet of the Saffron Grass Finch is based on grains and seeds it finds on the ground.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 2,
+    "codename": "challenge_2",
+    "question": "What is the main diet of the Gray-backed Hawk?",
+    "score": 1,
+    "image": "files/CHGmPE_nPTyoYpKX4um5b.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 5,
+        "codename": "option_2A",
+        "correctOption": false,
+        "text": "Ants",
+        "image": "files/EXG-MXdo71Jd07Ju46w3C.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 6,
+        "codename": "option_2B",
+        "correctOption": true,
+        "text": "Rodents",
+        "image": "files/37npqghAaUkBu8FbHvFZJ.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 7,
+        "codename": "option_2C",
+        "correctOption": false,
+        "text": "Cockroaches",
+        "image": "files/VcQXUmhqUPaMCKGLyPRMB.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 8,
+        "codename": "option_2D",
+        "correctOption": false,
+        "text": "Bees",
+        "image": "files/Ycq4cvCTDjcyyrzj7tacP.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 2,
+      "feedback": "The Gray-backed Hawk feeds primarily on rodents, which it hunts from the air using its sharp eyesight.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 3,
+    "codename": "challenge_3",
+    "question": "The Gray-backed Hawk glides regularly by keeping its wings...",
+    "score": 1,
+    "image": "files/oQb7bZcy6ZgojLMmswUgF.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 9,
+        "codename": "option_3A",
+        "correctOption": false,
+        "text": "In motion",
+        "image": "files/IrbGRmtExZoGb2Z0b-vRn.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 10,
+        "codename": "option_3B",
+        "correctOption": false,
+        "text": "Spread out",
+        "image": "files/nc8DyzRWJ6Xv5dZ3lyOBD.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 11,
+        "codename": "option_3C",
+        "correctOption": true,
+        "text": "Flat",
+        "image": "files/0pTGeXhX59UShCuj8Rt6H.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 12,
+        "codename": "option_3D",
+        "correctOption": false,
+        "text": "Fan-shaped",
+        "image": "files/2M5zZmjVLRmoJr_U4Sp-F.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 3,
+      "feedback": "The Gray-backed Hawk glides with its wings held flat, allowing it to maintain altitude with minimal effort.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+  "ChallengeID": 4,
+  "codename": "challenge_4",
+  "question": "How does the Gray-backed Hawk glide?",
+  "score": 1,
+  "image": "files/GVp5OSvG2TjEvXGAG_3n7.jpg",
+  "difficulty": 1,
+  "updatedAt": null,
+  "gameLevelsChallenges": [
+    {
+      "GameLevelId": 5,
+      "updatedAt": null,
+      "gameLevel": {
+        "Name": "Bosque-Estación 4"
+      }
+    },
+    {
+      "GameLevelId": 6,
+      "updatedAt": null,
+      "gameLevel": {
+        "Name": "Bosque-Estación 5"
+      }
+    }
+  ],
+  "options": [
+    {
+      "ChallengeOptionId": 13,
+      "codename": "option_4A",
+      "correctOption": true,
+      "text": "For a long time and at high altitude",
+      "image": "files/I19MHlo4Zvw1BOANf6L8U.png",
+      "updatedAt": null
+    },
+    {
+      "ChallengeOptionId": 14,
+      "codename": "option_4B",
+      "correctOption": false,
+      "text": "It doesn't glide",
+      "image": "files/0n1l61zyd3GdJdZbWUNNE.png",
+      "updatedAt": null
+    },
+    {
+      "ChallengeOptionId": 15,
+      "codename": "option_4C",
+      "correctOption": false,
+      "text": "In short bursts of time",
+      "image": "files/CkS2QmBhLfDTeZtxoeFAK.png",
+      "updatedAt": null
+    },
+    {
+      "ChallengeOptionId": 16,
+      "codename": "option_4D",
+      "correctOption": false,
+      "text": "For a short time and at low altitude",
+      "image": "files/EPWQ1GHGn4A1RWn19oLEU.png",
+      "updatedAt": null
+    }
+  ],
+    "feedback": {
+      "ChallengeFeedbackId": 4,
+      "feedback": "The Gray-backed Hawk glides for long periods and at high altitudes, scanning the terrain in search of prey.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 5,
+    "codename": "challenge_5",
+    "question": "What type of animal is the iguana?",
+    "score": 1,
+    "image": "files/0SP3xXHXiIdWvLNbAhRjO.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 1,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Lobby"
+        }
+      },
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 17,
+        "codename": "option_5A",
+        "correctOption": false,
+        "text": "Carnivore",
+        "image": "files/g6MUbVUgN-a2vcVjMEFqf.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 18,
+        "codename": "option_5B",
+        "correctOption": true,
+        "text": "Herbivore",
+        "image": "files/D8aUvF10RRY_dB8lfw1Hz.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 19,
+        "codename": "option_5C",
+        "correctOption": false,
+        "text": "Omnivore",
+        "image": "files/szD6kt0ROH1z7ap2wveZ9.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 20,
+        "codename": "option_5D",
+        "correctOption": false,
+        "text": "None of the above",
+        "image": "files/U6pCO2K6B35aMFfBC5cCn.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 5,
+      "feedback": "The iguana is an herbivorous reptile, meaning it mainly feeds on plants such as leaves and fruits.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 6,
+    "codename": "challenge_6",
+    "question": "What is the role of the iguana in the ecosystem?",
+    "score": 1,
+    "image": "files/JQK-JDi5SnNUzSuMxmnZw.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      },
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 21,
+        "codename": "option_6A",
+        "correctOption": false,
+        "text": "Prey for herbivorous birds",
+        "image": "files/nvmyuQR6eQaLpyZYsFAYb.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 22,
+        "codename": "option_6B",
+        "correctOption": false,
+        "text": "They generate humidity in the environment",
+        "image": "files/oXwOT7ADLStAfvLIdLJ9p.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 23,
+        "codename": "option_6C",
+        "correctOption": false,
+        "text": "They act as decomposers",
+        "image": "files/GfKkOXtQnzba4svzkscmL.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 24,
+        "codename": "option_6D",
+        "correctOption": true,
+        "text": "They disperse seeds",
+        "image": "files/ehNhK_Q3zTYu5s7K49LWL.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 6,
+      "feedback": "By feeding on fruits and excreting the seeds in different places, the iguana contributes to the reproduction of plants.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 7,
+    "codename": "challenge_7",
+    "question": "Which of the following animals is a scavenger?",
+    "score": 1,
+    "image": "files/KzjW4ooWUkOlCd4OwUkRx.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 25,
+        "codename": "option_7A",
+        "correctOption": false,
+        "text": "Condor",
+        "image": "files/1FbEbIHUF5ElJmgcVlwLi.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 26,
+        "codename": "option_7B",
+        "correctOption": true,
+        "text": "Black vulture",
+        "image": "files/Jq1gQMB8lsWngd0PCQ1NH.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 27,
+        "codename": "option_7C",
+        "correctOption": false,
+        "text": "Harpy eagle",
+        "image": "files/6zqDq6jKFdSSDWnOXzjoM.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 28,
+        "codename": "option_7D",
+        "correctOption": false,
+        "text": "Owl",
+        "image": "files/D9YcPWUmx5IjkbAHn-FKn.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 7,
+      "feedback": "The black vulture feeds on dead animals, helping to clean the environment and prevent disease spread.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 8,
+    "codename": "challenge_8",
+    "question": "Which animal is a decomposer?",
+    "score": 1,
+    "image": "files/8IBqAKKkSViWI3leTTDl1.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      },
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 29,
+        "codename": "option_8A",
+        "correctOption": false,
+        "text": "Caterpillar",
+        "image": "files/H4vENbM8unKZPFbVLCV4y.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 30,
+        "codename": "option_8B",
+        "correctOption": false,
+        "text": "Slug",
+        "image": "files/AUJ3ZpqFkvo9u7gyJMBln.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 31,
+        "codename": "option_8C",
+        "correctOption": false,
+        "text": "Spider",
+        "image": "files/z9m0XmvhrIGmCJOPFoaz7.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 32,
+        "codename": "option_8D",
+        "correctOption": true,
+        "text": "Mushroom",
+        "image": "files/kq_2VExaZcHJREKmqZ_zf.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 8,
+      "feedback": "Mushrooms are decomposers that break down organic matter and recycle nutrients into the soil.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 9,
+    "codename": "challenge_9",
+    "question": "What is the role of the scavenger in the food chain?",
+    "score": 1,
+    "image": "files/vqX_0HvfbkFGXAsaBSavq.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+            {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      },
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 33,
+        "codename": "option_9A",
+        "correctOption": true,
+        "text": "They feed on dead animals",
+        "image": "files/fvFeQyGGU50ebY4aJXQlm.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 34,
+        "codename": "option_9B",
+        "correctOption": false,
+        "text": "They are producers",
+        "image": "files/DuBAveMiRRlk-L1MpPo7F.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 35,
+        "codename": "option_9C",
+        "correctOption": false,
+        "text": "They regulate climate",
+        "image": "files/bbpFFl8xyuJWBxgYP7NfF.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 36,
+        "codename": "option_9D",
+        "correctOption": false,
+        "text": "They disperse seeds",
+        "image": "files/n6kHbD5SdhPjeMSjTj3Fk.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 9,
+      "feedback": "Scavengers help maintain ecological balance by consuming dead organisms and preventing contamination.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 10,
+    "codename": "challenge_10",
+    "question": "Which of the following animals is a producer?",
+    "score": 1,
+    "image": "files/xq-hk-u4Op6mQGHvIl_bD.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+            {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      },
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 37,
+        "codename": "option_10A",
+        "correctOption": true,
+        "text": "Tree",
+        "image": "files/x6D3u7Gfp7Ojkuv52xoGH.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 38,
+        "codename": "option_10B",
+        "correctOption": false,
+        "text": "Rabbit",
+        "image": "files/H_Z5uCP7c1M3gZTj-OBFf.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 39,
+        "codename": "option_10C",
+        "correctOption": false,
+        "text": "Owl",
+        "image": "files/H2XwZGejK1A6kMOBfPZuA.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 40,
+        "codename": "option_10D",
+        "correctOption": false,
+        "text": "Mushroom",
+        "image": "files/8nUReM3vG_kfS8C_cR4Wb.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 10,
+      "feedback": "Trees, through photosynthesis, produce their own food and are the base of the food chain.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 11,
+    "codename": "challenge_11",
+    "question": "What do decomposers feed on?",
+    "score": 1,
+    "image": "files/58ZduTzNPQjDhImhfODmk.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+            {
+        "GameLevelId": 1,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Lobby"
+        }
+      },
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 41,
+        "codename": "option_11A",
+        "correctOption": false,
+        "text": "Seeds",
+        "image": "files/6EJOZhAjBFYayv4Lfb_8Z.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 42,
+        "codename": "option_11B",
+        "correctOption": false,
+        "text": "Living animals",
+        "image": "files/yys5DUETe9JD9bEea0MEb.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 43,
+        "codename": "option_11C",
+        "correctOption": true,
+        "text": "Dead organisms",
+        "image": "files/WME1XU5GWAhL9Oc5RV0OJ.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 44,
+        "codename": "option_11D",
+        "correctOption": false,
+        "text": "Sunlight",
+        "image": "files/NIMduKZo3zgo6yQvGpWeF.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 11,
+      "feedback": "Decomposers feed on dead organisms and organic matter, helping to recycle nutrients.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 12,
+    "codename": "challenge_12",
+    "question": "Which of the following organisms is a decomposer?",
+    "score": 1,
+    "image": "files/jRFOZbdWTrvR1-vC3Z2Sx.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 1,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Lobby"
+        }
+      },
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 45,
+        "codename": "option_12A",
+        "correctOption": false,
+        "text": "Sunflower",
+        "image": "files/OpjExh9gX06HtUV7H0dJd.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 46,
+        "codename": "option_12B",
+        "correctOption": false,
+        "text": "Ant",
+        "image": "files/Wzo6Ezbc8s0Nez6MSIo6s.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 47,
+        "codename": "option_12C",
+        "correctOption": true,
+        "text": "Mushroom",
+        "image": "files/XlWRnqABhM_Ofkm_UtY3R.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 48,
+        "codename": "option_12D",
+        "correctOption": false,
+        "text": "Toucan",
+        "image": "files/HHoE-B9rXW_g-u6iyxPOB.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 12,
+      "feedback": "Mushrooms are decomposers that help return nutrients to the soil by breaking down organic matter.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 13,
+    "codename": "challenge_13",
+    "question": "Which of the following animals is a consumer?",
+    "score": 1,
+    "image": "files/EBzlxqkTzr5XKN-bvnDFm.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+        {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 49,
+        "codename": "option_13A",
+        "correctOption": false,
+        "text": "Fern",
+        "image": "files/rPKxxZrSoJ5LydqlMEeRv.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 50,
+        "codename": "option_13B",
+        "correctOption": true,
+        "text": "Rabbit",
+        "image": "files/29B2ehj4nE-k9QAAqM13A.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 51,
+        "codename": "option_13C",
+        "correctOption": false,
+        "text": "Tree",
+        "image": "files/L4tfHk0TTUlKZrWGLAMdj.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 52,
+        "codename": "option_13D",
+        "correctOption": false,
+        "text": "Moss",
+        "image": "files/1WrZw9Zo4SLZ0DliTo1CK.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 13,
+      "feedback": "Consumers, like the rabbit, cannot produce their own food and depend on other organisms to survive.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 14,
+    "codename": "challenge_14",
+    "question": "Which of these organisms produces its own food?",
+    "score": 1,
+    "image": "files/K2Uqz89JbMBdAOVh-W3z0.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      },
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 53,
+        "codename": "option_14A",
+        "correctOption": false,
+        "text": "Ant",
+        "image": "files/S_j3xyvmk50JPC0Jk3OHl.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 54,
+        "codename": "option_14B",
+        "correctOption": false,
+        "text": "Mushroom",
+        "image": "files/VbEYb-eSx5Y7Gwa-DAXvb.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 55,
+        "codename": "option_14C",
+        "correctOption": true,
+        "text": "Fern",
+        "image": "files/BjXk_iRWj6mV42syb6xA4.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 56,
+        "codename": "option_14D",
+        "correctOption": false,
+        "text": "Spider",
+        "image": "files/vWgxDBlMXaETMI1BGa7cT.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 14,
+      "feedback": "Ferns, like all plants, produce their own food through photosynthesis using sunlight, water, and carbon dioxide.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 15,
+    "codename": "challenge_15",
+    "question": "Which of the following is a characteristic of a decomposer?",
+    "score": 1,
+    "image": "files/HJvCdyZSzUIjtfphJD9eV.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
+        }
+      },
+      {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 57,
+        "codename": "option_15A",
+        "correctOption": false,
+        "text": "They photosynthesize",
+        "image": "files/S1Z-nm_TFq5_aFzmr4CQu.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 58,
+        "codename": "option_15B",
+        "correctOption": false,
+        "text": "They consume seeds",
+        "image": "files/W2-rRhsAF2HjX7WB9kmJb.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 59,
+        "codename": "option_15C",
+        "correctOption": false,
+        "text": "They regulate temperature",
+        "image": "files/nWcPvKaWemZcOQwv8QK0L.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 60,
+        "codename": "option_15D",
+        "correctOption": true,
+        "text": "They recycle nutrients",
+        "image": "files/Sxf6jtwyo25Eu2f_V5V5u.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 15,
+      "feedback": "Decomposers recycle nutrients by breaking down organic material, returning essential elements to the ecosystem.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 16,
+    "codename": "challenge_16",
+    "question": "Which of the following statements is true about consumers?",
+    "score": 1,
+    "image": "files/n-9jskVCEc8uhAeJ2Z39f.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 1,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Lobby"
+        }
+      },
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 61,
+        "codename": "option_16A",
+        "correctOption": false,
+        "text": "They produce their own food",
+        "image": "files/DrWAyWh0jJDpJHfEJUwTI.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 62,
+        "codename": "option_16B",
+        "correctOption": true,
+        "text": "They depend on other organisms to feed",
+        "image": "files/n-YUwIb4tVVRRSgCuKwPh.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 63,
+        "codename": "option_16C",
+        "correctOption": false,
+        "text": "They absorb nutrients from the soil",
+        "image": "files/zl5AxNZdTYssQ2zZ-ps4K.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 64,
+        "codename": "option_16D",
+        "correctOption": false,
+        "text": "They only feed on sunlight",
+        "image": "files/qe8uLpb2dUThQo9TXsoKV.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 16,
+      "feedback": "Consumers are organisms that cannot make their own food and must obtain it by feeding on other living beings.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 17,
+    "codename": "challenge_17",
+    "question": "What function do producers fulfill in the ecosystem?",
+    "score": 1,
+    "image": "files/NjwvOZhkh4dKswA1cSGyG.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 65,
+        "codename": "option_17A",
+        "correctOption": true,
+        "text": "They generate their own food and energy through photosynthesis",
+        "image": "files/kTQht0Z9k7nRw8j4PqxtJ.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 66,
+        "codename": "option_17B",
+        "correctOption": false,
+        "text": "They feed on dead organisms",
+        "image": "files/tdlgIY5Kkt3A4HfsWcA_9.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 67,
+        "codename": "option_17C",
+        "correctOption": false,
+        "text": "They regulate the climate of the area",
+        "image": "files/oZRWodM9u1CZmiK91z30h.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 68,
+        "codename": "option_17D",
+        "correctOption": false,
+        "text": "They only reproduce asexually",
+        "image": "files/k97hN9H06ESKYoFNjYT5h.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 17,
+      "feedback": "Producers like plants create their own food using sunlight, water, and carbon dioxide through photosynthesis.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 18,
+    "codename": "challenge_18",
+    "question": "What is the importance of decomposers in ecosystems?",
+    "score": 1,
+    "image": "files/8K8fK-L2gluvQtiBLR4Uw.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 1,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Lobby"
+        }
+      },
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 69,
+        "codename": "option_18A",
+        "correctOption": false,
+        "text": "They prevent photosynthesis",
+        "image": "files/LfcuZIz-vkqn77zEvPYOs.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 70,
+        "codename": "option_18B",
+        "correctOption": true,
+        "text": "They recycle nutrients by breaking down organic matter",
+        "image": "files/ZECNRS9vDBygE-LDbI-HE.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 71,
+        "codename": "option_18C",
+        "correctOption": false,
+        "text": "They eat only plants",
+        "image": "files/7rTe2O4uAKZmHG7VbJv4R.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 72,
+        "codename": "option_18D",
+        "correctOption": false,
+        "text": "They produce oxygen for the environment",
+        "image": "files/CQ8U2vGRrTiJZ0m6M6PT0.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 18,
+      "feedback": "Decomposers are key to the ecosystem because they return essential nutrients to the soil and maintain the balance of the food chain.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 19,
+    "codename": "challenge_19",
+    "question": "Which of the following options is a producer?",
+    "score": 1,
+    "image": "files/wk82VrtdphwAV7OqEYa_u.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 73,
+        "codename": "option_19A",
+        "correctOption": false,
+        "text": "Toucan",
+        "image": "files/05gyfVoTWdk82oF8xyepG.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 74,
+        "codename": "option_19B",
+        "correctOption": true,
+        "text": "Moss",
+        "image": "files/qHh_d9f9HHHaaZRaJ3TxC.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 75,
+        "codename": "option_19C",
+        "correctOption": false,
+        "text": "Spider",
+        "image": "files/c_a_GdtV_1qls0Jta9u7m.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 76,
+        "codename": "option_19D",
+        "correctOption": false,
+        "text": "Ant",
+        "image": "files/BJeIG_tzU_AQwGS5kt7qU.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 19,
+      "feedback": "Moss is a producer because it performs photosynthesis and generates its own food, contributing to the food chain.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 20,
+    "codename": "challenge_20",
+    "question": "What would happen if there were no decomposers in the ecosystem?",
+    "score": 1,
+    "image": "files/HDD8kL7mTu9XZpVK3dHqK.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 77,
+        "codename": "option_20A",
+        "correctOption": false,
+        "text": "There would be more producers",
+        "image": "files/DoH8DrUzZhxQzM7QaJd3B.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 78,
+        "codename": "option_20B",
+        "correctOption": false,
+        "text": "More sunlight would arrive",
+        "image": "files/9PZ2R0LUwKklfpgzPKTJA.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 79,
+        "codename": "option_20C",
+        "correctOption": true,
+        "text": "Dead matter would accumulate and nutrients would not be recycled",
+        "image": "files/qkzx3N8y9llGYP3SGhxnU.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 80,
+        "codename": "option_20D",
+        "correctOption": false,
+        "text": "Animals would stop reproducing",
+        "image": "files/dfZ4Ud6U_5vPfLtQdHb4q.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 20,
+      "feedback": "Without decomposers, ecosystems would collapse due to the accumulation of organic waste and lack of nutrient recycling.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 21,
+    "codename": "challenge_21",
+    "question": "Which of the following organisms plays a role in seed dispersal?",
+    "score": 1,
+    "image": "files/Vy_yNWrH5KrR1KMYbXLLw.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 81,
+        "codename": "option_21A",
+        "correctOption": false,
+        "text": "Spider",
+        "image": "files/HK4alLX-H27y4dd8a8WVR.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 82,
+        "codename": "option_21B",
+        "correctOption": false,
+        "text": "Condor",
+        "image": "files/Ar0mLCGZHVCSzKqMEkrKw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 83,
+        "codename": "option_21C",
+        "correctOption": false,
+        "text": "Fungus",
+        "image": "files/lavD1cp55tMqx5WtbJMbY.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 84,
+        "codename": "option_21D",
+        "correctOption": true,
+        "text": "Toucan",
+        "image": "files/9QhT5pVBNWYcN4gRpzkVg.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 21,
+      "feedback": "Toucans help disperse seeds by eating fruits and excreting the seeds in other places, allowing plants to grow in new areas.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 22,
+    "codename": "challenge_22",
+    "question": "How do ants contribute to the ecosystem?",
+    "score": 1,
+    "image": "files/qgg5EFzHAtj_h2jUXI7lI.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 85,
+        "codename": "option_22A",
+        "correctOption": true,
+        "text": "They help aerate the soil and disperse seeds",
+        "image": "files/r9yswUYnnBQ9jGVrRUdUp.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 86,
+        "codename": "option_22B",
+        "correctOption": false,
+        "text": "They produce oxygen",
+        "image": "files/tlCNMSvRjqt9acLypfn0L.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 87,
+        "codename": "option_22C",
+        "correctOption": false,
+        "text": "They consume only decomposers",
+        "image": "files/Co-W2JauR8s7D0x5KMYeA.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 88,
+        "codename": "option_22D",
+        "correctOption": false,
+        "text": "They pollinate all plants",
+        "image": "files/PCx3v7RHroaLTTgkJaeX9.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 22,
+      "feedback": "Ants improve soil quality by digging tunnels and also help with seed dispersal, contributing to the ecosystem’s health.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 23,
+    "codename": "challenge_23",
+    "question": "Which of the following organisms helps pollinate flowers?",
+    "score": 1,
+    "image": "files/fU4_9HF03cNR1VCeHV3bO.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      },
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 89,
+        "codename": "option_23A",
+        "correctOption": false,
+        "text": "Fungus",
+        "image": "files/R-L5LM2Q3CLJMHObBQYiy.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 90,
+        "codename": "option_23B",
+        "correctOption": true,
+        "text": "Bee",
+        "image": "files/Kvl6pGZTLDDH4ItjGnpg8.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 91,
+        "codename": "option_23C",
+        "correctOption": false,
+        "text": "Snake",
+        "image": "files/Db38ybRgtXuFwnH9uwW_1.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 92,
+        "codename": "option_23D",
+        "correctOption": false,
+        "text": "Condor",
+        "image": "files/EfK7BR8AtmdUr6PaSLTRx.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 23,
+      "feedback": "Bees transfer pollen from one flower to another while collecting nectar, which helps pollination and plant reproduction.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 24,
+    "codename": "challenge_24",
+    "question": "How do producers contribute to the food chain?",
+    "score": 1,
+    "image": "files/UbHULF4WPr6Br2TuFElJG.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
+        }
+      },
+      {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 93,
+        "codename": "option_24A",
+        "correctOption": false,
+        "text": "By feeding on other animals",
+        "image": "files/GVQReF8sEjSn-w7S2_Fsr.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 94,
+        "codename": "option_24B",
+        "correctOption": false,
+        "text": "By decomposing dead matter",
+        "image": "files/o8GyTIv3WbyOMJKhcK7b9.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 95,
+        "codename": "option_24C",
+        "correctOption": true,
+        "text": "By creating their own food and serving as food for others",
+        "image": "files/yRxv3fw-cq5TllFGll-mS.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 96,
+        "codename": "option_24D",
+        "correctOption": false,
+        "text": "By hunting and storing food",
+        "image": "files/yiG3UNUdRp-XkS1G3wTLJ.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 24,
+      "feedback": "Producers, such as plants, are the base of the food chain because they generate energy-rich food through photosynthesis.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 25,
+    "codename": "challenge_25",
+    "question": "Which of the following helps clean the environment by feeding on dead animals?",
+    "score": 1,
+    "image": "files/Vo7JQ-SFC9EpNuqz1_dN3.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      },
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 97,
+        "codename": "option_25A",
+        "correctOption": false,
+        "text": "Hummingbird",
+        "image": "files/ZrFvuhyTq4syh8NpwqTzG.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 98,
+        "codename": "option_25B",
+        "correctOption": false,
+        "text": "Owl",
+        "image": "files/IH08svngmPe9toJ4N5UnD.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 99,
+        "codename": "option_25C",
+        "correctOption": true,
+        "text": "Black vulture",
+        "image": "files/FtzPy4Dp2R4dOeZrST0Vk.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 100,
+        "codename": "option_25D",
+        "correctOption": false,
+        "text": "Iguana",
+        "image": "files/NuTx7KueIm9RM7ZyIE4NH.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 25,
+      "feedback": "The black vulture helps clean the ecosystem by consuming carrion and preventing the spread of diseases.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 26,
+    "codename": "challenge_26",
+    "question": "Which of the following is an example of a consumer?",
+    "score": 1,
+    "image": "files/C5m7noxH9OZ0rBqnFgtLA.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      },
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 101,
+        "codename": "option_26A",
+        "correctOption": false,
+        "text": "Tree",
+        "image": "files/XAlNnQl4_nWslO5XKf4Dj.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 102,
+        "codename": "option_26B",
+        "correctOption": false,
+        "text": "Fern",
+        "image": "files/8NFC-1ll3N0TEJ5M7n2_a.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 103,
+        "codename": "option_26C",
+        "correctOption": false,
+        "text": "Sunflower",
+        "image": "files/SIdfMnPOjRtMJcwXZoDJ2.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 104,
+        "codename": "option_26D",
+        "correctOption": true,
+        "text": "Rabbit",
+        "image": "files/EKM2qHzOzMGAmcWdzPbcv.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 26,
+      "feedback": "The rabbit is a consumer because it feeds on producers like plants and cannot make its own food.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 27,
+    "codename": "challenge_27",
+    "question": "What role do bees play in the ecosystem?",
+    "score": 1,
+    "image": "files/5T_4a9c7AhGAKzYcsZL63.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 105,
+        "codename": "option_27A",
+        "correctOption": false,
+        "text": "They recycle nutrients",
+        "image": "files/CLfF_HU2Egd8y1MfzwDqG.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 106,
+        "codename": "option_27B",
+        "correctOption": false,
+        "text": "They produce seeds",
+        "image": "files/h4vN_AzGNJ8yXGaFpvETX.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 107,
+        "codename": "option_27C",
+        "correctOption": false,
+        "text": "They eat insects",
+        "image": "files/ku_olXx-mAFGg1Px2kRmK.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 108,
+        "codename": "option_27D",
+        "correctOption": true,
+        "text": "They pollinate flowers",
+        "image": "files/YyE1tMw4Gp6iTFdGvhSzh.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 27,
+      "feedback": "Bees help flowers reproduce by transferring pollen between them while collecting nectar.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 28,
+    "codename": "challenge_28",
+    "question": "Which animal is an example of a scavenger?",
+    "score": 1,
+    "image": "files/fpzKX_9GSpFw9COcglDcm.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 109,
+        "codename": "option_28A",
+        "correctOption": false,
+        "text": "Bee",
+        "image": "files/3HzKdxS-dIjsdd6bsUeYn.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 110,
+        "codename": "option_28B",
+        "correctOption": false,
+        "text": "Rabbit",
+        "image": "files/F8kVhF0rSFXiOqZ-DsdZK.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 111,
+        "codename": "option_28C",
+        "correctOption": true,
+        "text": "Black vulture",
+        "image": "files/t6PbGzYVrMQZkqMvWa92T.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 112,
+        "codename": "option_28D",
+        "correctOption": false,
+        "text": "Sunflower",
+        "image": "files/vNDcN4K7i0c1H4jDgGoBk.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 28,
+      "feedback": "The black vulture is a scavenger because it feeds on animals that are already dead, preventing contamination.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 29,
+    "codename": "challenge_29",
+    "question": "Which organism is essential for nutrient recycling?",
+    "score": 1,
+    "image": "files/FhDPl6J62eGjsGZpZRKY8.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+            {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      },
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 113,
+        "codename": "option_29A",
+        "correctOption": false,
+        "text": "Rabbit",
+        "image": "files/XpyZq5hlQxUZsoN7Vxzo1.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 114,
+        "codename": "option_29B",
+        "correctOption": false,
+        "text": "Toucan",
+        "image": "files/xKnzk99JPFe5jUv3YxQBD.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 115,
+        "codename": "option_29C",
+        "correctOption": true,
+        "text": "Mushroom",
+        "image": "files/NvBbOajQAfNgphDiZRgs8.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 116,
+        "codename": "option_29D",
+        "correctOption": false,
+        "text": "Bee",
+        "image": "files/g-AwFZ9T6mMJbgyUEiYdk.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 29,
+      "feedback": "Mushrooms break down organic matter and return nutrients to the soil, completing the cycle of life.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 30,
+    "codename": "challenge_30",
+    "question": "Which organism generates its own food through photosynthesis?",
+    "score": 1,
+    "image": "files/Y3fnGm_3R2i-HtApPspbM.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 117,
+        "codename": "option_30A",
+        "correctOption": false,
+        "text": "Spider",
+        "image": "files/XcUgEvXwxvJHlWoJz1DF2.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 118,
+        "codename": "option_30B",
+        "correctOption": true,
+        "text": "Fern",
+        "image": "files/IxmbMLwOsBkYmQahOShPG.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 119,
+        "codename": "option_30C",
+        "correctOption": false,
+        "text": "Condor",
+        "image": "files/KfhGN9cOuk3HT7rdQciLT.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 120,
+        "codename": "option_30D",
+        "correctOption": false,
+        "text": "Black vulture",
+        "image": "files/l0G-ntSuCXu02Enu3W8hC.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 30,
+      "feedback": "Ferns use sunlight, carbon dioxide, and water to produce their food through photosynthesis.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+   {
+    "ChallengeID": 31,
+    "codename": "challenge_31",
+    "question": "What happens to the nutrients when an organism dies?",
+    "score": 1,
+    "image": "files/WKnxHVA6gbFt9WnfxdYAx.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 121,
+        "codename": "option_31A",
+        "correctOption": true,
+        "text": "They return to the soil thanks to decomposers",
+        "image": "files/MyoIklm_bknu9MRyUWwxk.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 122,
+        "codename": "option_31B",
+        "correctOption": false,
+        "text": "They are transformed into sunlight",
+        "image": "files/XqCPJdA7AGv69zHeMJoUw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 123,
+        "codename": "option_31C",
+        "correctOption": false,
+        "text": "They are used to produce oxygen",
+        "image": "files/Fcz6K9OlB_CZCR2aX2_4h.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 124,
+        "codename": "option_31D",
+        "correctOption": false,
+        "text": "They disappear completely",
+        "image": "files/GVJAlTjYcG5rZBcxKXMcY.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 31,
+      "feedback": "When an organism dies, decomposers break down its body and return nutrients to the soil, benefiting producers.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 32,
+    "codename": "challenge_32",
+    "question": "Which organism is a producer?",
+    "score": 1,
+    "image": "files/jLVtYF79NLub2y07SnX3B.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 125,
+        "codename": "option_32A",
+        "correctOption": false,
+        "text": "Black vulture",
+        "image": "files/Hy0BFlZuC7WUrEP0u7DxD.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 126,
+        "codename": "option_32B",
+        "correctOption": true,
+        "text": "Tree",
+        "image": "files/7b4eFYk1CjkN0BWqDbi2l.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 127,
+        "codename": "option_32C",
+        "correctOption": false,
+        "text": "Rabbit",
+        "image": "files/LoNU30vS9zffY2q2hGUto.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 128,
+        "codename": "option_32D",
+        "correctOption": false,
+        "text": "Owl",
+        "image": "files/4VliUGNSKo4Q09qTgQetF.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 32,
+      "feedback": "Trees are producers because they make their own food through photosynthesis and serve as food for consumers.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 33,
+    "codename": "challenge_33",
+    "question": "How do decomposers help plants grow?",
+    "score": 1,
+    "image": "files/EhxzEz-U6GfV4gEmUBw2p.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+            {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 129,
+        "codename": "option_33A",
+        "correctOption": false,
+        "text": "They eat the plants",
+        "image": "files/oZ7X7sk3Jzq3B3aVpz7Iz.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 130,
+        "codename": "option_33B",
+        "correctOption": false,
+        "text": "They cut the leaves",
+        "image": "files/yj0xyUtnIYvmQuRtzuBqf.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 131,
+        "codename": "option_33C",
+        "correctOption": true,
+        "text": "They return nutrients to the soil",
+        "image": "files/IeBeXPWZJmtGrS9aTLsJK.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 132,
+        "codename": "option_33D",
+        "correctOption": false,
+        "text": "They remove sunlight",
+        "image": "files/JWmSwRr4WzYsm9PtJoVsz.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 33,
+      "feedback": "Decomposers help plants by breaking down dead matter and releasing nutrients that are absorbed by the roots.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 34,
+    "codename": "challenge_34",
+    "question": "Which of the following is a decomposer?",
+    "score": 1,
+    "image": "files/Aus_Mb9Ig6KqYgVNuosBN.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+            {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 133,
+        "codename": "option_34A",
+        "correctOption": true,
+        "text": "Fungus",
+        "image": "files/NrwHKiWiX7ND1sE8IsBsp.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 134,
+        "codename": "option_34B",
+        "correctOption": false,
+        "text": "Sun",
+        "image": "files/b-3t_y1ZT9XtnHYykzqne.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 135,
+        "codename": "option_34C",
+        "correctOption": false,
+        "text": "Tree",
+        "image": "files/FGLQZ0j6P8L4bU3CH4bGu.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 136,
+        "codename": "option_34D",
+        "correctOption": false,
+        "text": "Bee",
+        "image": "files/F20CBPby9EKp8JtMXZAf5.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 34,
+      "feedback": "Fungi are decomposers because they break down dead material and return nutrients to the ecosystem.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 35,
+    "codename": "challenge_35",
+    "question": "Which of the following organisms is a consumer?",
+    "score": 1,
+    "image": "files/hPLfpFDZbyBD95Zbc6Op5.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+            {
+        "GameLevelId": 4,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 3"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 137,
+        "codename": "option_35A",
+        "correctOption": false,
+        "text": "Sun",
+        "image": "files/M0Kt_SGujSsz3cdHecj9R.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 138,
+        "codename": "option_35B",
+        "correctOption": false,
+        "text": "Fern",
+        "image": "files/QJcsSxzByUL0HYWz-Zslw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 139,
+        "codename": "option_35C",
+        "correctOption": true,
+        "text": "Rabbit",
+        "image": "files/Sf9ulh_5EZUtqzN_AA5vI.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 140,
+        "codename": "option_35D",
+        "correctOption": false,
+        "text": "Tree",
+        "image": "files/Ds2q2kZo7H1ZnIVoC9Sa9.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 35,
+      "feedback": "Rabbits are consumers because they depend on other organisms, such as plants, to feed.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 36,
+    "codename": "challenge_36",
+    "question": "Which of these organisms contributes to nutrient recycling?",
+    "score": 1,
+    "image": "files/ah0BexJ77C3W4WnWMiXMU.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 141,
+        "codename": "option_36A",
+        "correctOption": false,
+        "text": "Toucan",
+        "image": "files/M4dx09KBYDYKtkv3QmTMe.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 142,
+        "codename": "option_36B",
+        "correctOption": true,
+        "text": "Mushroom",
+        "image": "files/x3vA0YuR50iHDTKkZlSuy.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 143,
+        "codename": "option_36C",
+        "correctOption": false,
+        "text": "Ant",
+        "image": "files/UUkI4MXFMfS7s5FEysD0d.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 144,
+        "codename": "option_36D",
+        "correctOption": false,
+        "text": "Spider",
+        "image": "files/mvVBo9Al_q3kl8Z_p7HUE.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 36,
+      "feedback": "Mushrooms are decomposers that recycle nutrients, which are then reused by plants for their growth.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 37,
+    "codename": "challenge_37",
+    "question": "Which of these is a role of a producer?",
+    "score": 1,
+    "image": "files/N5gMMPikWbXY_1OioSGpS.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 145,
+        "codename": "option_37A",
+        "correctOption": true,
+        "text": "To create their own food and support other organisms",
+        "image": "files/WDLZgaDOPNUklrmKqaHDw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 146,
+        "codename": "option_37B",
+        "correctOption": false,
+        "text": "To eat dead organisms",
+        "image": "files/fnbvdjWxdyr3j8wrCclLf.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 147,
+        "codename": "option_37C",
+        "correctOption": false,
+        "text": "To eliminate carbon dioxide",
+        "image": "files/MSh_nDb_XflTyWkwq7wI2.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 148,
+        "codename": "option_37D",
+        "correctOption": false,
+        "text": "To provide only shade",
+        "image": "files/YHJzdtfLhYOQAfEmq0X9W.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 37,
+      "feedback": "Producers create their own food and serve as the base of the food chain by feeding consumers and decomposers.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 38,
+    "codename": "challenge_38",
+    "question": "What do all consumers have in common?",
+    "score": 1,
+    "image": "files/j_hnMaF2TYrrqehzKbyuG.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 149,
+        "codename": "option_38A",
+        "correctOption": false,
+        "text": "They produce oxygen",
+        "image": "files/EEeMTdIvLg7bDiU8Md0MP.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 150,
+        "codename": "option_38B",
+        "correctOption": true,
+        "text": "They need to consume other organisms to survive",
+        "image": "files/Yp00iLaImkMK7I5M4ueCU.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 151,
+        "codename": "option_38C",
+        "correctOption": false,
+        "text": "They create energy from the sun",
+        "image": "files/RcsI6pWKHXBBPRXQmqAiq.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 152,
+        "codename": "option_38D",
+        "correctOption": false,
+        "text": "They live underground",
+        "image": "files/YbCuNRkFuK_R3EwbCPnKU.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 38,
+      "feedback": "All consumers rely on other living beings for food, as they cannot produce it themselves like producers do.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 39,
+    "codename": "challenge_39",
+    "question": "What is the role of decomposers in the food chain?",
+    "score": 1,
+        "image": "files/S-RbnNngCSrGoHBEJrdAK.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 153,
+        "codename": "option_39A",
+        "correctOption": true,
+        "text": "Frutas",
+        "image": "files/M8f03Re5AQs60YzQ0enlT.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 154,
+        "codename": "option_39B",
+        "correctOption": false,
+        "text": "Insectos",
+        "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 155,
+        "codename": "option_39C",
+        "correctOption": false,
+        "text": "Nectar",
+        "image": "files/P6GzFW8EXs7c-bJQDLPak.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 156,
+        "codename": "option_39D",
+        "correctOption": false,
+        "text": "Roedores",
+        "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 39,
+      "feedback": "Decomposers break down dead plants and animals, recycling nutrients back into the ecosystem so they can be used again.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 40,
+    "codename": "challenge_40",
+    "question": "Which of the following is a characteristic of producers?",
+    "score": 1,
+    "image": "files/a94PGORq_6LIktWYIGIao.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 1,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Lobby"
+        }
+      },
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 157,
+        "codename": "option_40A",
+        "correctOption": false,
+        "text": "Roedores",
+        "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 158,
+        "codename": "option_40B",
+        "correctOption": false,
+        "text": "Insectos",
+        "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 159,
+        "codename": "option_40C",
+        "correctOption": true,
+        "text": "Frutas",
+        "image": "files/M8f03Re5AQs60YzQ0enlT.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 160,
+        "codename": "option_40D",
+        "correctOption": false,
+        "text": "Huevos",
+        "image": "files/W4OqHbTrnwIwnOE5oKBdT.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 40,
+      "feedback": "Producers, like plants, generate their own food using sunlight, water, and carbon dioxide through the process of photosynthesis.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 41,
+    "codename": "challenge_41",
+    "question": "Which organism does NOT belong in a food chain as a consumer?",
+    "score": 1,
+        "image": "files/15Z4cj4eCjvo_i4ggwVhL.jpg",
+    "difficulty": 3,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 161,
+        "codename": "option_41A",
+        "correctOption": false,
+        "text": "Insectos",
+        "image": "files/sD-0bt9Gx-ADIKbP_MeUa.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 162,
+        "codename": "option_41B",
+        "correctOption": true,
+        "text": "Carne",
+        "image": "files/kzDAmlo9q8hkCKmaSVNPw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 163,
+        "codename": "option_41C",
+        "correctOption": false,
+        "text": "Ganos",
+        "image": "files/t_wKRPknWWVMeHl2lYsrS.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 164,
+        "codename": "option_41D",
+        "correctOption": false,
+        "text": "Animales muertos",
+        "image": "files/Zt9uzDo0B1OkOXJvKUZQa.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 41,
+      "feedback": "The sun is not a consumer. It provides energy that producers use to make their food, supporting the entire food chain.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 42,
+    "codename": "challenge_42",
+    "question": "What would happen if there were no producers in the ecosystem?",
+    "score": 1,
+        "image": "files/ueC_PfchKTOEY-6KhsVEH.jpg",
+    "difficulty": 3,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 165,
+        "codename": "option_42A",
+        "correctOption": false,
+        "text": "Sotobosque",
+        "image": "files/vURFjIV4mYNhZiQ7tBYjd.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 166,
+        "codename": "option_42B",
+        "correctOption": false,
+        "text": "Cuerpos de Agua",
+        "image": "files/qlghP86xPy_iUvAnYQrUZ.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 167,
+        "codename": "option_42C",
+        "correctOption": false,
+        "text": "Bosque Húmedo",
+        "image": "files/d9vSvrub6fJbIy6rbAJdR.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 168,
+        "codename": "option_42D",
+        "correctOption": true,
+        "text": "Bosque Seco",
+        "image": "files/4G4D4-1UAfzUhw3M719dT.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 42,
+      "feedback": "Without producers, the food chain would collapse because they are the source of energy and food for all other organisms.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 43,
+    "codename": "challenge_43",
+    "question": "How do ants benefit the soil?",
+    "score": 1,
+        "image": "files/ueC_PfchKTOEY-6KhsVEH.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 169,
+        "codename": "option_43A",
+        "correctOption": true,
+        "text": "Especie de Preocupacion Menor",
+        "image": "files/lXINPgr0S3buTent_AW2B.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 170,
+        "codename": "option_43B",
+        "correctOption": false,
+        "text": "Especie Amenazada",
+        "image": "files/1paltG9OvZ2ahFPcxGK2W.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 171,
+        "codename": "option_43C",
+        "correctOption": false,
+        "text": "Especie no Evaluada",
+        "image": "files/E0dkxWYo-od2Cf6tJISK1.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 172,
+        "codename": "option_43D",
+        "correctOption": false,
+        "text": "Extinta",
+        "image": "files/Kwy1gaQpnSuvQPe8mkEQA.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 43,
+      "feedback": "Ants dig tunnels that help aerate the soil and allow water and nutrients to reach plant roots more easily.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 44,
+    "codename": "challenge_44",
+    "question": "Which of the following contributes to pollination?",
+    "score": 1,
+        "image": "files/iAlTzx3m-Bz3TYnQX9y8x.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 173,
+        "codename": "option_44A",
+        "correctOption": true,
+        "text": "Costa",
+        "image": "files/nPq8Nz1tHzJPwugki8pf0.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 174,
+        "codename": "option_44B",
+        "correctOption": false,
+        "text": "Sierra",
+        "image": "files/rZdhtPOWZo4lH8AchDCzT.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 175,
+        "codename": "option_44C",
+        "correctOption": false,
+        "text": "Oriente",
+        "image": "files/g4J0OLVy7hxNMdQF5couh.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 176,
+        "codename": "option_44D",
+        "correctOption": false,
+        "text": "Insular",
+        "image": "files/8LIUYim3Ilw10QIB7yBVU.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 44,
+      "feedback": "Bees are important pollinators that help many plants reproduce by carrying pollen from one flower to another.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 45,
+    "codename": "challenge_45",
+    "question": "What do all producers have in common?",
+    "score": 1,
+        "image": "files/iAlTzx3m-Bz3TYnQX9y8x.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 177,
+        "codename": "option_45A",
+        "correctOption": true,
+        "text": "Con las Garras",
+        "image": "files/5LtGGX-CK1X4bcEPY_SS3.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 178,
+        "codename": "option_45B",
+        "correctOption": false,
+        "text": "Con la Lengua",
+        "image": "files/l0V8TOjTYNbBfq0TJsczw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 179,
+        "codename": "option_45C",
+        "correctOption": false,
+        "text": "Con los Dientes",
+        "image": "files/NbN5CrqE4yZjy-uP9xGWw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 180,
+        "codename": "option_45D",
+        "correctOption": false,
+        "text": "Con la Cola",
+        "image": "files/gPtxBhe-iWg8wV7qU6m2I.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 45,
+      "feedback": "All producers make their own food using sunlight through photosynthesis, forming the base of the food chain.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 46,
+    "codename": "challenge_46",
+    "question": "Which of these organisms feeds on dead animals?",
+    "score": 1,
+       "image": "files/W-uVU3JDD21njkIHHKFxu.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 181,
+        "codename": "option_46A",
+        "correctOption": false,
+        "text": "4R",
+        "image": "files/N_ZCbj2No0KbBSu7p9_ly.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 182,
+        "codename": "option_46B",
+        "correctOption": true,
+        "text": "3R",
+        "image": "files/Lj-Se96KPbQBbcTfUs55T.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 183,
+        "codename": "option_46C",
+        "correctOption": false,
+        "text": "2R",
+        "image": "files/yt0NBbPeko7TDXN04Y3o3.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 184,
+        "codename": "option_46D",
+        "correctOption": false,
+        "text": "1R",
+        "image": "files/Xan8HyP5oWzO8NGWH0GkS.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 46,
+      "feedback": "The black vulture feeds on dead animals, helping to clean the environment and prevent disease spread.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 47,
+    "codename": "challenge_47",
+    "question": "Which of these organisms helps disperse seeds?",
+    "score": 1,
+    "image": "files/W-uVU3JDD21njkIHHKFxu.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 185,
+        "codename": "option_47A",
+        "correctOption": false,
+        "text": "Reduce",
+        "image": "files/kNw0jLxIdJshBdggpiXma.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 186,
+        "codename": "option_47B",
+        "correctOption": false,
+        "text": "Recicla",
+        "image": "files/EqMv8Ot0cgxHGwggeRX1u.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 187,
+        "codename": "option_47C",
+        "correctOption": true,
+        "text": "Revende",
+        "image": "files/q6T_oT4MMhjpuvCOpn0M7.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 188,
+        "codename": "option_47D",
+        "correctOption": false,
+        "text": "Reusa",
+        "image": "files/tCEMR9BuZNpryZ9ScacsI.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 47,
+      "feedback": "Animals like the toucan eat fruits and later expel the seeds in other locations, aiding in plant reproduction.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 48,
+    "codename": "challenge_48",
+    "question": "What would happen without decomposers in the ecosystem?",
+    "score": 1,
+        "image": "files/W-uVU3JDD21njkIHHKFxu.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 189,
+        "codename": "option_48A",
+        "correctOption": false,
+        "text": "Verde",
+        "image": "files/nSPfF9h16kAehk2WoDuAn.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 190,
+        "codename": "option_48B",
+        "correctOption": true,
+        "text": "Azul",
+        "image": "files/oFZe8cxuIzWJ3PPPNPIRm.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 191,
+        "codename": "option_48C",
+        "correctOption": false,
+        "text": "Amarillo",
+        "image": "files/o4ZTYc07DR0WkrsdwLzHl.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 192,
+        "codename": "option_48D",
+        "correctOption": false,
+        "text": "Rojo",
+        "image": "files/2qXwV7ivOJEWkFWZt2B0U.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 48,
+      "feedback": "Without decomposers, organic matter would accumulate and nutrients would not return to the soil, harming the food chain.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 49,
+    "codename": "challenge_49",
+    "question": "Which organism is part of the first level of the food chain?",
+    "score": 1,
+        "image": "files/W-uVU3JDD21njkIHHKFxu.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 193,
+        "codename": "option_49A",
+        "correctOption": false,
+        "text": "Rojo",
+        "image": "files/2qXwV7ivOJEWkFWZt2B0U.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 194,
+        "codename": "option_49B",
+        "correctOption": false,
+        "text": "Amarillo",
+        "image": "files/o4ZTYc07DR0WkrsdwLzHl.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 195,
+        "codename": "option_49C",
+        "correctOption": false,
+        "text": "Azul",
+        "image": "files/oFZe8cxuIzWJ3PPPNPIRm.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 196,
+        "codename": "option_49D",
+        "correctOption": true,
+        "text": "Verde",
+        "image": "files/nSPfF9h16kAehk2WoDuAn.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 49,
+      "feedback": "Producers, like moss and trees, are at the first level of the food chain because they produce their own food.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 50,
+    "codename": "challenge_50",
+    "question": "What do all decomposers do?",
+    "score": 1,
+        "image": "files/W-uVU3JDD21njkIHHKFxu.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 197,
+        "codename": "option_50A",
+        "correctOption": true,
+        "text": "Amarillo",
+        "image": "files/o4ZTYc07DR0WkrsdwLzHl.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 198,
+        "codename": "option_50B",
+        "correctOption": false,
+        "text": "Azul",
+        "image": "files/oFZe8cxuIzWJ3PPPNPIRm.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 199,
+        "codename": "option_50C",
+        "correctOption": false,
+        "text": "Rojo",
+        "image": "files/2qXwV7ivOJEWkFWZt2B0U.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 200,
+        "codename": "option_50D",
+        "correctOption": false,
+        "text": "Verde",
+        "image": "files/nSPfF9h16kAehk2WoDuAn.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 50,
+      "feedback": "Decomposers break down organic matter and return nutrients to the soil, maintaining ecosystem balance.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 51,
+    "codename": "challenge_51",
+    "question": "What happens to nutrients when decomposers break down matter?",
+    "score": 1,
+        "image": "files/2z2AVZN-K-87uBJJT8Dpy.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 51,
+      "feedback": "The nutrients return to the soil, where they are absorbed by producers, continuing the food chain.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 52,
+    "codename": "challenge_52",
+    "question": "What would happen if producers disappeared?",
+    "score": 1,
+        "image": "files/2z2AVZN-K-87uBJJT8Dpy.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 205,
+        "codename": "option_52A",
+        "correctOption": false,
+        "text": "Contaminación",
+        "image": "files/beo-qnqJ1w-O-i7wQbMU7.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 206,
+        "codename": "option_52B",
+        "correctOption": false,
+        "text": "Deforestación",
+        "image": "files/6Seh2pcJn4ylVCOp5er0X.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 207,
+        "codename": "option_52C",
+        "correctOption": true,
+        "text": "Incendios",
+        "image": "files/IJ3fc3PQSg_PvFywt_Z0-.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 208,
+        "codename": "option_52D",
+        "correctOption": false,
+        "text": "Todas",
+        "image": "files/F8EQh7K79hhs--6m8SUsl.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 52,
+      "feedback": "The food chain would collapse because there would be no organisms to generate food for consumers and decomposers.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 53,
+    "codename": "challenge_53",
+    "question": "Which of the following is an example of a decomposer?",
+    "score": 1,
+        "image": "files/2z2AVZN-K-87uBJJT8Dpy.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 209,
+        "codename": "option_53A",
+        "correctOption": false,
+        "text": "Arrojarla fuera del sendero",
+        "image": "files/hBrH_5542J9jWVXKu_V8Z.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 210,
+        "codename": "option_53B",
+        "correctOption": false,
+        "text": "Enterrarla",
+        "image": "files/dFwEfTvbt2OnfBIli4MFH.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 211,
+        "codename": "option_53C",
+        "correctOption": false,
+        "text": "Patearla",
+        "image": "files/BA6BAslZgHPRqLQMYmYCi.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 212,
+        "codename": "option_53D",
+        "correctOption": true,
+        "text": "Llevarla al basurero",
+        "image": "files/R9C4R6nECTaLKfX2nRQEo.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 53,
+      "feedback": "Fungi are decomposers that break down dead matter and recycle nutrients for other organisms to use.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 54,
+    "codename": "challenge_54",
+    "question": "How do producers get energy to make their food?",
+    "score": 1,
+    "image": "files/2z2AVZN-K-87uBJJT8Dpy.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
+        }
+      },
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      },
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 213,
+        "codename": "option_54A",
+        "correctOption": false,
+        "text": "Comerlo",
+        "image": "files/cVpjJczucV4DcQeOqJCPo.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 214,
+        "codename": "option_54B",
+        "correctOption": false,
+        "text": "Llevarlo a casa",
+        "image": "files/ylMLSVfWT2IVau9VxhbIw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 215,
+        "codename": "option_54C",
+        "correctOption": true,
+        "text": "Solo mirar",
+        "image": "files/77v0C4-wN6nI7Drknl3lg.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 216,
+        "codename": "option_54D",
+        "correctOption": false,
+        "text": "Esconderlo",
+        "image": "files/mZjph8XVMzEYMSF0TVyFP.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 54,
+      "feedback": "Producers use sunlight as their energy source to perform photosynthesis and produce food.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 55,
+    "codename": "challenge_55",
+    "question": "What is the importance of bees in nature?",
+    "score": 100,
+    "image": "image",
+    "difficulty": null,
+    "updatedAt": "2022-02-15T19:46:11Z",
+    "gameLevelsChallenges": [],
+    "options": [
+      {
+        "ChallengeOptionId": 217,
+        "codename": "Opcion 1",
+        "correctOption": true,
+        "text": "Gatos",
+        "image": "Gatos image",
+        "updatedAt": "2022-02-15T19:46:11Z"
+      },
+      {
+        "ChallengeOptionId": 218,
+        "codename": "Opcion 2",
+        "correctOption": false,
+        "text": "Gatos",
+        "image": "Gatos image",
+        "updatedAt": "2022-02-15T19:46:11Z"
+      },
+      {
+        "ChallengeOptionId": 219,
+        "codename": "Opcion 3",
+        "correctOption": false,
+        "text": "Gatos",
+        "image": "Gatos image",
+        "updatedAt": "2022-02-15T19:46:11Z"
+      }
+    ],
+
+    "feedback": {
+      "ChallengeFeedbackId": 55,
+      "feedback": "Bees help in pollinating flowers, which is essential for plant reproduction and maintaining ecosystems.",
+      "image": null,
+      "updatedAt": null
+    }
+  }
+
+]

@@ -1,0 +1,829 @@
+{
+  "species": [
+    {
+      "specieId": "5dd842b34cb1654f42548571",
+      "id": 1,
+      "name": "Pinzón Sabanero",
+      "family": "THRAUPIDAE",
+      "video": "Videos/PINZON_SABANERO.mp4",
+      "gallery": [
+        {
+          "mongoId": "5dd8431a4a39665044fb91cb",
+          "id": 1,
+          "description": " Miden 14 cm. Se alimentan de granos y semillas que encuentran en el suelo. Construyen nidos en árboles aislados.",
+          "audioname": "Pinzón Sabanero_audio_descripcion_0",
+          "imagename": "Pinzón Sabanero_image_0"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd85226f65fd767fe2aff02",
+      "id": 4,
+      "name": "Iguana",
+      "family": "Iguana",
+      "video": "Videos/IGUANA.mp4",
+      "gallery": [
+        {
+          "mongoId": "5dd85b1fbaf3fe76a27f1fe3",
+          "id": 44,
+          "description": "Son herbívoros y habitan en selvas tropicales y manglares.",
+          "audioname": "Iguana_audio_descripcion_0",
+          "imagename": "Iguana_image_0"
+        },
+        {
+          "mongoId": "5dd85b1fbaf3fe76a27f1fe4",
+          "id": 45,
+          "description": "A pesar de su tamaño, pueden moverse velozmente entre las plantas y son excelentes trepadoras.",
+          "audioname": "Iguana_audio_descripcion_1",
+          "imagename": "Iguana_image_1"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd85298fe5e8c68f7294bcf",
+      "id": 5,
+      "name": "Teca",
+      "family": "Verbenaceae",
+      "gallery": [
+        {
+          "mongoId": "5dd852c1fe5e8c68f7294bd0",
+          "id": 7,
+          "description": "Es un árbol frondoso, se usa para la fabricación de muebles y embarcaciones lujosas.",
+          "audioname": "Teca_audio_descripcion_0",
+          "imagename": "Teca_image_0"
+        },
+        {
+          "mongoId": "5dd852c1fe5e8c68f7294bd1",
+          "id": 8,
+          "description": "Es un árbol frondoso, se usa para la fabricación de muebles y embarcaciones lujosas.",
+          "audioname": "Teca_audio_descripcion_1",
+          "imagename": "Teca_image_1"
+        },
+        {
+          "mongoId": "5dd852c1fe5e8c68f7294bd2",
+          "id": 9,
+          "description": "Es un árbol frondoso, se usa para la fabricación de muebles y embarcaciones lujosas.",
+          "audioname": "Teca_audio_descripcion_2",
+          "imagename": "Teca_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd855515093256da22b1c33",
+      "id": 9,
+      "name": "Bototillo",
+      "family": "Bixaceae",
+      "gallery": [
+        {
+          "mongoId": "5dd855795093256da22b1c34",
+          "id": 18,
+          "description": "La floración del árbol Bototillo es de un amarillo intenso, dura de 3 a 4 semanas.",
+          "audioname": "Bototillo_audio_descripcion_0",
+          "imagename": "Bototillo_image_0"
+        },
+        {
+          "mongoId": "5dd855795093256da22b1c35",
+          "id": 19,
+          "description": "La floración del árbol Bototillo es de un amarillo intenso, dura de 3 a 4 semanas.",
+          "audioname": "Bototillo_audio_descripcion_1",
+          "imagename": "Bototillo_image_1"
+        },
+        {
+          "mongoId": "5dd855795093256da22b1c36",
+          "id": 20,
+          "description": "La floración del árbol Bototillo es de un amarillo intenso, dura de 3 a 4 semanas.",
+          "audioname": "Bototillo_audio_descripcion_2",
+          "imagename": "Bototillo_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd855a15093256da22b1c37",
+      "id": 10,
+      "name": "Pechiche",
+      "family": "Vitex cymosa",
+      "gallery": [
+        {
+          "mongoId": "5dd8562644b5b86ed73021f9",
+          "id": 21,
+          "description": "Su nombre científico es Vitex Gigantea Kunth es un árbol que llega a medir 20 m. de alto.",
+          "audioname": "Pechiche_audio_descripcion_0",
+          "imagename": "Pechiche_image_0"
+        },
+        {
+          "mongoId": "5dd8562644b5b86ed73021fa",
+          "id": 22,
+          "description": "Su nombre científico es Vitex Gigantea Kunth es un arbol que llega a medir 20 m. de alto.",
+          "audioname": "Pechiche_audio_descripcion_1",
+          "imagename": "Pechiche_image_1"
+        },
+        {
+          "mongoId": "5dd8562644b5b86ed73021fb",
+          "id": 23,
+          "description": "Su nombre científico es Vitex Gigantea Kunth es un arbol que llega a medir 20 m. de alto.",
+          "audioname": "Pechiche_audio_descripcion_2",
+          "imagename": "Pechiche_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd8565344b5b86ed73021fc",
+      "id": 11,
+      "name": "Tangara Azul y Gris",
+      "family": "THRAUPIDAE",
+      "video": "Videos/TANGARA_AZUL.mp4",
+      "gallery": [
+        {
+          "mongoId": "5dd8566444b5b86ed73021fd",
+          "id": 24,
+          "description": "Esta hermosa ave que se alimenta principalmente de frutos lleva el nombre Tangara Azuleja por el color de su plumaje.",
+          "audioname": "Tangara Azul y Gris_audio_descripcion_0",
+          "imagename": "Tangara Azul y Gris_image_0"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd857f681dade71c84852c5",
+      "id": 13,
+      "name": "Guasmo",
+      "family": "Malvaceae",
+      "gallery": [
+        {
+          "mongoId": "5dd85bd0171a027783efa942",
+          "id": 46,
+          "description": "Es un árbol de porte bajo con hojas simples y produce flores pequeñas. ",
+          "audioname": "Guasmo_audio_descripcion_0",
+          "imagename": "Guasmo_image_0"
+        },
+        {
+          "mongoId": "5dd85bd0171a027783efa943",
+          "id": 47,
+          "description": "Es un árbol de porte bajo con hojas simples y produce flores pequeñas. ",
+          "audioname": "Guasmo_audio_descripcion_1",
+          "imagename": "Guasmo_image_1"
+        },
+        {
+          "mongoId": "5dd85bd0171a027783efa944",
+          "id": 48,
+          "description": "Es un árbol de porte bajo con hojas simples y produce flores pequeñas. ",
+          "audioname": "Guasmo_audio_descripcion_2",
+          "imagename": "Guasmo_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd8583f81dade71c84852c9",
+      "id": 14,
+      "name": "Fernan Sánchez",
+      "family": "Polygonaceae",
+      "gallery": [
+        {
+          "mongoId": "5dd8590671628572e2aad060",
+          "id": 31,
+          "description": "Ampliamente distribuido en bosques húmedos, incluyendo llanuras de ríos y bosques secos.",
+          "audioname": "Fernan Sánchez_audio_descripcion_0",
+          "imagename": "Fernan Sánchez_image_0"
+        },
+        {
+          "mongoId": "5dd8590671628572e2aad061",
+          "id": 32,
+          "description": "Ampliamente distribuido en bosques húmedos, incluyendo llanuras de ríos y bosques secos.",
+          "audioname": "Fernan Sánchez_audio_descripcion_1",
+          "imagename": "Fernan Sánchez_image_1"
+        },
+        {
+          "mongoId": "5dd8590671628572e2aad062",
+          "id": 33,
+          "description": "Ampliamente distribuido en bosques húmedos, incluyendo llanuras de ríos y bosques secos.",
+          "audioname": "Fernan Sánchez_audio_descripcion_2",
+          "imagename": "Fernan Sánchez_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd859b66d9512748f729e90",
+      "id": 17,
+      "name": "Tirano Tropical",
+      "family": "TYRANNIDAE",
+      "video": "Videos/TIRANO_TROPICAL.mp4",
+      "gallery": [
+        {
+          "mongoId": "5dd85c5584573f78b5601113",
+          "id": 49,
+          "description": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
+          "audioname": "Tirano Tropical_audio_descripcion_0",
+          "imagename": "Tirano Tropical_image_0"
+        },
+        {
+          "mongoId": "5dd85c5684573f78b5601114",
+          "id": 50,
+          "description": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
+          "audioname": "Tirano Tropical_audio_descripcion_1",
+          "imagename": "Tirano Tropical_image_1"
+        },
+        {
+          "mongoId": "5dd85c5684573f78b5601115",
+          "id": 51,
+          "description": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
+          "audioname": "Tirano Tropical_audio_descripcion_2",
+          "imagename": "Tirano Tropical_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "5dd85a8dc589a4759c90b67a",
+      "id": 19,
+      "name": "Cabezón Unicolor",
+      "family": "TITYRIDAE",
+      "gallery": [
+        {
+          "mongoId": "5dd85aaec589a4759c90b67b",
+          "id": 41,
+          "description": "A menudo en parejas, regularmente yergue las plumas coronarias para formar una cresta redonda y esponjosa mientras cabecea alertantemente.",
+          "audioname": "Cabezón Unicolor_audio_descripcion_0",
+          "imagename": "Cabezón Unicolor_image_0"
+        },
+        {
+          "mongoId": "5dd85aaec589a4759c90b67c",
+          "id": 42,
+          "description": "A menudo en parejas, regularmente yergue las plumas coronarias para formar una cresta redonda y esponjosa mientras cabecea alertantemente.",
+          "audioname": "Cabezón Unicolor_audio_descripcion_1",
+          "imagename": "Cabezón Unicolor_image_1"
+        },
+        {
+          "mongoId": "5dd85aaec589a4759c90b67d",
+          "id": 43,
+          "description": "A menudo en parejas, regularmente yergue las plumas coronarias para formar una cresta redonda y esponjosa mientras cabecea alertantemente.",
+          "audioname": "Cabezón Unicolor_audio_descripcion_2",
+          "imagename": "Cabezón Unicolor_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "5e04e8da8927aa66a61ecffb",
+      "id": 21,
+      "name": "Ardilla de Guayaquil",
+      "family": "SCIURIDAE",
+      "video": "Videos/ARDILLA.mp4",
+      "gallery": [
+        {
+          "mongoId": "5e04e9cf898f5067dfced5e2",
+          "id": 57,
+          "description": "Es una especie de ardilla que mide entre 18 y 22 cm el cuerpo y la cola entre 25 y 33 cm, es de color grisáceo para mimetizarse con el ambiente.",
+          "audioname": "Ardilla_audio_descripcion_1",
+          "imagename": "Ardilla_image_0"
+        },
+        {
+          "mongoId": "5e04e9d0898f5067dfced5e3",
+          "id": 58,
+          "description": "Es un mamífero roedor,mide entre 35 y 45 cm de longitud de las que casi la mitad pertenece a la cola.",
+          "audioname": "Ardilla_audio_descripcion_1",
+          "imagename": "Ardilla_image_1"
+        },
+        {
+          "mongoId": "5e04e9d0898f5067dfced5e4",
+          "id": 59,
+          "description": "Se alimenta de frutos y se refugia en los huecos de los árboles.",
+          "audioname": "Ardilla_audio_descripcion_1",
+          "imagename": "Ardilla_image_2"
+        },
+        {
+          "mongoId": "5e04e9d0898f5067dfced5e5",
+          "id": 60,
+          "description": "Se alimenta de frutos y se refugia en los huecos de los árboles.",
+          "audioname": "Ardilla_audio_descripcion_1",
+          "imagename": "Ardilla_image_3"
+        }
+      ]
+    },
+    {
+      "specieId": "5e13d2f285e66449aa5e73c1",
+      "id": 23,
+      "name": "Ceibo",
+      "family": "Fabaceae",
+      "gallery": [
+        {
+          "mongoId": "5e13d346137dd54ad63e4b04",
+          "id": 62,
+          "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
+          "audioname": "Ceibo_audio_descripcion_0",
+          "imagename": "Ceibo_image_0"
+        },
+        {
+          "mongoId": "5e13d346137dd54ad63e4b05",
+          "id": 63,
+          "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
+          "audioname": "Ceibo_audio_descripcion_1",
+          "imagename": "Ceibo_image_1"
+        },
+        {
+          "mongoId": "5e13d346137dd54ad63e4b06",
+          "id": 64,
+          "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
+          "audioname": "Ceibo_audio_descripcion_2",
+          "imagename": "Ceibo_image_2"
+        },
+        {
+          "mongoId": "5e13d346137dd54ad63e4b07",
+          "id": 65,
+          "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
+          "audioname": "Ceibo_audio_descripcion_3",
+          "imagename": "Ceibo_image_3"
+        }
+      ]
+    },
+    {
+      "specieId": "10000001",
+      "id": 29,
+      "name": "Jacaranda",
+      "family": "Bignoniaceae",
+      "gallery": [
+        {
+          "mongoId": "20000001",
+          "id": 94,
+          "description": "Jacaranda es un árbol subtropical de Sudamérica ampliamente cultivado por sus vistosas y duraderas flores violetas.",
+          "audioname": "Jacaranda_audio_descripcion_0",
+          "imagename": "Jacaranda_image_0"
+        },
+        {
+          "mongoId": "20000002",
+          "id": 95,
+          "description": "El árbol adulto alcanza una altura de 12 a 15 metros,5​ hasta 20 metros en condiciones favorables.",
+          "audioname": "Jacaranda_audio_descripcion_1",
+          "imagename": "Jacaranda_image_1"
+        },
+        {
+          "mongoId": "20000003",
+          "id": 96,
+          "description": "La copa del jacarandá no tiene una forma uniforme: algunas veces en forma de una sombrilla, algunas veces de forma piramidal, pero nunca densa.",
+          "audioname": "Jacaranda_audio_descripcion_2",
+          "imagename": "Jacaranda_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000002",
+      "id": 97,
+      "name": "Guayacán",
+      "family": "Zygophyllaceae",
+      "gallery": [
+        {
+          "mongoId": "20000004",
+          "id": 97,
+          "description": "El Guayacan pueden recibir el nombre de palo santo o de palo de hierro debido a su dura madera.",
+          "audioname": "Guayacana_audio_descripcion_0",
+          "imagename": "Guayacan_image_0"
+        },
+        {
+          "mongoId": "20000005",
+          "id": 98,
+          "description": "Son árboles autóctonos del Caribe y de la costa norte de América del Sur.",
+          "audioname": "Guayacan_audio_descripcion_1",
+          "imagename": "Guayacan_image_1"
+        },
+        {
+          "mongoId": "20000006",
+          "id": 99,
+          "description": "El árbol es de crecimiento lento y de altura relativamente pequeña, incluso cuando es maduro y viejo. Tiene flores pequeñas de color azul violáceo.",
+          "audioname": "Guayacan_audio_descripcion_2",
+          "imagename": "Guayacan_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000003",
+      "id": 31,
+      "name": "Laurel De Judea",
+      "family": "Apocynaceae",
+      "gallery": [
+        {
+          "mongoId": "20000007",
+          "id": 100,
+          "description": "Originariamente se encontraba como planta nativa en una amplia zona que cubría las riberas de la cuenca del mar Mediterráneo hasta China, Vietnam.",
+          "audioname": "LaurelDeJudea_audio_descripcion_0",
+          "imagename": "LaurelDeJudea_image_0"
+        },
+        {
+          "mongoId": "20000008",
+          "id": 101,
+          "description": "Se ha difundido ampliamente por todas las zonas con clima propicio como planta ornamental.",
+          "audioname": "LaurelDeJudea_audio_descripcion_1",
+          "imagename": "LaurelDeJudea_image_1"
+        },
+        {
+          "mongoId": "20000009",
+          "id": 102,
+          "description": "Contiene varios compuestos tóxicos, e históricamente se ha considerado una planta venenosa, su amargura lo hace desagradable para los humanos y la mayoría de los animales.",
+          "audioname": "LaurelDeJudea_audio_descripcion_2",
+          "imagename": "LaurelDeJudea_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000004",
+      "id": 32,
+      "name": "Oso Perezoso",
+      "family": "Choloepodidae",
+      "gallery": [
+        {
+          "mongoId": "20000010",
+          "id": 103,
+          "description": "Es un animal solitario, nocturno y arborícola que habita en la selva y en los bosques.",
+          "audioname": "OsoPerezoso_audio_descripcion_0",
+          "imagename": "OsoPerezoso_image_0"
+        },
+        {
+          "mongoId": "20000011",
+          "id": 104,
+          "description": "Con su peluda piel, grandes garras y movimientos deliberados, los perezosos de dos dedos no se confunden con ningún otro animal.",
+          "audioname": "OsoPerezoso_audio_descripcion_1",
+          "imagename": "OsoPerezoso_image_1"
+        },
+        {
+          "mongoId": "20000012",
+          "id": 105,
+          "description": "Estos animales, de 5 a 7 kg y de aproximadamente 60 cm de largo.",
+          "audioname": "OsoPerezoso_audio_descripcion_2",
+          "imagename": "OsoPerezoso_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000005",
+      "id": 33,
+      "name": "Venado Cola Blanca",
+      "family": "Cervidae",
+      "gallery": [
+        {
+          "mongoId": "20000013",
+          "id": 106,
+          "description": "El venado de cola blanca es rumiante y herbívoro. Busca entre la vegetación para consumir hojas, brotes, frutos y semillas, así como setas.",
+          "audioname": "VenadoColaBlanca_audio_descripcion_0",
+          "imagename": "VenadoColaBlanca_image_0"
+        },
+        {
+          "mongoId": "20000014",
+          "id": 107,
+          "description": "Los machos presentan cornamentas ramificadas e inclinadas hacia atrás, que de adultos y según la edad alcanzan entre 8 y 64 cm.",
+          "audioname": "VenadoColaBlanca_audio_descripcion_1",
+          "imagename": "VenadoColaBlanca_image_1"
+        },
+        {
+          "mongoId": "20000015",
+          "id": 108,
+          "description": "La punta de la cola es blanca, lo que le sirve para batirla como señal de alarma.",
+          "audioname": "VenadoColaBlanca_audio_descripcion_2",
+          "imagename": "VenadoColaBlanca_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000006",
+      "id": 34,
+      "name": "Zorra Pampera",
+      "family": "Canidae",
+      "gallery": [
+        {
+          "mongoId": "20000016",
+          "id": 109,
+          "description": "Este es un cánido de color pálido agutí y su cola presenta la punta negra.",
+          "audioname": "ZorraPampera_audio_descripcion_0",
+          "imagename": "ZorraPampera_image_0"
+        },
+        {
+          "mongoId": "20000017",
+          "id": 110,
+          "description": " La cabeza es pequeña, con las orejas relativamente largas y un hocico corto. El rostro es gris, con un anillo marrón rojizo alrededor de los ojos.",
+          "audioname": "ZorraPampera_audio_descripcion_1",
+          "imagename": "ZorraPampera_image_1"
+        },
+        {
+          "mongoId": "20000018",
+          "id": 111,
+          "description": "El rango principal de la especie se extiende desde el suroeste y sur del Ecuador, al sur, a través de las tierras bajas costeras del Perú, hasta el norte de Lima.",
+          "audioname": "ZorraPampera_audio_descripcion_2",
+          "imagename": "ZorraPampera_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000007",
+      "id": 35,
+      "name": "Mono Araña",
+      "family": "Atelidae",
+      "gallery": [
+        {
+          "mongoId": "20000019",
+          "id": 112,
+          "description": "El mono araña se alimenta de frutos e insectos. Habitan en bosques tropicales.",
+          "audioname": "MonoAraña_audio_descripcion_0",
+          "imagename": "MonoAraña_image_0"
+        },
+        {
+          "mongoId": "20000020",
+          "id": 113,
+          "description": " El nombre Ateles hace referencia a la ausencia de un pulgar oponible en las especies del género",
+          "audioname": "MonoAraña_audio_descripcion_1",
+          "imagename": "MonoAraña_image_1"
+        },
+        {
+          "mongoId": "20000021",
+          "id": 114,
+          "description": "Según la especie, su cuerpo mide de 65 a 90 cm de longitud, y la cola prensil de 60 a 92 cm.",
+          "audioname": "MonoAraña_audio_descripcion_2",
+          "imagename": "MonoAraña_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000008",
+      "id": 36,
+      "name": "Mono Aullador",
+      "family": "Atelidae",
+      "gallery": [
+        {
+          "mongoId": "20000022",
+          "id": 115,
+          "description": "El mono aullador vive en la zona tropical, desde el sur de México, hasta el noreste de Argentina.",
+          "audioname": "MonoAullador_audio_descripcion_0",
+          "imagename": "MonoAullador_image_0"
+        },
+        {
+          "mongoId": "20000023",
+          "id": 116,
+          "description": "Posee pelaje más largo y de color blanco amarillento a los lados del cuerpo, dándole un aspecto de capa o manto.",
+          "audioname": "MonoAullador_audio_descripcion_1",
+          "imagename": "MonoAullador_image_1"
+        },
+        {
+          "mongoId": "20000024",
+          "id": 117,
+          "description": "Habita las zonas de selva, especialmente en las selvas de galería del Norte de la América del Sur.",
+          "audioname": "MonoAullador_audio_descripcion_2",
+          "imagename": "MonoAullador_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000009",
+      "id": 37,
+      "name": "Oso Hormiguero",
+      "family": "Chordata",
+      "gallery": [
+        {
+          "mongoId": "20000025",
+          "id": 118,
+          "description": "El cuerpo es robusto. Puede medir de 1,20 a 1,30 m de largo y la cola de 75 a 85 cm, y puede llegar a pesar hasta 40 kg.",
+          "audioname": "OsoHormiguero_audio_descripcion_0",
+          "imagename": "OsoHormiguero_image_0"
+        },
+        {
+          "mongoId": "20000026",
+          "id": 119,
+          "description": "A pesar de su nombre, no tienen ningún parentesco cercano con los osos.",
+          "audioname": "OsoHormiguero_audio_descripcion_1",
+          "imagename": "OsoHormiguero_image_1"
+        },
+        {
+          "mongoId": "20000027",
+          "id": 120,
+          "description": "Son animales mirmecófagos, esto es, que se alimentan de hormigas y termitas. Con sus fuertes uñas abren los hormigueros y termiteros, y con la larga y viscosa lengua capturan los insectos.",
+          "audioname": "OsoHormiguero_audio_descripcion_2",
+          "imagename": "OsoHormiguero_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 38,
+      "name": "Loro Cara Roja",
+      "family": "Psittacidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 121,
+          "description": "Ave verde brillante, de entre 30 a 35 cm de longitud, cuya característica es su cara de color rojo intenso, y una línea roja en la curva de sus alas. Pico curvo, fuerte y ganchudo; cola larga y puntiaguda.",
+          "audioname": "LoroCaraRoja_audio_descripcion_0",
+          "imagename": "LoroCaraRoja_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 122,
+          "description": "En sus primeros meses la cría no presenta la coloración rojiza en la cabeza, sino al cumplir el primer año de edad.",
+          "audioname": "LoroCaraRoja_audio_descripcion_1",
+          "imagename": "LoroCaraRoja_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 123,
+          "description": "Tienen lengua gruesa y musculosa, utilizada con gran habilidad para romper semillas y granos.",
+          "audioname": "LoroCaraRoja_audio_descripcion_2",
+          "imagename": "LoroCaraRoja_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 39,
+      "name": "Aninga",
+      "family": "Anhingidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 124,
+          "description": "Habitan en ambientes acuáticos templados y cálidos del viejo y nuevo mundo. Se alimentan especialmente de peces.",
+          "audioname": "Aninga_audio_descripcion_0",
+          "imagename": "Aninga_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 125,
+          "description": "Morfológicamente, las aningas destacan por su delgado y largo cuello, el cual es la única parte del cuerpo que sobresale del agua quedando el resto del cuerpo sumergido.",
+          "audioname": "Aninga_audio_descripcion_1",
+          "imagename": "Aninga_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 126,
+          "description": "En líneas generales los machos poseen un plumaje más oscuro, una cresta eréctil en el cráneo y un pico mayor.",
+          "audioname": "Aninga_audio_descripcion_2",
+          "imagename": "Aninga_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 40,
+      "name": "Cuco ardilla",
+      "family": "Cuculidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 127,
+          "description": "Se alimenta de insectos grandes, como cigarras o chicharras, avispas y orugas y ocasionalmente arácnidos, lagartijas y algunas frutas.",
+          "audioname": "CucoArdilla_audio_descripcion_0",
+          "imagename": "_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 128,
+          "description": "Es una especie abundante y parece tolerar la intervención humana, siempre y cuando no se destruya el bosque.",
+          "audioname": "CucoArdilla_audio_descripcion_1",
+          "imagename": "CucoArdilla_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 129,
+          "description": "Su nido es una taza de hojas, construido en una rama de un árbol, oculta en la vegetación densa, a una altura de 1 a 12 m.",
+          "audioname": "CucoArdilla_audio_descripcion_2",
+          "imagename": "CucoArdilla_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 42,
+      "name": "Carpintero carinegro",
+      "family": "Picidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 133,
+          "description": "Suele perchar alto en los árboles. Inspecciona y esculca troncos y ramas en busca de insectos pero también se alimenta de frutas y caza insectos en el aire.",
+          "audioname": "CarpinteroCarinegro_audio_descripcion_0",
+          "imagename": "CarpinteroCarinegro_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 134,
+          "description": "Tienen fuertes picos, para taladrar y tamborilear en los árboles, y lenguas finas, puntiagudas y con pequeñas cerdas, para extraer la comida.",
+          "audioname": "CarpinteroCarinegro_audio_descripcion_1",
+          "imagename": "CarpinteroCarinegro_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 135,
+          "description": "Se alimentan de insectos, gusanos y larvas que pueden encontrar durante todo el año, capturándolos bajo la corteza o perforando el interior de los árboles o de los troncos caídos.",
+          "audioname": "CarpinteroCarinegro_audio_descripcion_2",
+          "imagename": "CarpinteroCarinegro_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 43,
+      "name": "Garza blanca",
+      "family": "Ardeidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 136,
+          "description": "Es un ave acuática de plumaje blanco, grande y esbelta, que puede alcanzar el metro de altura.",
+          "audioname": "GarzaBlanca_audio_descripcion_0",
+          "imagename": "GarzaBlanca_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 137,
+          "description": "Vuela con su largo cuello retraído, pero suele caminar con él estirado. ",
+          "audioname": "GarzaBlanca_audio_descripcion_1",
+          "imagename": "GarzaBlanca_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 138,
+          "description": "Se alimenta en aguas poco profundas, o hábitats más secos, principalmente de peces, ranas, pequeños mamíferos y ocasionalmente aves pequeñas y reptiles.",
+          "audioname": "GarzaBlanca_audio_descripcion_2",
+          "imagename": "GarzaBlanca_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 44,
+      "name": "Garza nocturna",
+      "family": "Ardeidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 139,
+          "description": "El hábitat de cría de esta ave son los humedales de agua salada, en gran parte del planeta.",
+          "audioname": "GarzaNocturna_audio_descripcion_0",
+          "imagename": "GarzaNocturna_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 140,
+          "description": "Se alimenta principalmente de peces, anfibios, pequeños reptiles e insectos. Excepcionalmente puede completar su dieta con algún ratón.",
+          "audioname": "GarzaNocturna_audio_descripcion_1",
+          "imagename": "GarzaNocturna_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 141,
+          "description": "En Chiloé, un archipiélago del sur de Chile, esta ave tiene un papel importante en la mitología local, porque es asociada con la brujería y las fuerzas del mal.",
+          "audioname": "GarzaNocturna_audio_descripcion_2",
+          "imagename": "GarzaNocturna_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 45,
+      "name": "Mariposa azul",
+      "family": "Nymphalidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 142,
+          "description": "Es de color azul iridiscente y gran tamaño, con una envergadura alar de 15 centímetros.",
+          "audioname": "MariposaAzul_audio_descripcion_0",
+          "imagename": "MariposaAzul_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 143,
+          "description": "El adulto bebe el jugo de las frutas en descomposición con su larga probóscide.",
+          "audioname": "MariposaAzul_audio_descripcion_1",
+          "imagename": "MariposaAzul_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 144,
+          "description": "Las mariposas morfo azul, debido a su color azul eléctrico se le atribuyen una serie de simbolismos positivos.",
+          "audioname": "MariposaAzul_audio_descripcion_2",
+          "imagename": "MariposaAzul_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 46,
+      "name": "Tigrillo",
+      "family": "Felidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 145,
+          "description": "Alcanza una longitud cabeza-cuerpo de 39 a 78 cm, con una cola de 20 a 42 cm de largo. La altura está entre 22 y 30 cm. Su peso varía entre los 2 y 3 kg.",
+          "audioname": "Tigrillo_audio_descripcion_0",
+          "imagename": "Tigrillo_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 146,
+          "description": "La piel es gruesa y suave, de coloración marrón claro a ocre oscuro, con numerosas rosetas negruzcas en el dorso y los flancos.",
+          "audioname": "Tigrillo_audio_descripcion_1",
+          "imagename": "_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 147,
+          "description": "La longevidad se le estima en unos 17 años; en cautiverio está documentada hasta en 20 años.",
+          "audioname": "Tigrillo_audio_descripcion_2",
+          "imagename": "Tigrillo_image_2"
+        }
+      ]
+    }
+  ]
+}
