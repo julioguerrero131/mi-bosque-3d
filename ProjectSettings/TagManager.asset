@@ -35,6 +35,7 @@ TagManager:
   - waypoint
   - Controller
   - Balde
+  - cartel_1
   layers:
   - Default
   - TransparentFX
