@@ -686,7 +686,7 @@ public class Peticiones : MonoBehaviour
             string responseText = stReader.ReadToEnd();
             JObject jsonResponse = JObject.Parse(responseText);
             Debug.Log("Respuesta: " + responseText);
-            File.WriteAllText(Application.dataPath+ "/Resources/Questions/NuevasPreguntas_2.json", jsonResponse["payload"].ToString());
+            File.WriteAllText(Application.dataPath+ "/Resources/Questions/NuevasPreguntas3.json", jsonResponse["payload"].ToString());
             Debug.Log("json escrito y guardado ");
             /*if (jsonResponse.GetValue("status").ToObject<int>() == 400 && jsonResponse.GetValue("error").ToObject<string>().Contains("Token") && isFirstTime)
             {

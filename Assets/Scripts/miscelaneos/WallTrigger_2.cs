@@ -95,20 +95,9 @@ public class WallTrigger_2 : MonoBehaviour
         m_opcionDImagenes.onClick.AddListener(delegate { Wrapper(value_D, opt4); });
 
 
-        //texto = "Hola, veamos si has prestado atencion, a ver si puedes contestar la siguiente pregunta";
-        //Title.enabled = true;
-        //titlePequeño.enabled = false;
-        //dialogo.enabled = false;
-        //canvasAnim.SetBool("IsOpen", true);
-        //textoTitle = "Desafío \nN°" + (n_estacion - 1) + "\nContesta la siguiente pregunta";
-        //canvasDialogo.SetActive(true);
-        //StartCoroutine(Dialogo(Title, textoTitle));
+
         yield return new WaitForSeconds(0.2f);
-        //Title.enabled = false;
-        //titlePequeño.enabled = true;
-        //dialogo.enabled = true;
-        //canvasAnim.SetBool("IsOpen", false);
-        //fondoCanvasDialogo.SetActive(false);
+;
 
         canvasPreguntasImagenes.SetActive(true);
         Debug.Log("WALL TRIGGER 2 SCRIPT");
@@ -171,17 +160,6 @@ public class WallTrigger_2 : MonoBehaviour
         Debug.Log("marca");
         canvasFeedback.SetActive(true);
 
-        //fondoCanvasDialogo.SetActive(true);
-        //personaje.PersonajeTriste();
-        //texto = "¡Vaya! Esta vez no has acertado. La respuesta correcta es " + respuesta + ".\n" + feedback;
-        //Dialogue dialogue = new Dialogue();
-        //dialogue.sentences = new string[] { texto };
-        //dialogue.title = new string[dialogue.sentences.Length];
-        //dialogue.sprites = new Sprite[dialogue.sentences.Length];
-        //DialogueManager.instance.StartDialogue(dialogue, nombreEvento, this.gameObject, 0, false, true);
-        //StartCoroutine(Dialogo(fondoCanvasDialogo, dialogoPersonaje, texto));
-        //yield return new WaitForSeconds(13.0f);
-        //Continuar();
         mochila.desbloquearPregunta(q.ChallengeID, false);
         Debug.Log("WALL TRIGGER 2 SCRIPT");
         Debug.Log("END RESP INC");
@@ -301,17 +279,7 @@ public class WallTrigger_2 : MonoBehaviour
             int rdn = Random.Range(0, questions.Count);
             Debug.Log("question");
             Debug.Log(questions.Count);
-            Debug.Log(rdn);
-            /*for(int i = 0; i < questions.Count; i++)
-            {
-                PreguntaObject pqu = questions[i];
-                print(pqu.Feedback);
-            }*/
-            //Debug.Log(questions.Count);
-            /*foreach (string t in usadas)
-            {
-                Debug.Log(t);
-            }*/
+
 
             q = questions[rdn];
             Debug.Log("la pregunta es "+q.ToString());
@@ -343,10 +311,7 @@ public class WallTrigger_2 : MonoBehaviour
                 //Debug.Log(q.Gallery);
                 Debug.Log(galeriaImagenes);
                 preguntaImagen.text = q.question;
-                /*m_opcionAImagenes.GetComponentInChildren<Text>().text = "A. " + q.options[0];
-                m_opcionBImagenes.GetComponentInChildren<Text>().text = "B. " + q.Options[1];
-                m_opcionCImagenes.GetComponentInChildren<Text>().text = "C. " + q.Options[2];
-                m_opcionDImagenes.GetComponentInChildren<Text>().text = "D. " + q.Options[3];*/
+
                 m_opcionAImagenes.GetComponentInChildren<Text>().text = "A. " + q.options[0].text;
                 m_opcionBImagenes.GetComponentInChildren<Text>().text = "B. " + q.options[1].text;
                 m_opcionCImagenes.GetComponentInChildren<Text>().text = "C. " + q.options[2].text;
@@ -355,14 +320,10 @@ public class WallTrigger_2 : MonoBehaviour
                 opt2 = q.options[1].text;
                 opt3 = q.options[2].text;
                 opt4 = q.options[3].text;
-                //aqui
-                //if (q.Gallery.Count == 4)
+
                 if (galeriaImagenes.Count == 4)
                 {
-                    /*m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[0]);
-                    m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[1]);
-                    m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[2]);
-                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[3]);*/
+
                     m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images2/" + galeriaImagenes[0]);
                     m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images2/" + galeriaImagenes[1]);
                     m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images2/" + galeriaImagenes[2]);
