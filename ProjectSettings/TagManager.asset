@@ -36,6 +36,10 @@ TagManager:
   - Controller
   - Balde
   - cartel_1
+  - cartel_2
+  - cartel_3
+  - cartel_4
+  - cartel_5
   layers:
   - Default
   - TransparentFX
