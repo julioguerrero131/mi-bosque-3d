@@ -788,7 +788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.500305, y: 35.400024}
+  m_AnchoredPosition: {x: -7.500244, y: 35.400024}
   m_SizeDelta: {x: 255.9, y: -69.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &311181774
@@ -2148,7 +2148,7 @@ GameObject:
   - component: {fileID: 650614919}
   m_Layer: 5
   m_Name: guest log in
-  m_TagString: Untagged
+  m_TagString: pin_invitado
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5076,6 +5076,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50ee3a24f99bd9845879e764a4f4aca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelMenuPartidas: {fileID: 110753943}
+  panelDatos: {fileID: 1977118293}
+  panelPin: {fileID: 2118034696}
+  mostrarDebugDetallado: 1
+  genderDropdown: {fileID: 755051924}
 --- !u!4 &1202673552
 Transform:
   m_ObjectHideFlags: 0
@@ -6943,7 +6948,7 @@ GameObject:
   - component: {fileID: 1624685908}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: label_pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
