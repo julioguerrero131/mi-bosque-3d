@@ -1,6 +1,34 @@
 {
+  "menu_inicial": {
+    "boton_jugar": "jugar",
+    "boton_explorar": "explorar",
+    "boton_salir": "salir"
+  },
+  "menu_partidas" {
+    "crear_cargar_partida": {},
+    "nueva_partida": {
+      "title_avatar": "Escoge tu \navatar",
+      "title_datos": "Ingresa tus datos",
+      "label_nombre": "Nombre:",
+      "label_edad": "Edad:",
+      "label_genero": "Género:",
+      "generos": {
+        "genero_h": "Niño",
+        "genero_m": "Niña",
+        "genero_otro": "Prefiero no decirlo"
+      },
+      "label_idiomas": "Idioma:",
+      "idiomas": {
+        "idioma_esp": "Español",
+        "idioma_port": "Portugués",
+        "idioma_en": "Inglés"
+      },
+      "label_pin": "Pin del curso:",
+      "pin_invitado": "Obener Pin de invitado."
+    }
+  },
   "carteles_bosque": {
-    "entrada_bosque": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",
     "segundo_nivel": "RESPETA A LOS ANIMALES, ¡OBSÉRVALOS DESDE LEJOS!",
     "llegada_lago": "¡HABLA SUAVECITO, LOS ANIMALES DUERMEN Y ESCUCHAN!",

@@ -11,7 +11,7 @@ public class TextCharger : MonoBehaviour
         TextAsset jsonFile = Resources.Load<TextAsset>("all_texts");
         if (jsonFile == null)
         {
-            Debug.LogError("No se encontró el archivo JSON 'carteles.json' en Resources.");
+            Debug.LogError("No se encontró el archivo JSON 'all_texts.json' en Resources.");
             return;
         }
         Debug.Log("JSON cargado correctamente:\n" + jsonFile.text);

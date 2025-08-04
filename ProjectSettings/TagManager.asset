@@ -40,6 +40,19 @@ TagManager:
   - cartel_3
   - cartel_4
   - cartel_5
+  - boton_jugar
+  - boton_explorar
+  - boton_salir
+  - title_avatar
+  - title_datos
+  - label_nombre
+  - label_edad
+  - label_genero
+  - genero_h
+  - genero_m
+  - genero_otro
+  - label_pin
+  - pin_invitado
   layers:
   - Default
   - TransparentFX
