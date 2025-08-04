@@ -4,7 +4,7 @@
     "boton_explorar": "explorar",
     "boton_salir": "salir"
   },
-  "menu_partidas" {
+  "menu_partidas": {
     "crear_cargar_partida": {},
     "nueva_partida": {
       "title_avatar": "Escoge tu \navatar",
@@ -12,17 +12,9 @@
       "label_nombre": "Nombre:",
       "label_edad": "Edad:",
       "label_genero": "Género:",
-      "generos": {
-        "genero_h": "Niño",
-        "genero_m": "Niña",
-        "genero_otro": "Prefiero no decirlo"
-      },
-      "label_idiomas": "Idioma:",
-      "idiomas": {
-        "idioma_esp": "Español",
-        "idioma_port": "Portugués",
-        "idioma_en": "Inglés"
-      },
+      "genero_h": "Niño",
+      "genero_m": "Niña",
+      "genero_otro": "Prefiero no decirlo",
       "label_pin": "Pin del curso:",
       "pin_invitado": "Obener Pin de invitado."
     }
