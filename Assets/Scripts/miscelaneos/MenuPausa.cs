@@ -52,7 +52,7 @@ public class MenuPausa : MonoBehaviour
         {
             countdown = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (IsPaused)
             {
