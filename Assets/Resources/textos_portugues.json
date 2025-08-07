@@ -1,0 +1,29 @@
+{
+  "menu_inicial": {
+    "boton_jugar": "port",
+    "boton_explorar": "port",
+    "boton_salir": "port"
+  },
+  "menu_partidas": {
+    "crear_cargar_partida": {},
+    "nueva_partida": {
+      "title_avatar": "port",
+      "title_datos": "port",
+      "label_nombre": "port:",
+      "label_edad": "port:",
+      "label_genero": "port:",
+      "genero_h": "port",
+      "genero_m": "port",
+      "genero_otro": "port",
+      "label_pin": "port",
+      "pin_invitado": "port"
+    }
+  },
+  "carteles_bosque": {
+    "entrada_bosque": "¡port!",
+    "primer_nivel": "port!",
+    "segundo_nivel": "port!",
+    "llegada_lago": "¡port!",
+    "antes_nivel_4": "¡port!"
+  }
+}

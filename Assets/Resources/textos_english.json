@@ -1,0 +1,29 @@
+{
+  "menu_inicial": {
+    "boton_jugar": "en",
+    "boton_explorar": "en",
+    "boton_salir": "en"
+  },
+  "menu_partidas": {
+    "crear_cargar_partida": {},
+    "nueva_partida": {
+      "title_avatar": "en",
+      "title_datos": "en",
+      "label_nombre": "en:",
+      "label_edad": "en:",
+      "label_genero": "en:",
+      "genero_h": "en",
+      "genero_m": "en",
+      "genero_otro": "en",
+      "label_pin": "en",
+      "pin_invitado": "en"
+    }
+  },
+  "carteles_bosque": {
+    "entrada_bosque": "¡en!",
+    "primer_nivel": "en!",
+    "segundo_nivel": "en!",
+    "llegada_lago": "¡en!",
+    "antes_nivel_4": "¡en!"
+  }
+}
