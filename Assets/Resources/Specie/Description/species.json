@@ -24,6 +24,13 @@
       "video": "Videos/IGUANA.mp4",
       "gallery": [
         {
+          "mongoId": "5dd85b1fbaf3fe76a27f1fe2",
+          "id": 45,
+          "description": "Su nombre científico es Iguana iguana.",
+          "audioname": "Iguana_audio_descripcion_0",
+          "imagename": "Iguana_image_0"
+        },
+        {
           "mongoId": "5dd85b1fbaf3fe76a27f1fe3",
           "id": 44,
           "description": "Son herbívoros y habitan en selvas tropicales y manglares.",
@@ -208,6 +215,13 @@
       "video": "Videos/TIRANO_TROPICAL.mp4",
       "gallery": [
         {
+          "mongoId": "5dd85c5584573f78b5601112",
+          "id": 51,
+          "description": "Su nombre científico es Tyrannus melancholicus.",
+          "audioname": "Tirano Tropical_audio_descripcion_0",
+          "imagename": "Tirano Tropical_image_0"
+        },
+        {
           "mongoId": "5dd85c5584573f78b5601113",
           "id": 49,
           "description": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
@@ -266,6 +280,13 @@
       "family": "SCIURIDAE",
       "video": "Videos/ARDILLA.mp4",
       "gallery": [
+        {
+          "mongoId": "5e04e9cf898f5067dfced5e1",
+          "id": 60,
+          "description": "Su nombre científico es Sciurus stramineus.",
+          "audioname": "Ardilla_audio_descripcion_1",
+          "imagename": "Ardilla_image_0"
+        },
         {
           "mongoId": "5e04e9cf898f5067dfced5e2",
           "id": 57,
@@ -427,20 +448,27 @@
       "gallery": [
         {
           "mongoId": "20000010",
+          "id": 105,
+          "description": "Su nombre científico es Choloepus hoffmanni.",
+          "audioname": "OsoPerezoso_audio_descripcion_0",
+          "imagename": "OsoPerezoso_image_0"
+        },
+        {
+          "mongoId": "20000011",
           "id": 103,
           "description": "Es un animal solitario, nocturno y arborícola que habita en la selva y en los bosques.",
           "audioname": "OsoPerezoso_audio_descripcion_0",
           "imagename": "OsoPerezoso_image_0"
         },
         {
-          "mongoId": "20000011",
+          "mongoId": "20000012",
           "id": 104,
           "description": "Con su peluda piel, grandes garras y movimientos deliberados, los perezosos de dos dedos no se confunden con ningún otro animal.",
           "audioname": "OsoPerezoso_audio_descripcion_1",
           "imagename": "OsoPerezoso_image_1"
         },
         {
-          "mongoId": "20000012",
+          "mongoId": "20000013",
           "id": 105,
           "description": "Estos animales, de 5 a 7 kg y de aproximadamente 60 cm de largo.",
           "audioname": "OsoPerezoso_audio_descripcion_2",
@@ -454,6 +482,13 @@
       "name": "Venado Cola Blanca",
       "family": "Cervidae",
       "gallery": [
+        {
+          "mongoId": "20000012",
+          "id": 108,
+          "description": "Su nombre científico es Odocoileus peruvianus.",
+          "audioname": "VenadoColaBlanca_audio_descripcion_0",
+          "imagename": "VenadoColaBlanca_image_0"
+        },
         {
           "mongoId": "20000013",
           "id": 106,
@@ -484,6 +519,13 @@
       "family": "Canidae",
       "gallery": [
         {
+          "mongoId": "20000015",
+          "id": 111,
+          "description": "Su nombre científico es Lycalopex sechurae.",
+          "audioname": "ZorraPampera_audio_descripcion_0",
+          "imagename": "ZorraPampera_image_0"
+        },
+        {
           "mongoId": "20000016",
           "id": 109,
           "description": "Este es un cánido de color pálido agutí y su cola presenta la punta negra.",
@@ -513,9 +555,9 @@
       "family": "Atelidae",
       "gallery": [
         {
-          "mongoId": "20000019",
-          "id": 112,
-          "description": "El mono araña se alimenta de frutos e insectos. Habitan en bosques tropicales.",
+          "mongoId": "20000018",
+          "id": 114,
+          "description": "Su nombre científico es Ateles fusciceps.",
           "audioname": "MonoAraña_audio_descripcion_0",
           "imagename": "MonoAraña_image_0"
         },
@@ -541,6 +583,13 @@
       "name": "Mono Aullador",
       "family": "Atelidae",
       "gallery": [
+        {
+          "mongoId": "20000021",
+          "id": 117,
+          "description": "Su nombre científico es Alouatta palliata.",
+          "audioname": "MonoAullador_audio_descripcion_0",
+          "imagename": "MonoAullador_image_0"
+        },
         {
           "mongoId": "20000022",
           "id": 115,
@@ -571,6 +620,13 @@
       "family": "Chordata",
       "gallery": [
         {
+          "mongoId": "20000024",
+          "id": 120,
+          "description": "Su nombre científico es Tamandua mexicana.",
+          "audioname": "OsoHormiguero_audio_descripcion_0",
+          "imagename": "OsoHormiguero_image_0"
+        },
+        {
           "mongoId": "20000025",
           "id": 118,
           "description": "El cuerpo es robusto. Puede medir de 1,20 a 1,30 m de largo y la cola de 75 a 85 cm, y puede llegar a pesar hasta 40 kg.",
@@ -599,6 +655,13 @@
       "name": "Loro Cara Roja",
       "family": "Psittacidae",
       "gallery": [
+        {
+          "mongoId": "20000027",
+          "id": 123,
+          "description": "Su nombre científico es  Amazona viridigenalis.",
+          "audioname": "LoroCaraRoja_audio_descripcion_0",
+          "imagename": "LoroCaraRoja_image_0"
+        },
         {
           "mongoId": "20000028",
           "id": 121,
@@ -629,6 +692,13 @@
       "family": "Anhingidae",
       "gallery": [
         {
+          "mongoId": "20000027",
+          "id": 126,
+          "description": "Su nombre científico es Anhinga anhinga.",
+          "audioname": "Aninga_audio_descripcion_0",
+          "imagename": "Aninga_image_0"
+        },
+        {
           "mongoId": "20000028",
           "id": 124,
           "description": "Habitan en ambientes acuáticos templados y cálidos del viejo y nuevo mundo. Se alimentan especialmente de peces.",
@@ -657,6 +727,13 @@
       "name": "Cuco ardilla",
       "family": "Cuculidae",
       "gallery": [
+        {
+          "mongoId": "20000027",
+          "id": 129,
+          "description": "Su nombre científico es Piaya cayana.",
+          "audioname": "CucoArdilla_audio_descripcion_0",
+          "imagename": "_image_0"
+        },
         {
           "mongoId": "20000028",
           "id": 127,
@@ -687,9 +764,9 @@
       "family": "Picidae",
       "gallery": [
         {
-          "mongoId": "20000028",
-          "id": 133,
-          "description": "Suele perchar alto en los árboles. Inspecciona y esculca troncos y ramas en busca de insectos pero también se alimenta de frutas y caza insectos en el aire.",
+          "mongoId": "20000027",
+          "id": 135,
+          "description": "Su nombre científico es Melanerpes pucherani.",
           "audioname": "CarpinteroCarinegro_audio_descripcion_0",
           "imagename": "CarpinteroCarinegro_image_0"
         },
@@ -715,6 +792,13 @@
       "name": "Garza blanca",
       "family": "Ardeidae",
       "gallery": [
+        {
+          "mongoId": "20000027",
+          "id": 138,
+          "description": "Su nombre científico es Ardea alba.",
+          "audioname": "GarzaBlanca_audio_descripcion_0",
+          "imagename": "GarzaBlanca_image_0"
+        },
         {
           "mongoId": "20000028",
           "id": 136,
@@ -745,9 +829,9 @@
       "family": "Ardeidae",
       "gallery": [
         {
-          "mongoId": "20000028",
-          "id": 139,
-          "description": "El hábitat de cría de esta ave son los humedales de agua salada, en gran parte del planeta.",
+          "mongoId": "20000027",
+          "id": 141,
+          "description": "Su nombre científico es Nycticorax nycticorax.",
           "audioname": "GarzaNocturna_audio_descripcion_0",
           "imagename": "GarzaNocturna_image_0"
         },
@@ -773,6 +857,13 @@
       "name": "Mariposa azul",
       "family": "Nymphalidae",
       "gallery": [
+        {
+          "mongoId": "20000027",
+          "id": 144,
+          "description": "Su nombre científico es Morpho spp.",
+          "audioname": "MariposaAzul_audio_descripcion_0",
+          "imagename": "MariposaAzul_image_0"
+        },
         {
           "mongoId": "20000028",
           "id": 142,
@@ -802,6 +893,13 @@
       "name": "Tigrillo",
       "family": "Felidae",
       "gallery": [
+        {
+          "mongoId": "20000027",
+          "id": 147,
+          "description": "Su nombre científico es Leopardus tigrinus.",
+          "audioname": "Tigrillo_audio_descripcion_0",
+          "imagename": "Tigrillo_image_0"
+        },
         {
           "mongoId": "20000028",
           "id": 145,
