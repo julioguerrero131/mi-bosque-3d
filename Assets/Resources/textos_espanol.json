@@ -21,6 +21,21 @@
       "invitado_2": " cuando quieras!"
     }
   },
+  "tutorial": {
+    "dialogo_0": "Hola! soy un Guardabosque y te daré algunas indicaciones. ¿Estás listo?",
+    "dialogo_1": "Para poder caminar utiliza las teclas: A para ir a la izquierda, D para la derecha, S para ir para atrás y W para adelante.",
+    "dialogo_2": "Con las teclas mencionadas podrás caminar y explorar el Bosque. Ahora practiquemos.",
+    "dialogo_3": "Debes seguirme y caminar hacia delante para recoger las esferas rojas. ¡Vamos!",
+    "dialogo_4": "¡Aprendes muy rápido!, pero ¿sabes como correr?",
+    "dialogo_5": "¿no lo sabes? pues es algo sencillo, solo debes presionar Shift mientras caminas.",
+    "dialogo_6": "Practiquemos nuevamente y recoge las esferas verdes. No olvides correr usando Shift.",
+    "dialogo_7": "¡Buen trabajo! aprendes muy rápido.",
+    "dialogo_8": "Ahora probemos saltos. ¡Mira qué divertido! ¿Te gustaría aprender?",
+    "dialogo_9": "Para saltar debes presionar la tecla de Espacios. ¡Inténtalo!",
+    "dialogo_10": "¡Muy buen salto! Lo has hecho genial.",
+    "dialogo_11": "Hemos terminado las indicaciones.",
+    "dialogo_12": "Ahora ya puedes iniciar tu aventura."
+  },
   "carteles_bosque": {
     "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",

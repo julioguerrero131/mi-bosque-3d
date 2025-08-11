@@ -106,6 +106,23 @@ public class LanguageManager : MonoBehaviour
             textos["menu_partidas.invitado_2"] = np.invitado_2;
         }
 
+        if(datos.tutorial != null)
+        {
+            textos["tutorial.dialogo_0"] = datos.tutorial.dialogo_0;
+            textos["tutorial.dialogo_1"] = datos.tutorial.dialogo_1;
+            textos["tutorial.dialogo_2"] = datos.tutorial.dialogo_2;
+            textos["tutorial.dialogo_3"] = datos.tutorial.dialogo_3;
+            textos["tutorial.dialogo_4"] = datos.tutorial.dialogo_4;
+            textos["tutorial.dialogo_5"] = datos.tutorial.dialogo_5;
+            textos["tutorial.dialogo_6"] = datos.tutorial.dialogo_6;
+            textos["tutorial.dialogo_7"] = datos.tutorial.dialogo_7;
+            textos["tutorial.dialogo_8"] = datos.tutorial.dialogo_8;
+            textos["tutorial.dialogo_9"] = datos.tutorial.dialogo_9;
+            textos["tutorial.dialogo_10"] = datos.tutorial.dialogo_10;
+            textos["tutorial.dialogo_11"] = datos.tutorial.dialogo_11;
+            textos["tutorial.dialogo_12"] = datos.tutorial.dialogo_12;
+        }
+
         if (datos.carteles_bosque != null)
         {
             textos["carteles_bosque.entrada_bosque"] = datos.carteles_bosque.entrada_bosque;
@@ -122,6 +139,7 @@ public class LanguageManager : MonoBehaviour
     {
         public MenuInicial menu_inicial;
         public MenuPartidas menu_partidas;
+        public Tutorial tutorial;
         public CartelesBosque carteles_bosque;
     }
 
@@ -154,6 +172,24 @@ public class LanguageManager : MonoBehaviour
         public string pin_invitado;
         public string invitado_1;
         public string invitado_2;
+    }
+
+    [Serializable]
+    public class Tutorial
+    {
+        public string dialogo_0;
+        public string dialogo_1;
+        public string dialogo_2;
+        public string dialogo_3;
+        public string dialogo_4;
+        public string dialogo_5;
+        public string dialogo_6;
+        public string dialogo_7;
+        public string dialogo_8;
+        public string dialogo_9;
+        public string dialogo_10;
+        public string dialogo_11;
+        public string dialogo_12;
     }
 
     [Serializable]

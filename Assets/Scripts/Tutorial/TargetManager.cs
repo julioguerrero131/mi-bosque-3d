@@ -50,8 +50,12 @@ public class TargetManager: MonoBehaviour
 
     void Awake()
     {
-
         button.SetActive(false);
+
+        for(int i = 0; i<13; i++)
+        {
+            message[i] = LanguageManager.Instancia.ObtenerTexto("tutorial.dialogo_" + i);
+        }
 
     }
     
