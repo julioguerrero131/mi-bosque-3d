@@ -123,6 +123,20 @@ public class LanguageManager : MonoBehaviour
             textos["tutorial.dialogo_12"] = datos.tutorial.dialogo_12;
         }
 
+        if (datos.lobby != null)
+        {
+            if(datos.lobby.bruno != null)
+            {
+                var br = datos.lobby.bruno;
+                textos["lobby.bruno.title.title_0"] = br.bruno_title_0;
+                textos["lobby.bruno.title.title_1"] = br.bruno_title_1;
+                textos["lobby.bruno.title.title_2"] = br.bruno_title_2;
+                textos["lobby.bruno.title.sentence_0"] = br.bruno_sentence_0;
+                textos["lobby.bruno.title.sentence_1"] = br.bruno_sentence_1;
+                textos["lobby.bruno.title.sentence_2"] = br.bruno_sentence_2;
+            }
+        } 
+
         if (datos.carteles_bosque != null)
         {
             textos["carteles_bosque.entrada_bosque"] = datos.carteles_bosque.entrada_bosque;
@@ -133,7 +147,9 @@ public class LanguageManager : MonoBehaviour
         }
     }
 
-    // Estructuras que representan el JSON
+    // CLASES
+
+    // Contenedor de todas las escenas
     [Serializable]
     public class DatosIdioma
     {
@@ -141,8 +157,10 @@ public class LanguageManager : MonoBehaviour
         public MenuPartidas menu_partidas;
         public Tutorial tutorial;
         public CartelesBosque carteles_bosque;
+        public Lobby lobby;
     }
 
+    // Menu inicial
     [Serializable]
     public class MenuInicial
     {
@@ -151,6 +169,7 @@ public class LanguageManager : MonoBehaviour
         public string boton_salir;
     }
 
+    // Menu partidas
     [Serializable]
     public class MenuPartidas
     {
@@ -174,6 +193,7 @@ public class LanguageManager : MonoBehaviour
         public string invitado_2;
     }
 
+    // Tutorial
     [Serializable]
     public class Tutorial
     {
@@ -192,6 +212,25 @@ public class LanguageManager : MonoBehaviour
         public string dialogo_12;
     }
 
+    // Lobby
+    [Serializable]
+    public class Lobby
+    {
+        public LobbyBruno bruno;
+    }
+
+    [Serializable]
+    public class LobbyBruno
+    {
+        public string bruno_title_0;
+        public string bruno_title_1;
+        public string bruno_title_2;
+        public string bruno_sentence_0;
+        public string bruno_sentence_1;
+        public string bruno_sentence_2;
+    }
+
+    // Bosque
     [Serializable]
     public class CartelesBosque
     {

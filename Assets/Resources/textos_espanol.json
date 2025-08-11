@@ -36,6 +36,16 @@
     "dialogo_11": "Hemos terminado las indicaciones.",
     "dialogo_12": "Ahora ya puedes iniciar tu aventura."
   },
+  "lobby": {
+    "bruno": {
+      "title_0": "¡HOLA SOY BRUNO!",
+      "title_1": "EXPLORA EL BOSQUE", 
+      "title_2": "CONSEJOS PARA INICIAR",
+      "sentence_0": "Bienvenido al BOSQUE PROTECTOR PROSPERINA",
+      "sentence_1": "Resuelve los desafíos de cada estación para convertirte en un GUARDABOSQUES DIGITAL",
+      "sentence_2": "1. Explora las cabañas \n2.Interactúa con los grupos de excursión"
+    }
+  },
   "carteles_bosque": {
     "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",
