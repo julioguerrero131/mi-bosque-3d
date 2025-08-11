@@ -11,7 +11,13 @@ public class guestlogin : MonoBehaviour
     {
         Debug.Log("clic");
         codigo.text = ""+guest;
-        this.GetComponent<Text>().text = "Ahora puedes jugar como invitado con el código " + guest +" cuando quieras!";
+
+        string text_1 = LanguageManager.Instancia.ObtenerTexto("menu_partidas.invitado_1");
+        string text_2 = LanguageManager.Instancia.ObtenerTexto("menu_partidas.invitado_2");
+
+        this.GetComponent<Text>().text = "" + text_1 + guest + text_2;
+
+        Debug.Log("Cambio Realizado: " + text_1 + guest + text_2);
     }
 
     /*

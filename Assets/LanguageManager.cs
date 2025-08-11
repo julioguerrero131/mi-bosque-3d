@@ -102,6 +102,8 @@ public class LanguageManager : MonoBehaviour
             textos["menu_partidas.genero_otro"] = np.genero_otro;
             textos["menu_partidas.label_pin"] = np.label_pin;
             textos["menu_partidas.pin_invitado"] = np.pin_invitado;
+            textos["menu_partidas.invitado_1"] = np.invitado_1;
+            textos["menu_partidas.invitado_2"] = np.invitado_2;
         }
 
         if (datos.carteles_bosque != null)
@@ -150,6 +152,8 @@ public class LanguageManager : MonoBehaviour
         public string genero_otro;
         public string label_pin;
         public string pin_invitado;
+        public string invitado_1;
+        public string invitado_2;
     }
 
     [Serializable]

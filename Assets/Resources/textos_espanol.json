@@ -16,7 +16,9 @@
       "genero_m": "Niña",
       "genero_otro": "Prefiero no decirlo",
       "label_pin": "Pin del curso:",
-      "pin_invitado": "Obener Pin de invitado."
+      "pin_invitado": "Obener Pin de invitado.",
+      "invitado_1": "Ahora puedes jugar como invitado con el código ",
+      "invitado_2": " cuando quieras!"
     }
   },
   "carteles_bosque": {
