@@ -128,13 +128,42 @@ public class LanguageManager : MonoBehaviour
             if(datos.lobby.bruno != null)
             {
                 var br = datos.lobby.bruno;
-                textos["lobby.bruno.title.title_0"] = br.bruno_title_0;
-                textos["lobby.bruno.title.title_1"] = br.bruno_title_1;
-                textos["lobby.bruno.title.title_2"] = br.bruno_title_2;
-                textos["lobby.bruno.title.sentence_0"] = br.bruno_sentence_0;
-                textos["lobby.bruno.title.sentence_1"] = br.bruno_sentence_1;
-                textos["lobby.bruno.title.sentence_2"] = br.bruno_sentence_2;
+                textos["lobby.bruno.title_0"] = br.title_0;
+                textos["lobby.bruno.title_1"] = br.title_1;
+                textos["lobby.bruno.title_2"] = br.title_2;
+                textos["lobby.bruno.sentence_0"] = br.sentence_0;
+                textos["lobby.bruno.sentence_1"] = br.sentence_1;
+                textos["lobby.bruno.sentence_2"] = br.sentence_2;
             }
+
+            if(datos.lobby.cabanas_info != null)
+            {
+                var ci = datos.lobby.cabanas_info;
+                textos["lobby.cabanas_info.title_animales"] = ci.title_animales;
+                textos["lobby.cabanas_info.sentence_animales_0"] = ci.sentence_animales_0;
+                textos["lobby.cabanas_info.sentence_animales_1"] = ci.sentence_animales_1;
+                textos["lobby.cabanas_info.sentence_animales_2"] = ci.sentence_animales_2;
+
+                textos["lobby.cabanas_info.title_aves"] = ci.title_aves;
+                textos["lobby.cabanas_info.sentence_aves_0"] = ci.sentence_aves_0;
+                textos["lobby.cabanas_info.sentence_aves_1"] = ci.sentence_aves_1;
+
+                textos["lobby.cabanas_info.title_flora"] = ci.title_flora;
+                textos["lobby.cabanas_info.sentence_flora_0"] = ci.sentence_flora_0;
+                textos["lobby.cabanas_info.sentence_flora_1"] = ci.sentence_flora_1;
+                textos["lobby.cabanas_info.sentence_flora_2"] = ci.sentence_flora_2;
+            }
+
+            if(datos.lobby.excursionistas != null)
+            {
+                var exc = datos.lobby.excursionistas;
+                textos["lobby.excursionistas.title_grupo"] = exc.title_grupo;
+                textos["lobby.excursionistas.sentence_grupo_0"] = exc.sentence_grupo_0;
+                textos["lobby.excursionistas.sentence_grupo_1"] = exc.sentence_grupo_1;
+                textos["lobby.excursionistas.sentence_grupo_2"] = exc.sentence_grupo_2;
+            }
+
+            
         } 
 
         if (datos.carteles_bosque != null)
@@ -217,17 +246,46 @@ public class LanguageManager : MonoBehaviour
     public class Lobby
     {
         public LobbyBruno bruno;
+        public CabanasInfo cabanas_info;
+        public Excursionistas excursionistas;
     }
 
     [Serializable]
     public class LobbyBruno
     {
-        public string bruno_title_0;
-        public string bruno_title_1;
-        public string bruno_title_2;
-        public string bruno_sentence_0;
-        public string bruno_sentence_1;
-        public string bruno_sentence_2;
+        public string title_0;
+        public string title_1;
+        public string title_2;
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+    }
+
+    [Serializable]
+    public class CabanasInfo
+    {
+        public string title_animales;
+        public string sentence_animales_0;
+        public string sentence_animales_1;
+        public string sentence_animales_2;
+
+        public string title_aves;
+        public string sentence_aves_0;
+        public string sentence_aves_1;
+
+        public string title_flora;
+        public string sentence_flora_0;
+        public string sentence_flora_1;
+        public string sentence_flora_2;
+    }
+
+    [Serializable]
+    public class Excursionistas
+    {
+        public string title_grupo;
+        public string sentence_grupo_0;
+        public string sentence_grupo_1;
+        public string sentence_grupo_2;
     }
 
     // Bosque

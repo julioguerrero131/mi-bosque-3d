@@ -48,6 +48,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueTrigger dialogueTrigger, string eventToTrigger, bool remove, int index_img = 0)
     {
+        LocalizeDialogue(dialogueTrigger.dialogue);
+
 #if UNITY_ANDROID || UNITY_IOS
         CanvasPlayerGUI.SetActive(false);
         GameObject.Find("FPSController").GetComponent<JoystickController>().enabled = false;
@@ -85,6 +87,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, string eventToTrigger, GameObject go = null, int index_img = 0, bool remove = false, bool pregunta = false)
     {
+        LocalizeDialogue(dialogue);
+        
         currentD = dialogue;
         currentDTGO = go;
         isPreguntas = pregunta;
@@ -234,4 +238,41 @@ public class DialogueManager : MonoBehaviour
         characterImages[2].SetActive(true);
         //characterImage.sprite = personaje_expresiones[2];
     }
+
+    // busca dialogos en el JSON, reemplaza las claves por los dialogos
+    private void LocalizeDialogue(Dialogue dialogue)
+    {
+        // Traducir titles
+        for (int i = 0; i < dialogue.title.Length; i++)
+        {
+            if (!string.IsNullOrEmpty(dialogue.title[i]))
+            {
+                string clave = dialogue.title[i];
+                string traducido = LanguageManager.Instancia.ObtenerTexto(clave);
+                traducido = traducido.Trim('[', ']');
+
+                if (!string.IsNullOrEmpty(traducido))
+                    dialogue.title[i] = traducido;
+                else
+                    Debug.LogWarning($"No se encontró traducción para la clave de título: {clave}");
+            }
+        }
+
+        // Traducir sentences
+        for (int i = 0; i < dialogue.sentences.Length; i++)
+        {
+            if (!string.IsNullOrEmpty(dialogue.sentences[i]))
+            {
+                string clave = dialogue.sentences[i];
+                string traducido = LanguageManager.Instancia.ObtenerTexto(clave);
+                traducido = traducido.Trim('[', ']');
+
+                if (!string.IsNullOrEmpty(traducido))
+                    dialogue.sentences[i] = traducido;
+                else
+                    Debug.LogWarning($"No se encontró traducción para la clave de frase: {clave}");
+            }
+        }
+    }
+
 }
