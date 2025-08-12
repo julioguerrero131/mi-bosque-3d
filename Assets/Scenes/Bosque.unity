@@ -948,7 +948,7 @@ Transform:
   - {fileID: 1513550830}
   - {fileID: 91173718}
   m_Father: {fileID: 193071751}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &22643178
 GameObject:
@@ -8269,7 +8269,7 @@ PrefabInstance:
     - target: {fileID: 8296282929582002892, guid: c9c704636f09fbe4fa928e86c71e2822,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8296282929582002892, guid: c9c704636f09fbe4fa928e86c71e2822,
         type: 3}
@@ -8657,6 +8657,7 @@ Transform:
   m_LocalPosition: {x: 349.1, y: 209.4, z: 441.1}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
+  - {fileID: 1939911602}
   - {fileID: 322409296}
   - {fileID: 251529948}
   - {fileID: 236006160}
@@ -9520,7 +9521,7 @@ Transform:
   m_LocalScale: {x: 0.20000008, y: 4, z: 18.000122}
   m_Children: []
   m_Father: {fileID: 193071751}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -0.51000005, y: 46.677002, z: -2.69}
 --- !u!114 &236006162
 MonoBehaviour:
@@ -9726,7 +9727,7 @@ Transform:
   m_LocalScale: {x: 0.2000001, y: 4, z: 18.000051}
   m_Children: []
   m_Father: {fileID: 193071751}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -1.042, y: 61.108, z: 2.0010002}
 --- !u!114 &251529950
 MonoBehaviour:
@@ -10622,7 +10623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11982,7 +11983,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 193071751}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &327899932
 GameObject:
@@ -13604,7 +13605,7 @@ Transform:
   - {fileID: 653608638}
   - {fileID: 734145668}
   m_Father: {fileID: 1012098845}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 3.2280002, y: 62.085003, z: 9.6310005}
 --- !u!1001 &366561564
 PrefabInstance:
@@ -24509,7 +24510,7 @@ Transform:
   - {fileID: 1330797656}
   - {fileID: 390505459}
   m_Father: {fileID: 1012098845}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -0.51, y: 46.67, z: -1.285}
 --- !u!114 &673180304
 MonoBehaviour:
@@ -31088,7 +31089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492366, guid: f43818c9cb19fac4fa43f52d4a211840, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 492366, guid: f43818c9cb19fac4fa43f52d4a211840, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -36826,7 +36827,7 @@ PrefabInstance:
     - target: {fileID: 8761967458599212819, guid: 6af4ed757ed56b045bf2a968327aab68,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8761967458599212819, guid: 6af4ed757ed56b045bf2a968327aab68,
         type: 3}
@@ -38933,6 +38934,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1159708255}
+  - {fileID: 1526732723}
   - {fileID: 673180303}
   - {fileID: 1875602773}
   - {fileID: 1725545309}
@@ -48913,7 +48915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -58547,6 +58549,7 @@ MonoBehaviour:
     sentences:
     - "Has recogido y clasificado la basura encontrada en el Bosque. \r\nDemuestras
       preocupaci\xF3n por la naturaleza. Recuerda nunca dejar residuos en ella.\r\r"
+    - "\xA1Este r\xEDo es el coraz\xF3n del bosque! Mantenerlo limpio ayuda a todos!."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -63581,7 +63584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74277,7 +74280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74365,6 +74368,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.13449061, y: 0.3050661, z: 0.124216005}
   m_Center: {x: 0.011236541, y: 0.15071289, z: 0.006051021}
+--- !u!114 &1523344650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523344646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2744bc37b3724181d93db49ba2930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    title:
+    - "\xA1Cuidado!"
+    sentences:
+    - "El vidrio al sol funciona como una lupa y puede encender hojas secas. Rec\xF3gelo
+      siempre para evitar incendios y cuidar el planeta."
+    sprites:
+    - {fileID: 21300000, guid: 5cd8959be155fc1419cbdf12d6a69292, type: 3}
+  dialogoCambiante: 0
+  expresiones: 2
+  removeAfterCompleted: 1
+  eventToTrigger: 
 --- !u!1 &1523418269
 GameObject:
   m_ObjectHideFlags: 0
@@ -74704,6 +74731,78 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
+--- !u!1 &1526732722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526732723}
+  - component: {fileID: 1526732725}
+  - component: {fileID: 1526732724}
+  m_Layer: 12
+  m_Name: mira cuanta basura
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1526732723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526732722}
+  m_LocalRotation: {x: 0.082771115, y: -0.2615311, z: -0.017778052, w: 0.96147513}
+  m_LocalPosition: {x: 30.71, y: -6.55, z: -16.66}
+  m_LocalScale: {x: 0.103404015, y: 6, z: 22}
+  m_Children: []
+  m_Father: {fileID: 1012098845}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 8.619, y: -30.773, z: -4.4950004}
+--- !u!114 &1526732724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526732722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2744bc37b3724181d93db49ba2930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    title:
+    - "\"\xA1Oh no! Mira cu\xE1nta basura hay aqu\xED"
+    sentences:
+    - "Cuando la basura llega al agua, \xA1ellos se enferman y no pueden vivir\r\nbien!"
+    sprites:
+    - {fileID: 21300000, guid: 009ab62624d825c40b90881ccc548dc4, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  dialogoCambiante: 0
+  expresiones: 2
+  removeAfterCompleted: 1
+  eventToTrigger: 
+--- !u!65 &1526732725
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526732722}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1526967238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79433,7 +79532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -82613,7 +82712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 483476, guid: ae4812b4085471e4d9fa91c480747f82, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 483476, guid: ae4812b4085471e4d9fa91c480747f82, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -83462,7 +83561,7 @@ PrefabInstance:
     - target: {fileID: 7451800987645161699, guid: 43b8cbdc07006b64b88c8f5813cc3a19,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7451800987645161699, guid: 43b8cbdc07006b64b88c8f5813cc3a19,
         type: 3}
@@ -85488,6 +85587,7 @@ MonoBehaviour:
     title:
     - "\xA1FELICIDADES!"
     sentences:
+    - "El aire fresco que respiras viene de los \xE1rboles. \xA1Gracias \xE1rboles!\""
     - "Muy bien, el mirador ya est\xE1 a unos pasos de aaqu\xED. No te detengas ahora!"
     sprites:
     - {fileID: 0}
@@ -86964,7 +87064,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854230144}
   m_LocalRotation: {x: -0, y: -0.71962166, z: -0, w: 0.69436646}
-  m_LocalPosition: {x: 1.02, y: 0, z: -2.3}
+  m_LocalPosition: {x: 1.02, y: 0.09, z: -2.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1008289163}
@@ -92350,7 +92450,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 8a07748a10d783d4abb6dbd7272e6ab1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8a07748a10d783d4abb6dbd7272e6ab1,
         type: 3}
@@ -94401,6 +94501,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935321468}
   m_CullTransparentMesh: 0
+--- !u!1 &1939911601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1939911602}
+  - component: {fileID: 1939911604}
+  - component: {fileID: 1939911603}
+  m_Layer: 12
+  m_Name: cuidado el suelo
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1939911602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939911601}
+  m_LocalRotation: {x: 0.015274618, y: -0.73743266, z: 0.018463785, w: 0.67499554}
+  m_LocalPosition: {x: 2.47, y: 0.6, z: 3.24}
+  m_LocalScale: {x: 0.103404015, y: 6, z: 22}
+  m_Children: []
+  m_Father: {fileID: 193071751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.743, y: -95.059006, z: 0.13800001}
+--- !u!114 &1939911603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939911601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd2744bc37b3724181d93db49ba2930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    title:
+    - "\xA1Cuidado!"
+    sentences:
+    - "\xA1Mira el suelo! Las especies son muy importante para la vida del bosque,
+      \xA1no la pises sin cuidado!"
+    sprites:
+    - {fileID: 21300000, guid: 009ab62624d825c40b90881ccc548dc4, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  dialogoCambiante: 0
+  expresiones: 2
+  removeAfterCompleted: 1
+  eventToTrigger: 
+--- !u!65 &1939911604
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939911601}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1941304056
 GameObject:
   m_ObjectHideFlags: 0
@@ -95388,7 +95561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -96986,7 +97159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 455788, guid: 6e4ecddde9795734fad196ca9a65354b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 455788, guid: 6e4ecddde9795734fad196ca9a65354b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
