@@ -163,7 +163,53 @@ public class LanguageManager : MonoBehaviour
                 textos["lobby.excursionistas.sentence_grupo_2"] = exc.sentence_grupo_2;
             }
 
-            
+            if(datos.lobby.cabana_animal != null)
+            {
+                var ca = datos.lobby.cabana_animal;
+                textos["cabana_animal.title_0"] = ca.title_0;
+                textos["cabana_animal.title_1"] = ca.title_1;
+                textos["cabana_animal.title_2"] = ca.title_2;
+
+                textos["cabana_animal.animal_0_sentence_0"] = ca.animal_0_sentence_0;
+                textos["cabana_animal.animal_0_sentence_1"] = ca.animal_0_sentence_1;
+                textos["cabana_animal.animal_0_sentence_2"] = ca.animal_0_sentence_2;
+
+                textos["cabana_animal.animal_1_sentence_0"] = ca.animal_1_sentence_0;
+                textos["cabana_animal.animal_1_sentence_1"] = ca.animal_1_sentence_1;
+                textos["cabana_animal.animal_1_sentence_2"] = ca.animal_1_sentence_2;
+
+                textos["cabana_animal.animal_2_sentence_0"] = ca.animal_2_sentence_0;
+                textos["cabana_animal.animal_2_sentence_1"] = ca.animal_2_sentence_1;
+                textos["cabana_animal.animal_2_sentence_2"] = ca.animal_2_sentence_2;
+
+                textos["cabana_animal.animal_3_sentence_0"] = ca.animal_3_sentence_0;
+                textos["cabana_animal.animal_3_sentence_1"] = ca.animal_3_sentence_1;
+                textos["cabana_animal.animal_3_sentence_2"] = ca.animal_3_sentence_2;
+
+                textos["cabana_animal.animal_4_sentence_0"] = ca.animal_4_sentence_0;
+                textos["cabana_animal.animal_4_sentence_1"] = ca.animal_4_sentence_1;
+                textos["cabana_animal.animal_4_sentence_2"] = ca.animal_4_sentence_2;
+
+                textos["cabana_animal.animal_5_sentence_0"] = ca.animal_5_sentence_0;
+                textos["cabana_animal.animal_5_sentence_1"] = ca.animal_5_sentence_1;
+                textos["cabana_animal.animal_5_sentence_2"] = ca.animal_5_sentence_2;
+
+                textos["cabana_animal.animal_6_sentence_0"] = ca.animal_6_sentence_0;
+                textos["cabana_animal.animal_6_sentence_1"] = ca.animal_6_sentence_1;
+                textos["cabana_animal.animal_6_sentence_2"] = ca.animal_6_sentence_2;
+
+                textos["cabana_animal.animal_7_sentence_0"] = ca.animal_7_sentence_0;
+                textos["cabana_animal.animal_7_sentence_1"] = ca.animal_7_sentence_1;
+                textos["cabana_animal.animal_7_sentence_2"] = ca.animal_7_sentence_2;
+
+                textos["cabana_animal.animal_8_sentence_0"] = ca.animal_8_sentence_0;
+                textos["cabana_animal.animal_8_sentence_1"] = ca.animal_8_sentence_1;
+                textos["cabana_animal.animal_8_sentence_2"] = ca.animal_8_sentence_2;
+
+                textos["cabana_animal.animal_9_sentence_0"] = ca.animal_9_sentence_0;
+                textos["cabana_animal.animal_9_sentence_1"] = ca.animal_9_sentence_1;
+                textos["cabana_animal.animal_9_sentence_2"] = ca.animal_9_sentence_2;
+            }
         } 
 
         if (datos.carteles_bosque != null)
@@ -248,6 +294,7 @@ public class LanguageManager : MonoBehaviour
         public LobbyBruno bruno;
         public CabanasInfo cabanas_info;
         public Excursionistas excursionistas;
+        public CabanaAnimal cabana_animal;
     }
 
     [Serializable]
@@ -286,6 +333,54 @@ public class LanguageManager : MonoBehaviour
         public string sentence_grupo_0;
         public string sentence_grupo_1;
         public string sentence_grupo_2;
+    }
+
+    [Serializable]
+    public class CabanaAnimal
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+        
+        public string animal_0_sentence_0;
+        public string animal_0_sentence_1;
+        public string animal_0_sentence_2;
+
+        public string animal_1_sentence_0;
+        public string animal_1_sentence_1;
+        public string animal_1_sentence_2;
+
+        public string animal_2_sentence_0;
+        public string animal_2_sentence_1;
+        public string animal_2_sentence_2;
+
+        public string animal_3_sentence_0;
+        public string animal_3_sentence_1;
+        public string animal_3_sentence_2;
+
+        public string animal_4_sentence_0;
+        public string animal_4_sentence_1;
+        public string animal_4_sentence_2;
+
+        public string animal_5_sentence_0;
+        public string animal_5_sentence_1;
+        public string animal_5_sentence_2;
+
+        public string animal_6_sentence_0;
+        public string animal_6_sentence_1;
+        public string animal_6_sentence_2;
+
+        public string animal_7_sentence_0;
+        public string animal_7_sentence_1;
+        public string animal_7_sentence_2;
+        
+        public string animal_8_sentence_0;
+        public string animal_8_sentence_1;
+        public string animal_8_sentence_2;
+
+        public string animal_9_sentence_0;
+        public string animal_9_sentence_1;
+        public string animal_9_sentence_2;
     }
 
     // Bosque

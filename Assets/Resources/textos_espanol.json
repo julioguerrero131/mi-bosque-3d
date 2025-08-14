@@ -50,9 +50,11 @@
       "sentence_animales_0": "Podrás conocer información sobre los Mamíferos que habitan en el Bosque Prosperina",
       "sentence_animales_1": "Acércate a la luz de cada pantalla interactiva y podrás desplazarte entre las imágenes",
       "sentence_animales_2": "Toca el botón de información para conocer más sobre la imagen que estás viendo",
+
       "title_aves": "Bienvenido a la cabaña de las Aves",
       "sentence_aves_0": "En esta cabaña podrás conocer varias especies de aves que habitan en el Bosque Protector Prosperina",
       "sentence_aves_1": "Debes acercarte a la luz azul y colocarte en frente a cada pantalla para observar sus fotos y leer su información",
+
       "title_flora": "Bienvenido a la cabaña de la Flora",
       "sentence_flora_0": "Aquí podrás conocer información importante sobre la Flora que habita en el Bosque Prosperina",
       "sentence_flora_1": "Acércate a la luz de cada pantalla interactiva y podrás desplazarte entre las imágenes",
@@ -63,6 +65,51 @@
       "sentence_grupo_0": "No creo que estemos listos para ir de excursión, ¡debemos estar seguros de tener todo lo necesario!",
       "sentence_grupo_1": "Vamos a la puerta principal para ir al Bosque Protegido Prosperina",
       "sentence_grupo_2": "Al pasar la puerta, ¡Iniciaremos nuestra Excursión!"
+    },
+    "cabana_animal": {
+      "title_0": "Nombre Científico:",
+      "title_1": "Familia:",
+      "title_2": "Tipo de Bosque:",
+
+      "animal_0_sentence_0": "Sciurus stramineus",
+      "animal_0_sentence_1": "Sciuridae",
+      "animal_0_sentence_2": "Bosque secos, húmedos y montanos incluyendo bosques maduros y secundarios",
+
+      "animal_1_sentence_0": "Panthera Onca",
+      "animal_1_sentence_1": "Felidae",
+      "animal_1_sentence_2": "Bosques Secos y Húmedos",
+
+      "animal_2_sentence_0": "Alouatta palliata",
+      "animal_2_sentence_1": "Atelidae",
+      "animal_2_sentence_2": "Bosques Secos y Húmedos",
+
+      "animal_3_sentence_0": "Tamandua mexicana",
+      "animal_3_sentence_1": "Myrmecophagidae",
+      "animal_3_sentence_2": "Bosques Secos y Húmedos Tropicales",
+
+      "animal_4_sentence_0": "Choloepus hoffmanni",
+      "animal_4_sentence_1": "Megalonychidae",
+      "animal_4_sentence_2": "Bosques Secos y Húmedos Tropicales",
+
+      "animal_5_sentence_0": "Lonchophylla hesperia",
+      "animal_5_sentence_1": "Phyllostomidae",
+      "animal_5_sentence_2": "Bosques Secos, Húmedos",
+
+      "animal_6_sentence_0": "Ateles fusciceps",
+      "animal_6_sentence_1": "Atelidae",
+      "animal_6_sentence_2": "Bosques Secos y Húmedos",
+
+      "animal_7_sentence_0": "Proechimys decumanus",
+      "animal_7_sentence_1": "Echimyidae",
+      "animal_7_sentence_2": "Bosques Secos y Húmedos",
+
+      "animal_8_sentence_0": "Lycalopex sechurae",
+      "animal_8_sentence_1": "Canidae",
+      "animal_8_sentence_2": "Bosques Secos y Húmedos Tropicales",
+
+      "animal_9_sentence_0": "Odocoileus peruvianus",
+      "animal_9_sentence_1": "Cervidae",
+      "animal_9_sentence_2": "Bosques Secos Tropicales"
     }
   },
   "carteles_bosque": {
