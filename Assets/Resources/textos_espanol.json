@@ -110,6 +110,90 @@
       "animal_9_sentence_0": "Odocoileus peruvianus",
       "animal_9_sentence_1": "Cervidae",
       "animal_9_sentence_2": "Bosques Secos Tropicales"
+    },
+    "cabana_aves": {
+      "title_0": "Familia:",
+      "title_1": "Comportamiento:",
+      "title_2": "Distribución ESPOL-BPP:",
+
+      "ave_0_sentence_0": "ACCIPITRIFORMES ACCIPITRIDAE",
+      "ave_0_sentence_1": "Posa al descubierto al filo del bosque, planea con regularidad, manteniendo alas planas y cola en abanico.",
+      "ave_0_sentence_2": "Límites Noroccidentales del BPP.",
+
+      "ave_1_sentence_0": "STRIGIFORMES STRIGIDAE",
+      "ave_1_sentence_1": "Activo únicamente por la noche, duerme bajo frondoso arboledo, a menudo en ramas expuestas a gran altura del suelo.",
+      "ave_1_sentence_2": "Observada en área húmeda boscosas del cerro de los monos de BPP.",
+
+      "ave_2_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_2_sentence_1": "Bandos pequeños, a menudo procuran alimento a campo abierto, característicamente levantando la cola a medias.",
+      "ave_2_sentence_2": "Observada en los alrededores de los embalses y áreas húmedas de BPP.",
+
+      "ave_3_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_3_sentence_1": "Hallado sólo o en pareja, generalmente ruidoso y conspicuo. Persigue una gran variedad de insectos, también se alimenta de fruta.",
+      "ave_3_sentence_2": "Observada en todo el campus de la ESPOL.",
+
+      "ave_4_sentence_0": "STRIGIFORMES STRIGIDAE",
+      "ave_4_sentence_1": "Avistado en alambrado a margen de la carretera y en lugares semi despejados, vuelo a cielo abierto es rápido y directo.",
+      "ave_4_sentence_2": "Zonas bajas y áridas con arboledo, desde los embalses hasta los miradores.",
+
+      "ave_5_sentence_0": "PICIFORMES PICIDAE",
+      "ave_5_sentence_1": "Suele perchar alto en los árboles. Inspecciona y esculca troncos y ramas en busca de insectos pero también se alimenta de frutas y caza insectos en el aire.",
+      "ave_5_sentence_2": "Observada en todo el campus de ESPOL.",
+
+      "ave_6_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_6_sentence_1": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
+      "ave_6_sentence_2": "Observada en todo el BPP.",
+
+      "ave_7_sentence_0": "CAPRIMULGIFORMES TROCHILIDAE",
+      "ave_7_sentence_1": "Territorial y competitiva, alimentándose del néctar de flores, ayudando a polinizarlas. Macho en cortejo realiza un vuelo vertical con caídas en pícada.",
+      "ave_7_sentence_2": "Observada en todo el campus de la ESPOL.",
+
+      "ave_8_sentence_0": "PASSERIFORMES",
+      "ave_8_sentence_1": "Habitualmente en pareja o grupos pequeños, procurando alimento en varios estratos.",
+      "ave_8_sentence_2": "Observada en áreas boscosas de BPP.",
+
+      "ave_9_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_9_sentence_1": "Principalmente arborícola y bastante timorato.",
+      "ave_9_sentence_2": "Observada en todo el campus ESPOL.",
+
+      "ave_10_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_10_sentence_1": "A menudo en parejas, regularmente yergue las plumas coronarias para formar una cresta redonda y esponjosa mientras cabecea alertantemente.",
+      "ave_10_sentence_2": "Observada en las áreas boscosas del BPP.",
+
+      "ave_11_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_11_sentence_1": "Se alimenta principalmente de insectos grandes como Cigarras, golpeándolas contra una rama o el suelo antes de comerla, también consume fruta en pocas cantidades.",
+      "ave_11_sentence_2": "Observada en todo el campus de la ESPOL.",
+
+      "ave_12_sentence_0": "CAPRIMULGIFORMES CAPRIMULGIDAE",
+      "ave_12_sentence_1": "Usualmente avistado en carreteras de tierra.",
+      "ave_12_sentence_2": "Observada en las líneas cortafuego y vías de tierra del BPP.",
+
+      "ave_13_sentence_0": "PASSERIFORMES THAMNOPHILIDAE",
+      "ave_13_sentence_1": "Atrevido y fácil de observar. Se presenta principalmente en parejas y se alimenta en estratos bajos e intermedios. A veces, en bandadas mixtas y disgregadas.",
+      "ave_13_sentence_2": "Observadas en todo el campus de la ESPOL.",
+
+      "ave_14_sentence_0": "CORACIFORMES MOMOTIDAE",
+      "ave_14_sentence_1": "Suele permanecer perchado mientras analiza sus alrededores realizando un movimiento pendular de la cola.",
+      "ave_14_sentence_2": "Observada en los embalses del BPP."
+    },
+    "cabana_flora": {
+      "title_0": "Nombre Científico:",
+      "title_1": "Familia:",
+
+      "flora_0_sentence_0": "Triplaris cumingiana Fisch",
+      "flora_0_sentence_1": "Polygonaceae Número de especies reportado por género: 4",
+
+      "flora_1_sentence_0": "Prosopis juliflora (Sw.) DC",
+      "flora_1_sentence_1": "Mimosaceae Número de especies reportado por género: 2",
+
+      "flora_2_sentence_0": "Centrolobium ochroxylum Rose ex Rudd.",
+      "flora_2_sentence_1": "Fabacae Número de especies reportado por género: 3",
+
+      "flora_3_sentence_0": "Muntingia calabura L.",
+      "flora_3_sentence_1": "Flacourtiaceae Número de especies reportado por género: 1",
+
+      "flora_4_sentence_0": "Ceiba trichistandra (A. Gray) Bakh",
+      "flora_4_sentence_1": "Bombacaceae Número de especies reportado por género: 4"
     }
   },
   "carteles_bosque": {

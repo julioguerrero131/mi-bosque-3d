@@ -125,7 +125,7 @@ public class LanguageManager : MonoBehaviour
 
         if (datos.lobby != null)
         {
-            if(datos.lobby.bruno != null)
+            if (datos.lobby.bruno != null)
             {
                 var br = datos.lobby.bruno;
                 textos["lobby.bruno.title_0"] = br.title_0;
@@ -136,7 +136,7 @@ public class LanguageManager : MonoBehaviour
                 textos["lobby.bruno.sentence_2"] = br.sentence_2;
             }
 
-            if(datos.lobby.cabanas_info != null)
+            if (datos.lobby.cabanas_info != null)
             {
                 var ci = datos.lobby.cabanas_info;
                 textos["lobby.cabanas_info.title_animales"] = ci.title_animales;
@@ -154,7 +154,7 @@ public class LanguageManager : MonoBehaviour
                 textos["lobby.cabanas_info.sentence_flora_2"] = ci.sentence_flora_2;
             }
 
-            if(datos.lobby.excursionistas != null)
+            if (datos.lobby.excursionistas != null)
             {
                 var exc = datos.lobby.excursionistas;
                 textos["lobby.excursionistas.title_grupo"] = exc.title_grupo;
@@ -163,7 +163,7 @@ public class LanguageManager : MonoBehaviour
                 textos["lobby.excursionistas.sentence_grupo_2"] = exc.sentence_grupo_2;
             }
 
-            if(datos.lobby.cabana_animal != null)
+            if (datos.lobby.cabana_animal != null)
             {
                 var ca = datos.lobby.cabana_animal;
                 textos["cabana_animal.title_0"] = ca.title_0;
@@ -210,7 +210,97 @@ public class LanguageManager : MonoBehaviour
                 textos["cabana_animal.animal_9_sentence_1"] = ca.animal_9_sentence_1;
                 textos["cabana_animal.animal_9_sentence_2"] = ca.animal_9_sentence_2;
             }
-        } 
+
+            if (datos.lobby.cabana_aves != null)
+            {
+                var cav = datos.lobby.cabana_aves;
+                textos["cabana_aves.title_0"] = cav.title_0;
+                textos["cabana_aves.title_1"] = cav.title_1;
+                textos["cabana_aves.title_2"] = cav.title_2;
+
+                textos["cabana_animal.ave_0_sentence_0"] = cav.ave_0_sentence_0;
+                textos["cabana_animal.ave_0_sentence_1"] = cav.ave_0_sentence_1;
+                textos["cabana_animal.ave_0_sentence_2"] = cav.ave_0_sentence_2;
+
+                textos["cabana_animal.ave_1_sentence_0"] = cav.ave_1_sentence_0;
+                textos["cabana_animal.ave_1_sentence_1"] = cav.ave_1_sentence_1;
+                textos["cabana_animal.ave_1_sentence_2"] = cav.ave_1_sentence_2;
+
+                textos["cabana_animal.ave_2_sentence_0"] = cav.ave_2_sentence_0;
+                textos["cabana_animal.ave_2_sentence_1"] = cav.ave_2_sentence_1;
+                textos["cabana_animal.ave_2_sentence_2"] = cav.ave_2_sentence_2;
+
+                textos["cabana_animal.ave_3_sentence_0"] = cav.ave_3_sentence_0;
+                textos["cabana_animal.ave_3_sentence_1"] = cav.ave_3_sentence_1;
+                textos["cabana_animal.ave_3_sentence_2"] = cav.ave_3_sentence_2;
+
+                textos["cabana_animal.ave_4_sentence_0"] = cav.ave_4_sentence_0;
+                textos["cabana_animal.ave_4_sentence_1"] = cav.ave_4_sentence_1;
+                textos["cabana_animal.ave_4_sentence_2"] = cav.ave_4_sentence_2;
+
+                textos["cabana_animal.ave_5_sentence_0"] = cav.ave_5_sentence_0;
+                textos["cabana_animal.ave_5_sentence_1"] = cav.ave_5_sentence_1;
+                textos["cabana_animal.ave_5_sentence_2"] = cav.ave_5_sentence_2;
+
+                textos["cabana_animal.ave_6_sentence_0"] = cav.ave_6_sentence_0;
+                textos["cabana_animal.ave_6_sentence_1"] = cav.ave_6_sentence_1;
+                textos["cabana_animal.ave_6_sentence_2"] = cav.ave_6_sentence_2;
+
+                textos["cabana_animal.ave_7_sentence_0"] = cav.ave_7_sentence_0;
+                textos["cabana_animal.ave_7_sentence_1"] = cav.ave_7_sentence_1;
+                textos["cabana_animal.ave_7_sentence_2"] = cav.ave_7_sentence_2;
+
+                textos["cabana_animal.ave_8_sentence_0"] = cav.ave_8_sentence_0;
+                textos["cabana_animal.ave_8_sentence_1"] = cav.ave_8_sentence_1;
+                textos["cabana_animal.ave_8_sentence_2"] = cav.ave_8_sentence_2;
+
+                textos["cabana_animal.ave_9_sentence_0"] = cav.ave_9_sentence_0;
+                textos["cabana_animal.ave_9_sentence_1"] = cav.ave_9_sentence_1;
+                textos["cabana_animal.ave_9_sentence_2"] = cav.ave_9_sentence_2;
+
+                textos["cabana_animal.ave_10_sentence_0"] = cav.ave_10_sentence_0;
+                textos["cabana_animal.ave_10_sentence_1"] = cav.ave_10_sentence_1;
+                textos["cabana_animal.ave_10_sentence_2"] = cav.ave_10_sentence_2;
+
+                textos["cabana_animal.ave_11_sentence_0"] = cav.ave_11_sentence_0;
+                textos["cabana_animal.ave_11_sentence_1"] = cav.ave_11_sentence_1;
+                textos["cabana_animal.ave_11_sentence_2"] = cav.ave_11_sentence_2;
+
+                textos["cabana_animal.ave_12_sentence_0"] = cav.ave_12_sentence_0;
+                textos["cabana_animal.ave_12_sentence_1"] = cav.ave_12_sentence_1;
+                textos["cabana_animal.ave_12_sentence_2"] = cav.ave_12_sentence_2;
+
+                textos["cabana_animal.ave_13_sentence_0"] = cav.ave_13_sentence_0;
+                textos["cabana_animal.ave_13_sentence_1"] = cav.ave_13_sentence_1;
+                textos["cabana_animal.ave_13_sentence_2"] = cav.ave_13_sentence_2;
+
+                textos["cabana_animal.ave_14_sentence_0"] = cav.ave_14_sentence_0;
+                textos["cabana_animal.ave_14_sentence_1"] = cav.ave_14_sentence_1;
+                textos["cabana_animal.ave_14_sentence_2"] = cav.ave_14_sentence_2;
+            }
+
+            if (datos.lobby.cabana_flora != null) 
+            {
+                var cf = datos.lobby.cabana_flora;
+                textos["cabana_flora.title_0"] = cf.title_0;
+                textos["cabana_flora.title_1"] = cf.title_1;
+
+                textos["cabana_flora.flora_0_sentence_0"] = cf.flora_0_sentence_0;
+                textos["cabana_flora.flora_0_sentence_1"] = cf.flora_0_sentence_1;
+
+                textos["cabana_flora.flora_1_sentence_0"] = cf.flora_1_sentence_0;
+                textos["cabana_flora.flora_1_sentence_1"] = cf.flora_1_sentence_1;
+
+                textos["cabana_flora.flora_2_sentence_0"] = cf.flora_2_sentence_0;
+                textos["cabana_flora.flora_2_sentence_1"] = cf.flora_2_sentence_1;
+
+                textos["cabana_flora.flora_3_sentence_0"] = cf.flora_3_sentence_0;
+                textos["cabana_flora.flora_3_sentence_1"] = cf.flora_3_sentence_1;
+
+                textos["cabana_flora.flora_4_sentence_0"] = cf.flora_4_sentence_0;
+                textos["cabana_flora.flora_4_sentence_1"] = cf.flora_4_sentence_1;
+            }
+        }
 
         if (datos.carteles_bosque != null)
         {
@@ -295,6 +385,8 @@ public class LanguageManager : MonoBehaviour
         public CabanasInfo cabanas_info;
         public Excursionistas excursionistas;
         public CabanaAnimal cabana_animal;
+        public CabanaAves cabana_aves;
+        public CabanaFlora cabana_flora;
     }
 
     [Serializable]
@@ -381,6 +473,97 @@ public class LanguageManager : MonoBehaviour
         public string animal_9_sentence_0;
         public string animal_9_sentence_1;
         public string animal_9_sentence_2;
+    }
+
+    [Serializable]
+    public class CabanaAves
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+
+        public string ave_0_sentence_0;
+        public string ave_0_sentence_1;
+        public string ave_0_sentence_2;
+
+        public string ave_1_sentence_0;
+        public string ave_1_sentence_1;
+        public string ave_1_sentence_2;
+
+        public string ave_2_sentence_0;
+        public string ave_2_sentence_1;
+        public string ave_2_sentence_2;
+
+        public string ave_3_sentence_0;
+        public string ave_3_sentence_1;
+        public string ave_3_sentence_2;
+
+        public string ave_4_sentence_0;
+        public string ave_4_sentence_1;
+        public string ave_4_sentence_2;
+
+        public string ave_5_sentence_0;
+        public string ave_5_sentence_1;
+        public string ave_5_sentence_2;
+
+        public string ave_6_sentence_0;
+        public string ave_6_sentence_1;
+        public string ave_6_sentence_2;
+
+        public string ave_7_sentence_0;
+        public string ave_7_sentence_1;
+        public string ave_7_sentence_2;
+
+        public string ave_8_sentence_0;
+        public string ave_8_sentence_1;
+        public string ave_8_sentence_2;
+
+        public string ave_9_sentence_0;
+        public string ave_9_sentence_1;
+        public string ave_9_sentence_2;
+
+        public string ave_10_sentence_0;
+        public string ave_10_sentence_1;
+        public string ave_10_sentence_2;
+
+        public string ave_11_sentence_0;
+        public string ave_11_sentence_1;
+        public string ave_11_sentence_2;
+
+        public string ave_12_sentence_0;
+        public string ave_12_sentence_1;
+        public string ave_12_sentence_2;
+
+        public string ave_13_sentence_0;
+        public string ave_13_sentence_1;
+        public string ave_13_sentence_2;
+
+        public string ave_14_sentence_0;
+        public string ave_14_sentence_1;
+        public string ave_14_sentence_2;
+    }
+
+    [Serializable]
+    public class CabanaFlora
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+
+        public string flora_0_sentence_0;
+        public string flora_0_sentence_1;
+
+        public string flora_1_sentence_0;
+        public string flora_1_sentence_1;
+
+        public string flora_2_sentence_0;
+        public string flora_2_sentence_1;
+
+        public string flora_3_sentence_0;
+        public string flora_3_sentence_1;
+
+        public string flora_4_sentence_0;
+        public string flora_4_sentence_1;
     }
 
     // Bosque
