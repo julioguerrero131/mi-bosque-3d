@@ -1,29 +1,206 @@
 {
   "menu_inicial": {
-    "boton_jugar": "en",
-    "boton_explorar": "en",
-    "boton_salir": "en"
+    "boton_jugar": "play",
+    "boton_explorar": "explore",
+    "boton_salir": "exit"
   },
   "menu_partidas": {
     "crear_cargar_partida": {},
     "nueva_partida": {
-      "title_avatar": "en",
-      "title_datos": "en",
-      "label_nombre": "en:",
-      "label_edad": "en:",
-      "label_genero": "en:",
-      "genero_h": "en",
-      "genero_m": "en",
-      "genero_otro": "en",
-      "label_pin": "en",
-      "pin_invitado": "en"
+      "title_avatar": "Choose your \navatar",
+      "title_datos": "Enter your information",
+      "label_nombre": "Name:",
+      "label_edad": "Age:",
+      "label_genero": "Gender:",
+      "genero_h": "Boy",
+      "genero_m": "Girl",
+      "genero_otro": "Prefer not to say",
+      "label_pin": "Course PIN:",
+      "pin_invitado": "Get guest PIN.",
+      "invitado_1": "Now you can play as a guest with the code ",
+      "invitado_2": " anytime you want!"
+    }
+  },
+  "tutorial": {
+    "dialogo_0": "Hello! I’m a Park Ranger and I’ll give you some instructions. Are you ready?",
+    "dialogo_1": "To walk, use the keys: A to go left, D to go right, S to go backwards, and W to go forward.",
+    "dialogo_2": "With the mentioned keys, you can walk and explore the forest. Now let’s practice.",
+    "dialogo_3": "Follow me and walk forward to collect the red spheres. Let’s go!",
+    "dialogo_4": "You learn very quickly! But do you know how to run?",
+    "dialogo_5": "You don’t? Well, it’s easy — just press Shift while walking.",
+    "dialogo_6": "Let’s practice again and collect the green spheres. Don’t forget to run using Shift.",
+    "dialogo_7": "Good job! You learn very fast.",
+    "dialogo_8": "Now let’s try jumping. Look how fun it is! Would you like to learn?",
+    "dialogo_9": "To jump, press the Space key. Give it a try!",
+    "dialogo_10": "Great jump! You did amazing.",
+    "dialogo_11": "We have finished the instructions.",
+    "dialogo_12": "Now you can begin your adventure."
+  },
+  "lobby": {
+    "bruno": {
+      "title_0": "HELLO, I’M BRUNO!",
+      "title_1": "EXPLORE THE FOREST",
+      "title_2": "TIPS TO GET STARTED",
+      "sentence_0": "Welcome to the PROSPERINA PROTECTED FOREST",
+      "sentence_1": "Complete the challenges in each station to become a DIGITAL PARK RANGER",
+      "sentence_2": "1. Explore the cabins \n2. Interact with the excursion groups"
+    },
+    "cabanas_info": {
+      "title_animales": "Welcome to the Mammals Cabin",
+      "sentence_animales_0": "Here you can learn about the mammals that live in the Prosperina Forest",
+      "sentence_animales_1": "Approach the light of each interactive screen and you can scroll through the images",
+      "sentence_animales_2": "Press the info button to learn more about the image you are viewing",
+
+      "title_aves": "Welcome to the Birds Cabin",
+      "sentence_aves_0": "In this cabin you can learn about several bird species that live in the Prosperina Protected Forest",
+      "sentence_aves_1": "You must approach the blue light and stand in front of each screen to see their photos and read their information",
+
+      "title_flora": "Welcome to the Flora Cabin",
+      "sentence_flora_0": "Here you can learn important information about the flora that inhabits the Prosperina Forest",
+      "sentence_flora_1": "Approach the light of each interactive screen and you can scroll through the images",
+      "sentence_flora_2": "Press the info button to learn more about the image you are viewing"
+    },
+    "excursionistas": {
+      "title_grupo": "Let’s go on an excursion",
+      "sentence_grupo_0": "I don’t think we’re ready to go yet — we must make sure we have everything we need!",
+      "sentence_grupo_1": "Let’s go to the main gate to enter the Prosperina Protected Forest",
+      "sentence_grupo_2": "Once we pass the gate, our excursion begins!"
+    },
+    "cabana_animal": {
+      "title_0": "Scientific Name:",
+      "title_1": "Family:",
+      "title_2": "Type of Forest:",
+
+      "animal_0_sentence_0": "Sciurus stramineus",
+      "animal_0_sentence_1": "Sciuridae",
+      "animal_0_sentence_2": "Dry, humid, and montane forests, including mature and secondary forests",
+
+      "animal_1_sentence_0": "Panthera Onca",
+      "animal_1_sentence_1": "Felidae",
+      "animal_1_sentence_2": "Dry and humid forests",
+
+      "animal_2_sentence_0": "Alouatta palliata",
+      "animal_2_sentence_1": "Atelidae",
+      "animal_2_sentence_2": "Dry and humid forests",
+
+      "animal_3_sentence_0": "Tamandua mexicana",
+      "animal_3_sentence_1": "Myrmecophagidae",
+      "animal_3_sentence_2": "Tropical dry and humid forests",
+
+      "animal_4_sentence_0": "Choloepus hoffmanni",
+      "animal_4_sentence_1": "Megalonychidae",
+      "animal_4_sentence_2": "Tropical dry and humid forests",
+
+      "animal_5_sentence_0": "Lonchophylla hesperia",
+      "animal_5_sentence_1": "Phyllostomidae",
+      "animal_5_sentence_2": "Dry and humid forests",
+
+      "animal_6_sentence_0": "Ateles fusciceps",
+      "animal_6_sentence_1": "Atelidae",
+      "animal_6_sentence_2": "Dry and humid forests",
+
+      "animal_7_sentence_0": "Proechimys decumanus",
+      "animal_7_sentence_1": "Echimyidae",
+      "animal_7_sentence_2": "Dry and humid forests",
+
+      "animal_8_sentence_0": "Lycalopex sechurae",
+      "animal_8_sentence_1": "Canidae",
+      "animal_8_sentence_2": "Tropical dry and humid forests",
+
+      "animal_9_sentence_0": "Odocoileus peruvianus",
+      "animal_9_sentence_1": "Cervidae",
+      "animal_9_sentence_2": "Tropical dry forests"
+    },
+    "cabana_aves": {
+      "title_0": "Family:",
+      "title_1": "Behavior:",
+      "title_2": "ESPOL-BPP Distribution:",
+
+      "ave_0_sentence_0": "ACCIPITRIFORMES ACCIPITRIDAE",
+      "ave_0_sentence_1": "Perches in the open at the forest edge, glides regularly, keeping wings flat and tail fanned.",
+      "ave_0_sentence_2": "Northwestern limits of the BPP.",
+
+      "ave_1_sentence_0": "STRIGIFORMES STRIGIDAE",
+      "ave_1_sentence_1": "Active only at night, sleeps under dense foliage, often on branches exposed high above the ground.",
+      "ave_1_sentence_2": "Observed in humid forested area of Monkey Hill in BPP.",
+
+      "ave_2_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_2_sentence_1": "Small flocks, often forage in open areas, characteristically lifting the tail halfway.",
+      "ave_2_sentence_2": "Observed around reservoirs and humid areas of BPP.",
+
+      "ave_3_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_3_sentence_1": "Found alone or in pairs, generally noisy and conspicuous. Hunts a wide variety of insects and also feeds on fruit.",
+      "ave_3_sentence_2": "Observed throughout the ESPOL campus.",
+
+      "ave_4_sentence_0": "STRIGIFORMES STRIGIDAE",
+      "ave_4_sentence_1": "Spotted on fences along roadsides and in semi-open areas, with fast and direct flight in open skies.",
+      "ave_4_sentence_2": "Low and arid areas with trees, from reservoirs to viewpoints.",
+
+      "ave_5_sentence_0": "PICIFORMES PICIDAE",
+      "ave_5_sentence_1": "Usually perches high in trees. Inspects and pecks trunks and branches for insects, also eats fruits and catches insects in the air.",
+      "ave_5_sentence_2": "Observed throughout the ESPOL campus.",
+
+      "ave_6_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_6_sentence_1": "Feeds mainly on insects caught during aerial sallies, also consumes fruit.",
+      "ave_6_sentence_2": "Observed throughout BPP.",
+
+      "ave_7_sentence_0": "CAPRIMULGIFORMES TROCHILIDAE",
+      "ave_7_sentence_1": "Territorial and competitive, feeding on flower nectar and helping to pollinate them. Males perform vertical flights with dives during courtship.",
+      "ave_7_sentence_2": "Observed throughout the ESPOL campus.",
+
+      "ave_8_sentence_0": "PASSERIFORMES",
+      "ave_8_sentence_1": "Usually in pairs or small groups, foraging at various levels.",
+      "ave_8_sentence_2": "Observed in forested areas of BPP.",
+
+      "ave_9_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_9_sentence_1": "Mainly arboreal and quite shy.",
+      "ave_9_sentence_2": "Observed throughout ESPOL campus.",
+
+      "ave_10_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_10_sentence_1": "Often in pairs, regularly raises crown feathers into a round, fluffy crest while nodding alertly.",
+      "ave_10_sentence_2": "Observed in the forested areas of BPP.",
+
+      "ave_11_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_11_sentence_1": "Feeds mainly on large insects such as cicadas, striking them against a branch or the ground before eating, also consumes small amounts of fruit.",
+      "ave_11_sentence_2": "Observed throughout the ESPOL campus.",
+
+      "ave_12_sentence_0": "CAPRIMULGIFORMES CAPRIMULGIDAE",
+      "ave_12_sentence_1": "Usually spotted on dirt roads.",
+      "ave_12_sentence_2": "Observed on firebreak lines and dirt roads of BPP.",
+
+      "ave_13_sentence_0": "PASSERIFORMES THAMNOPHILIDAE",
+      "ave_13_sentence_1": "Bold and easy to observe. Found mainly in pairs, feeding at low and mid levels. Sometimes in mixed, scattered flocks.",
+      "ave_13_sentence_2": "Observed throughout the ESPOL campus.",
+
+      "ave_14_sentence_0": "CORACIFORMES MOMOTIDAE",
+      "ave_14_sentence_1": "Often perches while scanning its surroundings, swinging its tail back and forth.",
+      "ave_14_sentence_2": "Observed at BPP reservoirs."
+    },
+    "cabana_flora": {
+      "title_0": "Scientific Name:",
+      "title_1": "Family:",
+
+      "flora_0_sentence_0": "Triplaris cumingiana Fisch",
+      "flora_0_sentence_1": "Polygonaceae Number of species reported by genus: 4",
+
+      "flora_1_sentence_0": "Prosopis juliflora (Sw.) DC",
+      "flora_1_sentence_1": "Mimosaceae Number of species reported by genus: 2",
+
+      "flora_2_sentence_0": "Centrolobium ochroxylum Rose ex Rudd.",
+      "flora_2_sentence_1": "Fabaceae Number of species reported by genus: 3",
+
+      "flora_3_sentence_0": "Muntingia calabura L.",
+      "flora_3_sentence_1": "Flacourtiaceae Number of species reported by genus: 1",
+
+      "flora_4_sentence_0": "Ceiba trichistandra (A. Gray) Bakh",
+      "flora_4_sentence_1": "Bombacaceae Number of species reported by genus: 4"
     }
   },
   "carteles_bosque": {
-    "entrada_bosque": "¡en!",
-    "primer_nivel": "en!",
-    "segundo_nivel": "en!",
-    "llegada_lago": "¡en!",
-    "antes_nivel_4": "¡en!"
+    "entrada_bosque": "PROTECT THE FOREST, IT’S OUR HOME!",
+    "primer_nivel": "FOLLOW THE PATH, DON’T GET LOST!",
+    "segundo_nivel": "RESPECT THE ANIMALS, WATCH THEM FROM AFAR!",
+    "llegada_lago": "SPEAK SOFTLY, ANIMALS ARE SLEEPING AND LISTENING!",
+    "antes_nivel_4": "AVOID STARTING FIRES, PROTECT THE FOREST!"
   }
 }

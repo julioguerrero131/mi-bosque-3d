@@ -1,29 +1,206 @@
 {
   "menu_inicial": {
-    "boton_jugar": "port",
-    "boton_explorar": "port",
-    "boton_salir": "port"
+    "boton_jugar": "jogar",
+    "boton_explorar": "explorar",
+    "boton_salir": "sair"
   },
   "menu_partidas": {
     "crear_cargar_partida": {},
     "nueva_partida": {
-      "title_avatar": "port",
-      "title_datos": "port",
-      "label_nombre": "port:",
-      "label_edad": "port:",
-      "label_genero": "port:",
-      "genero_h": "port",
-      "genero_m": "port",
-      "genero_otro": "port",
-      "label_pin": "port",
-      "pin_invitado": "port"
+      "title_avatar": "Escolha seu \navatar",
+      "title_datos": "Insira seus dados",
+      "label_nombre": "Nome:",
+      "label_edad": "Idade:",
+      "label_genero": "Gênero:",
+      "genero_h": "Menino",
+      "genero_m": "Menina",
+      "genero_otro": "Prefiro não dizer",
+      "label_pin": "PIN do curso:",
+      "pin_invitado": "Obter PIN de convidado.",
+      "invitado_1": "Agora você pode jogar como convidado com o código ",
+      "invitado_2": " quando quiser!"
+    }
+  },
+  "tutorial": {
+    "dialogo_0": "Olá! Sou um Guarda-Florestal e vou lhe dar algumas instruções. Está pronto?",
+    "dialogo_1": "Para andar, use as teclas: A para ir à esquerda, D para a direita, S para voltar e W para avançar.",
+    "dialogo_2": "Com as teclas mencionadas, você pode andar e explorar a floresta. Agora vamos praticar.",
+    "dialogo_3": "Você deve me seguir e andar para frente para coletar as esferas vermelhas. Vamos!",
+    "dialogo_4": "Você aprende muito rápido! Mas sabe como correr?",
+    "dialogo_5": "Não sabe? É simples, basta pressionar Shift enquanto anda.",
+    "dialogo_6": "Vamos praticar novamente e coletar as esferas verdes. Não esqueça de correr usando Shift.",
+    "dialogo_7": "Bom trabalho! Você aprende rápido.",
+    "dialogo_8": "Agora vamos tentar pular. Olha que divertido! Quer aprender?",
+    "dialogo_9": "Para pular, pressione a barra de espaço. Tente!",
+    "dialogo_10": "Ótimo salto! Você mandou bem.",
+    "dialogo_11": "Terminamos as instruções.",
+    "dialogo_12": "Agora você já pode começar sua aventura."
+  },
+  "lobby": {
+    "bruno": {
+      "title_0": "OLÁ, SOU O BRUNO!",
+      "title_1": "EXPLORE A FLORESTA",
+      "title_2": "DICAS PARA COMEÇAR",
+      "sentence_0": "Bem-vindo à FLORESTA PROTEGIDA PROSPERINA",
+      "sentence_1": "Resolva os desafios de cada estação para se tornar um GUARDA-FLORESTAL DIGITAL",
+      "sentence_2": "1. Explore as cabanas \n2. Interaja com os grupos de excursão"
+    },
+    "cabanas_info": {
+      "title_animales": "Bem-vindo à cabana dos Mamíferos",
+      "sentence_animales_0": "Aqui você pode conhecer informações sobre os mamíferos que habitam a Floresta Prosperina",
+      "sentence_animales_1": "Aproxime-se da luz de cada tela interativa e você poderá navegar pelas imagens",
+      "sentence_animales_2": "Toque no botão de informação para saber mais sobre a imagem que está vendo",
+
+      "title_aves": "Bem-vindo à cabana das Aves",
+      "sentence_aves_0": "Nesta cabana você conhecerá várias espécies de aves que habitam a Floresta Protegida Prosperina",
+      "sentence_aves_1": "Aproxime-se da luz azul e posicione-se em frente a cada tela para ver as fotos e ler as informações",
+
+      "title_flora": "Bem-vindo à cabana da Flora",
+      "sentence_flora_0": "Aqui você pode conhecer informações importantes sobre a flora que habita a Floresta Prosperina",
+      "sentence_flora_1": "Aproxime-se da luz de cada tela interativa e você poderá navegar pelas imagens",
+      "sentence_flora_2": "Toque no botão de informação para saber mais sobre a imagem que está vendo"
+    },
+    "excursionistas": {
+      "title_grupo": "Vamos fazer uma excursão",
+      "sentence_grupo_0": "Acho que não estamos prontos para sair ainda — precisamos ter certeza de que temos tudo o que precisamos!",
+      "sentence_grupo_1": "Vamos até o portão principal para entrar na Floresta Protegida Prosperina",
+      "sentence_grupo_2": "Ao passar pelo portão, nossa excursão começa!"
+    },
+    "cabana_animal": {
+      "title_0": "Nome Científico:",
+      "title_1": "Família:",
+      "title_2": "Tipo de Floresta:",
+
+      "animal_0_sentence_0": "Sciurus stramineus",
+      "animal_0_sentence_1": "Sciuridae",
+      "animal_0_sentence_2": "Florestas secas, úmidas e montanas, incluindo florestas maduras e secundárias",
+
+      "animal_1_sentence_0": "Panthera Onca",
+      "animal_1_sentence_1": "Felidae",
+      "animal_1_sentence_2": "Florestas secas e úmidas",
+
+      "animal_2_sentence_0": "Alouatta palliata",
+      "animal_2_sentence_1": "Atelidae",
+      "animal_2_sentence_2": "Florestas secas e úmidas",
+
+      "animal_3_sentence_0": "Tamandua mexicana",
+      "animal_3_sentence_1": "Myrmecophagidae",
+      "animal_3_sentence_2": "Florestas tropicais secas e úmidas",
+
+      "animal_4_sentence_0": "Choloepus hoffmanni",
+      "animal_4_sentence_1": "Megalonychidae",
+      "animal_4_sentence_2": "Florestas tropicais secas e úmidas",
+
+      "animal_5_sentence_0": "Lonchophylla hesperia",
+      "animal_5_sentence_1": "Phyllostomidae",
+      "animal_5_sentence_2": "Florestas secas e úmidas",
+
+      "animal_6_sentence_0": "Ateles fusciceps",
+      "animal_6_sentence_1": "Atelidae",
+      "animal_6_sentence_2": "Florestas secas e úmidas",
+
+      "animal_7_sentence_0": "Proechimys decumanus",
+      "animal_7_sentence_1": "Echimyidae",
+      "animal_7_sentence_2": "Florestas secas e úmidas",
+
+      "animal_8_sentence_0": "Lycalopex sechurae",
+      "animal_8_sentence_1": "Canidae",
+      "animal_8_sentence_2": "Florestas tropicais secas e úmidas",
+
+      "animal_9_sentence_0": "Odocoileus peruvianus",
+      "animal_9_sentence_1": "Cervidae",
+      "animal_9_sentence_2": "Florestas tropicais secas"
+    },
+    "cabana_aves": {
+      "title_0": "Família:",
+      "title_1": "Comportamento:",
+      "title_2": "Distribuição ESPOL-BPP:",
+
+      "ave_0_sentence_0": "ACCIPITRIFORMES ACCIPITRIDAE",
+      "ave_0_sentence_1": "Empoleira-se ao ar livre na borda da floresta, plana regularmente, mantendo as asas planas e a cauda em leque.",
+      "ave_0_sentence_2": "Limites noroeste do BPP.",
+
+      "ave_1_sentence_0": "STRIGIFORMES STRIGIDAE",
+      "ave_1_sentence_1": "Ativo apenas à noite, dorme sob folhagem densa, frequentemente em galhos expostos bem acima do solo.",
+      "ave_1_sentence_2": "Observada em área úmida e arborizada do Morro dos Macacos no BPP.",
+
+      "ave_2_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_2_sentence_1": "Pequenos bandos, muitas vezes buscam alimento em campo aberto, levantando a cauda pela metade de forma característica.",
+      "ave_2_sentence_2": "Observada nos arredores de reservatórios e áreas úmidas do BPP.",
+
+      "ave_3_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_3_sentence_1": "Encontrada sozinha ou em pares, geralmente barulhenta e conspícua. Caça vários tipos de insetos e também se alimenta de frutas.",
+      "ave_3_sentence_2": "Observada em todo o campus da ESPOL.",
+
+      "ave_4_sentence_0": "STRIGIFORMES STRIGIDAE",
+      "ave_4_sentence_1": "Avistada em cercas ao longo de estradas e em áreas semiabertas, voo rápido e direto em céu aberto.",
+      "ave_4_sentence_2": "Áreas baixas e áridas com árvores, desde os reservatórios até os miradouros.",
+
+      "ave_5_sentence_0": "PICIFORMES PICIDAE",
+      "ave_5_sentence_1": "Geralmente empoleira-se no alto das árvores. Examina e bica troncos e galhos em busca de insetos, também come frutas e caça insetos no ar.",
+      "ave_5_sentence_2": "Observada em todo o campus da ESPOL.",
+
+      "ave_6_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_6_sentence_1": "Alimenta-se principalmente de insetos capturados em voos curtos, também consome frutas.",
+      "ave_6_sentence_2": "Observada em todo o BPP.",
+
+      "ave_7_sentence_0": "CAPRIMULGIFORMES TROCHILIDAE",
+      "ave_7_sentence_1": "Territorial e competitiva, alimentando-se do néctar das flores e ajudando a polinizá-las. O macho realiza voo vertical com mergulhos durante o acasalamento.",
+      "ave_7_sentence_2": "Observada em todo o campus da ESPOL.",
+
+      "ave_8_sentence_0": "PASSERIFORMES",
+      "ave_8_sentence_1": "Normalmente em pares ou pequenos grupos, procurando alimento em diferentes estratos.",
+      "ave_8_sentence_2": "Observada em áreas florestadas do BPP.",
+
+      "ave_9_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_9_sentence_1": "Principalmente arborícola e bastante tímida.",
+      "ave_9_sentence_2": "Observada em todo o campus da ESPOL.",
+
+      "ave_10_sentence_0": "PASSERIFORMES TYRANNIDAE",
+      "ave_10_sentence_1": "Frequentemente em pares, erguendo regularmente as penas da coroa para formar uma crista arredondada e fofa enquanto balança a cabeça atentamente.",
+      "ave_10_sentence_2": "Observada em áreas florestadas do BPP.",
+
+      "ave_11_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
+      "ave_11_sentence_1": "Alimenta-se principalmente de grandes insetos como cigarras, batendo-os contra um galho ou no chão antes de comer, também consome pequenas quantidades de frutas.",
+      "ave_11_sentence_2": "Observada em todo o campus da ESPOL.",
+
+      "ave_12_sentence_0": "CAPRIMULGIFORMES CAPRIMULGIDAE",
+      "ave_12_sentence_1": "Normalmente vista em estradas de terra.",
+      "ave_12_sentence_2": "Observada nas linhas corta-fogo e estradas de terra do BPP.",
+
+      "ave_13_sentence_0": "PASSERIFORMES THAMNOPHILIDAE",
+      "ave_13_sentence_1": "Ousada e fácil de observar. Normalmente em pares, alimentando-se em estratos baixos e médios. Às vezes em bandos mistos e dispersos.",
+      "ave_13_sentence_2": "Observada em todo o campus da ESPOL.",
+
+      "ave_14_sentence_0": "CORACIFORMES MOMOTIDAE",
+      "ave_14_sentence_1": "Costuma ficar empoleirada observando o entorno, balançando a cauda para frente e para trás.",
+      "ave_14_sentence_2": "Observada nos reservatórios do BPP."
+    },
+    "cabana_flora": {
+      "title_0": "Nome Científico:",
+      "title_1": "Família:",
+
+      "flora_0_sentence_0": "Triplaris cumingiana Fisch",
+      "flora_0_sentence_1": "Polygonaceae Número de espécies reportadas por gênero: 4",
+
+      "flora_1_sentence_0": "Prosopis juliflora (Sw.) DC",
+      "flora_1_sentence_1": "Mimosaceae Número de espécies reportadas por gênero: 2",
+
+      "flora_2_sentence_0": "Centrolobium ochroxylum Rose ex Rudd.",
+      "flora_2_sentence_1": "Fabaceae Número de espécies reportadas por gênero: 3",
+
+      "flora_3_sentence_0": "Muntingia calabura L.",
+      "flora_3_sentence_1": "Flacourtiaceae Número de espécies reportadas por gênero: 1",
+
+      "flora_4_sentence_0": "Ceiba trichistandra (A. Gray) Bakh",
+      "flora_4_sentence_1": "Bombacaceae Número de espécies reportadas por gênero: 4"
     }
   },
   "carteles_bosque": {
-    "entrada_bosque": "¡port!",
-    "primer_nivel": "port!",
-    "segundo_nivel": "port!",
-    "llegada_lago": "¡port!",
-    "antes_nivel_4": "¡port!"
+    "entrada_bosque": "PROTEJA A FLORESTA, É NOSSO LAR!",
+    "primer_nivel": "SIGA O CAMINHO, NÃO SE PERCA!",
+    "segundo_nivel": "RESPEITE OS ANIMAIS, OBSERVE-OS DE LONGE!",
+    "llegada_lago": "FALE BAIXO, OS ANIMAIS ESTÃO DORMINDO E OUVINDO!",
+    "antes_nivel_4": "EVITE FAZER FOGO, PROTEJA A FLORESTA!"
   }
 }
