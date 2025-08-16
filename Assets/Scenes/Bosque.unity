@@ -8678,10 +8678,8 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
     - target: {fileID: 4788785310695331571, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
-=======
     - target: {fileID: 4788785311868770869, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
       propertyPath: m_Name
@@ -8689,7 +8687,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4788785310695331571, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
->>>>>>> Stashed changes
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: c85c2d3abece56c448942ad0da49c39c,
@@ -34764,10 +34761,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
+
     - target: {fileID: 4788785310695331571, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
-=======
+
     - target: {fileID: 4788785311868770869, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
       propertyPath: m_Name
@@ -34775,7 +34772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4788785310695331571, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
->>>>>>> Stashed changes
+
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: c85c2d3abece56c448942ad0da49c39c,
@@ -65523,10 +65520,8 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
     - target: {fileID: 4788785310695331571, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
-=======
     - target: {fileID: 4788785311868770869, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
       propertyPath: m_Name
@@ -65534,7 +65529,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4788785310695331571, guid: d5882ca40ec154d428b2f8ea5c4d8265,
         type: 3}
->>>>>>> Stashed changes
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: c85c2d3abece56c448942ad0da49c39c,
