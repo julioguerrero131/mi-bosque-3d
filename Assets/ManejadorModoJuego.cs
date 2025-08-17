@@ -14,12 +14,18 @@ public class ManejadorModoJuego : MonoBehaviour
     private int minutos;
     private float segundos;
     public bool IsContrarreloj = false;
+    private MenuPausa menuPausa;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
+        menuPausa = FindObjectOfType<MenuPausa>();
+        if (menuPausa == null)
+        {
+            Debug.Log("mpausa no existe");
+        }
         if (relojBox != null)
                 relojBox.SetActive(false);
     }
@@ -27,15 +33,20 @@ public class ManejadorModoJuego : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsContrarreloj)
+        if (menuPausa.IsContrarreloj)
         {
+            activarTemporizador();
             actualizarTextoContador();
+        }
+        else
+        {
+            modoNormal();
         }
     }
     public void activarTemporizador()
     {
+        
         Debug.Log("activar timer para contrarreloj");
-        IsContrarreloj = true;
         if (relojBox != null)
         {
             Debug.Log("encontré RelojBox");
@@ -69,7 +80,6 @@ public class ManejadorModoJuego : MonoBehaviour
     public void modoNormal()
     {
         Debug.Log("Desactivar timer, volviendo al modo normal");
-        IsContrarreloj = false;
         if (relojBox != null)
         {
             relojBox.SetActive(false);

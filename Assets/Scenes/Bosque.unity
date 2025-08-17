@@ -37553,6 +37553,7 @@ MonoBehaviour:
     type: 2}
   UnpausedSnapshot: {fileID: 24500006, guid: 12b4a7a7fbce6024e8687b4657c3ab44, type: 2}
   fadeTime: 1
+  IsContrarreloj: 0
   actionLogger: {fileID: 0}
 --- !u!4 &957451491 stripped
 Transform:
@@ -78881,8 +78882,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1241216879}
-        m_MethodName: activarTemporizador
+      - m_Target: {fileID: 953163068}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

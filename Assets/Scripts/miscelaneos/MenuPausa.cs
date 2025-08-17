@@ -21,6 +21,7 @@ public class MenuPausa : MonoBehaviour
     [SerializeField] private AudioMixerSnapshot PausedSnapshot;
     [SerializeField] private AudioMixerSnapshot UnpausedSnapshot;
     [SerializeField] private float fadeTime=1.0f;
+    public bool IsContrarreloj = false;
 
     public GameObject actionLogger;
 
@@ -177,4 +178,15 @@ public class MenuPausa : MonoBehaviour
         GameManager.ZenMode = false;
         SceneManager.LoadScene(name);
     }
+    public void ModoContrarrelojOn()
+    {
+        IsContrarreloj = true;
+        ResumeGame();
+    }
+    public void ModoContrarrelojOff()
+    {
+        IsContrarreloj = false;
+        ResumeGame();
+    }
+
 }
