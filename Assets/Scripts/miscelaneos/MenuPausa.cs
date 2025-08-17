@@ -17,11 +17,11 @@ public class MenuPausa : MonoBehaviour
     public SceneChanger sceneChanger;
     private FirstPersonController fpscontroller;
     public static MenuPausa instance;
-    private MouseController mouseController;
+    public MouseController mouseController;
     [SerializeField] private AudioMixerSnapshot PausedSnapshot;
     [SerializeField] private AudioMixerSnapshot UnpausedSnapshot;
     [SerializeField] private float fadeTime=1.0f;
-    public bool IsContrarreloj = false;
+    [SerializeField] private GameObject explicacionContrarreloj;
 
     public GameObject actionLogger;
 
@@ -178,15 +178,6 @@ public class MenuPausa : MonoBehaviour
         GameManager.ZenMode = false;
         SceneManager.LoadScene(name);
     }
-    public void ModoContrarrelojOn()
-    {
-        IsContrarreloj = true;
-        ResumeGame();
-    }
-    public void ModoContrarrelojOff()
-    {
-        IsContrarreloj = false;
-        ResumeGame();
-    }
+
 
 }

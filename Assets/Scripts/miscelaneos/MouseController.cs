@@ -21,7 +21,7 @@ public class MouseController : MonoBehaviour {
 	}
 
 	void Update(){
-		if (!(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas)){
+		if (!(MenuPausa.IsPaused )){
 			if (screenRect.Contains(Input.mousePosition)) {
 				fpsController.enabled = true;
 			} else {
@@ -29,7 +29,7 @@ public class MouseController : MonoBehaviour {
 			}
 		}
 
-		if (Input.GetButtonDown("Fire1") && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas)) {
+		if (Input.GetButtonDown("Fire1") && !(MenuPausa.IsPaused )) {
 			ClickObject();
 		}
 	}

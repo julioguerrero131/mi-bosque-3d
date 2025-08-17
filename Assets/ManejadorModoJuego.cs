@@ -11,20 +11,21 @@ public class ManejadorModoJuego : MonoBehaviour
     public GameObject relojBox;*/
     [SerializeField] private Text relojTxt;
     [SerializeField] private GameObject relojBox;
+    [SerializeField] private GameObject explicacionContrarreloj;
+    [SerializeField] private MenuPausa menuPausa;
     private int minutos;
     private float segundos;
     public bool IsContrarreloj = false;
-    private MenuPausa menuPausa;
+    public bool IsExplicacionActive;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        menuPausa = FindObjectOfType<MenuPausa>();
         if (menuPausa == null)
         {
-            Debug.Log("mpausa no existe");
+            Debug.Log("menupausa no existe");
         }
         if (relojBox != null)
                 relojBox.SetActive(false);
@@ -33,14 +34,10 @@ public class ManejadorModoJuego : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (menuPausa.IsContrarreloj)
+        if (IsContrarreloj)
         {
-            activarTemporizador();
             actualizarTextoContador();
-        }
-        else
-        {
-            modoNormal();
+            
         }
     }
     public void activarTemporizador()
@@ -53,6 +50,9 @@ public class ManejadorModoJuego : MonoBehaviour
 
             relojBox.SetActive(true);
         }
+        IsContrarreloj = true;
+        menuPausa.ResumeGame();
+        explicacionContrarreloj.SetActive(true);
     }
     private void contadorMinutos()
     {
@@ -87,5 +87,18 @@ public class ManejadorModoJuego : MonoBehaviour
         minutos = 0;
         segundos = 0;
         actualizarTextoContador();
+        menuPausa.ResumeGame();
     }
+    public void desactivarExplicacion()
+    {
+        explicacionContrarreloj.SetActive(false);
+    }
+    /*public void explicacionContrarrelojController()
+    {
+        if (explicacionContrarreloj.activeSelf)
+        {
+            menuPausa.mouseController.enabled = false;
+        }
+
+    }*/
 }
