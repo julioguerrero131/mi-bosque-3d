@@ -42,7 +42,6 @@ public class EspecieClic : ScriptableObject
     public void ShowGallery()
     {
         Debug.Log("**********************en el show galery ");
-#if UNITY_ANDROID || UNITY_IOS
         canvasJoy.SetActive(false);
 #endif
         cameraBlocker = ConstantObjects.instance.cameraBlocker;

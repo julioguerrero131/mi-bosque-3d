@@ -15,14 +15,13 @@ public class MenuPausa : MonoBehaviour
 
     public GameObject MenuPausaUI, panelEstrellas, Panel;
     public SceneChanger sceneChanger;
-    private FirstPersonController fpscontroller;
+    public FirstPersonController fpscontroller;
     public static MenuPausa instance;
     public MouseController mouseController;
     [SerializeField] private AudioMixerSnapshot PausedSnapshot;
     [SerializeField] private AudioMixerSnapshot UnpausedSnapshot;
     [SerializeField] private float fadeTime=1.0f;
-    [SerializeField] private GameObject explicacionContrarreloj;
-
+    [SerializeField] public  ManejadorModoJuego manejadorJuego;
     public GameObject actionLogger;
 
     private NotificarLogros NL;
@@ -179,5 +178,24 @@ public class MenuPausa : MonoBehaviour
         SceneManager.LoadScene(name);
     }
 
+    public void contextoContrarreloj()
+    {
+        ResumeGame();
+        manejadorJuego.activarExplicacion();
+        fpscontroller.enabled = false;
+        mouseController.enabled = false;
+    }
+    public void ModoContrarreloj()
+    {
+        manejadorJuego.activarTemporizador();
+        fpscontroller.enabled = true;
+        mouseController.enabled = true;
+    }
+    public void ModoNormal()
+    {
+        manejadorJuego.desactivarCronometro();
+        ResumeGame();
+        
+    }
 
 }

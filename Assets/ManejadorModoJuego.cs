@@ -7,8 +7,6 @@ public class ManejadorModoJuego : MonoBehaviour
 {
 
 
-    /*public Text relojTxt;
-    public GameObject relojBox;*/
     [SerializeField] private Text relojTxt;
     [SerializeField] private GameObject relojBox;
     [SerializeField] private GameObject explicacionContrarreloj;
@@ -51,8 +49,8 @@ public class ManejadorModoJuego : MonoBehaviour
             relojBox.SetActive(true);
         }
         IsContrarreloj = true;
-        menuPausa.ResumeGame();
-        explicacionContrarreloj.SetActive(true);
+        explicacionContrarreloj.SetActive(false);
+
     }
     private void contadorMinutos()
     {
@@ -77,7 +75,7 @@ public class ManejadorModoJuego : MonoBehaviour
 
         }
     }
-    public void modoNormal()
+    public void desactivarCronometro()
     {
         Debug.Log("Desactivar timer, volviendo al modo normal");
         if (relojBox != null)
@@ -87,18 +85,10 @@ public class ManejadorModoJuego : MonoBehaviour
         minutos = 0;
         segundos = 0;
         actualizarTextoContador();
-        menuPausa.ResumeGame();
     }
-    public void desactivarExplicacion()
+    public void activarExplicacion()
     {
-        explicacionContrarreloj.SetActive(false);
+        explicacionContrarreloj.SetActive(true);
     }
-    /*public void explicacionContrarrelojController()
-    {
-        if (explicacionContrarreloj.activeSelf)
-        {
-            menuPausa.mouseController.enabled = false;
-        }
 
-    }*/
 }
