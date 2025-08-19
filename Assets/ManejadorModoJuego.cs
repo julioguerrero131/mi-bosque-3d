@@ -11,9 +11,12 @@ public class ManejadorModoJuego : MonoBehaviour
     [SerializeField] private GameObject relojBox;
     [SerializeField] private GameObject explicacionContrarreloj;
     [SerializeField] private MenuPausa menuPausa;
+    public int minutosBase ;
+    public float segundosBase;
     private int minutos;
     private float segundos;
     public bool IsContrarreloj = false;
+    private bool PerdioContrarreloj;
     public bool IsExplicacionActive;
 
 
@@ -21,6 +24,8 @@ public class ManejadorModoJuego : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        segundos = segundosBase;
+        minutos = minutosBase;
         if (menuPausa == null)
         {
             Debug.Log("menupausa no existe");
@@ -49,31 +54,53 @@ public class ManejadorModoJuego : MonoBehaviour
             relojBox.SetActive(true);
         }
         IsContrarreloj = true;
+        PerdioContrarreloj = false;
         explicacionContrarreloj.SetActive(false);
 
     }
     private void contadorMinutos()
     {
-        segundos = segundos + Time.deltaTime;
-        if (segundos >= 60)
-        {
-            segundos = 0;
-            minutos = minutos + 1;
 
+        segundos = segundos - Time.deltaTime;
+        if (segundos < 0)
+        {
+            minutos = minutos - 1;
+            segundos = 59;
+            if (minutos < 0)
+            {
+                perdidaModoContrarreloj();
+                minutos = minutosBase;
+                segundos = segundosBase;
+                PerdioContrarreloj = true;
+                
+                Debug.Log(minutos);
+                Debug.Log(segundos);
+
+            }
         }
     }
     public void actualizarTextoContador()
     {
         contadorMinutos();
-        if(segundos < 9.5f)
+        if (!PerdioContrarreloj)
         {
-            relojTxt.text = minutos.ToString() + ":0" + segundos.ToString("f0");
+            if (segundos < 9.5f)
+            { 
+                relojTxt.text = minutos.ToString() + ":0" + segundos.ToString("f0");
+            }
+            else
+            {
+                relojTxt.text = minutos.ToString() + ":" + segundos.ToString("f0");
+
+            }
         }
         else
         {
-            relojTxt.text = minutos.ToString() + ":" + segundos.ToString("f0");
-
+            relojTxt.text = "TIEMPOO";
+            minutos = minutosBase;
+            segundos = segundosBase;
         }
+
     }
     public void desactivarCronometro()
     {
@@ -82,13 +109,16 @@ public class ManejadorModoJuego : MonoBehaviour
         {
             relojBox.SetActive(false);
         }
-        minutos = 0;
-        segundos = 0;
+        
         actualizarTextoContador();
     }
     public void activarExplicacion()
     {
         explicacionContrarreloj.SetActive(true);
+    }
+    public void perdidaModoContrarreloj()
+    {
+        Debug.Log("lo siento el temporizador se acabó, vuelve al principio");
     }
 
 }
