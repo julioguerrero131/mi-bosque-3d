@@ -15,7 +15,7 @@ public class MenuPausa : MonoBehaviour
 
     public GameObject MenuPausaUI, panelEstrellas, Panel;
     public SceneChanger sceneChanger;
-    public FirstPersonController fpscontroller;
+    private FirstPersonController fpscontroller;
     public static MenuPausa instance;
     public MouseController mouseController;
     [SerializeField] private AudioMixerSnapshot PausedSnapshot;
