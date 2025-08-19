@@ -10,13 +10,14 @@ public class ManejadorModoJuego : MonoBehaviour
     [SerializeField] private Text relojTxt;
     [SerializeField] private GameObject relojBox;
     [SerializeField] private GameObject explicacionContrarreloj;
+    [SerializeField] private GameObject despedidaContrarreloj;
     [SerializeField] private MenuPausa menuPausa;
     public int minutosBase ;
     public float segundosBase;
     private int minutos;
     private float segundos;
     public bool IsContrarreloj = false;
-    private bool PerdioContrarreloj;
+    public bool PerdioContrarreloj;
     public bool IsExplicacionActive;
 
 
@@ -109,16 +110,21 @@ public class ManejadorModoJuego : MonoBehaviour
         {
             relojBox.SetActive(false);
         }
-        
+        IsContrarreloj = false;
         actualizarTextoContador();
     }
     public void activarExplicacion()
     {
         explicacionContrarreloj.SetActive(true);
     }
+    public void activarDespedida()
+    {
+        despedidaContrarreloj.SetActive(true);
+    }
     public void perdidaModoContrarreloj()
     {
         Debug.Log("lo siento el temporizador se acabó, vuelve al principio");
+        despedidaContrarreloj.SetActive(false);
     }
 
 }

@@ -64,6 +64,14 @@ public class MenuPausa : MonoBehaviour
                 NL.cerrar();
             }
         }
+        if (manejadorJuego.PerdioContrarreloj)
+        {
+            ModoNormal();
+            manejadorJuego.PerdioContrarreloj = false;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+
 
     }
 
@@ -195,7 +203,16 @@ public class MenuPausa : MonoBehaviour
     {
         manejadorJuego.desactivarCronometro();
         ResumeGame();
-        
+        manejadorJuego.activarDespedida();
+        fpscontroller.enabled = false;
+        mouseController.enabled = false;
+
+    }
+    public void reiniciarModoNormal()
+    {
+        manejadorJuego.perdidaModoContrarreloj();
+        fpscontroller.enabled = true;
+        mouseController.enabled = true;
     }
 
 }
