@@ -199,6 +199,130 @@
       "flora_4_sentence_1": "Bombacaceae Número de especies reportado por género: 4"
     }
   },
+  "first_challege_d": {
+    "title_0": "Bienvenido",
+    "title_1": "Bienvenido",
+    "title_2": "Interactúa con tu entorno",
+    "title_3": "Recuerda que...",
+    "title_4": "Conoce las especies",
+
+    "sentence_0": "¡Hola soy Paco! Y te doy la bienvenida al Bosque Protector Prosperina.",
+    "sentence_1": "Explora y proteje el bosque y sus especies para convertirte en un Guardabosque.",
+    "sentence_2": "Para interactuar con objetos y aprender sobre los animales y las plantas del bosque, céntralos en el PUNTO DE MIRA en tu pantalla y hazles CLIC.",
+    "sentence_3": "En una visita real al bosque necesitas la ayuda de un GUÍA quien te informará de la ruta, y que existen zonas que podrían ser peligrosas.",
+    "sentence_4": "Para familiarizarte con el bosque, tu primera misión será encontrar 3 especies: una ardilla, una iguana y un pechiche."
+  },
+  "conseguir_libro": {
+    " ": "Muy bien",
+    "title_1": "Interacción con especies",
+    "title_2": "Premios",
+
+    "sentence_0": "Ahora que sabes cómo moverte, te daremos este libro.\nEn él podrás registrar las especies que vayas encontrando en el bosque cuando interactúes con ellas. Para abrirlo presiona la tecla L.",
+    "sentence_1": "Para interactuar con los árboles y animalitos del bosque:\nColoque el PUNTO DE MIRA donde desees y haz CLIC sobre ellas.",
+    "sentence_2": "Asegúrate de encontrarlos a todos para obtener grandes recompensas más adelante."
+  },
+  "second_challenge_d": {
+    "title_0": "Recolecta",
+    "title_1": "RECUERDA",
+    "title_2": "En marcha",
+
+    "sentence_0": "Es hora de que empieces a llevar un poco más ese libro.\nEncuentra una ardilla, una iguana y un árbol de pechiche en el bosque e interactúa con ellos para registrarlos en tu libro.",
+    "sentence_1": "Para interactuar con los árboles y animalitos del bosque, coloca el PUNTO DE MIRA donde desees y haz CLIC sobre ellos.",
+    "sentence_2": "Para ver las pistas de en donde se encuentran las especies que debes buscar, presiona la letra P.",
+    
+    "title_completado": "¡Bien hecho!",
+    "sentence_completado": "Al explorar la estación han descubierto especies del Bosque Protector Prosperina.\nContinúa explorando las nuevas estaciones y misiones.",
+    "title_pendiente": "Puedes hacerlo",
+    "sentence_pendiente": "Interactúa con las especies del bosque para acceder a la siguiente estación, recuerda que tenemos una gran variedad de animales y árboles."
+  },
+  "third_challengue_d": {
+    "title_0": "¡El conejo se ha perdido!",
+    "title_1": "¡Tenemos que salvarlo!",
+    
+    "sentence_0": "Ha salido de su madriguera. Es peligroso que esté fuera de su hogar, ya que otros animales podrían atacarlo o herirlo.",
+    "sentence_1": "Explora alrededor, debemos salvarlo pero es un poco escurridizo. Sé veloz y ATRÁPALO, luego DEVUÉLVELO a la madriguera en el menor tiempo posible dando CLIC.",
+    
+    "title_completado": "El conejo bebé está a salvo",
+    "sentence_completado": "Gracias por salvar al conejo bebé, ya está seguro en su madriguera. Recuerda que cuando sea un ave o un reptil no debes acercarte y es mejor informar a un adulto por ayuda.",
+    "title_pendiente": "No te rindas",
+    "sentence_pendiente": "El conejo bebé necesita tu ayuda. ATRAPA al conejo y luego REGRÉSALO a su madriguera usando clic."
+  },
+  "fourth_challenge_d": {
+    "title_suelo": "RECUERDA",
+    "sentence_suelo": "¡Mira al suelo! Las especies son muy importantes para la vida en el bosque, ¡no las pises sin cuidado!",
+    
+    "title_0": "Ayuda emplumada",
+    "title_1": "Entrega el alimento",
+    "title_2": "Entrega de comida",
+    
+    "sentence_0": "Nuestro amigo el Gavilán Dorsigris, se ha lastimado una de sus alas y no puede conseguir su alimento por si solo.",
+    "sentence_1": "Para este reto debes BUSCAR dos ratones y una salamandra. Presta atención, es posible que los escuches cuando estés cerca.\n\nPara solicitar ayuda presiona la letra P.",
+    "sentence_2": "Una vez que has capturado el alimento, debes colocarlos en la zona indicada dando clic.\n\nEste es un ejemplo de cadena trófica de las especies y cómo se alimentan.",
+    
+    "title_completado": "¡Lo haz hecho muy bien!",
+    "sentence_completado": "Gracias por cazar el alimento para el Gavilán Dorsigris, estamos seguros que se recuperará pronto y podrá cazar solo. En un bosque real evita acercarte a su alimento.",
+    "title_pendiente": "No lo defraudes",
+    "sentence_pendiente": "COLECTA el alimento y DEJALO en la zona designada usando tu CLIC.\nNuestro amigo cuenta contigo para recuperarse. Busca en los alerededores, seguro encuentras lo que necesita."
+  },
+  "fifth_challenge_d": {
+    "title_vidrio": "¡Cuidado!",
+    "sentence_vidrio": "El vidrio al sol funciona como una lupa y puede encender las hojas secas. Recógelo siempre para evitar incendios y cuidar el planeta.",
+    
+    "title_0": "Recicla y clasifica",
+    "title_1": "La basura en su lugar",
+    
+    "sentence_0": "Al parecer existen visitantes que han dejado basura en el LAGO. Esto es algo que no debe suceder cuando visitas un bosque, una playa o un río.\nAyúdanos a RECOGERLA y CLASIFICARLA en su respectivo bote.",
+    "sentence_1": "Para recoger la basura debes hacer CLIC y se guardará en tu mochila. Para depositarla en su bote presiona M y luego ARRASTRA al bote correspondiente.",
+    
+    "title_basura": "¡Oh no! Mira Cuánta basura hay aquí",
+    "sentence_basura": "Cuando la basura llega al agua, ¡los animales se enferman y no pueden vivir bien!",
+    
+    "title_completado": "¡Excelente trabajo!",
+    "sentence_completado": "Has recogido y clasificado la basura encontrada en el Bosque.\nDemuestra preocupación por la naturaleza. Recuerda nunca dejar residuos en ella.",
+    "title_pendiente": "Tú puedes",
+    "sentence_pendiente": "RECOGE la basura del LAGO para evitar la contaminación y que los animales del bosque se lastimen.\nAbre la mochila con la letra M y ARRÁSTRALA a la basura correspondiente."
+  },
+  "seventh_challenge_d": {
+    "title_0": "Especies en peligro",
+    "title_1": "¡FUEGO! Necesitamos agua.",
+    
+    "sentence_0": "Alguien dejó encendida una fogata que podría iniciar un incendio en el Bosque",
+    "sentence_1": "Primero ENCUENTRA un recipiente y luego BUSCA una fuente de agua para apagar el fuego. RECUERDA los lugares visitados en el recorrido.",
+    
+    "title_completado_0": "¡Lo lograste!",
+    "title_completado_1": "¡Lo lograste!",
+    "sentence_completado_0": "Has apagado la fogata, y has evitado un incendio en el Bosque.\n\n¡Eres todo un Guardabosque Protector de la Naturaleza!!!",
+    "sentence_completado_1": "¡Recoge tu insignia de Guardabosque y celebrémos con los demás exploradores!",
+    "title_pendiente_0": "Aún tienes tiempo",
+    "title_pendiente_1": "Aún tienes tiempo",
+    "sentence_pendiente_0": "No nos podemos distraee, ¡hay que APAGAR el FUEGO antes de que se genere un incendio!",
+    "sentence_pendiente_1": "Hay un POZO cerca de aquí, pero seguramente está CERRADO.\n\nTambién hay un LAGO pero necesitamos un RECIPIENTE para traer el agua...\n\n¿Se te ocurre una idea?",
+    "title_fallado": "Al menos lo intestaste",
+    "sentence_fallado": "Parece que nos haz podido ayudar con el incendio. Felizmente, el problema se solucíonó antes de una catástrofe.\nContinúa a la siguiente estación.",
+    
+    "title_wellzone_0": "Pozo de agua",
+    "title_wellzone_1": "¡Ten cuidado!",
+    "title_wellzone_2": "Busca un recipiente",
+
+    "sentence_wellzone_0": "¡Encontraste un pozo! Los pozos poseen un hoyo de gran profundidad de donde se extrae agua.",
+    "sentence_wellzone_1": "Se arroja un balde en su interior y se lo recupera lleno de agua con una cuerda.",
+    "sentence_wellzone_2": "Esta sellado por seguridad pero quizás podamos encontrar algo útil cerca de pozo para recoger agua. BUSCA alrededor."
+  },
+  "sixth_challenge_d": {
+    "title_aire": "RECUERDA",
+    "sentence_aire": "El aire fresco que respiras viene de los árboles. ¡Gracias árboles!",
+    
+    "title_0": "Siembra un árbol",
+    "title_1": "Tu última misión",
+    
+    "sentence_0": "Has logrado superar muchas misiones y estas muy cerca de convertirte en un Guardabosque.\nAhora debes SEMBRAR dos árboles en el INVERNADERO.",
+    "sentence_1": "Para hacerlo, ARRASTRA las semillas que hayas obtenido desde tu MOCHILA al SUELO en la ZONA MARCADA.",
+    
+    "title_completado": "¡FELICIDADES!",
+    "sentence_completado": "Muy bien, el mirador ya está unos pasos aquí. ¡No te detengas ahora!",
+    "title_pendiente": "Siembra unas semillas",
+    "sentence_pendiente": "Solo debes ARRASTRAR las semillas en de la zona indicada.\n\nDirígete al INVERNADERO para sembrar y abre tu mochila con la letra M"
+  },
   "carteles_bosque": {
     "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",

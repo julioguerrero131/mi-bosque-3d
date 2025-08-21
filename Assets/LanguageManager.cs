@@ -313,6 +313,140 @@ public class LanguageManager : MonoBehaviour
             }
         }
 
+        if (datos.first_challenge != null)
+        {
+            var fc = datos.first_challenge;
+            textos["first_challenge_d.title_0"] = fc.title_0;
+            textos["first_challenge_d.title_1"] = fc.title_1;
+            textos["first_challenge_d.title_2"] = fc.title_2;
+            textos["first_challenge_d.title_3"] = fc.title_3;
+            textos["first_challenge_d.title_4"] = fc.title_4;
+
+            textos["first_challenge_d.sentence_0"] = fc.sentence_0;
+            textos["first_challenge_d.sentence_1"] = fc.sentence_1;
+            textos["first_challenge_d.sentence_2"] = fc.sentence_2;
+            textos["first_challenge_d.sentence_3"] = fc.sentence_3;
+            textos["first_challenge_d.sentence_4"] = fc.sentence_4;
+        }
+
+        if (datos.second_challenge != null)
+        {
+            var sc = datos.second_challenge;
+            textos["second_challenge_d.title_0"] = sc.title_0;
+            textos["second_challenge_d.title_1"] = sc.title_1;
+            textos["second_challenge_d.title_2"] = sc.title_2;
+
+            textos["second_challenge_d.sentence_0"] = sc.sentence_0;
+            textos["second_challenge_d.sentence_1"] = sc.sentence_1;
+            textos["second_challenge_d.sentence_2"] = sc.sentence_2;
+
+            textos["second_challenge_d.title_completo"] = sc.title_completado;
+            textos["second_challenge_d.sentence_completo"] = sc.sentence_completado;
+            textos["second_challenge_d.title_pendiente"] = sc.title_pendiente;
+            textos["second_challenge_d.sentence_pendiente"] = sc.sentence_pendiente;
+        }
+
+        if (datos.third_challenge != null)
+        {
+            var tc = datos.third_challenge;
+            textos["third_challenge_d.title_0"] = tc.title_0;
+            textos["third_challenge_d.title_1"] = tc.title_1;
+
+            textos["third_challenge_d.sentence_0"] = tc.sentence_0;
+            textos["third_challenge_d.sentence_1"] = tc.sentence_1;
+
+            textos["third_challenge_d.title_completo"] = tc.title_completado;
+            textos["third_challenge_d.sentence_completo"] = tc.sentence_completado;
+            textos["third_challenge_d.title_pendiente"] = tc.title_pendiente;
+            textos["third_challenge_d.sentence_pendiente"] = tc.sentence_pendiente;
+        }
+
+        if (datos.fourth_challenge != null)
+        {
+            var fc = datos.fourth_challenge;
+            textos["fourth_challenge_d.title_suelo"] = fc.title_suelo;
+            textos["fourth_challenge_d.sentence_suelo"] = fc.sentence_suelo;
+
+            textos["fourth_challenge_d.title_0"] = fc.title_0;
+            textos["fourth_challenge_d.title_1"] = fc.title_1;
+            textos["fourth_challenge_d.title_2"] = fc.title_2;
+
+            textos["fourth_challenge_d.sentence_0"] = fc.sentence_0;
+            textos["fourth_challenge_d.sentence_1"] = fc.sentence_1;
+            textos["fourth_challenge_d.sentence_2"] = fc.sentence_2;
+
+            textos["third_challenge_d.title_completo"] = fc.title_completado;
+            textos["third_challenge_d.sentence_completo"] = fc.sentence_completado;
+            textos["third_challenge_d.title_pendiente"] = fc.title_pendiente;
+            textos["third_challenge_d.sentence_pendiente"] = fc.sentence_pendiente;
+        }
+
+        if (datos.fifth_challenge != null)
+        {
+            var fc = datos.fifth_challenge;
+            textos["fifth_challenge_d.title_vidrio"] = fc.title_vidrio;
+            textos["fifth_challenge_d.sentence_vidrio"] = fc.sentence_vidrio;
+
+            textos["fifth_challenge_d.title_0"] = fc.title_0;
+            textos["fifth_challenge_d.title_1"] = fc.title_1;
+
+            textos["fifth_challenge_d.sentence_0"] = fc.sentence_0;
+            textos["fifth_challenge_d.sentence_1"] = fc.sentence_1;
+
+            textos["fifth_challenge_d.title_basura"] = fc.title_basura;
+            textos["fifth_challenge_d.sentence_basura"] = fc.sentence_basura;
+
+            textos["fifth_challenge_d.title_completo"] = fc.title_completado;
+            textos["fifth_challenge_d.sentence_completo"] = fc.sentence_completado;
+            textos["fifth_challenge_d.title_pendiente"] = fc.title_pendiente;
+            textos["fifth_challenge_d.sentence_pendiente"] = fc.sentence_pendiente;
+        }
+
+        if (datos.seventh_challenge != null)
+        {
+            var sc = datos.seventh_challenge;
+            textos["seventh_challenge_d.title_0"] = sc.title_0;
+            textos["seventh_challenge_d.title_1"] = sc.title_1;
+
+            textos["seventh_challenge_d.sentence_0"] = sc.sentence_0;
+            textos["seventh_challenge_d.sentence_1"] = sc.sentence_1;
+
+            textos["seventh_challenge_d.title_completo_0"] = sc.title_completado_0;
+            textos["seventh_challenge_d.title_completo_1"] = sc.title_completado_1;
+            textos["seventh_challenge_d.sentence_completo_0"] = sc.sentence_completado_0;
+            textos["seventh_challenge_d.sentence_completo_1"] = sc.sentence_completado_1;
+            textos["seventh_challenge_d.title_pendiente_0"] = sc.title_pendiente_0;
+            textos["seventh_challenge_d.title_pendiente_1"] = sc.title_pendiente_1;
+            textos["seventh_challenge_d.title_fallado"] = sc.title_fallado;
+            textos["seventh_challenge_d.sentence_fallado"] = sc.sentence_fallado;
+
+            textos["seventh_challenge_d.title_wellzone_0"] = sc.title_wellzone_0;
+            textos["seventh_challenge_d.title_wellzone_1"] = sc.title_wellzone_1;
+            textos["seventh_challenge_d.title_wellzone_2"] = sc.title_wellzone_2;
+
+            textos["seventh_challenge_d.sentence_wellzone_0"] = sc.sentence_wellzone_0;
+            textos["seventh_challenge_d.sentence_wellzone_1"] = sc.sentence_wellzone_1;
+            textos["seventh_challenge_d.sentence_wellzone_2"] = sc.sentence_wellzone_2;
+        }
+
+        if (datos.sixth_challenge != null)
+        {
+            var sc = datos.sixth_challenge;
+            textos["sixth_challenge_d.title_aire"] = sc.title_aire;
+            textos["sixth_challenge_d.sentence_aire"] = sc.sentence_aire;
+
+            textos["sixth_challenge_d.title_0"] = sc.title_0;
+            textos["sixth_challenge_d.title_1"] = sc.title_1;
+
+            textos["sixth_challenge_d.sentence_0"] = sc.sentence_0;
+            textos["sixth_challenge_d.sentence_1"] = sc.sentence_1;
+
+            textos["sixth_challenge_d.title_completo"] = sc.title_completado;
+            textos["sixth_challenge_d.sentence_completo"] = sc.sentence_completado;
+            textos["sixth_challenge_d.title_pendiente"] = sc.title_pendiente;
+            textos["sixth_challenge_d.sentence_pendiente"] = sc.sentence_pendiente;
+        }
+
         if (datos.carteles_bosque != null)
         {
             textos["carteles_bosque.entrada_bosque"] = datos.carteles_bosque.entrada_bosque;
@@ -334,6 +468,14 @@ public class LanguageManager : MonoBehaviour
         public Tutorial tutorial;
         public CartelesBosque carteles_bosque;
         public Lobby lobby;
+        public FirstChallengeD first_challenge;
+        public ConseguirLibro conseguir_libro;
+        public SecondChallengeD second_challenge;
+        public ThirdChallengeD third_challenge;
+        public FourthChallengeD fourth_challenge;
+        public FifthChallengeD fifth_challenge;
+        public SeventhChallengeD seventh_challenge;
+        public SixthChallengeD sixth_challenge;
     }
 
     // Menu inicial
@@ -586,6 +728,134 @@ public class LanguageManager : MonoBehaviour
     }
 
     // Bosque
+    [Serializable]
+    public class FirstChallengeD
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+        public string title_3;
+        public string title_4;
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+        public string sentence_3;
+        public string sentence_4;
+    }
+
+    [Serializable]
+    public class ConseguirLibro
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+    }
+
+    [Serializable]
+    public class SecondChallengeD
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
+    }
+
+    [Serializable]
+    public class ThirdChallengeD
+    {
+        public string title_0;
+        public string title_1;
+        public string sentence_0;
+        public string sentence_1;
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
+    }
+
+    [Serializable]
+    public class FourthChallengeD
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+        public string title_suelo;
+        public string sentence_suelo;
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
+    }
+
+    [Serializable]
+    public class FifthChallengeD
+    {
+        public string title_vidrio;
+        public string sentence_vidrio;
+        public string title_0;
+        public string title_1;
+        public string sentence_0;
+        public string sentence_1;
+        public string title_basura;
+        public string sentence_basura;
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
+    }
+
+    [Serializable]
+    public class SeventhChallengeD
+    {
+        public string title_0;
+        public string title_1;
+        public string sentence_0;
+        public string sentence_1;
+        public string title_completado_0;
+        public string title_completado_1;
+        public string sentence_completado_0;
+        public string sentence_completado_1;
+        public string title_pendiente_0;
+        public string title_pendiente_1;
+        public string sentence_pendiente_0;
+        public string sentence_pendiente_1;
+        public string title_fallado;
+        public string sentence_fallado;
+        public string title_wellzone_0;
+        public string title_wellzone_1;
+        public string title_wellzone_2;
+        public string sentence_wellzone_0;
+        public string sentence_wellzone_1;
+        public string sentence_wellzone_2;
+    }
+
+    [Serializable]
+    public class SixthChallengeD
+    {
+        public string title_aire;
+        public string sentence_aire;
+        public string title_0;
+        public string title_1;
+        public string sentence_0;
+        public string sentence_1;
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
+    }
+
     [Serializable]
     public class CartelesBosque
     {
