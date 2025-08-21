@@ -520,12 +520,5 @@ public class GameManager : MonoBehaviour
             Debug.LogWarning("No se encontró el spawn o el player");
         }
     }
-    public IEnumerator EsperarYTeletransportar()
-    {
-        Debug.Log("El jugador perdió, espera 3 segundos...");
 
-        yield return new WaitForSeconds(3f); // espera 3 segundos
-
-        TeletransportarJugador();
-    }
 }

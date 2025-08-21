@@ -9,8 +9,9 @@ public class ManejadorModoJuego : MonoBehaviour
 
     [SerializeField] private Text relojTxt;
     [SerializeField] private GameObject relojBox;
-    [SerializeField] private GameObject explicacionContrarreloj;
-    [SerializeField] private GameObject despedidaContrarreloj;
+    [SerializeField] private GameObject explicacionContrarrelojCanva;
+    [SerializeField] private GameObject despedidaContrarrelojCanva;
+    [SerializeField] private GameObject perdidaContrarrelojCanva;
     [SerializeField] private MenuPausa menuPausa;
     [SerializeField] private GameManager gameManagerRespawn;
     [SerializeField] private AudioScript sonidoReloj;
@@ -44,9 +45,7 @@ public class ManejadorModoJuego : MonoBehaviour
     {
         if (IsContrarreloj)
         {
-            //actualizarTextoContador();
             contadorMinutos();
-            
         }
     }
     public void activarTemporizador()
@@ -61,7 +60,7 @@ public class ManejadorModoJuego : MonoBehaviour
         }
         IsContrarreloj = true;
         PerdioContrarreloj = false;
-        explicacionContrarreloj.SetActive(false);
+        explicacionContrarrelojCanva.SetActive(false);
 
     }
     private void contadorMinutos()
@@ -75,14 +74,13 @@ public class ManejadorModoJuego : MonoBehaviour
             segundos = 59;
             if (minutos < 3)
             {
-                Debug.Log("estoy avisando que el tiempo se acaba");
                 accionesDeAviso();
             }
             if (minutos < 0)
             {
 
-                activarDespedida();
                 perdidaModoContrarreloj();
+                activarDespedida();
                                
                 Debug.Log(minutos);
                 Debug.Log(segundos);
@@ -94,7 +92,6 @@ public class ManejadorModoJuego : MonoBehaviour
     {
         if (!PerdioContrarreloj)
         {
-            
             if (segundos < 9.5f)
             { 
                 relojTxt.text = minutos.ToString() + ":0" + segundos.ToString("f0");
@@ -115,7 +112,6 @@ public class ManejadorModoJuego : MonoBehaviour
     }
     public void desactivarCronometro()
     {
-        Debug.Log("Desactivar timer, volviendo al modo normal");
         if (relojBox != null)
         {
             relojBox.SetActive(false);
@@ -125,16 +121,30 @@ public class ManejadorModoJuego : MonoBehaviour
     }
     public void activarExplicacion()
     {
-        explicacionContrarreloj.SetActive(true);
+        explicacionContrarrelojCanva.SetActive(true);
     }
     public void activarDespedida()
     {
-        despedidaContrarreloj.SetActive(true);
+        if (PerdioContrarreloj)
+        {
+            perdidaContrarrelojCanva.SetActive(true);
+        }
+        else
+        {
+            despedidaContrarrelojCanva.SetActive(true);
+        }
     }
     public void desactivarDespedida()
     {
-        Debug.Log("lo siento el temporizador se acabó, vuelve al principio");
-        despedidaContrarreloj.SetActive(false);
+        if (PerdioContrarreloj)
+        {
+            perdidaContrarrelojCanva.SetActive(false);
+            PerdioContrarreloj = false;
+        }
+        else
+        {
+            despedidaContrarrelojCanva.SetActive(false);
+        }
     }
     public void perdidaModoContrarreloj()
     {
@@ -144,14 +154,11 @@ public class ManejadorModoJuego : MonoBehaviour
         IsSonidoContrarrelojActive = false;
         desactivarCronometro();
         sonidoReloj.detener();
-        Debug.Log("Lo siento, el temporizador se acabó, volverás al inicio");
         gameManagerRespawn.TeletransportarJugador();
     }
     private void accionesDeAviso()
     {
-        Debug.Log("antes de camiar color");
         relojTxt.color = colorPeligro;
-        Debug.Log("despues change");
         IsSonidoContrarrelojActive = true;
         sonidoReloj.reproducir();
 

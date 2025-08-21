@@ -71,7 +71,7 @@ public class MenuPausa : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             fpscontroller.enabled = false;
             mouseController.enabled = false;
-            manejadorJuego.PerdioContrarreloj = false;
+            //manejadorJuego.PerdioContrarreloj = false;
         }
 
 
@@ -215,6 +215,7 @@ public class MenuPausa : MonoBehaviour
         manejadorJuego.desactivarDespedida();
         fpscontroller.enabled = true;
         mouseController.enabled = true;
+       
     }
 
 }
