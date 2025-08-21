@@ -89,21 +89,32 @@ public class LanguageManager : MonoBehaviour
             textos["menu_inicial.boton_salir"] = datos.menu_inicial.boton_salir;
         }
 
-        if (datos.menu_partidas != null && datos.menu_partidas.nueva_partida != null)
+        if (datos.menu_partidas != null)
         {
-            var np = datos.menu_partidas.nueva_partida;
-            textos["menu_partidas.title_avatar"] = np.title_avatar;
-            textos["menu_partidas.title_datos"] = np.title_datos;
-            textos["menu_partidas.label_nombre"] = np.label_nombre;
-            textos["menu_partidas.label_edad"] = np.label_edad;
-            textos["menu_partidas.label_genero"] = np.label_genero;
-            textos["menu_partidas.genero_h"] = np.genero_h;
-            textos["menu_partidas.genero_m"] = np.genero_m;
-            textos["menu_partidas.genero_otro"] = np.genero_otro;
-            textos["menu_partidas.label_pin"] = np.label_pin;
-            textos["menu_partidas.pin_invitado"] = np.pin_invitado;
-            textos["menu_partidas.invitado_1"] = np.invitado_1;
-            textos["menu_partidas.invitado_2"] = np.invitado_2;
+            if(datos.menu_partidas.nueva_partida != null)
+            {
+                var np = datos.menu_partidas.nueva_partida;
+                textos["menu_partidas.title_avatar"] = np.title_avatar;
+                textos["menu_partidas.title_datos"] = np.title_datos;
+                textos["menu_partidas.label_nombre"] = np.label_nombre;
+                textos["menu_partidas.label_edad"] = np.label_edad;
+                textos["menu_partidas.label_genero"] = np.label_genero;
+                textos["menu_partidas.genero_h"] = np.genero_h;
+                textos["menu_partidas.genero_m"] = np.genero_m;
+                textos["menu_partidas.genero_otro"] = np.genero_otro;
+                textos["menu_partidas.label_pin"] = np.label_pin;
+                textos["menu_partidas.pin_invitado"] = np.pin_invitado;
+                textos["menu_partidas.invitado_1"] = np.invitado_1;
+                textos["menu_partidas.invitado_2"] = np.invitado_2;
+
+            }
+
+            if(datos.menu_partidas.crear_cargar_partida != null)
+            {
+                var cnp = datos.menu_partidas.crear_cargar_partida;
+                textos["menu_partidas.cargar_partida"] = cnp.cargar_partida;
+                textos["menu_partidas.nueva_partida"] = cnp.nueva_partida;
+            }
         }
 
         if(datos.tutorial != null)
@@ -339,6 +350,7 @@ public class LanguageManager : MonoBehaviour
     public class MenuPartidas
     {
         public NuevaPartida nueva_partida;
+        public CrearCargarPartida crear_cargar_partida;
     }
 
     [Serializable]
@@ -356,6 +368,13 @@ public class LanguageManager : MonoBehaviour
         public string pin_invitado;
         public string invitado_1;
         public string invitado_2;
+    }
+
+    [Serializable]
+    public class CrearCargarPartida
+    {
+        public string cargar_partida;
+        public string nueva_partida;
     }
 
     // Tutorial

@@ -5,7 +5,10 @@
     "boton_salir": "sair"
   },
   "menu_partidas": {
-    "crear_cargar_partida": {},
+    "crear_cargar_partida": {
+      "cargar_partida": "carregar jogo",
+      "nueva_partida": "novo jogo"
+    },
     "nueva_partida": {
       "title_avatar": "Escolha seu \navatar",
       "title_datos": "Insira seus dados",
