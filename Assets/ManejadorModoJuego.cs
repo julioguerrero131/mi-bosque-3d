@@ -12,6 +12,8 @@ public class ManejadorModoJuego : MonoBehaviour
     [SerializeField] private GameObject explicacionContrarreloj;
     [SerializeField] private GameObject despedidaContrarreloj;
     [SerializeField] private MenuPausa menuPausa;
+    [SerializeField] private GameManager gameManagerRespawn;
+    [SerializeField] private AudioScript sonidoReloj;
     public int minutosBase ;
     public float segundosBase;
     private int minutos;
@@ -19,6 +21,8 @@ public class ManejadorModoJuego : MonoBehaviour
     public bool IsContrarreloj = false;
     public bool PerdioContrarreloj;
     public bool IsExplicacionActive;
+    public Color colorPeligro;
+    public static bool IsSonidoContrarrelojActive;
 
 
 
@@ -40,7 +44,8 @@ public class ManejadorModoJuego : MonoBehaviour
     {
         if (IsContrarreloj)
         {
-            actualizarTextoContador();
+            //actualizarTextoContador();
+            contadorMinutos();
             
         }
     }
@@ -63,17 +68,22 @@ public class ManejadorModoJuego : MonoBehaviour
     {
 
         segundos = segundos - Time.deltaTime;
+        actualizarTextoContador();
         if (segundos < 0)
         {
             minutos = minutos - 1;
             segundos = 59;
+            if (minutos < 3)
+            {
+                Debug.Log("estoy avisando que el tiempo se acaba");
+                accionesDeAviso();
+            }
             if (minutos < 0)
             {
+
+                activarDespedida();
                 perdidaModoContrarreloj();
-                minutos = minutosBase;
-                segundos = segundosBase;
-                PerdioContrarreloj = true;
-                
+                               
                 Debug.Log(minutos);
                 Debug.Log(segundos);
 
@@ -82,9 +92,9 @@ public class ManejadorModoJuego : MonoBehaviour
     }
     public void actualizarTextoContador()
     {
-        contadorMinutos();
         if (!PerdioContrarreloj)
         {
+            
             if (segundos < 9.5f)
             { 
                 relojTxt.text = minutos.ToString() + ":0" + segundos.ToString("f0");
@@ -121,10 +131,30 @@ public class ManejadorModoJuego : MonoBehaviour
     {
         despedidaContrarreloj.SetActive(true);
     }
-    public void perdidaModoContrarreloj()
+    public void desactivarDespedida()
     {
         Debug.Log("lo siento el temporizador se acabó, vuelve al principio");
         despedidaContrarreloj.SetActive(false);
+    }
+    public void perdidaModoContrarreloj()
+    {
+        minutos = minutosBase;
+        segundos = segundosBase;
+        PerdioContrarreloj = true;
+        IsSonidoContrarrelojActive = false;
+        desactivarCronometro();
+        sonidoReloj.detener();
+        Debug.Log("Lo siento, el temporizador se acabó, volverás al inicio");
+        gameManagerRespawn.TeletransportarJugador();
+    }
+    private void accionesDeAviso()
+    {
+        Debug.Log("antes de camiar color");
+        relojTxt.color = colorPeligro;
+        Debug.Log("despues change");
+        IsSonidoContrarrelojActive = true;
+        sonidoReloj.reproducir();
+
     }
 
 }

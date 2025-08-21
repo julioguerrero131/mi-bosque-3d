@@ -66,10 +66,12 @@ public class MenuPausa : MonoBehaviour
         }
         if (manejadorJuego.PerdioContrarreloj)
         {
-            ModoNormal();
-            manejadorJuego.PerdioContrarreloj = false;
+            //ModoNormal();
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+            fpscontroller.enabled = false;
+            mouseController.enabled = false;
+            manejadorJuego.PerdioContrarreloj = false;
         }
 
 
@@ -210,7 +212,7 @@ public class MenuPausa : MonoBehaviour
     }
     public void reiniciarModoNormal()
     {
-        manejadorJuego.perdidaModoContrarreloj();
+        manejadorJuego.desactivarDespedida();
         fpscontroller.enabled = true;
         mouseController.enabled = true;
     }
