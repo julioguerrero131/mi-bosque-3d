@@ -1,7 +1,7 @@
 {
   "botones": {
     "retroceder": "RETROCEDER",
-    "continuar": "CONTINUAR!"
+    "continuar": "CONTINUAR"
   },
   "menu_inicial": {
     "boton_jugar": "jugar",
@@ -217,7 +217,7 @@
     "sentence_4": "Para familiarizarte con el bosque, tu primera misión será encontrar 3 especies: una ardilla, una iguana y un pechiche."
   },
   "conseguir_libro": {
-    " ": "Muy bien",
+    "title_0": "Muy bien",
     "title_1": "Interacción con especies",
     "title_2": "Premios",
 

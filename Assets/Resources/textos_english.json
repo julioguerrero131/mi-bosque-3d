@@ -1,4 +1,8 @@
 {
+  "botones": {
+    "retroceder": "BACK",
+    "continuar": "CONTINUE"
+  },
   "menu_inicial": {
     "boton_jugar": "play",
     "boton_explorar": "explore",
@@ -198,6 +202,130 @@
       "flora_4_sentence_0": "Ceiba trichistandra (A. Gray) Bakh",
       "flora_4_sentence_1": "Bombacaceae Number of species reported by genus: 4"
     }
+  },
+  "first_challege_d": {
+    "title_0": "Welcome",
+    "title_1": "Welcome",
+    "title_2": "Interact with your surroundings",
+    "title_3": "Remember that...",
+    "title_4": "Get to know the species",
+
+    "sentence_0": "Hello, I'm Paco! And I welcome you to the Prosperina Protected Forest.",
+    "sentence_1": "Explore and protect the forest and its species to become a Ranger.",
+    "sentence_2": "To interact with objects and learn about the animals and plants of the forest, center them in the AIM POINT on your screen and CLICK on them.",
+    "sentence_3": "On a real visit to the forest you need the help of a GUIDE who will inform you of the route, and that there are areas that could be dangerous.",
+    "sentence_4": "To get familiar with the forest, your first mission will be to find 3 species: a squirrel, an iguana, and a pechiche tree."
+  },
+  "conseguir_libro": {
+    "title_0": "Very good",
+    "title_1": "Interaction with species",
+    "title_2": "Rewards",
+
+    "sentence_0": "Now that you know how to move, we’ll give you this book.\nIn it you can record the species you find in the forest when you interact with them. To open it, press the L key.",
+    "sentence_1": "To interact with the trees and little animals in the forest:\nPlace the AIM POINT where you want and CLICK on them.",
+    "sentence_2": "Make sure to find them all to earn great rewards later on."
+  },
+  "second_challenge_d": {
+    "title_0": "Collect",
+    "title_1": "REMEMBER",
+    "title_2": "On the way",
+
+    "sentence_0": "It’s time to start using that book a bit more.\nFind a squirrel, an iguana, and a pechiche tree in the forest and interact with them to record them in your book.",
+    "sentence_1": "To interact with the trees and little animals in the forest, place the AIM POINT where you want and CLICK on them.",
+    "sentence_2": "To see the clues of where the species you need to look for are located, press the P key.",
+
+    "title_completado": "Well done!",
+    "sentence_completado": "By exploring the station you’ve discovered species of the Prosperina Protected Forest.\nKeep exploring the new stations and missions.",
+    "title_pendiente": "You can do it",
+    "sentence_pendiente": "Interact with the species of the forest to access the next station, remember that we have a great variety of animals and trees."
+  },
+  "third_challengue_d": {
+    "title_0": "The rabbit is lost!",
+    "title_1": "We must save it!",
+
+    "sentence_0": "It has left its burrow. It’s dangerous for it to be out of its home, since other animals could attack or hurt it.",
+    "sentence_1": "Explore around, we must save it but it’s a little tricky. Be fast and CATCH IT, then RETURN it to the burrow as quickly as possible by CLICKING.",
+
+    "title_completado": "The baby rabbit is safe",
+    "sentence_completado": "Thank you for saving the baby rabbit, it’s now safe in its burrow. Remember that if it’s a bird or a reptile you shouldn’t approach and it’s better to tell an adult for help.",
+    "title_pendiente": "Don’t give up",
+    "sentence_pendiente": "The baby rabbit needs your help. CATCH the rabbit and then RETURN it to its burrow using click."
+  },
+  "fourth_challenge_d": {
+    "title_suelo": "REMEMBER",
+    "sentence_suelo": "Look at the ground! Species are very important for life in the forest, don’t step on them carelessly!",
+
+    "title_0": "Feathered help",
+    "title_1": "Deliver the food",
+    "title_2": "Food delivery",
+
+    "sentence_0": "Our friend the Gray-backed Hawk has hurt one of its wings and cannot get its food on its own.",
+    "sentence_1": "For this challenge you must LOOK for two mice and a salamander. Pay attention, you may hear them when you’re close.\n\nTo ask for help press the P key.",
+    "sentence_2": "Once you’ve captured the food, you must place them in the indicated area by clicking.\n\nThis is an example of a food chain of the species and how they feed.",
+
+    "title_completado": "You did it very well!",
+    "sentence_completado": "Thank you for hunting food for the Gray-backed Hawk, we’re sure it will recover soon and be able to hunt on its own. In a real forest avoid approaching its food.",
+    "title_pendiente": "Don’t let it down",
+    "sentence_pendiente": "COLLECT the food and LEAVE it in the designated area using your CLICK.\nOur friend is counting on you to recover. Search the surroundings, you’ll surely find what it needs."
+  },
+  "fifth_challenge_d": {
+    "title_vidrio": "Careful!",
+    "sentence_vidrio": "Glass in the sun works like a magnifying glass and can ignite dry leaves. Always pick it up to prevent fires and take care of the planet.",
+
+    "title_0": "Recycle and classify",
+    "title_1": "Trash in its place",
+
+    "sentence_0": "It seems that some visitors have left trash in the LAKE. This should never happen when you visit a forest, a beach, or a river.\nHelp us PICK IT UP and SORT IT into its proper bin.",
+    "sentence_1": "To pick up the trash you must CLICK and it will be stored in your backpack. To deposit it in its bin press M and then DRAG it to the correct bin.",
+
+    "title_basura": "Oh no! Look how much trash is here",
+    "sentence_basura": "When trash gets into the water, animals get sick and cannot live well!",
+
+    "title_completado": "Excellent job!",
+    "sentence_completado": "You’ve collected and classified the trash found in the Forest.\nShow concern for nature. Remember never to leave waste in it.",
+    "title_pendiente": "You can do it",
+    "sentence_pendiente": "PICK UP the trash from the LAKE to prevent pollution and keep the forest animals from getting hurt.\nOpen the backpack with the M key and DRAG it to the correct trash bin."
+  },
+  "seventh_challenge_d": {
+    "title_0": "Endangered species",
+    "title_1": "FIRE! We need water.",
+
+    "sentence_0": "Someone left a campfire burning that could start a fire in the Forest.",
+    "sentence_1": "First FIND a container and then LOOK for a water source to put out the fire. REMEMBER the places visited on the journey.",
+
+    "title_completado_0": "You did it!",
+    "title_completado_1": "You did it!",
+    "sentence_completado_0": "You’ve put out the campfire, and prevented a forest fire.\n\nYou’re a true Nature Protector Ranger!!!",
+    "sentence_completado_1": "Pick up your Ranger badge and let’s celebrate with the other explorers!",
+    "title_pendiente_0": "There’s still time",
+    "title_pendiente_1": "There’s still time",
+    "sentence_pendiente_0": "We can’t get distracted, we must PUT OUT the FIRE before it causes a forest fire!",
+    "sentence_pendiente_1": "There’s a WELL nearby, but it’s surely CLOSED.\n\nThere’s also a LAKE but we need a CONTAINER to bring the water...\n\nDo you have an idea?",
+    "title_fallado": "At least you tried",
+    "sentence_fallado": "It looks like you couldn’t help us with the fire. Luckily, the problem was solved before a catastrophe.\nContinue to the next station.",
+
+    "title_wellzone_0": "Water well",
+    "title_wellzone_1": "Be careful!",
+    "title_wellzone_2": "Find a container",
+
+    "sentence_wellzone_0": "You found a well! Wells have a deep hole from which water is extracted.",
+    "sentence_wellzone_1": "A bucket is thrown inside and recovered full of water with a rope.",
+    "sentence_wellzone_2": "It’s sealed for safety but maybe we can find something useful near the well to collect water. SEARCH around."
+  },
+  "sixth_challenge_d": {
+    "title_aire": "REMEMBER",
+    "sentence_aire": "The fresh air you breathe comes from the trees. Thank you, trees!",
+
+    "title_0": "Plant a tree",
+    "title_1": "Your last mission",
+
+    "sentence_0": "You’ve managed to overcome many missions and you’re very close to becoming a Ranger.\nNow you must PLANT two trees in the GREENHOUSE.",
+    "sentence_1": "To do this, DRAG the seeds you’ve obtained from your BACKPACK to the GROUND in the MARKED AREA.",
+
+    "title_completado": "CONGRATULATIONS!",
+    "sentence_completado": "Very good, the viewpoint is just a few steps ahead. Don’t stop now!",
+    "title_pendiente": "Plant some seeds",
+    "sentence_pendiente": "You just need to DRAG the seeds into the indicated area.\n\nHead to the GREENHOUSE to plant and open your backpack with the M key."
   },
   "carteles_bosque": {
     "entrada_bosque": "PROTECT THE FOREST, IT’S OUR HOME!",
