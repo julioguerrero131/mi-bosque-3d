@@ -86,6 +86,7 @@ public class LanguageManager : MonoBehaviour
         {
             textos["botones.retroceder"] = datos.botones.retroceder;
             textos["botones.continuar"] = datos.botones.continuar;
+            textos["botones.informacion"] = datos.botones.informacion;
         }
         
         if (datos.menu_inicial != null)
@@ -491,6 +492,7 @@ public class LanguageManager : MonoBehaviour
     {
         public string continuar;
         public string retroceder;
+        public string informacion;
     }
 
     // Menu inicial
