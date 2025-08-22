@@ -82,6 +82,12 @@ public class LanguageManager : MonoBehaviour
 
     private void CargarTextos(DatosIdioma datos)
     {
+        if(datos.botones != null)
+        {
+            textos["botones.retroceder"] = datos.botones.retroceder;
+            textos["botones.continuar"] = datos.botones.continuar;
+        }
+        
         if (datos.menu_inicial != null)
         {
             textos["menu_inicial.boton_jugar"] = datos.menu_inicial.boton_jugar;
@@ -463,6 +469,7 @@ public class LanguageManager : MonoBehaviour
     [Serializable]
     public class DatosIdioma
     {
+        public Botones botones;
         public MenuInicial menu_inicial;
         public MenuPartidas menu_partidas;
         public Tutorial tutorial;
@@ -476,6 +483,14 @@ public class LanguageManager : MonoBehaviour
         public FifthChallengeD fifth_challenge;
         public SeventhChallengeD seventh_challenge;
         public SixthChallengeD sixth_challenge;
+    }
+
+    // Botones
+    [Serializable]
+    public class Botones
+    {
+        public string continuar;
+        public string retroceder;
     }
 
     // Menu inicial

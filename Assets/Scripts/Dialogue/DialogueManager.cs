@@ -48,7 +48,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueTrigger dialogueTrigger, string eventToTrigger, bool remove, int index_img = 0)
     {
-        //LocalizeDialogue(dialogueTrigger.dialogue);
+        LocalizeDialogue(dialogueTrigger.dialogue);
 
 #if UNITY_ANDROID || UNITY_IOS
         CanvasPlayerGUI.SetActive(false);
@@ -87,7 +87,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, string eventToTrigger, GameObject go = null, int index_img = 0, bool remove = false, bool pregunta = false)
     {
-        //LocalizeDialogue(dialogue);
+        LocalizeDialogue(dialogue);
         
         currentD = dialogue;
         currentDTGO = go;
