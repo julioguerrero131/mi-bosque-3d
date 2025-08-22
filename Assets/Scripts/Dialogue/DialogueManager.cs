@@ -48,7 +48,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueTrigger dialogueTrigger, string eventToTrigger, bool remove, int index_img = 0)
     {
-        LocalizeDialogue(dialogueTrigger.dialogue);
+        //LocalizeDialogue(dialogueTrigger.dialogue);
 
 #if UNITY_ANDROID || UNITY_IOS
         CanvasPlayerGUI.SetActive(false);
@@ -87,7 +87,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, string eventToTrigger, GameObject go = null, int index_img = 0, bool remove = false, bool pregunta = false)
     {
-        LocalizeDialogue(dialogue);
+        //LocalizeDialogue(dialogue);
         
         currentD = dialogue;
         currentDTGO = go;
@@ -245,6 +245,13 @@ public class DialogueManager : MonoBehaviour
         // Traducir titles
         for (int i = 0; i < dialogue.title.Length; i++)
         {
+            // Comprobar si la instancia de LanguageManager existe antes de continuar.
+            if (LanguageManager.Instancia == null)
+            {
+                Debug.LogWarning("No se encontro una instancia de LanguageManager. La traducción no se realizara.");
+                return;
+            }
+
             if (!string.IsNullOrEmpty(dialogue.title[i]))
             {
                 string clave = dialogue.title[i];
@@ -254,7 +261,7 @@ public class DialogueManager : MonoBehaviour
                 if (!string.IsNullOrEmpty(traducido))
                     dialogue.title[i] = traducido;
                 else
-                    Debug.LogWarning($"No se encontró traducción para la clave de título: {clave}");
+                    Debug.LogWarning($"No se encontro traducción para la clave de título: {clave}");
             }
         }
 
@@ -270,7 +277,7 @@ public class DialogueManager : MonoBehaviour
                 if (!string.IsNullOrEmpty(traducido))
                     dialogue.sentences[i] = traducido;
                 else
-                    Debug.LogWarning($"No se encontró traducción para la clave de frase: {clave}");
+                    Debug.LogWarning($"No se encontro traducción para la clave de frase: {clave}");
             }
         }
     }
