@@ -46,6 +46,8 @@ public class ManejadorModoJuego : MonoBehaviour
         if (IsContrarreloj)
         {
             contadorMinutos();
+            Debug.Log(minutos+ "  " + segundos);
+            
         }
     }
     public void activarTemporizador()
@@ -74,6 +76,8 @@ public class ManejadorModoJuego : MonoBehaviour
             segundos = 59;
             if (minutos < 3)
             {
+                Debug.Log("intrusibo");
+                Debug.Log(minutos + "   " + segundos + "  intrusivos");
                 accionesDeAviso();
             }
             if (minutos < 0)
@@ -117,7 +121,8 @@ public class ManejadorModoJuego : MonoBehaviour
             relojBox.SetActive(false);
         }
         IsContrarreloj = false;
-        actualizarTextoContador();
+        minutos = minutosBase;
+        segundos = segundosBase;
     }
     public void activarExplicacion()
     {

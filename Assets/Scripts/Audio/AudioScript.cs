@@ -14,7 +14,7 @@ public class AudioScript : MonoBehaviour
     }
     public void reproucir()
     {
-        if (source.isPlaying && ManejadorModoJuego.IsSonidoContrarrelojActive)
+        if (source.isPlaying && (!ManejadorModoJuego.IsSonidoContrarrelojActive))
         {
             source.Play();
         }
