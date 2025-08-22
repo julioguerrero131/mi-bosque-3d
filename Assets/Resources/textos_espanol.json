@@ -1,7 +1,7 @@
 {
   "botones": {
-    "retroceder": "Retroceder!",
-    "continuar": "Continuar!"
+    "retroceder": "RETROCEDER",
+    "continuar": "CONTINUAR"
   },
   "menu_inicial": {
     "boton_jugar": "jugar",
