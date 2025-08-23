@@ -3703,8 +3703,8 @@ GameObject:
   - component: {fileID: 86408683}
   - component: {fileID: 86408682}
   - component: {fileID: 86408681}
-  - component: {fileID: 86408685}
   - component: {fileID: 86408686}
+  - component: {fileID: 86408680}
   m_Layer: 5
   m_Name: minimizar
   m_TagString: Untagged
@@ -3732,6 +3732,24 @@ RectTransform:
   m_AnchoredPosition: {x: 333, y: -179}
   m_SizeDelta: {x: 190, y: 65.31}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &86408680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86408678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34dd2c14a94cdaf48b23e68440eb7b25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoCanvas: {fileID: 1043239135}
+  videoPlayer: {fileID: 517079395}
+  audioSource: {fileID: 517079394}
+  videoCanvas2: {fileID: 1736171768}
+  videoPlayer2: {fileID: 827594594}
+  audioSource2: {fileID: 827594595}
 --- !u!114 &86408681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3804,18 +3822,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 86408683}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: OnMouseDown
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &86408683
@@ -3855,19 +3862,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86408678}
   m_CullTransparentMesh: 0
---- !u!114 &86408685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86408678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34dd2c14a94cdaf48b23e68440eb7b25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  video: {fileID: 1043239135}
 --- !u!65 &86408686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40684,6 +40678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1005675888}
+  - component: {fileID: 1005675887}
   m_Layer: 0
   m_Name: MinimizadorVideos
   m_TagString: Untagged
@@ -40691,6 +40686,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1005675887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005675886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34dd2c14a94cdaf48b23e68440eb7b25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoCanvas: {fileID: 1043239135}
+  videoPlayer: {fileID: 517079395}
+  audioSource: {fileID: 517079394}
+  videoCanvas2: {fileID: 1736171768}
+  videoPlayer2: {fileID: 827594594}
+  audioSource2: {fileID: 827594595}
 --- !u!4 &1005675888
 Transform:
   m_ObjectHideFlags: 0
@@ -42249,7 +42262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c6dbbf174ce6a41a9478ca553a1609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  video2: {fileID: 0}
 --- !u!1001 &1045758063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80893,13 +80905,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611377383}
-  m_LocalRotation: {x: -0.01443852, y: -0.5987493, z: -0.019037863, w: 0.80058}
-  m_LocalPosition: {x: 13.18, y: -4.4, z: -38.45}
+  m_LocalRotation: {x: -0.008039716, y: -0.8119045, z: -0.022503711, w: 0.583301}
+  m_LocalPosition: {x: -0.45, y: 4.53, z: 3.15}
   m_LocalScale: {x: 0.20000005, y: 4, z: 18.000114}
   m_Children: []
   m_Father: {fileID: 235285280}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -2.6320002, y: -73.568, z: -0.757}
+  m_LocalEulerAnglesHint: {x: -2.6320002, y: -108.593, z: -0.757}
 --- !u!114 &1611377385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86154,13 +86166,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690752960}
-  m_LocalRotation: {x: 0.01991309, y: -0.71560156, z: 0.013205291, w: -0.6981}
-  m_LocalPosition: {x: -6.690915, y: 0.22999878, z: -5.6726146}
+  m_LocalRotation: {x: -0.019910036, y: 0.7156044, z: -0.013203602, w: 0.69809717}
+  m_LocalPosition: {x: -6.69091, y: 0.229998, z: -5.67261}
   m_LocalScale: {x: 0.20000005, y: 4, z: 18.000114}
   m_Children: []
   m_Father: {fileID: 338562483}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -0.51000005, y: 46.677002, z: -2.69}
+  m_LocalEulerAnglesHint: {x: -0.51000005, y: 91.431, z: -2.69}
 --- !u!114 &1690752962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88122,7 +88134,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736171768}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1.28, y: 1.28, z: 1.28}
   m_Children:
   - {fileID: 1392809238}
@@ -88132,7 +88144,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -898}
+  m_AnchoredPosition: {x: -1, y: -898}
   m_SizeDelta: {x: -224, y: -168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736171770
@@ -88203,7 +88215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c6dbbf174ce6a41a9478ca553a1609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  video2: {fileID: 0}
 --- !u!1 &1737355503
 GameObject:
   m_ObjectHideFlags: 0
@@ -97664,7 +97675,6 @@ GameObject:
   - component: {fileID: 1923298859}
   - component: {fileID: 1923298858}
   - component: {fileID: 1923298857}
-  - component: {fileID: 1923298856}
   - component: {fileID: 1923298855}
   m_Layer: 5
   m_Name: minimizar
@@ -97706,19 +97716,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 203.8574, y: 56.699253, z: 63.264526}
   m_Center: {x: -3.6123817, y: 3.7210228, z: -31.132412}
---- !u!114 &1923298856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923298853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34dd2c14a94cdaf48b23e68440eb7b25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  video: {fileID: 1736171768}
 --- !u!114 &1923298857
 MonoBehaviour:
   m_ObjectHideFlags: 0
