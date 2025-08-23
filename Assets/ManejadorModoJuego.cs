@@ -45,9 +45,7 @@ public class ManejadorModoJuego : MonoBehaviour
     {
         if (IsContrarreloj)
         {
-            contadorMinutos();
-            Debug.Log(minutos+ "  " + segundos);
-            
+            contadorMinutos();            
         }
     }
     public void activarTemporizador()
@@ -76,8 +74,6 @@ public class ManejadorModoJuego : MonoBehaviour
             segundos = 59;
             if (minutos < 3)
             {
-                Debug.Log("intrusibo");
-                Debug.Log(minutos + "   " + segundos + "  intrusivos");
                 accionesDeAviso();
             }
             if (minutos < 0)
