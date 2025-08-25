@@ -3326,47 +3326,5 @@
       "image": null,
       "updatedAt": null
     }
-  },
-  {
-    "ChallengeID": 55,
-    "codename": "codename",
-    "question": "question",
-    "score": 100,
-    "image": "image",
-    "difficulty": null,
-    "updatedAt": "2022-02-15T19:46:11Z",
-    "gameLevelsChallenges": [],
-    "options": [
-      {
-        "ChallengeOptionId": 217,
-        "codename": "Opcion 1",
-        "correctOption": true,
-        "text": "Gatos",
-        "image": "Gatos image",
-        "updatedAt": "2022-02-15T19:46:11Z"
-      },
-      {
-        "ChallengeOptionId": 218,
-        "codename": "Opcion 2",
-        "correctOption": false,
-        "text": "Gatos",
-        "image": "Gatos image",
-        "updatedAt": "2022-02-15T19:46:11Z"
-      },
-      {
-        "ChallengeOptionId": 219,
-        "codename": "Opcion 3",
-        "correctOption": false,
-        "text": "Gatos",
-        "image": "Gatos image",
-        "updatedAt": "2022-02-15T19:46:11Z"
-      }
-    ],
-    "feedback": {
-      "ChallengeFeedbackId": 55,
-      "feedback": "conteste bien",
-      "image": "feedback image",
-      "updatedAt": "2022-02-15T19:46:11Z"
-    }
   }
 ]

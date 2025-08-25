@@ -1,6 +1,6 @@
 [   
     {
-        "ChallengeID": 48,
+        "ChallengeID": 55,
         "codename": "challenge_48",
         "question": "Si veo una fogata encendida en el bosque, ¿qué debo hacer?",
         "score": 1,
@@ -9,10 +9,10 @@
         "updatedAt": null,
         "gameLevelsChallenges": [
         {
-            "GameLevelId": 3,
+            "GameLevelId": 7,
             "updatedAt": null,
             "gameLevel": {
-            "Name": "Bosque-Estación 2"
+            "Name": "Bosque-Estación 6"
             }
         }
 
@@ -53,14 +53,14 @@
         }
         ],
         "feedback": {
-        "ChallengeFeedbackId": 1,
-        "feedback": "Avisar a un adulto,",
+        "ChallengeFeedbackId": 55,
+        "feedback": "Nunca intentes apagarla solo, mejor avisa a un adulto para evitar un incendio.",
         "image": null,
         "updatedAt": null
         }
     },
     {
-        "ChallengeID": 2,
+        "ChallengeID": 56,
         "codename": "challenge_2",
         "question": "¿Qué debemos evitar cuando caminemos por el sendero del bosque?",
         "score": 1,
@@ -112,14 +112,14 @@
         }
         ],
         "feedback": {
-        "ChallengeFeedbackId": 2,
-        "feedback": "Falta feedback, pregunta 2 fogatas",
+        "ChallengeFeedbackId": 56,
+        "feedback": "La basura daña a los animales y al bosque. Llévala contigo hasta un basurero.",
         "image": null,
         "updatedAt": null
         }
     },
     {
-        "ChallengeID": 3,
+        "ChallengeID": 57,
         "codename": "challenge_3",
         "question": "Si queremos encender una fogata, ¿Qué medidas debemos tomar en cuenta?",
         "score": 1,
@@ -132,13 +132,6 @@
             "updatedAt": null,
             "gameLevel": {
             "Name": "Bosque-Estación 6"
-            }
-        },
-        {
-            "GameLevelId": 5,
-            "updatedAt": null,
-            "gameLevel": {
-            "Name": "Bosque-Estación 4"
             }
         }
 
@@ -179,14 +172,14 @@
         }
         ],
         "feedback": {
-        "ChallengeFeedbackId": 3,
-        "feedback": "Falta feedback, pregunta 3 fogatas",
+        "ChallengeFeedbackId": 57,
+        "feedback": "Si hay hojas o ramas secas cerca, el fuego se puede expandir y causar un incendio.",
         "image": null,
         "updatedAt": null
         }
     },
     {
-        "ChallengeID": 4,
+        "ChallengeID": 58,
         "codename": "challenge_4",
         "question": "¿Por qué es peligroso dejar botellas de vidrio en el bosque?",
         "score": 1,
@@ -195,10 +188,10 @@
         "updatedAt": null,
         "gameLevelsChallenges": [
         {
-            "GameLevelId": 5,
+            "GameLevelId": 3,
             "updatedAt": null,
             "gameLevel": {
-            "Name": "Bosque-Estación 4"
+            "Name": "Bosque-Estación 2"
             }
         },
         {
@@ -245,8 +238,8 @@
         }
         ],
         "feedback": {
-        "ChallengeFeedbackId": 17,
-        "feedback": "Falta feedback, pregunta 4 fogatas",
+        "ChallengeFeedbackId": 58,
+        "feedback": "El vidrio funciona como una lupa y puede provocar un incendio en la vegetación.",
         "image": null,
         "updatedAt": null
         }        
