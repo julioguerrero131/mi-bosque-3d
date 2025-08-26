@@ -4,6 +4,19 @@
     "continuar": "CONTINUAR",
     "informacion": "Informacion"
   },
+  "menu_pausa": {
+    "guia": "Pausa: Esc\nVer mouse: Enter",
+    "menu": "MENU",
+    "modo": "MODO",
+    "mapa": "MAPA",
+    "lobby": "LOBBY",
+    "salir": "SALIR",
+
+    "modo_desc": "Seleccione el modo:",
+    "contrarreloj": "CONTRARRELOJ",
+    "normal": "NORMAL",
+    "volver": "VOLVER"
+  },
   "menu_inicial": {
     "boton_jugar": "jugar",
     "boton_explorar": "explorar",
@@ -204,6 +217,11 @@
       "flora_4_sentence_1": "Bombacaceae Número de especies reportado por género: 4"
     }
   },
+  "menu_bosque": {
+    "pausa": "PAUSA",
+    "estacion": "ESTACION",
+    "desafio": "DESAFIO"
+  },
   "first_challege_d": {
     "title_0": "Bienvenido",
     "title_1": "Bienvenido",
@@ -270,6 +288,11 @@
     "sentence_pendiente": "COLECTA el alimento y DEJALO en la zona designada usando tu CLIC.\nNuestro amigo cuenta contigo para recuperarse. Busca en los alerededores, seguro encuentras lo que necesita."
   },
   "fifth_challenge_d": {
+    "canvas_reciclar": "Desechos por reciclar: ",
+    "carton": "Cartón con cartón",
+    "plastico": "Plástico con plástico",
+    "vidrio": "Vidrio con vidrio",
+
     "title_vidrio": "¡Cuidado!",
     "sentence_vidrio": "El vidrio al sol funciona como una lupa y puede encender las hojas secas. Recógelo siempre para evitar incendios y cuidar el planeta.",
 
@@ -333,6 +356,50 @@
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",
     "segundo_nivel": "RESPETA A LOS ANIMALES, ¡OBSÉRVALOS DESDE LEJOS!",
     "llegada_lago": "¡HABLA SUAVECITO, LOS ANIMALES DUERMEN Y ESCUCHAN!",
-    "antes_nivel_4": "¡EVITA GENERAR FUEGO, PROTEGE AL BOSQUE!"
+    "antes_nivel_4": "¡EVITA GENERAR FUEGO, PROTEGE AL BOSQUE!",
+
+    "aire_fresco": "El aire fresco que respiras viene de los árboles. ¡Gracias árboles!",
+    "hojarasca": "¡Mira el suelo! La hojarasca es muy importante para la vida del bosque, ¡No la pises sin cuidado!",
+    "basura": "¡Oh no! Mira cuánta basura hay aquí. Este lago es la casa de muchos peces, ranas y otros animales acuáticos. Cuando la basura llega al agua, ¡ellos se enferman y no pueden vivir bien! ¡Este río es el corazón del bosque! Mantenlo limpio ayuda a todos."
+  },
+  "notificaciones": {
+    "avanzar": "Buen trabajo, avanza a la siguiente estación"
+  },
+  "notificacion_comida": {
+    "raton": "Has atrapado un ratón en tu mochila",
+    "salamandra": "Has atrapado una salamandra en tu mochila"
+  },
+  "logros_globales": {
+    "titulo": "LOGRO DESBLOQUEADO!!!",
+
+    "challenge_1_nombre": "Guardabosque Explorador",
+    "challenge_1_descripcion": "Has encontrado las especies solicitadas",
+
+    "challenge_2_nombre": "Guardabosque Veloz",
+    "challenge_2_descripcion": "Has salvado al conejo devolviéndolo a su madriguera",
+
+    "challenge_3_nombre": "Guardabosque Gourmet",
+    "challenge_3_descripcion": "Has ayudado a conseguir alimento",
+
+    "challenge_4_nombre": "Guardabosque Bombero",
+    "challenge_4_descripcion": "Has evitado un incendio",
+
+    "challenge_5_nombre": "Guardabosque Ecologista",
+    "challenge_5_descripcion": "Has reciclado basura encontrada",
+
+    "challenge_6_nombre": "Guardabosque herbolario",
+    "challenge_6_descripcion": "Has plantado las semillas encontradas",
+
+    "logro_1_nombre": "Guardian de la Fauna",
+    "logro_1_descripcion": "Conociste los animales del Bosque",
+
+    "logro_2_nombre": "Guardian de la Flora",
+    "logro_2_descripcion": "Conociste las plantas del Bosque",
+
+    "logro_3_nombre": "Juego terminado",
+    "logro_3_descripcion": "Terminaste el juego ",
+
+    "logro_4_nombre": "Completo 100%",
+    "logro_4_descripcion": "¡¡¡Completaste todo!!! "
   }
 }
