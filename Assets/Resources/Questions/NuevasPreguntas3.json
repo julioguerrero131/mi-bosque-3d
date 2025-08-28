@@ -207,7 +207,7 @@
         {
             "ChallengeOptionId": 226,
             "codename": "option_1A",
-            "correctOption": true,
+            "correctOption": false,
             "text": "Porque los animales podrían cortarse.",
             "image": "files/4G4D4-1UAfzUhw3M719dT.png",
             "updatedAt": null
