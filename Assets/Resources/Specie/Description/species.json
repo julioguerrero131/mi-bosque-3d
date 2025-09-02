@@ -120,14 +120,14 @@
         {
           "mongoId": "5dd8562644b5b86ed73021fa",
           "id": 22,
-          "description": "Su nombre científico es Vitex Gigantea Kunth es un arbol que llega a medir 20 m. de alto.",
+          "description": "Su nombre científico es Vitex Gigantea Kunth es un árbol que llega a medir 20 m. de alto.",
           "audioname": "Pechiche_audio_descripcion_1",
           "imagename": "Pechiche_image_1"
         },
         {
           "mongoId": "5dd8562644b5b86ed73021fb",
           "id": 23,
-          "description": "Su nombre científico es Vitex Gigantea Kunth es un arbol que llega a medir 20 m. de alto.",
+          "description": "Su nombre científico es Vitex Gigantea Kunth es un árbol que llega a medir 20 m. de alto.",
           "audioname": "Pechiche_audio_descripcion_2",
           "imagename": "Pechiche_image_2"
         }
