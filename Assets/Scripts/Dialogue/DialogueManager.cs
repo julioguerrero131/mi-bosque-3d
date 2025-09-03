@@ -248,8 +248,9 @@ public class DialogueManager : MonoBehaviour
             // Comprobar si la instancia de LanguageManager existe antes de continuar.
             if (LanguageManager.Instancia == null)
             {
-                Debug.LogWarning("No se encontro una instancia de LanguageManager. La traducción no se realizara.");
-                return;
+                Debug.LogWarning("No se encontro una instancia de LanguageManager. Inicializando...");
+                GameObject lm = new GameObject("LanguageManager");
+                lm.AddComponent<LanguageManager>();
             }
 
             if (!string.IsNullOrEmpty(dialogue.title[i]))
