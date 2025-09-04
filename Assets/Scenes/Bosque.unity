@@ -5252,10 +5252,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Siembra unas semillas
+    - sixth_challenge.title_pendiente
     sentences:
-    - "Solo debes ARRASTRAR las semillas en de la zona indicada. \n\nDirigete al INVERNADERO
-      para sembrar y abre tu mochila con la letra \"M\"."
+    - sixth_challenge.sentence_pendiente
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -26093,9 +26092,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - RECUERDA
+    - sixth_challenge.title_aire
     sentences:
-    - "El aire fresco que respiras viene de los \xE1rboles. \xA1Gracias \xE1rboles!\" "
+    - sixth_challenge.sentence_aire
     sprites: []
   dialogoCambiante: 0
   expresiones: 2
@@ -67164,13 +67163,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "Siembra un \xE1rbol"
-    - "T\xFA \xFAltima misi\xF3n"
+    - sixth_challenge.title_0
+    - sixth_challenge.title_1
     sentences:
-    - "Has logrado superar muchas misiones y est\xE1s muy cerca de convertirte en
-      un Guardabosque.\r\nAhora debes SEMBRAR dos \xE1rboles en el INVERNADERO.\r\n"
-    - Para hacerlo, ARRASTRA las semillas que hayas obtenido desde tu MOCHILA al suelo
-      en la ZONA MARCADA.
+    - sixth_challenge.sentence_0
+    - sixth_challenge.sentence_1
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -89055,9 +89052,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "\xA1FELICIDADES!"
+    - sixth_challenge.title_completado
     sentences:
-    - "Muy bien, el mirador ya est\xE1 unos pasos de aqu\uFBA0No te detengas ahora!"
+    - sixth_challenge.sentence_completado
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0

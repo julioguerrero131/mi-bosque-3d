@@ -302,6 +302,21 @@
     "title_pendiente": "Tú puedes",
     "sentence_pendiente": "RECOGE la basura del LAGO para evitar la contaminación y que los animales del bosque se lastimen.\nAbre la mochila con la letra M y ARRÁSTRALA a la basura correspondiente."
   },
+  "sixth_challenge": {
+    "title_aire": "RECUERDA",
+    "sentence_aire": "El aire fresco que respiras viene de los árboles. ¡Gracias árboles!",
+
+    "title_0": "Siembra un árbol",
+    "title_1": "Tu última misión",
+
+    "sentence_0": "Has logrado superar muchas misiones y estas muy cerca de convertirte en un Guardabosque.\nAhora debes SEMBRAR dos árboles en el INVERNADERO.",
+    "sentence_1": "Para hacerlo, ARRASTRA las semillas que hayas obtenido desde tu MOCHILA al SUELO en la ZONA MARCADA.",
+
+    "title_completado": "¡FELICIDADES!",
+    "sentence_completado": "Muy bien, el mirador ya está unos pasos aquí. ¡No te detengas ahora!",
+    "title_pendiente": "Siembra unas semillas",
+    "sentence_pendiente": "Solo debes ARRASTRAR las semillas en de la zona indicada.\n\nDirígete al INVERNADERO para sembrar y abre tu mochila con la letra M"
+  },
   "seventh_challenge": {
     "title_0": "Especies en peligro",
     "title_1": "¡FUEGO! Necesitamos agua.",

@@ -430,6 +430,24 @@ public class LanguageManager : MonoBehaviour
             textos["fifth_challenge.sentence_pendiente"] = ffc.sentence_pendiente;
         }
 
+        if (datos.sixth_challenge != null)
+        {
+            var sxc = datos.sixth_challenge;
+            textos["sixth_challenge.title_aire"] = sxc.title_aire;
+            textos["sixth_challenge.sentence_aire"] = sxc.sentence_aire;
+
+            textos["sixth_challenge.title_0"] = sxc.title_0;
+            textos["sixth_challenge.title_1"] = sxc.title_1;
+
+            textos["sixth_challenge.sentence_0"] = sxc.sentence_0;
+            textos["sixth_challenge.sentence_1"] = sxc.sentence_1;
+
+            textos["sixth_challenge.title_completado"] = sxc.title_completado;
+            textos["sixth_challenge.sentence_completado"] = sxc.sentence_completado;
+            textos["sixth_challenge.title_pendiente"] = sxc.title_pendiente;
+            textos["sixth_challenge.sentence_pendiente"] = sxc.sentence_pendiente;
+        }
+
         if (datos.seventh_challenge != null)
         {
             var svc = datos.seventh_challenge;
@@ -487,6 +505,7 @@ public class LanguageManager : MonoBehaviour
         public ThirdChallengeD third_challenge;
         public FourthChallenge fourth_challenge;
         public FifthChallenge fifth_challenge;
+        public SixthChallenge sixth_challenge;
         public SeventhChallenge seventh_challenge;
     }
 
@@ -839,6 +858,24 @@ public class LanguageManager : MonoBehaviour
 
         public string title_basura;
         public string sentence_basura;
+
+        public string title_0;
+        public string title_1;
+
+        public string sentence_0;
+        public string sentence_1;
+
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
+    }
+
+    [Serializable]
+    public class SixthChallenge
+    {
+        public string title_aire;
+        public string sentence_aire;
 
         public string title_0;
         public string title_1;
