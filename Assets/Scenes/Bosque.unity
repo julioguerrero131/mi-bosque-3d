@@ -44679,9 +44679,9 @@ MonoBehaviour:
     - seventh_challenge.title_wellzone_1
     - seventh_challenge.title_wellzone_2
     sentences:
-    - fifth_challenge.sentence_wellzone_0
-    - fifth_challenge.sentence_wellzone_1
-    - fifth_challenge.sentence_wellzone_2
+    - seventh_challenge.sentence_wellzone_0
+    - seventh_challenge.sentence_wellzone_1
+    - seventh_challenge.sentence_wellzone_2
     sprites:
     - {fileID: 21300000, guid: edfbea9d77750c349a6eda6d47b66c91, type: 3}
     - {fileID: 21300000, guid: edfbea9d77750c349a6eda6d47b66c91, type: 3}

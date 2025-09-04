@@ -454,9 +454,9 @@ public class LanguageManager : MonoBehaviour
             textos["seventh_challenge.title_wellzone_1"] = svc.title_wellzone_1;
             textos["seventh_challenge.title_wellzone_2"] = svc.title_wellzone_2;
 
-            textos["fifth_challenge.sentence_wellzone_0"] = svc.sentence_wellzone_0;
-            textos["fifth_challenge.sentence_wellzone_1"] = svc.sentence_wellzone_1;
-            textos["fifth_challenge.sentence_wellzone_2"] = svc.sentence_wellzone_2;
+            textos["seventh_challenge.sentence_wellzone_0"] = svc.sentence_wellzone_0;
+            textos["seventh_challenge.sentence_wellzone_1"] = svc.sentence_wellzone_1;
+            textos["seventh_challenge.sentence_wellzone_2"] = svc.sentence_wellzone_2;
         }
 
         if (datos.carteles_bosque != null)
