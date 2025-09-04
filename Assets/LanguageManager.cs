@@ -372,6 +372,23 @@ public class LanguageManager : MonoBehaviour
             textos["second_challenge.sentence_pendiente"] = sc.sentence_pendiente;
         }
 
+        if (datos.third_challenge != null)
+        {
+            var tc = datos.third_challenge;
+            textos["third_challenge.title_0"] = tc.title_0;
+            textos["third_challenge.title_1"] = tc.title_1;
+
+            textos["third_challenge.sentence_0"] = tc.sentence_0;
+            textos["third_challenge.sentence_1"] = tc.sentence_1;
+
+            textos["third_challenge.title_completado"] = tc.title_completado;
+            textos["third_challenge.sentence_completado"] = tc.sentence_completado;
+            textos["third_challenge.title_pendiente"] = tc.title_pendiente;
+            textos["third_challenge.sentence_pendiente"] = tc.sentence_pendiente;
+
+            textos["third_challenge.recordatorio"] = tc.recordatorio;
+        }
+
         if (datos.carteles_bosque != null)
         {
             textos["carteles_bosque.entrada_bosque"] = datos.carteles_bosque.entrada_bosque;
@@ -397,6 +414,7 @@ public class LanguageManager : MonoBehaviour
         public FirstChallenge first_challenge;
         public ConseguirLibro conseguir_libro;
         public SecondChallenge second_challenge;
+        public ThirdChallengeD third_challenge;
     }
 
     // Botones
@@ -701,6 +719,23 @@ public class LanguageManager : MonoBehaviour
         public string sentence_completado;
         public string title_pendiente;
         public string sentence_pendiente;
+    }
+
+    [Serializable]
+    public class ThirdChallengeD
+    {
+        public string title_0;
+        public string title_1;
+
+        public string sentence_0;
+        public string sentence_1;
+
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
+
+        public string recordatorio;
     }
 
     [Serializable]

@@ -17269,10 +17269,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - No te rindas
+    - third_challenge.title_pendiente
     sentences:
-    - "El conejo beb\xE9 necesita tu ayuda. ATRAPA al conejo y luego REGR\xC9SALO
-      a su madriguera usando el clic."
+    - third_challenge.sentence_pendiente
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -17918,14 +17917,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "\xA1El conejo beb\xE9 se ha perdido!\r"
-    - "\xA1Tenemos que salvarlo!"
+    - third_challenge.title_0
+    - third_challenge.title_1
     sentences:
-    - "Ha salido de su madriguera. Es peligroso que est\xE9 fuera de su hogar, ya
-      que otros animales podr\xEDan atacarlo o herirlo. "
-    - "Explora al rededor, debemos salvarlo pero es un poco escurridizo. Se veloz
-      y ATR\xC1PALO, luego DEVU\xC9LVELO a la madriguera en el menor tiempo posible
-      dando CLIC."
+    - third_challenge.sentence_0
+    - third_challenge.sentence_1
     sprites:
     - {fileID: 21300000, guid: 60c21795b68baa34992855c29b43793c, type: 3}
     - {fileID: 21300000, guid: 9f641e9471d8f824eacfb99910be0d3a, type: 3}
@@ -23865,6 +23861,7 @@ GameObject:
   - component: {fileID: 613250166}
   - component: {fileID: 613250168}
   - component: {fileID: 613250167}
+  - component: {fileID: 613250169}
   m_Layer: 5
   m_Name: mensaje
   m_TagString: Untagged
@@ -23933,6 +23930,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613250165}
   m_CullTransparentMesh: 0
+--- !u!114 &613250169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613250165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: third_challenge.recordatorio
 --- !u!1 &614762930
 GameObject:
   m_ObjectHideFlags: 0
@@ -51983,11 +51993,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "El conejo beb\xE9 est\xE1 a salvo"
+    - third_challenge.title_completado
     sentences:
-    - "Gracias por salvar al conejo beb\xE9, ya est\xE1 seguro en su madriguera. Recuerda
-      que cuando sea un ave o un reptil no debes acercarte y es mejor informar a un
-      adulto para su ayuda."
+    - third_challenge.sentence_completado
     sprites:
     - {fileID: 21300000, guid: 305430da548b03a449822e206a339a0a, type: 3}
   dialogoCambiante: 0

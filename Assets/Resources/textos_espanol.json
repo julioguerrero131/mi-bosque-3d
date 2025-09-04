@@ -253,6 +253,20 @@
     "title_pendiente": "Puedes hacerlo",
     "sentence_pendiente": "Interactúa con las especies del bosque para acceder a la siguiente estación, recuerda que tenemos una gran variedad de animales y árboles."
   },
+  "third_challenge": {
+    "title_0": "¡El conejo se ha perdido!",
+    "title_1": "¡Tenemos que salvarlo!",
+
+    "sentence_0": "Ha salido de su madriguera. Es peligroso que esté fuera de su hogar, ya que otros animales podrían atacarlo o herirlo.",
+    "sentence_1": "Explora alrededor, debemos salvarlo pero es un poco escurridizo. Sé veloz y ATRÁPALO, luego DEVUÉLVELO a la madriguera en el menor tiempo posible dando CLIC.",
+
+    "title_completado": "El conejo bebé está a salvo",
+    "sentence_completado": "Gracias por salvar al conejo bebé, ya está seguro en su madriguera. Recuerda que cuando sea un ave o un reptil no debes acercarte y es mejor informar a un adulto por ayuda.",
+    "title_pendiente": "No te rindas",
+    "sentence_pendiente": "El conejo bebé necesita tu ayuda. ATRAPA al conejo y luego REGRÉSALO a su madriguera usando clic.",
+
+    "recordatorio": "Atrapa al conejo beb룹 devuelvelo a su madriguera a tiempo."
+  },
   "carteles_bosque": {
     "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",
