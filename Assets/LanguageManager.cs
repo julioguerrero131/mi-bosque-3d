@@ -87,6 +87,12 @@ public class LanguageManager : MonoBehaviour
             textos["botones.retroceder"] = datos.botones.retroceder;
             textos["botones.continuar"] = datos.botones.continuar;
             textos["botones.informacion"] = datos.botones.informacion;
+            textos["botones.entendido"] = datos.botones.entendido;
+        }
+
+        if (datos.menu_pausa != null)
+        {
+            textos["menu_pausa.guia"] = datos.menu_pausa.guia;
         }
         
         if (datos.menu_inicial != null)
@@ -505,6 +511,7 @@ public class LanguageManager : MonoBehaviour
     public class DatosIdioma
     {
         public Botones botones;
+        public MenuPausa menu_pausa;
         public MenuInicial menu_inicial;
         public MenuPartidas menu_partidas;
         public Tutorial tutorial;
@@ -529,6 +536,14 @@ public class LanguageManager : MonoBehaviour
         public string continuar;
         public string retroceder;
         public string informacion;
+        public string entendido;
+    }
+
+    // Menu pausa
+    [Serializable]
+    public class MenuPausa
+    {
+        public string guia;
     }
 
     // Menu inicial

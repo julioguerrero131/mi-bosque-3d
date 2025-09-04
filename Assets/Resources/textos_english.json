@@ -2,7 +2,8 @@
   "botones": {
     "retroceder": "GO BACK",
     "continuar": "CONTINUE",
-    "informacion": "Information"
+    "informacion": "Information",
+    "entendido": "Understood"
   },
   "menu_pausa": {
     "guia": "Pause: Esc\nShow mouse: Enter",
