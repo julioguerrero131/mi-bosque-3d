@@ -4,6 +4,18 @@
     "continuar": "CONTINUAR",
     "informacion": "Informação"
   },
+  "menu_pausa": {
+    "guia": "Pausa: Esc\nVer mouse: Enter",
+    "menu": "MENU",
+    "modo": "MODO",
+    "mapa": "MAPA",
+    "lobby": "LOBBY",
+    "salir": "SAIR",
+    "modo_desc": "Selecione o modo:",
+    "contrarreloj": "CONTRA-RELÓGIO",
+    "normal": "NORMAL",
+    "volver": "VOLTAR"
+  },
   "menu_inicial": {
     "boton_jugar": "jogar",
     "boton_explorar": "explorar",
@@ -11,8 +23,8 @@
   },
   "menu_partidas": {
     "crear_cargar_partida": {
-      "cargar_partida": "carregar jogo",
-      "nueva_partida": "novo jogo"
+      "cargar_partida": "Carregar Jogo",
+      "nueva_partida": "Novo Jogo"
     },
     "nueva_partida": {
       "title_avatar": "Escolha seu \navatar",
@@ -23,316 +35,265 @@
       "genero_h": "Menino",
       "genero_m": "Menina",
       "genero_otro": "Prefiro não dizer",
-      "label_pin": "PIN do curso:",
-      "pin_invitado": "Obter PIN de convidado.",
+      "label_pin": "Pin do curso:",
+      "pin_invitado": "Obter Pin de convidado.",
       "invitado_1": "Agora você pode jogar como convidado com o código ",
       "invitado_2": " quando quiser!"
     }
   },
   "tutorial": {
-    "dialogo_0": "Olá! Sou um Guarda-Florestal e vou lhe dar algumas instruções. Está pronto?",
-    "dialogo_1": "Para andar, use as teclas: A para ir à esquerda, D para a direita, S para voltar e W para avançar.",
-    "dialogo_2": "Com as teclas mencionadas, você pode andar e explorar a floresta. Agora vamos praticar.",
-    "dialogo_3": "Você deve me seguir e andar para frente para coletar as esferas vermelhas. Vamos!",
-    "dialogo_4": "Você aprende muito rápido! Mas sabe como correr?",
-    "dialogo_5": "Não sabe? É simples, basta pressionar Shift enquanto anda.",
-    "dialogo_6": "Vamos praticar novamente e coletar as esferas verdes. Não esqueça de correr usando Shift.",
-    "dialogo_7": "Bom trabalho! Você aprende rápido.",
-    "dialogo_8": "Agora vamos tentar pular. Olha que divertido! Quer aprender?",
-    "dialogo_9": "Para pular, pressione a barra de espaço. Tente!",
-    "dialogo_10": "Ótimo salto! Você mandou bem.",
-    "dialogo_11": "Terminamos as instruções.",
-    "dialogo_12": "Agora você já pode começar sua aventura."
+    "dialogo_0": "Olá! Eu sou um Guarda Florestal e vou te dar algumas indicações. Você está pronto?",
+    "dialogo_1": "Para caminhar use as teclas: A para ir para a esquerda, D para a direita, S para ir para trás e W para a frente.",
+    "dialogo_2": "Com as teclas mencionadas você poderá caminhar e explorar a Floresta. Agora vamos praticar.",
+    "dialogo_3": "Você deve me seguir e caminhar para a frente para recolher as esferas vermelhas. Vamos!",
+    "dialogo_4": "Você aprende muito rápido!, mas você sabe como correr?",
+    "dialogo_5": "não sabe? Bem, é algo simples, você só precisa pressionar Shift enquanto caminha.",
+    "dialogo_6": "Vamos praticar novamente e recolher as esferas verdes. Não se esqueça de correr usando Shift.",
+    "dialogo_7": "Ótimo trabalho! Você aprende muito rápido.",
+    "dialogo_8": "Agora vamos tentar pular. Olha que divertido! Gostaria de aprender?",
+    "dialogo_9": "Para pular você deve pressionar a tecla de Espaço. Tente!",
+    "dialogo_10": "Muito bom salto! Você foi ótimo.",
+    "dialogo_11": "Terminamos as indicações.",
+    "dialogo_12": "Agora você já pode iniciar sua aventura."
   },
   "lobby": {
     "bruno": {
-      "title_0": "OLÁ, SOU O BRUNO!",
+      "title_0": "OLÁ EU SOU O BRUNO!",
       "title_1": "EXPLORE A FLORESTA",
-      "title_2": "DICAS PARA COMEÇAR",
-      "sentence_0": "Bem-vindo à FLORESTA PROTEGIDA PROSPERINA",
-      "sentence_1": "Resolva os desafios de cada estação para se tornar um GUARDA-FLORESTAL DIGITAL",
-      "sentence_2": "1. Explore as cabanas \n2. Interaja com os grupos de excursão"
+      "title_2": "DICAS PARA INICIAR",
+      "sentence_0": "Bem-vindo à FLORESTA PROTETORA PROSPERINA",
+      "sentence_1": "Resolva os desafios de cada estação para se tornar um GUARDA FLORESTAL DIGITAL",
+      "sentence_2": "1. Explore as cabanas\n2. Interaja com os grupos de excursão"
     },
     "cabanas_info": {
       "title_animales": "Bem-vindo à cabana dos Mamíferos",
-      "sentence_animales_0": "Aqui você pode conhecer informações sobre os mamíferos que habitam a Floresta Prosperina",
-      "sentence_animales_1": "Aproxime-se da luz de cada tela interativa e você poderá navegar pelas imagens",
-      "sentence_animales_2": "Toque no botão de informação para saber mais sobre a imagem que está vendo",
-
+      "sentence_animales_0": "Você poderá conhecer informações sobre os Mamíferos que habitam na Floresta Prosperina",
+      "sentence_animales_1": "Aproxime-se da luz de cada tela interativa e você poderá se deslocar entre as imagens",
+      "sentence_animales_2": "Toque no botão de informação para saber mais sobre a imagem que você está vendo",
       "title_aves": "Bem-vindo à cabana das Aves",
-      "sentence_aves_0": "Nesta cabana você conhecerá várias espécies de aves que habitam a Floresta Protegida Prosperina",
-      "sentence_aves_1": "Aproxime-se da luz azul e posicione-se em frente a cada tela para ver as fotos e ler as informações",
-
+      "sentence_aves_0": "Nesta cabana você poderá conhecer várias espécies de aves que habitam na Floresta Protetora Prosperina",
+      "sentence_aves_1": "Você deve se aproximar da luz azul e se colocar em frente a cada tela para observar suas fotos e ler sua informação",
       "title_flora": "Bem-vindo à cabana da Flora",
-      "sentence_flora_0": "Aqui você pode conhecer informações importantes sobre a flora que habita a Floresta Prosperina",
-      "sentence_flora_1": "Aproxime-se da luz de cada tela interativa e você poderá navegar pelas imagens",
-      "sentence_flora_2": "Toque no botão de informação para saber mais sobre a imagem que está vendo"
+      "sentence_flora_0": "Aqui você poderá conhecer informações importantes sobre a Flora que habita na Floresta Prosperina",
+      "sentence_flora_1": "Aproxime-se da luz de cada tela interativa e você poderá se deslocar entre as imagens",
+      "sentence_flora_2": "Toque no botão de informação para saber mais sobre a imagem que você está vendo"
     },
     "excursionistas": {
-      "title_grupo": "Vamos fazer uma excursão",
-      "sentence_grupo_0": "Acho que não estamos prontos para sair ainda — precisamos ter certeza de que temos tudo o que precisamos!",
-      "sentence_grupo_1": "Vamos até o portão principal para entrar na Floresta Protegida Prosperina",
-      "sentence_grupo_2": "Ao passar pelo portão, nossa excursão começa!"
+      "title_grupo": "Vamos de excursão",
+      "sentence_grupo_0": "Não creio que estejamos prontos para ir de excursão, devemos ter certeza de ter tudo o que é necessário!",
+      "sentence_grupo_1": "Vamos para a porta principal para ir para a Floresta Protegida Prosperina",
+      "sentence_grupo_2": "Ao passar a porta, Iniciaremos nossa Excursão!"
     },
     "cabana_animal": {
       "title_0": "Nome Científico:",
       "title_1": "Família:",
       "title_2": "Tipo de Floresta:",
-
       "animal_0_sentence_0": "Sciurus stramineus",
       "animal_0_sentence_1": "Sciuridae",
-      "animal_0_sentence_2": "Florestas secas, úmidas e montanas, incluindo florestas maduras e secundárias",
-
+      "animal_0_sentence_2": "Florestas secas, úmidas e montanas incluindo florestas maduras e secundárias",
       "animal_1_sentence_0": "Panthera Onca",
       "animal_1_sentence_1": "Felidae",
-      "animal_1_sentence_2": "Florestas secas e úmidas",
-
+      "animal_1_sentence_2": "Florestas Secas e Úmidas",
       "animal_2_sentence_0": "Alouatta palliata",
       "animal_2_sentence_1": "Atelidae",
-      "animal_2_sentence_2": "Florestas secas e úmidas",
-
+      "animal_2_sentence_2": "Florestas Secas e Úmidas",
       "animal_3_sentence_0": "Tamandua mexicana",
       "animal_3_sentence_1": "Myrmecophagidae",
-      "animal_3_sentence_2": "Florestas tropicais secas e úmidas",
-
+      "animal_3_sentence_2": "Florestas Secas e Úmidas Tropicais",
       "animal_4_sentence_0": "Choloepus hoffmanni",
       "animal_4_sentence_1": "Megalonychidae",
-      "animal_4_sentence_2": "Florestas tropicais secas e úmidas",
-
+      "animal_4_sentence_2": "Florestas Secas e Úmidas Tropicais",
       "animal_5_sentence_0": "Lonchophylla hesperia",
       "animal_5_sentence_1": "Phyllostomidae",
-      "animal_5_sentence_2": "Florestas secas e úmidas",
-
+      "animal_5_sentence_2": "Florestas Secas, Úmidas",
       "animal_6_sentence_0": "Ateles fusciceps",
       "animal_6_sentence_1": "Atelidae",
-      "animal_6_sentence_2": "Florestas secas e úmidas",
-
+      "animal_6_sentence_2": "Florestas Secas e Úmidas",
       "animal_7_sentence_0": "Proechimys decumanus",
       "animal_7_sentence_1": "Echimyidae",
-      "animal_7_sentence_2": "Florestas secas e úmidas",
-
+      "animal_7_sentence_2": "Florestas Secas e Úmidas",
       "animal_8_sentence_0": "Lycalopex sechurae",
       "animal_8_sentence_1": "Canidae",
-      "animal_8_sentence_2": "Florestas tropicais secas e úmidas",
-
+      "animal_8_sentence_2": "Florestas Secas e Úmidas Tropicais",
       "animal_9_sentence_0": "Odocoileus peruvianus",
       "animal_9_sentence_1": "Cervidae",
-      "animal_9_sentence_2": "Florestas tropicais secas"
+      "animal_9_sentence_2": "Florestas Secas Tropicais"
     },
     "cabana_aves": {
       "title_0": "Família:",
       "title_1": "Comportamento:",
       "title_2": "Distribuição ESPOL-BPP:",
-
       "ave_0_sentence_0": "ACCIPITRIFORMES ACCIPITRIDAE",
       "ave_0_sentence_1": "Empoleira-se ao ar livre na borda da floresta, plana regularmente, mantendo as asas planas e a cauda em leque.",
-      "ave_0_sentence_2": "Limites noroeste do BPP.",
-
+      "ave_0_sentence_2": "Limites Norocidentais do BPP.",
       "ave_1_sentence_0": "STRIGIFORMES STRIGIDAE",
-      "ave_1_sentence_1": "Ativo apenas à noite, dorme sob folhagem densa, frequentemente em galhos expostos bem acima do solo.",
-      "ave_1_sentence_2": "Observada em área úmida e arborizada do Morro dos Macacos no BPP.",
-
+      "ave_1_sentence_1": "Ativo apenas à noite, dorme sob árvores frondosas, muitas vezes em galhos expostos a grande altura do chão.",
+      "ave_1_sentence_2": "Observada em área úmida de floresta do morro dos macacos do BPP.",
       "ave_2_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
-      "ave_2_sentence_1": "Pequenos bandos, muitas vezes buscam alimento em campo aberto, levantando a cauda pela metade de forma característica.",
-      "ave_2_sentence_2": "Observada nos arredores de reservatórios e áreas úmidas do BPP.",
-
+      "ave_2_sentence_1": "Pequenos bandos, muitas vezes procuram alimento em campo aberto, caracteristicamente levantando a cauda pela metade.",
+      "ave_2_sentence_2": "Observada nos arredores dos reservatórios e áreas úmidas do BPP.",
       "ave_3_sentence_0": "PASSERIFORMES TYRANNIDAE",
-      "ave_3_sentence_1": "Encontrada sozinha ou em pares, geralmente barulhenta e conspícua. Caça vários tipos de insetos e também se alimenta de frutas.",
+      "ave_3_sentence_1": "Encontrado sozinho ou em casal, geralmente barulhento e conspícuo. Persegue uma grande variedade de insetos, também se alimenta de fruta.",
       "ave_3_sentence_2": "Observada em todo o campus da ESPOL.",
-
       "ave_4_sentence_0": "STRIGIFORMES STRIGIDAE",
-      "ave_4_sentence_1": "Avistada em cercas ao longo de estradas e em áreas semiabertas, voo rápido e direto em céu aberto.",
-      "ave_4_sentence_2": "Áreas baixas e áridas com árvores, desde os reservatórios até os miradouros.",
-
+      "ave_4_sentence_1": "Avistado em cercas à beira da estrada e em locais semi-abertos, o voo em céu aberto é rápido e direto.",
+      "ave_4_sentence_2": "Zonas baixas e áridas com árvores, desde os reservatórios até os mirantes.",
       "ave_5_sentence_0": "PICIFORMES PICIDAE",
-      "ave_5_sentence_1": "Geralmente empoleira-se no alto das árvores. Examina e bica troncos e galhos em busca de insetos, também come frutas e caça insetos no ar.",
+      "ave_5_sentence_1": "Costuma empoleirar-se alto nas árvores. Inspeciona e vasculha troncos e galhos em busca de insetos, mas também se alimenta de frutas e caça insetos no ar.",
       "ave_5_sentence_2": "Observada em todo o campus da ESPOL.",
-
       "ave_6_sentence_0": "PASSERIFORMES TYRANNIDAE",
-      "ave_6_sentence_1": "Alimenta-se principalmente de insetos capturados em voos curtos, também consome frutas.",
+      "ave_6_sentence_1": "Alimenta-se principalmente de insetos que captura com seus movimentos aéreos, também consome fruta.",
       "ave_6_sentence_2": "Observada em todo o BPP.",
-
       "ave_7_sentence_0": "CAPRIMULGIFORMES TROCHILIDAE",
-      "ave_7_sentence_1": "Territorial e competitiva, alimentando-se do néctar das flores e ajudando a polinizá-las. O macho realiza voo vertical com mergulhos durante o acasalamento.",
+      "ave_7_sentence_1": "Territorial e competitiva, alimentando-se do néctar de flores, ajudando a polinizá-las. Macho em cortejo realiza um voo vertical com quedas em picada.",
       "ave_7_sentence_2": "Observada em todo o campus da ESPOL.",
-
       "ave_8_sentence_0": "PASSERIFORMES",
-      "ave_8_sentence_1": "Normalmente em pares ou pequenos grupos, procurando alimento em diferentes estratos.",
-      "ave_8_sentence_2": "Observada em áreas florestadas do BPP.",
-
+      "ave_8_sentence_1": "Habitualmente em casal ou pequenos grupos, procurando alimento em vários estratos.",
+      "ave_8_sentence_2": "Observada em áreas de floresta do BPP.",
       "ave_9_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
       "ave_9_sentence_1": "Principalmente arborícola e bastante tímida.",
-      "ave_9_sentence_2": "Observada em todo o campus da ESPOL.",
-
+      "ave_9_sentence_2": "Observada em todo o campus ESPOL.",
       "ave_10_sentence_0": "PASSERIFORMES TYRANNIDAE",
-      "ave_10_sentence_1": "Frequentemente em pares, erguendo regularmente as penas da coroa para formar uma crista arredondada e fofa enquanto balança a cabeça atentamente.",
-      "ave_10_sentence_2": "Observada em áreas florestadas do BPP.",
-
+      "ave_10_sentence_1": "Muitas vezes em casais, regularmente ergue as penas coronárias para formar uma crista redonda e fofa enquanto balança a cabeça de forma alerta.",
+      "ave_10_sentence_2": "Observada nas áreas de floresta do BPP.",
       "ave_11_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
-      "ave_11_sentence_1": "Alimenta-se principalmente de grandes insetos como cigarras, batendo-os contra um galho ou no chão antes de comer, também consome pequenas quantidades de frutas.",
+      "ave_11_sentence_1": "Alimenta-se principalmente de insetos grandes como Cigarras, batendo-as contra um galho ou o chão antes de comê-las, também consome fruta em poucas quantidades.",
       "ave_11_sentence_2": "Observada em todo o campus da ESPOL.",
-
       "ave_12_sentence_0": "CAPRIMULGIFORMES CAPRIMULGIDAE",
-      "ave_12_sentence_1": "Normalmente vista em estradas de terra.",
-      "ave_12_sentence_2": "Observada nas linhas corta-fogo e estradas de terra do BPP.",
-
+      "ave_12_sentence_1": "Geralmente avistado em estradas de terra.",
+      "ave_12_sentence_2": "Observada nas linhas corta-fogo e vias de terra do BPP.",
       "ave_13_sentence_0": "PASSERIFORMES THAMNOPHILIDAE",
-      "ave_13_sentence_1": "Ousada e fácil de observar. Normalmente em pares, alimentando-se em estratos baixos e médios. Às vezes em bandos mistos e dispersos.",
-      "ave_13_sentence_2": "Observada em todo o campus da ESPOL.",
-
+      "ave_13_sentence_1": "Atrevido e fácil de observar. Apresenta-se principalmente em casais e alimenta-se em estratos baixos e intermediários. Às vezes, em bandos mistos e dispersos.",
+      "ave_13_sentence_2": "Observadas em todo o campus da ESPOL.",
       "ave_14_sentence_0": "CORACIFORMES MOMOTIDAE",
-      "ave_14_sentence_1": "Costuma ficar empoleirada observando o entorno, balançando a cauda para frente e para trás.",
+      "ave_14_sentence_1": "Costuma permanecer empoleirado enquanto analisa seus arredores, realizando um movimento pendular da cauda.",
       "ave_14_sentence_2": "Observada nos reservatórios do BPP."
     },
     "cabana_flora": {
       "title_0": "Nome Científico:",
       "title_1": "Família:",
-
       "flora_0_sentence_0": "Triplaris cumingiana Fisch",
-      "flora_0_sentence_1": "Polygonaceae Número de espécies reportadas por gênero: 4",
-
+      "flora_0_sentence_1": "Polygonaceae Número de espécies relatado por gênero: 4",
       "flora_1_sentence_0": "Prosopis juliflora (Sw.) DC",
-      "flora_1_sentence_1": "Mimosaceae Número de espécies reportadas por gênero: 2",
-
+      "flora_1_sentence_1": "Mimosaceae Número de espécies relatado por gênero: 2",
       "flora_2_sentence_0": "Centrolobium ochroxylum Rose ex Rudd.",
-      "flora_2_sentence_1": "Fabaceae Número de espécies reportadas por gênero: 3",
-
+      "flora_2_sentence_1": "Fabacae Número de espécies relatado por gênero: 3",
       "flora_3_sentence_0": "Muntingia calabura L.",
-      "flora_3_sentence_1": "Flacourtiaceae Número de espécies reportadas por gênero: 1",
-
+      "flora_3_sentence_1": "Flacourtiaceae Número de espécies relatado por gênero: 1",
       "flora_4_sentence_0": "Ceiba trichistandra (A. Gray) Bakh",
-      "flora_4_sentence_1": "Bombacaceae Número de espécies reportadas por gênero: 4"
+      "flora_4_sentence_1": "Bombacaceae Número de espécies relatado por gênero: 4"
     }
   },
-  "first_challege_d": {
+  "first_challenge": {
     "title_0": "Bem-vindo",
     "title_1": "Bem-vindo",
-    "title_2": "Interaja com o seu ambiente",
+    "title_2": "Interaja com seu ambiente",
     "title_3": "Lembre-se que...",
     "title_4": "Conheça as espécies",
-
-    "sentence_0": "Olá, sou Paco! E dou-lhe as boas-vindas à Floresta Protetora Prosperina.",
-    "sentence_1": "Explore e proteja a floresta e suas espécies para se tornar um Guarda-florestal.",
-    "sentence_2": "Para interagir com objetos e aprender sobre os animais e plantas da floresta, centralize-os no PONTO DE MIRA na sua tela e CLIQUE.",
-    "sentence_3": "Em uma visita real à floresta você precisa da ajuda de um GUIA que informará sobre a rota, e que existem áreas que podem ser perigosas.",
-    "sentence_4": "Para se familiarizar com a floresta, sua primeira missão será encontrar 3 espécies: um esquilo, uma iguana e um pechiche."
+    "sentence_0": "Olá, eu sou o Paco! E te dou as boas-vindas à Floresta Protetora Prosperina.",
+    "sentence_1": "Explore e proteja a floresta e suas espécies para se tornar um Guarda Florestal.",
+    "sentence_2": "Para interagir com objetos e aprender sobre os animais e as plantas da floresta, centralize-os no PONTO DE MIRA na sua tela e CLIQUE neles.",
+    "sentence_3": "Em uma visita real à floresta você precisa da ajuda de um GUIA que te informará sobre a rota, e que existem zonas que podem ser perigosas.",
+    "sentence_4": "Para se familiarizar com a floresta, sua primeira missão será encontrar 3 espécies: um esquilo, uma iguana e uma árvore de pechiche."
   },
   "conseguir_libro": {
     "title_0": "Muito bem",
     "title_1": "Interação com espécies",
     "title_2": "Prêmios",
-
-    "sentence_0": "Agora que você sabe como se mover, vamos lhe dar este livro.\nNele você poderá registrar as espécies que encontrar na floresta quando interagir com elas. Para abri-lo pressione a tecla L.",
-    "sentence_1": "Para interagir com as árvores e os animaizinhos da floresta:\nColoque o PONTO DE MIRA onde desejar e CLIQUE sobre eles.",
-    "sentence_2": "Certifique-se de encontrá-los todos para obter grandes recompensas mais tarde."
+    "sentence_0": "Agora que você sabe como se mover, vamos te dar este livro.\nNele você poderá registrar as espécies que for encontrando na floresta quando interagir com elas. Para abri-lo pressione a tecla L.",
+    "sentence_1": "Para interagir com as árvores e os animaizinhos da floresta:\nColoque o PONTO DE MIRA onde desejar e CLIQUE sobre elas.",
+    "sentence_2": "Certifique-se de encontrá-los todos para obter grandes recompensas mais adiante."
   },
-  "second_challenge_d": {
+  "second_challenge": {
     "title_0": "Colete",
     "title_1": "LEMBRE-SE",
     "title_2": "Em marcha",
-
-    "sentence_0": "É hora de usar mais esse livro.\nEncontre um esquilo, uma iguana e uma árvore de pechiche na floresta e interaja com eles para registrá-los no seu livro.",
+    "sentence_0": "É hora de você começar a usar um pouco mais esse livro.\nEncontre um esquilo, uma iguana e uma árvore de pechiche na floresta e interaja com eles para registrá-los no seu livro.",
     "sentence_1": "Para interagir com as árvores e os animaizinhos da floresta, coloque o PONTO DE MIRA onde desejar e CLIQUE sobre eles.",
-    "sentence_2": "Para ver as pistas de onde estão as espécies que você deve buscar, pressione a letra P.",
-
-    "title_completado": "Muito bem!",
+    "sentence_2": "Para ver as pistas de onde as espécies que você deve procurar se encontram, pressione a letra P.",
+    "title_completado": "Bem feito!",
     "sentence_completado": "Ao explorar a estação você descobriu espécies da Floresta Protetora Prosperina.\nContinue explorando as novas estações e missões.",
     "title_pendiente": "Você consegue",
     "sentence_pendiente": "Interaja com as espécies da floresta para acessar a próxima estação, lembre-se que temos uma grande variedade de animais e árvores."
   },
-  "third_challengue_d": {
+  "third_challenge": {
     "title_0": "O coelho se perdeu!",
     "title_1": "Temos que salvá-lo!",
-
-    "sentence_0": "Ele saiu de sua toca. É perigoso estar fora de casa, já que outros animais podem atacá-lo ou feri-lo.",
-    "sentence_1": "Explore ao redor, precisamos salvá-lo, mas ele é um pouco arisco. Seja rápido e PEGUE-O, depois DEVOLVA-O à toca no menor tempo possível clicando.",
-
+    "sentence_0": "Ele saiu da sua toca. É perigoso que ele esteja fora de seu lar, já que outros animais poderiam atacá-lo ou feri-lo.",
+    "sentence_1": "Explore ao redor, devemos salvá-lo, mas ele é um pouco escorregadio. Seja veloz e PEGUE-O, depois DEVOLVA-O para a toca no menor tempo possível dando CLIQUE.",
     "title_completado": "O coelho bebê está a salvo",
-    "sentence_completado": "Obrigado por salvar o coelho bebê, agora ele está seguro em sua toca. Lembre-se que quando for uma ave ou um réptil você não deve se aproximar, é melhor informar a um adulto para pedir ajuda.",
+    "sentence_completado": "Obrigado por salvar o coelho bebê, ele já está seguro em sua toca. Lembre-se que quando for uma ave ou um réptil você não deve se aproximar e é melhor informar um adulto para pedir ajuda.",
     "title_pendiente": "Não desista",
-    "sentence_pendiente": "O coelho bebê precisa da sua ajuda. PEGUE o coelho e depois DEVOLVA-O à sua toca clicando."
+    "sentence_pendiente": "O coelho bebê precisa da sua ajuda. PEGUE o coelho e depois DEVOLVA-O para sua toca usando clique.",
+    "recordatorio": "Pegue o coelho bebê e devolva-o para sua toca a tempo."
   },
-  "fourth_challenge_d": {
+  "fourth_challenge": {
     "title_suelo": "LEMBRE-SE",
     "sentence_suelo": "Olhe para o chão! As espécies são muito importantes para a vida na floresta, não as pise sem cuidado!",
-
-    "title_0": "Ajuda emplumada",
+    "title_0": "Ajuda com penas",
     "title_1": "Entregue o alimento",
     "title_2": "Entrega de comida",
-
-    "sentence_0": "Nosso amigo o Gavião-de-dorso-cinzento machucou uma de suas asas e não pode conseguir alimento sozinho.",
-    "sentence_1": "Para este desafio você deve PROCURAR dois ratos e uma salamandra. Preste atenção, é possível que você os ouça quando estiver perto.\n\nPara pedir ajuda pressione a letra P.",
-    "sentence_2": "Uma vez que capturou o alimento, você deve colocá-los na área indicada clicando.\n\nEste é um exemplo de cadeia alimentar das espécies e como elas se alimentam.",
-
+    "sentence_0": "Nosso amigo o Gavião de Dorso-cinzento, feriu uma de suas asas e não consegue obter seu alimento sozinho.",
+    "sentence_1": "Para este desafio você deve PROCURAR dois ratos e uma salamandra. Preste atenção, é possível que os ouça quando estiver perto.\n\nPara solicitar ajuda pressione a letra P.",
+    "sentence_2": "Uma vez que você capturou o alimento, deve colocá-los na zona indicada dando clique.\n\nEste é um exemplo de cadeia trófica das espécies e como se alimentam.",
     "title_completado": "Você fez muito bem!",
-    "sentence_completado": "Obrigado por caçar o alimento para o Gavião-de-dorso-cinzento, temos certeza que ele se recuperará logo e poderá caçar sozinho. Em uma floresta real evite se aproximar do seu alimento.",
+    "sentence_completado": "Obrigado por caçar o alimento para o Gavião de Dorso-cinzento, temos certeza de que ele se recuperará em breve e poderá caçar sozinho. Em uma floresta real evite se aproximar de seu alimento.",
     "title_pendiente": "Não o decepcione",
-    "sentence_pendiente": "COLETE o alimento e DEIXE-O na área designada usando o seu CLIQUE.\nNosso amigo conta com você para se recuperar. Procure ao redor, com certeza encontrará o que precisa."
+    "sentence_pendiente": "COLETE o alimento e DEIXE-O na zona designada usando seu CLIQUE.\nNosso amigo conta com você para se recuperar. Procure nos arredores, com certeza você encontra o que ele precisa."
   },
-  "fifth_challenge_d": {
+  "fifth_challenge": {
     "title_vidrio": "Cuidado!",
-    "sentence_vidrio": "O vidro ao sol funciona como uma lupa e pode incendiar as folhas secas. Recolha-o sempre para evitar incêndios e cuidar do planeta.",
-
+    "sentence_vidrio": "O vidro ao sol funciona como uma lupa e pode acender as folhas secas. Recolha-o sempre para evitar incêndios e cuidar do planeta.",
+    "title_basura": "Oh não! Olhe quanta lixo tem aqui",
+    "sentence_basura": "Quando o lixo chega na água, os animais ficam doentes e não podem viver bem!",
     "title_0": "Recicle e classifique",
-    "title_1": "O lixo no lugar certo",
-
-    "sentence_0": "Parece que alguns visitantes deixaram lixo no LAGO. Isso é algo que não deve acontecer quando você visita uma floresta, uma praia ou um rio.\nAjude-nos a RECOLHÊ-LO e CLASSIFICÁ-LO na lixeira correspondente.",
-    "sentence_1": "Para recolher o lixo você deve CLICAR e ele será guardado na sua mochila. Para depositá-lo na lixeira pressione M e depois ARRASTE até a lixeira correspondente.",
-
-    "title_basura": "Oh não! Veja quanta sujeira há aqui",
-    "sentence_basura": "Quando o lixo chega à água, os animais adoecem e não conseguem viver bem!",
-
+    "title_1": "O lixo em seu lugar",
+    "sentence_0": "Ao que parece existem visitantes que deixaram lixo no LAGO. Isso é algo que não deve acontecer quando você visita uma floresta, uma praia ou um rio.\nAjude-nos a RECOLHÊ-LA e CLASSIFICÁ-LA em seu respectivo cesto.",
+    "sentence_1": "Para recolher o lixo você deve fazer CLIQUE e ele será guardado em sua mochila. Para depositá-lo em seu cesto pressione M e depois ARRASTE para o cesto correspondente.",
     "title_completado": "Excelente trabalho!",
-    "sentence_completado": "Você recolheu e classificou o lixo encontrado na Floresta.\nDemonstra preocupação com a natureza. Lembre-se de nunca deixar resíduos nela.",
+    "sentence_completado": "Você recolheu e classificou o lixo encontrado na Floresta.\nDemonstre preocupação pela natureza. Lembre-se de nunca deixar resíduos nela.",
     "title_pendiente": "Você consegue",
-    "sentence_pendiente": "RECOLHA o lixo do LAGO para evitar a poluição e que os animais da floresta se machuquem.\nAbra a mochila com a letra M e ARRASTE o lixo até a lixeira correspondente."
+    "sentence_pendiente": "RECOLHA o lixo do LAGO para evitar a contaminação e que os animais da floresta se machuquem.\nAbra a mochila com a letra M e ARRASTE para o lixo correspondente."
   },
-  "seventh_challenge_d": {
+  "sixth_challenge": {
+    "title_aire": "LEMBRE-SE",
+    "sentence_aire": "O ar fresco que você respira vem das árvores. Obrigado árvores!",
+    "title_0": "Plante uma árvore",
+    "title_1": "Sua última missão",
+    "sentence_0": "Você conseguiu superar muitas missões e está muito perto de se tornar um Guarda Florestal.\nAgora você deve PLANTAR duas árvores no VIVEIRO.",
+    "sentence_1": "Para fazer isso, ARRASTE as sementes que você obteve de sua MOCHILA para o CHÃO na ZONA MARCADA.",
+    "title_completado": "PARABÉNS!",
+    "sentence_completado": "Muito bem, o mirante já está a alguns passos daqui. Não pare agora!",
+    "title_pendiente": "Plante algumas sementes",
+    "sentence_pendiente": "Você só precisa ARRASTAR as sementes na zona indicada.\n\nDirija-se ao VIVEIRO para plantar e abra sua mochila com a letra M"
+  },
+  "seventh_challenge": {
     "title_0": "Espécies em perigo",
     "title_1": "FOGO! Precisamos de água.",
-
-    "sentence_0": "Alguém deixou uma fogueira acesa que pode iniciar um incêndio na Floresta",
+    "sentence_0": "Alguém deixou uma fogueira acesa que poderia iniciar um incêndio na Floresta",
     "sentence_1": "Primeiro ENCONTRE um recipiente e depois PROCURE uma fonte de água para apagar o fogo. LEMBRE-SE dos lugares visitados no percurso.",
-
     "title_completado_0": "Você conseguiu!",
     "title_completado_1": "Você conseguiu!",
-    "sentence_completado_0": "Você apagou a fogueira e evitou um incêndio na Floresta.\n\nVocê é um verdadeiro Guarda-florestal Protetor da Natureza!!!",
-    "sentence_completado_1": "Pegue sua insígnia de Guarda-florestal e vamos comemorar com os outros exploradores!",
-    "title_pendiente_0": "Ainda há tempo",
-    "title_pendiente_1": "Ainda há tempo",
-    "sentence_pendiente_0": "Não podemos nos distrair, precisamos APAGAR o FOGO antes que cause um incêndio!",
-    "sentence_pendiente_1": "Há um POÇO perto daqui, mas certamente está FECHADO.\n\nTambém há um LAGO, mas precisamos de um RECIPIENTE para trazer a água...\n\nVocê tem alguma ideia?",
+    "sentence_completado_0": "Você apagou a fogueira, e evitou um incêndio na Floresta.\n\nVocê é um verdadeiro Guarda Florestal Protetor da Natureza!!!",
+    "sentence_completado_1": "Recolha sua insígnia de Guarda Florestal e vamos celebrar com os outros exploradores!",
+    "title_pendiente_0": "Você ainda tem tempo",
+    "title_pendiente_1": "Você ainda tem tempo",
+    "sentence_pendiente_0": "Não podemos nos distrair, temos que APAGAR o FOGO antes que um incêndio seja gerado!",
+    "sentence_pendiente_1": "Há um POÇO perto daqui, mas certamente está FECHADO.\n\nTambém há um LAGO mas precisamos de um RECIPIENTE para trazer a água...\n\nVocê tem alguma ideia?",
     "title_fallado": "Pelo menos você tentou",
-    "sentence_fallado": "Parece que você não conseguiu nos ajudar com o incêndio. Felizmente, o problema foi resolvido antes de uma catástrofe.\nContinue para a próxima estação.",
-
+    "sentence_fallado": "Parece que você não pôde ajudar com o incêndio. Felizmente, o problema foi solucionado antes de uma catástrofe.\nContinue para a próxima estação.",
     "title_wellzone_0": "Poço de água",
     "title_wellzone_1": "Tenha cuidado!",
     "title_wellzone_2": "Procure um recipiente",
-
-    "sentence_wellzone_0": "Você encontrou um poço! Os poços possuem um buraco profundo de onde se extrai água.",
-    "sentence_wellzone_1": "Um balde é jogado dentro e recuperado cheio de água com uma corda.",
-    "sentence_wellzone_2": "Está selado por segurança, mas talvez possamos encontrar algo útil perto do poço para recolher água. PROCURE ao redor."
-  },
-  "sixth_challenge_d": {
-    "title_aire": "LEMBRE-SE",
-    "sentence_aire": "O ar fresco que você respira vem das árvores. Obrigado, árvores!",
-
-    "title_0": "Plante uma árvore",
-    "title_1": "Sua última missão",
-
-    "sentence_0": "Você conseguiu superar muitas missões e está muito perto de se tornar um Guarda-florestal.\nAgora você deve PLANTAR duas árvores na ESTUFA.",
-    "sentence_1": "Para isso, ARRASTE as sementes que obteve da sua MOCHILA para o CHÃO na ÁREA MARCADA.",
-
-    "title_completado": "PARABÉNS!",
-    "sentence_completado": "Muito bem, o mirante já está a poucos passos daqui. Não pare agora!",
-    "title_pendiente": "Plante algumas sementes",
-    "sentence_pendiente": "Você só precisa ARRASTAR as sementes na área indicada.\n\nDirija-se à ESTUFA para plantar e abra sua mochila com a letra M"
+    "sentence_wellzone_0": "Você encontrou um poço! Os poços possuem um buraco de grande profundidade de onde se extrai água.",
+    "sentence_wellzone_1": "Arroja-se um balde em seu interior e ele é recuperado cheio de água com uma corda.",
+    "sentence_wellzone_2": "Está selado por segurança mas talvez possamos encontrar algo útil perto do poço para recolher água. PROCURE ao redor."
   },
   "carteles_bosque": {
-    "entrada_bosque": "PROTEJA A FLORESTA, É NOSSO LAR!",
+    "entrada_bosque": "CUIDE DA FLORESTA, É NOSSO LAR!",
     "primer_nivel": "SIGA O CAMINHO, NÃO SE PERCA!",
     "segundo_nivel": "RESPEITE OS ANIMAIS, OBSERVE-OS DE LONGE!",
-    "llegada_lago": "FALE BAIXO, OS ANIMAIS ESTÃO DORMINDO E OUVINDO!",
-    "antes_nivel_4": "EVITE FAZER FOGO, PROTEJA A FLORESTA!"
+    "llegada_lago": "FALE BAIXINHO, OS ANIMAIS DORMEM E ESCUTAM!",
+    "antes_nivel_4": "EVITE GERAR FOGO, PROTEJA A FLORESTA!"
   }
 }

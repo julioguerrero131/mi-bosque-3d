@@ -1,8 +1,20 @@
 {
   "botones": {
-    "retroceder": "BACK",
+    "retroceder": "GO BACK",
     "continuar": "CONTINUE",
     "informacion": "Information"
+  },
+  "menu_pausa": {
+    "guia": "Pause: Esc\nShow mouse: Enter",
+    "menu": "MENU",
+    "modo": "MODE",
+    "mapa": "MAP",
+    "lobby": "LOBBY",
+    "salir": "EXIT",
+    "modo_desc": "Select the mode:",
+    "contrarreloj": "TIME TRIAL",
+    "normal": "NORMAL",
+    "volver": "GO BACK"
   },
   "menu_inicial": {
     "boton_jugar": "play",
@@ -16,323 +28,272 @@
     },
     "nueva_partida": {
       "title_avatar": "Choose your \navatar",
-      "title_datos": "Enter your information",
+      "title_datos": "Enter your data",
       "label_nombre": "Name:",
       "label_edad": "Age:",
       "label_genero": "Gender:",
       "genero_h": "Boy",
       "genero_m": "Girl",
       "genero_otro": "Prefer not to say",
-      "label_pin": "Course PIN:",
-      "pin_invitado": "Get guest PIN.",
-      "invitado_1": "Now you can play as a guest with the code ",
-      "invitado_2": " anytime you want!"
+      "label_pin": "Course Pin:",
+      "pin_invitado": "Get Guest Pin.",
+      "invitado_1": "You can now play as a guest with the code ",
+      "invitado_2": " whenever you want!"
     }
   },
   "tutorial": {
-    "dialogo_0": "Hello! I’m a Park Ranger and I’ll give you some instructions. Are you ready?",
-    "dialogo_1": "To walk, use the keys: A to go left, D to go right, S to go backwards, and W to go forward.",
-    "dialogo_2": "With the mentioned keys, you can walk and explore the forest. Now let’s practice.",
-    "dialogo_3": "Follow me and walk forward to collect the red spheres. Let’s go!",
-    "dialogo_4": "You learn very quickly! But do you know how to run?",
-    "dialogo_5": "You don’t? Well, it’s easy — just press Shift while walking.",
-    "dialogo_6": "Let’s practice again and collect the green spheres. Don’t forget to run using Shift.",
+    "dialogo_0": "Hello! I'm a Forest Ranger and I'll give you some instructions. Are you ready?",
+    "dialogo_1": "To walk, use the keys: A to go left, D for right, S for back and W for forward.",
+    "dialogo_2": "With the mentioned keys you will be able to walk and explore the Forest. Now let's practice.",
+    "dialogo_3": "You must follow me and walk forward to collect the red spheres. Let's go!",
+    "dialogo_4": "You learn very fast! But do you know how to run?",
+    "dialogo_5": "You don't? Well, it's easy, you just have to press Shift while you walk.",
+    "dialogo_6": "Let's practice again and collect the green spheres. Don't forget to run using Shift.",
     "dialogo_7": "Good job! You learn very fast.",
-    "dialogo_8": "Now let’s try jumping. Look how fun it is! Would you like to learn?",
-    "dialogo_9": "To jump, press the Space key. Give it a try!",
-    "dialogo_10": "Great jump! You did amazing.",
+    "dialogo_8": "Now let's try jumping. Look how fun! Would you like to learn?",
+    "dialogo_9": "To jump you must press the Space key. Try it!",
+    "dialogo_10": "Very good jump! You did great.",
     "dialogo_11": "We have finished the instructions.",
-    "dialogo_12": "Now you can begin your adventure."
+    "dialogo_12": "Now you can start your adventure."
   },
   "lobby": {
     "bruno": {
-      "title_0": "HELLO, I’M BRUNO!",
+      "title_0": "HELLO I AM BRUNO!",
       "title_1": "EXPLORE THE FOREST",
-      "title_2": "TIPS TO GET STARTED",
+      "title_2": "TIPS TO START",
       "sentence_0": "Welcome to the PROSPERINA PROTECTED FOREST",
-      "sentence_1": "Complete the challenges in each station to become a DIGITAL PARK RANGER",
-      "sentence_2": "1. Explore the cabins \n2. Interact with the excursion groups"
+      "sentence_1": "Solve the challenges of each station to become a DIGITAL FOREST RANGER",
+      "sentence_2": "1. Explore the cabins\n2. Interact with the excursion groups"
     },
     "cabanas_info": {
-      "title_animales": "Welcome to the Mammals Cabin",
-      "sentence_animales_0": "Here you can learn about the mammals that live in the Prosperina Forest",
-      "sentence_animales_1": "Approach the light of each interactive screen and you can scroll through the images",
-      "sentence_animales_2": "Press the info button to learn more about the image you are viewing",
-
-      "title_aves": "Welcome to the Birds Cabin",
-      "sentence_aves_0": "In this cabin you can learn about several bird species that live in the Prosperina Protected Forest",
+      "title_animales": "Welcome to the Mammal cabin",
+      "sentence_animales_0": "You will be able to learn about the Mammals that live in the Prosperina Forest",
+      "sentence_animales_1": "Approach the light of each interactive screen and you can move between the images",
+      "sentence_animales_2": "Touch the information button to learn more about the image you are seeing",
+      "title_aves": "Welcome to the Bird cabin",
+      "sentence_aves_0": "In this cabin you will be able to learn about several species of birds that live in the Prosperina Protected Forest",
       "sentence_aves_1": "You must approach the blue light and stand in front of each screen to see their photos and read their information",
-
-      "title_flora": "Welcome to the Flora Cabin",
-      "sentence_flora_0": "Here you can learn important information about the flora that inhabits the Prosperina Forest",
-      "sentence_flora_1": "Approach the light of each interactive screen and you can scroll through the images",
-      "sentence_flora_2": "Press the info button to learn more about the image you are viewing"
+      "title_flora": "Welcome to the Flora cabin",
+      "sentence_flora_0": "Here you will be able to find important information about the Flora that lives in the Prosperina Forest",
+      "sentence_flora_1": "Approach the light of each interactive screen and you can move between the images",
+      "sentence_flora_2": "Touch the information button to learn more about the image you are seeing"
     },
     "excursionistas": {
-      "title_grupo": "Let’s go on an excursion",
-      "sentence_grupo_0": "I don’t think we’re ready to go yet — we must make sure we have everything we need!",
-      "sentence_grupo_1": "Let’s go to the main gate to enter the Prosperina Protected Forest",
-      "sentence_grupo_2": "Once we pass the gate, our excursion begins!"
+      "title_grupo": "Let's go on an excursion",
+      "sentence_grupo_0": "I don't think we are ready to go on an excursion, we must be sure we have everything we need!",
+      "sentence_grupo_1": "Let's go to the main door to go to the Prosperina Protected Forest",
+      "sentence_grupo_2": "When we pass the door, we will start our Excursion!"
     },
     "cabana_animal": {
       "title_0": "Scientific Name:",
       "title_1": "Family:",
-      "title_2": "Type of Forest:",
-
+      "title_2": "Forest Type:",
       "animal_0_sentence_0": "Sciurus stramineus",
       "animal_0_sentence_1": "Sciuridae",
-      "animal_0_sentence_2": "Dry, humid, and montane forests, including mature and secondary forests",
-
+      "animal_0_sentence_2": "Dry, humid and montane forests including mature and secondary forests",
       "animal_1_sentence_0": "Panthera Onca",
       "animal_1_sentence_1": "Felidae",
-      "animal_1_sentence_2": "Dry and humid forests",
-
+      "animal_1_sentence_2": "Dry and Humid Forests",
       "animal_2_sentence_0": "Alouatta palliata",
       "animal_2_sentence_1": "Atelidae",
-      "animal_2_sentence_2": "Dry and humid forests",
-
+      "animal_2_sentence_2": "Dry and Humid Forests",
       "animal_3_sentence_0": "Tamandua mexicana",
       "animal_3_sentence_1": "Myrmecophagidae",
-      "animal_3_sentence_2": "Tropical dry and humid forests",
-
+      "animal_3_sentence_2": "Dry and Humid Tropical Forests",
       "animal_4_sentence_0": "Choloepus hoffmanni",
       "animal_4_sentence_1": "Megalonychidae",
-      "animal_4_sentence_2": "Tropical dry and humid forests",
-
+      "animal_4_sentence_2": "Dry and Humid Tropical Forests",
       "animal_5_sentence_0": "Lonchophylla hesperia",
       "animal_5_sentence_1": "Phyllostomidae",
-      "animal_5_sentence_2": "Dry and humid forests",
-
+      "animal_5_sentence_2": "Dry, Humid Forests",
       "animal_6_sentence_0": "Ateles fusciceps",
       "animal_6_sentence_1": "Atelidae",
-      "animal_6_sentence_2": "Dry and humid forests",
-
+      "animal_6_sentence_2": "Dry and Humid Forests",
       "animal_7_sentence_0": "Proechimys decumanus",
       "animal_7_sentence_1": "Echimyidae",
-      "animal_7_sentence_2": "Dry and humid forests",
-
+      "animal_7_sentence_2": "Dry and Humid Forests",
       "animal_8_sentence_0": "Lycalopex sechurae",
       "animal_8_sentence_1": "Canidae",
-      "animal_8_sentence_2": "Tropical dry and humid forests",
-
+      "animal_8_sentence_2": "Dry and Humid Tropical Forests",
       "animal_9_sentence_0": "Odocoileus peruvianus",
       "animal_9_sentence_1": "Cervidae",
-      "animal_9_sentence_2": "Tropical dry forests"
+      "animal_9_sentence_2": "Tropical Dry Forests"
     },
     "cabana_aves": {
       "title_0": "Family:",
       "title_1": "Behavior:",
       "title_2": "ESPOL-BPP Distribution:",
-
       "ave_0_sentence_0": "ACCIPITRIFORMES ACCIPITRIDAE",
-      "ave_0_sentence_1": "Perches in the open at the forest edge, glides regularly, keeping wings flat and tail fanned.",
+      "ave_0_sentence_1": "Perches in the open at the edge of the forest, glides regularly, keeping wings flat and tail fanned.",
       "ave_0_sentence_2": "Northwestern limits of the BPP.",
-
       "ave_1_sentence_0": "STRIGIFORMES STRIGIDAE",
-      "ave_1_sentence_1": "Active only at night, sleeps under dense foliage, often on branches exposed high above the ground.",
-      "ave_1_sentence_2": "Observed in humid forested area of Monkey Hill in BPP.",
-
+      "ave_1_sentence_1": "Only active at night, sleeps under dense trees, often on exposed branches high off the ground.",
+      "ave_1_sentence_2": "Observed in the humid forested area of the monkey hill of BPP.",
       "ave_2_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
-      "ave_2_sentence_1": "Small flocks, often forage in open areas, characteristically lifting the tail halfway.",
-      "ave_2_sentence_2": "Observed around reservoirs and humid areas of BPP.",
-
+      "ave_2_sentence_1": "Small flocks, often forage in open fields, characteristically half-raising the tail.",
+      "ave_2_sentence_2": "Observed in the surroundings of the reservoirs and humid areas of BPP.",
       "ave_3_sentence_0": "PASSERIFORMES TYRANNIDAE",
-      "ave_3_sentence_1": "Found alone or in pairs, generally noisy and conspicuous. Hunts a wide variety of insects and also feeds on fruit.",
+      "ave_3_sentence_1": "Found alone or in pairs, generally noisy and conspicuous. Pursues a wide variety of insects, also feeds on fruit.",
       "ave_3_sentence_2": "Observed throughout the ESPOL campus.",
-
       "ave_4_sentence_0": "STRIGIFORMES STRIGIDAE",
-      "ave_4_sentence_1": "Spotted on fences along roadsides and in semi-open areas, with fast and direct flight in open skies.",
-      "ave_4_sentence_2": "Low and arid areas with trees, from reservoirs to viewpoints.",
-
+      "ave_4_sentence_1": "Sighted on roadside fences and in semi-cleared places, open sky flight is fast and direct.",
+      "ave_4_sentence_2": "Low and arid areas with trees, from the reservoirs to the viewpoints.",
       "ave_5_sentence_0": "PICIFORMES PICIDAE",
-      "ave_5_sentence_1": "Usually perches high in trees. Inspects and pecks trunks and branches for insects, also eats fruits and catches insects in the air.",
+      "ave_5_sentence_1": "Usually perches high in trees. Inspects and searches trunks and branches for insects but also feeds on fruits and hunts insects in the air.",
       "ave_5_sentence_2": "Observed throughout the ESPOL campus.",
-
       "ave_6_sentence_0": "PASSERIFORMES TYRANNIDAE",
-      "ave_6_sentence_1": "Feeds mainly on insects caught during aerial sallies, also consumes fruit.",
-      "ave_6_sentence_2": "Observed throughout BPP.",
-
+      "ave_6_sentence_1": "It feeds mainly on insects that it captures with its aerial swings, also consumes fruit.",
+      "ave_6_sentence_2": "Observed throughout the BPP.",
       "ave_7_sentence_0": "CAPRIMULGIFORMES TROCHILIDAE",
-      "ave_7_sentence_1": "Territorial and competitive, feeding on flower nectar and helping to pollinate them. Males perform vertical flights with dives during courtship.",
+      "ave_7_sentence_1": "Territorial and competitive, feeding on the nectar of flowers, helping to pollinate them. The male in courtship performs a vertical flight with falls in a dive.",
       "ave_7_sentence_2": "Observed throughout the ESPOL campus.",
-
       "ave_8_sentence_0": "PASSERIFORMES",
-      "ave_8_sentence_1": "Usually in pairs or small groups, foraging at various levels.",
+      "ave_8_sentence_1": "Usually in pairs or small groups, foraging in various strata.",
       "ave_8_sentence_2": "Observed in forested areas of BPP.",
-
       "ave_9_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
-      "ave_9_sentence_1": "Mainly arboreal and quite shy.",
-      "ave_9_sentence_2": "Observed throughout ESPOL campus.",
-
+      "ave_9_sentence_1": "Mainly arboreal and quite timid.",
+      "ave_9_sentence_2": "Observed throughout the ESPOL campus.",
       "ave_10_sentence_0": "PASSERIFORMES TYRANNIDAE",
-      "ave_10_sentence_1": "Often in pairs, regularly raises crown feathers into a round, fluffy crest while nodding alertly.",
-      "ave_10_sentence_2": "Observed in the forested areas of BPP.",
-
+      "ave_10_sentence_1": "Often in pairs, it regularly raises its crown feathers to form a round and fluffy crest while nodding alertly.",
+      "ave_10_sentence_2": "Observed in the forested areas of the BPP.",
       "ave_11_sentence_0": "PASSERIFORMES HIRUNDINIDAE",
-      "ave_11_sentence_1": "Feeds mainly on large insects such as cicadas, striking them against a branch or the ground before eating, also consumes small amounts of fruit.",
+      "ave_11_sentence_1": "It feeds mainly on large insects such as Cicadas, hitting them against a branch or the ground before eating them, it also consumes fruit in small quantities.",
       "ave_11_sentence_2": "Observed throughout the ESPOL campus.",
-
       "ave_12_sentence_0": "CAPRIMULGIFORMES CAPRIMULGIDAE",
-      "ave_12_sentence_1": "Usually spotted on dirt roads.",
-      "ave_12_sentence_2": "Observed on firebreak lines and dirt roads of BPP.",
-
+      "ave_12_sentence_1": "Usually sighted on dirt roads.",
+      "ave_12_sentence_2": "Observed on the firebreak lines and dirt roads of the BPP.",
       "ave_13_sentence_0": "PASSERIFORMES THAMNOPHILIDAE",
-      "ave_13_sentence_1": "Bold and easy to observe. Found mainly in pairs, feeding at low and mid levels. Sometimes in mixed, scattered flocks.",
+      "ave_13_sentence_1": "Bold and easy to observe. It is mainly found in pairs and feeds in low and intermediate strata. Sometimes, in mixed and dispersed flocks.",
       "ave_13_sentence_2": "Observed throughout the ESPOL campus.",
-
       "ave_14_sentence_0": "CORACIFORMES MOMOTIDAE",
-      "ave_14_sentence_1": "Often perches while scanning its surroundings, swinging its tail back and forth.",
-      "ave_14_sentence_2": "Observed at BPP reservoirs."
+      "ave_14_sentence_1": "It usually remains perched while analyzing its surroundings, performing a pendulum movement of the tail.",
+      "ave_14_sentence_2": "Observed in the reservoirs of the BPP."
     },
     "cabana_flora": {
       "title_0": "Scientific Name:",
       "title_1": "Family:",
-
       "flora_0_sentence_0": "Triplaris cumingiana Fisch",
       "flora_0_sentence_1": "Polygonaceae Number of species reported by genus: 4",
-
       "flora_1_sentence_0": "Prosopis juliflora (Sw.) DC",
       "flora_1_sentence_1": "Mimosaceae Number of species reported by genus: 2",
-
       "flora_2_sentence_0": "Centrolobium ochroxylum Rose ex Rudd.",
-      "flora_2_sentence_1": "Fabaceae Number of species reported by genus: 3",
-
+      "flora_2_sentence_1": "Fabacae Number of species reported by genus: 3",
       "flora_3_sentence_0": "Muntingia calabura L.",
       "flora_3_sentence_1": "Flacourtiaceae Number of species reported by genus: 1",
-
       "flora_4_sentence_0": "Ceiba trichistandra (A. Gray) Bakh",
       "flora_4_sentence_1": "Bombacaceae Number of species reported by genus: 4"
     }
   },
-  "first_challege_d": {
+  "first_challenge": {
     "title_0": "Welcome",
     "title_1": "Welcome",
     "title_2": "Interact with your surroundings",
     "title_3": "Remember that...",
-    "title_4": "Get to know the species",
-
+    "title_4": "Learn about the species",
     "sentence_0": "Hello, I'm Paco! And I welcome you to the Prosperina Protected Forest.",
-    "sentence_1": "Explore and protect the forest and its species to become a Ranger.",
-    "sentence_2": "To interact with objects and learn about the animals and plants of the forest, center them in the AIM POINT on your screen and CLICK on them.",
-    "sentence_3": "On a real visit to the forest you need the help of a GUIDE who will inform you of the route, and that there are areas that could be dangerous.",
-    "sentence_4": "To get familiar with the forest, your first mission will be to find 3 species: a squirrel, an iguana, and a pechiche tree."
+    "sentence_1": "Explore and protect the forest and its species to become a Forest Ranger.",
+    "sentence_2": "To interact with objects and learn about the animals and plants of the forest, center them in the CROSSHAIRS on your screen and CLICK on them.",
+    "sentence_3": "In a real visit to the forest, you need the help of a GUIDE who will inform you of the route, and that there are areas that could be dangerous.",
+    "sentence_4": "To familiarize yourself with the forest, your first mission will be to find 3 species: a squirrel, an iguana, and a pechiche tree."
   },
   "conseguir_libro": {
     "title_0": "Very good",
     "title_1": "Interaction with species",
-    "title_2": "Rewards",
-
-    "sentence_0": "Now that you know how to move, we’ll give you this book.\nIn it you can record the species you find in the forest when you interact with them. To open it, press the L key.",
-    "sentence_1": "To interact with the trees and little animals in the forest:\nPlace the AIM POINT where you want and CLICK on them.",
-    "sentence_2": "Make sure to find them all to earn great rewards later on."
+    "title_2": "Prizes",
+    "sentence_0": "Now that you know how to move, we'll give you this book.\nIn it you can record the species you find in the forest when you interact with them. To open it, press the L key.",
+    "sentence_1": "To interact with the trees and little animals of the forest:\nPlace the CROSSHAIRS where you want and CLICK on them.",
+    "sentence_2": "Make sure you find them all to get great rewards later."
   },
-  "second_challenge_d": {
+  "second_challenge": {
     "title_0": "Collect",
     "title_1": "REMEMBER",
     "title_2": "On the way",
-
-    "sentence_0": "It’s time to start using that book a bit more.\nFind a squirrel, an iguana, and a pechiche tree in the forest and interact with them to record them in your book.",
-    "sentence_1": "To interact with the trees and little animals in the forest, place the AIM POINT where you want and CLICK on them.",
-    "sentence_2": "To see the clues of where the species you need to look for are located, press the P key.",
-
+    "sentence_0": "It's time for you to start carrying that book a little more.\nFind a squirrel, an iguana, and a pechiche tree in the forest and interact with them to register them in your book.",
+    "sentence_1": "To interact with the trees and little animals of the forest, place the CROSSHAIRS where you want and CLICK on them.",
+    "sentence_2": "To see the clues of where the species you must look for are, press the letter P.",
     "title_completado": "Well done!",
-    "sentence_completado": "By exploring the station you’ve discovered species of the Prosperina Protected Forest.\nKeep exploring the new stations and missions.",
+    "sentence_completado": "By exploring the station you have discovered species of the Prosperina Protected Forest.\nContinue exploring the new stations and missions.",
     "title_pendiente": "You can do it",
     "sentence_pendiente": "Interact with the species of the forest to access the next station, remember that we have a great variety of animals and trees."
   },
-  "third_challengue_d": {
+  "third_challenge": {
     "title_0": "The rabbit is lost!",
-    "title_1": "We must save it!",
-
-    "sentence_0": "It has left its burrow. It’s dangerous for it to be out of its home, since other animals could attack or hurt it.",
-    "sentence_1": "Explore around, we must save it but it’s a little tricky. Be fast and CATCH IT, then RETURN it to the burrow as quickly as possible by CLICKING.",
-
+    "title_1": "We have to save it!",
+    "sentence_0": "It has left its burrow. It is dangerous for it to be outside its home, as other animals could attack or injure it.",
+    "sentence_1": "Explore around, we must save it but it's a bit elusive. Be fast and CATCH it, then RETURN it to the burrow as fast as possible by CLICKING.",
     "title_completado": "The baby rabbit is safe",
-    "sentence_completado": "Thank you for saving the baby rabbit, it’s now safe in its burrow. Remember that if it’s a bird or a reptile you shouldn’t approach and it’s better to tell an adult for help.",
-    "title_pendiente": "Don’t give up",
-    "sentence_pendiente": "The baby rabbit needs your help. CATCH the rabbit and then RETURN it to its burrow using click."
+    "sentence_completado": "Thanks for saving the baby rabbit, it's safe in its burrow now. Remember that when it's a bird or a reptile you shouldn't get close and it's better to inform an adult for help.",
+    "title_pendiente": "Don't give up",
+    "sentence_pendiente": "The baby rabbit needs your help. CATCH the rabbit and then RETURN it to its burrow by clicking.",
+    "recordatorio": "Catch the baby rabbit and return it to its burrow in time."
   },
-  "fourth_challenge_d": {
+  "fourth_challenge": {
     "title_suelo": "REMEMBER",
-    "sentence_suelo": "Look at the ground! Species are very important for life in the forest, don’t step on them carelessly!",
-
+    "sentence_suelo": "Look at the ground! The species are very important for life in the forest, don't step on them carelessly!",
     "title_0": "Feathered help",
     "title_1": "Deliver the food",
     "title_2": "Food delivery",
-
-    "sentence_0": "Our friend the Gray-backed Hawk has hurt one of its wings and cannot get its food on its own.",
-    "sentence_1": "For this challenge you must LOOK for two mice and a salamander. Pay attention, you may hear them when you’re close.\n\nTo ask for help press the P key.",
-    "sentence_2": "Once you’ve captured the food, you must place them in the indicated area by clicking.\n\nThis is an example of a food chain of the species and how they feed.",
-
-    "title_completado": "You did it very well!",
-    "sentence_completado": "Thank you for hunting food for the Gray-backed Hawk, we’re sure it will recover soon and be able to hunt on its own. In a real forest avoid approaching its food.",
-    "title_pendiente": "Don’t let it down",
-    "sentence_pendiente": "COLLECT the food and LEAVE it in the designated area using your CLICK.\nOur friend is counting on you to recover. Search the surroundings, you’ll surely find what it needs."
+    "sentence_0": "Our friend the Gray-backed Hawk, has injured one of its wings and cannot get its food by itself.",
+    "sentence_1": "For this challenge you must FIND two mice and a salamander. Pay attention, it's possible you can hear them when you're close.\n\nTo request help press the letter P.",
+    "sentence_2": "Once you have captured the food, you must place them in the indicated area by clicking.\n\nThis is an example of the trophic chain of the species and how they feed.",
+    "title_completado": "You have done very well!",
+    "sentence_completado": "Thanks for hunting the food for the Gray-backed Hawk, we are sure it will recover soon and can hunt alone. In a real forest avoid getting close to their food.",
+    "title_pendiente": "Don't let it down",
+    "sentence_pendiente": "COLLECT the food and LEAVE it in the designated area using your CLICK.\nOur friend is counting on you to recover. Look in the surroundings, you will surely find what it needs."
   },
-  "fifth_challenge_d": {
+  "fifth_challenge": {
     "title_vidrio": "Careful!",
-    "sentence_vidrio": "Glass in the sun works like a magnifying glass and can ignite dry leaves. Always pick it up to prevent fires and take care of the planet.",
-
+    "sentence_vidrio": "Glass in the sun acts as a magnifying glass and can ignite dry leaves. Always pick it up to prevent fires and take care of the planet.",
+    "title_basura": "Oh no! Look how much trash there is here",
+    "sentence_basura": "When trash gets into the water, animals get sick and can't live well!",
     "title_0": "Recycle and classify",
     "title_1": "Trash in its place",
-
-    "sentence_0": "It seems that some visitors have left trash in the LAKE. This should never happen when you visit a forest, a beach, or a river.\nHelp us PICK IT UP and SORT IT into its proper bin.",
-    "sentence_1": "To pick up the trash you must CLICK and it will be stored in your backpack. To deposit it in its bin press M and then DRAG it to the correct bin.",
-
-    "title_basura": "Oh no! Look how much trash is here",
-    "sentence_basura": "When trash gets into the water, animals get sick and cannot live well!",
-
+    "sentence_0": "It seems that there are visitors who have left trash in the LAKE. This is something that should not happen when you visit a forest, a beach or a river.\nHelp us to COLLECT it and CLASSIFY it in its respective bin.",
+    "sentence_1": "To collect the trash you must CLICK and it will be saved in your backpack. To deposit it in its bin press M and then DRAG it to the corresponding bin.",
     "title_completado": "Excellent job!",
-    "sentence_completado": "You’ve collected and classified the trash found in the Forest.\nShow concern for nature. Remember never to leave waste in it.",
+    "sentence_completado": "You have collected and classified the trash found in the Forest.\nYou show concern for nature. Remember never to leave waste in it.",
     "title_pendiente": "You can do it",
-    "sentence_pendiente": "PICK UP the trash from the LAKE to prevent pollution and keep the forest animals from getting hurt.\nOpen the backpack with the M key and DRAG it to the correct trash bin."
+    "sentence_pendiente": "COLLECT the trash from the LAKE to avoid contamination and that the animals of the forest get hurt.\nOpen the backpack with the letter M and DRAG it to the corresponding trash."
   },
-  "seventh_challenge_d": {
-    "title_0": "Endangered species",
-    "title_1": "FIRE! We need water.",
-
-    "sentence_0": "Someone left a campfire burning that could start a fire in the Forest.",
-    "sentence_1": "First FIND a container and then LOOK for a water source to put out the fire. REMEMBER the places visited on the journey.",
-
-    "title_completado_0": "You did it!",
-    "title_completado_1": "You did it!",
-    "sentence_completado_0": "You’ve put out the campfire, and prevented a forest fire.\n\nYou’re a true Nature Protector Ranger!!!",
-    "sentence_completado_1": "Pick up your Ranger badge and let’s celebrate with the other explorers!",
-    "title_pendiente_0": "There’s still time",
-    "title_pendiente_1": "There’s still time",
-    "sentence_pendiente_0": "We can’t get distracted, we must PUT OUT the FIRE before it causes a forest fire!",
-    "sentence_pendiente_1": "There’s a WELL nearby, but it’s surely CLOSED.\n\nThere’s also a LAKE but we need a CONTAINER to bring the water...\n\nDo you have an idea?",
-    "title_fallado": "At least you tried",
-    "sentence_fallado": "It looks like you couldn’t help us with the fire. Luckily, the problem was solved before a catastrophe.\nContinue to the next station.",
-
-    "title_wellzone_0": "Water well",
-    "title_wellzone_1": "Be careful!",
-    "title_wellzone_2": "Find a container",
-
-    "sentence_wellzone_0": "You found a well! Wells have a deep hole from which water is extracted.",
-    "sentence_wellzone_1": "A bucket is thrown inside and recovered full of water with a rope.",
-    "sentence_wellzone_2": "It’s sealed for safety but maybe we can find something useful near the well to collect water. SEARCH around."
-  },
-  "sixth_challenge_d": {
+  "sixth_challenge": {
     "title_aire": "REMEMBER",
-    "sentence_aire": "The fresh air you breathe comes from the trees. Thank you, trees!",
-
+    "sentence_aire": "The fresh air you breathe comes from the trees. Thanks trees!",
     "title_0": "Plant a tree",
     "title_1": "Your last mission",
-
-    "sentence_0": "You’ve managed to overcome many missions and you’re very close to becoming a Ranger.\nNow you must PLANT two trees in the GREENHOUSE.",
-    "sentence_1": "To do this, DRAG the seeds you’ve obtained from your BACKPACK to the GROUND in the MARKED AREA.",
-
+    "sentence_0": "You have managed to overcome many missions and you are very close to becoming a Forest Ranger.\nNow you must PLANT two trees in the GREENHOUSE.",
+    "sentence_1": "To do it, DRAG the seeds you have obtained from your BACKPACK to the GROUND in the MARKED AREA.",
     "title_completado": "CONGRATULATIONS!",
-    "sentence_completado": "Very good, the viewpoint is just a few steps ahead. Don’t stop now!",
+    "sentence_completado": "Very good, the viewpoint is a few steps away. Don't stop now!",
     "title_pendiente": "Plant some seeds",
-    "sentence_pendiente": "You just need to DRAG the seeds into the indicated area.\n\nHead to the GREENHOUSE to plant and open your backpack with the M key."
+    "sentence_pendiente": "You just have to DRAG the seeds in the indicated area.\n\nGo to the GREENHOUSE to plant and open your backpack with the letter M"
+  },
+  "seventh_challenge": {
+    "title_0": "Endangered species",
+    "title_1": "FIRE! We need water.",
+    "sentence_0": "Someone left a bonfire lit that could start a fire in the Forest",
+    "sentence_1": "First FIND a container and then LOOK for a water source to put out the fire. REMEMBER the places visited on the tour.",
+    "title_completado_0": "You did it!",
+    "title_completado_1": "You did it!",
+    "sentence_completado_0": "You have put out the bonfire, and you have prevented a fire in the Forest.\n\nYou are a true Nature Protecting Forest Ranger!!!",
+    "sentence_completado_1": "Collect your Forest Ranger badge and let's celebrate with the other explorers!",
+    "title_pendiente_0": "You still have time",
+    "title_pendiente_1": "You still have time",
+    "sentence_pendiente_0": "We can't get distracted, we have to PUT OUT the FIRE before a fire is generated!",
+    "sentence_pendiente_1": "There is a WELL near here, but it's probably CLOSED.\n\nThere is also a LAKE but we need a CONTAINER to bring the water...\n\nDo you have an idea?",
+    "title_fallado": "At least you tried",
+    "sentence_fallado": "It seems that you have not been able to help with the fire. Fortunately, the problem was solved before a catastrophe.\nContinue to the next station.",
+    "title_wellzone_0": "Water well",
+    "title_wellzone_1": "Be careful!",
+    "title_wellzone_2": "Look for a container",
+    "sentence_wellzone_0": "You found a well! Wells have a deep hole from which water is extracted.",
+    "sentence_wellzone_1": "A bucket is thrown inside and recovered full of water with a rope.",
+    "sentence_wellzone_2": "It is sealed for safety but maybe we can find something useful near the well to collect water. LOOK around."
   },
   "carteles_bosque": {
-    "entrada_bosque": "PROTECT THE FOREST, IT’S OUR HOME!",
-    "primer_nivel": "FOLLOW THE PATH, DON’T GET LOST!",
-    "segundo_nivel": "RESPECT THE ANIMALS, WATCH THEM FROM AFAR!",
-    "llegada_lago": "SPEAK SOFTLY, ANIMALS ARE SLEEPING AND LISTENING!",
-    "antes_nivel_4": "AVOID STARTING FIRES, PROTECT THE FOREST!"
+    "entrada_bosque": "TAKE CARE OF THE FOREST, IT IS OUR HOME!",
+    "primer_nivel": "FOLLOW THE PATH, DON'T GET LOST!",
+    "segundo_nivel": "RESPECT THE ANIMALS, OBSERVE THEM FROM AFAR!",
+    "llegada_lago": "SPEAK SOFTLY, THE ANIMALS ARE SLEEPING AND LISTENING!",
+    "antes_nivel_4": "AVOID GENERATING FIRE, PROTECT THE FOREST!"
   }
 }
