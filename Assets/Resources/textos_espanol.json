@@ -302,6 +302,32 @@
     "title_pendiente": "Tú puedes",
     "sentence_pendiente": "RECOGE la basura del LAGO para evitar la contaminación y que los animales del bosque se lastimen.\nAbre la mochila con la letra M y ARRÁSTRALA a la basura correspondiente."
   },
+  "seventh_challenge": {
+    "title_0": "Especies en peligro",
+    "title_1": "¡FUEGO! Necesitamos agua.",
+
+    "sentence_0": "Alguien dejó encendida una fogata que podría iniciar un incendio en el Bosque",
+    "sentence_1": "Primero ENCUENTRA un recipiente y luego BUSCA una fuente de agua para apagar el fuego. RECUERDA los lugares visitados en el recorrido.",
+
+    "title_completado_0": "¡Lo lograste!",
+    "title_completado_1": "¡Lo lograste!",
+    "sentence_completado_0": "Has apagado la fogata, y has evitado un incendio en el Bosque.\n\n¡Eres todo un Guardabosque Protector de la Naturaleza!!!",
+    "sentence_completado_1": "¡Recoge tu insignia de Guardabosque y celebrémos con los demás exploradores!",
+    "title_pendiente_0": "Aún tienes tiempo",
+    "title_pendiente_1": "Aún tienes tiempo",
+    "sentence_pendiente_0": "No nos podemos distraee, ¡hay que APAGAR el FUEGO antes de que se genere un incendio!",
+    "sentence_pendiente_1": "Hay un POZO cerca de aquí, pero seguramente está CERRADO.\n\nTambién hay un LAGO pero necesitamos un RECIPIENTE para traer el agua...\n\n¿Se te ocurre una idea?",
+    "title_fallado": "Al menos lo intestaste",
+    "sentence_fallado": "Parece que nos haz podido ayudar con el incendio. Felizmente, el problema se solucíonó antes de una catástrofe.\nContinúa a la siguiente estación.",
+
+    "title_wellzone_0": "Pozo de agua",
+    "title_wellzone_1": "¡Ten cuidado!",
+    "title_wellzone_2": "Busca un recipiente",
+
+    "sentence_wellzone_0": "¡Encontraste un pozo! Los pozos poseen un hoyo de gran profundidad de donde se extrae agua.",
+    "sentence_wellzone_1": "Se arroja un balde en su interior y se lo recupera lleno de agua con una cuerda.",
+    "sentence_wellzone_2": "Esta sellado por seguridad pero quizás podamos encontrar algo útil cerca de pozo para recoger agua. BUSCA alrededor."
+  },
   "carteles_bosque": {
     "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",

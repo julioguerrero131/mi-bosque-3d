@@ -21424,13 +21424,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Especies en Peligro
-    - "\xA1Fuego! Necesitamos agua"
+    - seventh_challenge.title_0
+    - seventh_challenge.title_1
     sentences:
-    - "Alguien dej\xF3 encendida una fogata que podr\xEDa iniciar un incendio en el
-      Bosque."
-    - Primero ENCUENTRA un recipiente y luego BUSCA una fuente de agua para apagar
-      el fuego. RECUERDA los lugares visitados en el recorrido.
+    - seventh_challenge.sentence_0
+    - seventh_challenge.sentence_1
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -34204,13 +34202,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "A\xFAn tienes tiempo"
-    - "A\xFAn tienes tiempo"
+    - seventh_challenge.title_pendiente_0
+    - seventh_challenge.title_pendiente_1
     sentences:
-    - No nos podemos distraer, hay que APAGAR el FUEGO antes que se genere un incendio!
-    - "Hay un POZO cerca de aqui, pero seguramente est\xE1 CERRADO. \n\nTambi\xE9n
-      hay un LAGO pero necesitamos un RECIPIENTE para traer el al agua...\n\nSe te
-      ocurre alguna idea?"
+    - seventh_challenge.sentence_pendiente_0
+    - seventh_challenge.sentence_pendiente_1
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -36292,12 +36288,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "\xA1Lo lograste!"
-    - "\xA1Lo lograste!"
+    - seventh_challenge.title_completado_0
+    - seventh_challenge.title_completado_1
     sentences:
-    - "Has apagado la fogata, y has evitado un incendio en el Bosque.\n\nEres todo
-      un Guardabosque Protector de la naturaleza!!!!\r\n"
-    - Recoge tu insignia de Guardabosque y celebremos con los demas exploradores!
+    - seventh_challenge.sentence_completado_0
+    - seventh_challenge.sentence_completado_1
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -44680,15 +44675,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Pozo de agua
-    - "\xA1Ten cuidado!"
-    - Busca un recipiente
+    - seventh_challenge.title_wellzone_0
+    - seventh_challenge.title_wellzone_1
+    - seventh_challenge.title_wellzone_2
     sentences:
-    - "\xA1Encontraste un pozo! Los pozos poseen un hoyo de gran profundidad de donde
-      se extrae agua.\n"
-    - Se arroja un balde en su interior y se lo recupera lleno de agua con una cuerda.
-    - "Esta sellado por seguridad pero quiz\xE1s podamos encontrar algo \xFAtil cerca
-      del pozo para recoger agua. BUSCA alrededor."
+    - fifth_challenge.sentence_wellzone_0
+    - fifth_challenge.sentence_wellzone_1
+    - fifth_challenge.sentence_wellzone_2
     sprites:
     - {fileID: 21300000, guid: edfbea9d77750c349a6eda6d47b66c91, type: 3}
     - {fileID: 21300000, guid: edfbea9d77750c349a6eda6d47b66c91, type: 3}
@@ -52728,10 +52721,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Al menos lo intentaste
+    - seventh_challenge.title_fallado
     sentences:
-    - "Parece que no has podido ayudar con el incendio. Felizmente, el problema se
-      soluciono antes de una catastrofe.\nContin\xFAa a la siguiente estacion"
+    - seventh_challenge.sentence_fallado
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0

@@ -430,6 +430,35 @@ public class LanguageManager : MonoBehaviour
             textos["fifth_challenge.sentence_pendiente"] = ffc.sentence_pendiente;
         }
 
+        if (datos.seventh_challenge != null)
+        {
+            var svc = datos.seventh_challenge;
+            textos["seventh_challenge.title_0"] = svc.title_0;
+            textos["seventh_challenge.title_1"] = svc.title_1;
+
+            textos["seventh_challenge.sentence_0"] = svc.sentence_0;
+            textos["seventh_challenge.sentence_1"] = svc.sentence_1;
+
+            textos["seventh_challenge.title_completado_0"] = svc.title_completado_0;
+            textos["seventh_challenge.title_completado_1"] = svc.title_completado_1;
+            textos["seventh_challenge.sentence_completado_0"] = svc.sentence_completado_0;
+            textos["seventh_challenge.sentence_completado_1"] = svc.sentence_completado_1;
+            textos["seventh_challenge.title_pendiente_0"] = svc.title_pendiente_0;
+            textos["seventh_challenge.title_pendiente_1"] = svc.title_pendiente_1;
+            textos["seventh_challenge.sentence_pendiente_0"] = svc.sentence_pendiente_0;
+            textos["seventh_challenge.sentence_pendiente_1"] = svc.sentence_pendiente_1;
+            textos["seventh_challenge.title_fallado"] = svc.title_fallado;
+            textos["seventh_challenge.sentence_fallado"] = svc.sentence_fallado;
+
+            textos["seventh_challenge.title_wellzone_0"] = svc.title_wellzone_0;
+            textos["seventh_challenge.title_wellzone_1"] = svc.title_wellzone_1;
+            textos["seventh_challenge.title_wellzone_2"] = svc.title_wellzone_2;
+
+            textos["fifth_challenge.sentence_wellzone_0"] = svc.sentence_wellzone_0;
+            textos["fifth_challenge.sentence_wellzone_1"] = svc.sentence_wellzone_1;
+            textos["fifth_challenge.sentence_wellzone_2"] = svc.sentence_wellzone_2;
+        }
+
         if (datos.carteles_bosque != null)
         {
             textos["carteles_bosque.entrada_bosque"] = datos.carteles_bosque.entrada_bosque;
@@ -458,6 +487,7 @@ public class LanguageManager : MonoBehaviour
         public ThirdChallengeD third_challenge;
         public FourthChallenge fourth_challenge;
         public FifthChallenge fifth_challenge;
+        public SeventhChallenge seventh_challenge;
     }
 
     // Botones
@@ -820,6 +850,35 @@ public class LanguageManager : MonoBehaviour
         public string sentence_completado;
         public string title_pendiente;
         public string sentence_pendiente;
+    }
+
+    [Serializable]
+    public class SeventhChallenge
+    {
+        public string title_0;
+        public string title_1;
+
+        public string sentence_0;
+        public string sentence_1;
+
+        public string title_completado_0;
+        public string title_completado_1;
+        public string sentence_completado_0;
+        public string sentence_completado_1;
+        public string title_pendiente_0;
+        public string title_pendiente_1;
+        public string sentence_pendiente_0;
+        public string sentence_pendiente_1;
+        public string title_fallado;
+        public string sentence_fallado;
+
+        public string title_wellzone_0;
+        public string title_wellzone_1;
+        public string title_wellzone_2;
+
+        public string sentence_wellzone_0;
+        public string sentence_wellzone_1;
+        public string sentence_wellzone_2;
     }
 
     [Serializable]
