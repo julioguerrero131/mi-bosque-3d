@@ -205,7 +205,12 @@
     "recordatorio_4": "Find two mice and a salamander and leave them in the area ",
     "recordatorio_5": "A place to get water... and a container to carry it in...",
     "recordatorio_6": "Pick up the trash and put it in the trash cans",
-    "recordatorio_7": "Sow the seeds you collected in the greenhouse"
+    "recordatorio_7": "Sow the seeds you collected in the greenhouse",
+    "feedback": "Great work, keep going until the end of the season.",
+    "animal_atrapado_0": "You have caught a ",
+    "animal_atrapado_1": " in your backpack",
+    "recoge_basura": "You picked up some trash. Check your backpack ",
+    "fogata": "Amazing! You can come closer to the campfire!"
   },
   "first_challenge": {
     "title_0": "Welcome",

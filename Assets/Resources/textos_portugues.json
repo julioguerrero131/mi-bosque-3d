@@ -205,7 +205,12 @@
     "recordatorio_4": "Encontre dois ratos e uma salamandra e deixe-os na área ",
     "recordatorio_5": "Um lugar para pegar água... e um recipiente para carregá-la...",
     "recordatorio_6": "Recolha o lixo e coloque-o nas lixeiras",
-    "recordatorio_7": "Plante as sementes que você coletou na estufa"
+    "recordatorio_7": "Plante as sementes que você coletou na estufa",
+    "feedback": "Ótimo trabalho, continue até o final da temporada.",
+    "animal_atrapado_0": "Você pegou um ",
+    "animal_atrapado_1": " na sua mochila",
+    "recoge_basura": "You picked up some trash. Check your backpack ",
+    "fogata": "Incrível! Você pode chegar mais perto da fogueira!"
   },
   "first_challenge": {
     "title_0": "Bem-vindo",

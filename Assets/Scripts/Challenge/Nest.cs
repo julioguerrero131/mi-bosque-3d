@@ -26,7 +26,8 @@ public class Nest : MonoBehaviour
 
     IEnumerator ShowFeedback()
     {
-        message.text = "Gran trabajo ve al final de la estación";
+        //message.text = "Gran trabajo ve al final de la estación";
+        message.text = LanguageManager.Instancia.ObtenerTexto("recordatorios.feedback");
         feedback.SetActive(true);
         yield return new WaitForSeconds(3.0f);
         feedback.SetActive(false);

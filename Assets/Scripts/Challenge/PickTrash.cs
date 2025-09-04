@@ -66,7 +66,8 @@ public class PickTrash : MonoBehaviour
 
     IEnumerator Picking()
     {
-        msj.text = "Has recogido una basura. Revisa tu mochila ";
+        //msj.text = "Has recogido una basura. Revisa tu mochila ";
+        msj.text = LanguageManager.Instancia.ObtenerTexto("recordatorios.recoge_basura");
         feedback.SetActive(true);
         GameManager.instance.mochila.TestAddAcc(id);
         yield return new WaitForSeconds(1f);

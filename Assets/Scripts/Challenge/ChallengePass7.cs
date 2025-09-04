@@ -144,7 +144,8 @@ public class ChallengePass7 : MonoBehaviour
 
     IEnumerator ShowFeedback()
     {
-        mensaje.text="¡Increíble! Puedes acercarte a la fogata";
+        //mensaje.text="¡Increíble! Puedes acercarte a la fogata";
+        mensaje.text = LanguageManager.Instancia.ObtenerTexto("recordatorios.fogata");
         yield return new WaitForSeconds(1.5f);
         audioVocals.reproducirAlt();
         feedback.SetActive(true);

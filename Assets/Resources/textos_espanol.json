@@ -237,7 +237,12 @@
     "recordatorio_4": "Encuentra dos ratones, una salamandra y dejalos en la zona ",
     "recordatorio_5": "Un lugar de donde sacar agua... y un recipiente para llevarla...",
     "recordatorio_6": "Recoge la basura y depositala en los botes",
-    "recordatorio_7": "Siembra las semillas que has recolectado en el invernadero"
+    "recordatorio_7": "Siembra las semillas que has recolectado en el invernadero",
+    "feedback": "Gran trabajo, avanza hasta el final de la estación",
+    "animal_atrapado_0": "Has atrapado un ",
+    "animal_atrapado_1": " en tu mochila",
+    "recoge_basura": "Has recogido una basura. Revisa tu mochila ",
+    "fogata": "¡Increíble! Puedes acercarte a la fogata"
   },
   "first_challenge": {
     "title_0": "Bienvenido",

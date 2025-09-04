@@ -44,7 +44,9 @@ public class Pick : MonoBehaviour
     {
         this.GetComponent<AudioSource>().enabled = false;
         plateFood.recogidos += 1;
-        message.text = "Has atrapado un " + name + " en tu mochila";
+        string parte0 = LanguageManager.Instancia.ObtenerTexto("recordatorios.animal_atrapado_0");
+        string parte1 = LanguageManager.Instancia.ObtenerTexto("recordatorios.animal_atrapado_1");
+        message.text = parte0 + name + parte1;
         feedback.SetActive(true);
         GameManager.instance.mochila.TestAddF(id);
         yield return new WaitForSeconds(1.5f);

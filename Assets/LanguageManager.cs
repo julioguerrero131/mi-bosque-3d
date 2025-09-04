@@ -361,7 +361,11 @@ public class LanguageManager : MonoBehaviour
             textos["recordatorios.recordatorio_5"] = rec.recordatorio_5;
             textos["recordatorios.recordatorio_6"] = rec.recordatorio_6;
             textos["recordatorios.recordatorio_7"] = rec.recordatorio_7;
-
+            textos["recordatorios.feedback"] = rec.feedback;
+            textos["recordatorios.animal_atrapado_0"] = rec.animal_atrapado_0;
+            textos["recordatorios.animal_atrapado_1"] = rec.animal_atrapado_1;
+            textos["recordatorios.recoge_basura"] = rec.recoge_basura;
+            textos["recordatorios.fogata"] = rec.fogata;
         }
 
         if (datos.first_challenge != null)
@@ -849,6 +853,11 @@ public class LanguageManager : MonoBehaviour
         public string recordatorio_5;
         public string recordatorio_6;
         public string recordatorio_7;
+        public string feedback;
+        public string animal_atrapado_0;
+        public string animal_atrapado_1;
+        public string recoge_basura;
+        public string fogata;
     }
 
     [Serializable]

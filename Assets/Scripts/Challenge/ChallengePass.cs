@@ -180,7 +180,8 @@ public class ChallengePass : MonoBehaviour
             }
         }
             
-        message.text = "Gran trabajo, avanza hasta el final de la estación";
+        //message.text = "Gran trabajo, avanza hasta el final de la estación";
+        message.text = LanguageManager.Instancia.ObtenerTexto("recordatorios.feedback");
         empezado = false;
         yield return new WaitForSeconds(1.0f);
         feedback.SetActive(true);

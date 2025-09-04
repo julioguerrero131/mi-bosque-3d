@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using Newtonsoft.Json;
-
-using System;
-using Newtonsoft.Json.Linq;
 
 public class ChallengePass6 : MonoBehaviour
 {
@@ -170,7 +168,8 @@ public class ChallengePass6 : MonoBehaviour
 
     IEnumerator ShowFeedback()
     {
-        mensaje.text="Muy bien, continúa a la siguiente estación";
+        //mensaje.text="Muy bien, continúa a la siguiente estación";
+        mensaje.text = LanguageManager.Instancia.ObtenerTexto("recordatorios.feedback");
         feedback.SetActive(true);
         yield return new WaitForSeconds(3.0f);
         feedback.SetActive(false);
