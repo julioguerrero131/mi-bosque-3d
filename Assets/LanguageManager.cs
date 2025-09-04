@@ -407,8 +407,28 @@ public class LanguageManager : MonoBehaviour
             textos["fourth_challenge.sentence_completado"] = fc.sentence_completado;
             textos["fourth_challenge.title_pendiente"] = fc.title_pendiente;
             textos["fourth_challenge.sentence_pendiente"] = fc.sentence_pendiente;
+        }
 
-        } 
+        if (datos.fifth_challenge != null)
+        {
+            var ffc = datos.fifth_challenge;
+            textos["fifth_challenge.title_vidrio"] = ffc.title_vidrio;
+            textos["fifth_challenge.sentence_vidrio"] = ffc.sentence_vidrio;
+
+            textos["fifth_challenge.title_basura"] = ffc.title_basura;
+            textos["fifth_challenge.sentence_basura"] = ffc.sentence_basura;
+
+            textos["fifth_challenge.title_0"] = ffc.title_0;
+            textos["fifth_challenge.title_1"] = ffc.title_1;
+
+            textos["fifth_challenge.sentence_0"] = ffc.sentence_0;
+            textos["fifth_challenge.sentence_1"] = ffc.sentence_1;
+
+            textos["fifth_challenge.title_completado"] = ffc.title_completado;
+            textos["fifth_challenge.sentence_completado"] = ffc.sentence_completado;
+            textos["fifth_challenge.title_pendiente"] = ffc.title_pendiente;
+            textos["fifth_challenge.sentence_pendiente"] = ffc.sentence_pendiente;
+        }
 
         if (datos.carteles_bosque != null)
         {
@@ -437,6 +457,7 @@ public class LanguageManager : MonoBehaviour
         public SecondChallenge second_challenge;
         public ThirdChallengeD third_challenge;
         public FourthChallenge fourth_challenge;
+        public FifthChallenge fifth_challenge;
     }
 
     // Botones
@@ -773,6 +794,27 @@ public class LanguageManager : MonoBehaviour
         public string sentence_0;
         public string sentence_1;
         public string sentence_2;
+
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
+    }
+
+    [Serializable]
+    public class FifthChallenge
+    {
+        public string title_vidrio;
+        public string sentence_vidrio;
+
+        public string title_basura;
+        public string sentence_basura;
+
+        public string title_0;
+        public string title_1;
+
+        public string sentence_0;
+        public string sentence_1;
 
         public string title_completado;
         public string sentence_completado;

@@ -15012,11 +15012,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "T\xFA puedes"
+    - fifth_challenge.title_pendiente
     sentences:
-    - "RECOGE la basura del LAGO para evitar la contaminaci\xF3n y que los animales
-      del bosque se lastimen.\nAbre la mochila con la tecla \"M\" y ARR\xC1STRALA
-      al basurero correspondiente."
+    - fifth_challenge.sentence_pendiente
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -49332,14 +49330,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Recicla y clasifica
-    - La basura en su lugar
+    - fifth_challenge.title_0
+    - fifth_challenge.title_1
     sentences:
-    - "Al parecer existen visitantes que han dejado basura en el LAGO. Esto es algo
-      que no debe suceder cuando visitas un bosque, una playa, o un r\xEDo.\r\nAy\xFAdanos
-      a RECOGERLA y CLASIFICARLA en su respectivo bote.\r\n"
-    - "Para recoger la basura desde hacer CLIC y se guardar\xE1 en tu mochila. Para
-      depositarla en su bote presiona \"M\" y luego ARRASTRA al bote correspondiente.\r\n"
+    - fifth_challenge.sentence_0
+    - fifth_challenge.sentence_1
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -61162,10 +61157,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "\xA1Excelente trabajo!"
+    - fifth_challenge.title_completado
     sentences:
-    - "Has recogido y clasificado la basura encontrada en el Bosque. \r\nDemuestras
-      preocupaci\xF3n por la naturaleza. Recuerda nunca dejar residuos en ella.\r\r"
+    - fifth_challenge.sentence_completado
     - "\xA1Este r\xEDo es el coraz\xF3n del bosque! Mantenerlo limpio ayuda a todos!."
     sprites:
     - {fileID: 0}
@@ -77672,10 +77666,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "\"\xA1Oh no! Mira cu\xE1nta basura hay aqu\xED"
+    - fifth_challenge.title_basura
     sentences:
-    - "Cuando la basura llega al agua, \xA1Los animales se enferman y no pueden vivir\r
-      bien!"
+    - fifth_challenge.sentence_basura
     sprites:
     - {fileID: 21300000, guid: 009ab62624d825c40b90881ccc548dc4, type: 3}
     - {fileID: 0}
@@ -98147,10 +98140,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "\xA1Cuidado!"
+    - fifth_challenge.title_vidrio
     sentences:
-    - "El vidrio al sol funciona como una lupa y puede encender hojas secas. Rec\xF3gelo
-      siempre para evitar incendios y cuidar el planeta."
+    - fifth_challenge.sentence_vidrio
     sprites:
     - {fileID: 21300000, guid: 5cd8959be155fc1419cbdf12d6a69292, type: 3}
   dialogoCambiante: 0

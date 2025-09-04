@@ -284,6 +284,24 @@
     "title_pendiente": "No lo defraudes",
     "sentence_pendiente": "COLECTA el alimento y DEJALO en la zona designada usando tu CLIC.\nNuestro amigo cuenta contigo para recuperarse. Busca en los alerededores, seguro encuentras lo que necesita."
   },
+  "fifth_challenge": {
+    "title_vidrio": "¡Cuidado!",
+    "sentence_vidrio": "El vidrio al sol funciona como una lupa y puede encender las hojas secas. Recógelo siempre para evitar incendios y cuidar el planeta.",
+
+    "title_basura": "¡Oh no! Mira Cuánta basura hay aquí",
+    "sentence_basura": "Cuando la basura llega al agua, ¡los animales se enferman y no pueden vivir bien!",
+
+    "title_0": "Recicla y clasifica",
+    "title_1": "La basura en su lugar",
+
+    "sentence_0": "Al parecer existen visitantes que han dejado basura en el LAGO. Esto es algo que no debe suceder cuando visitas un bosque, una playa o un río.\nAyúdanos a RECOGERLA y CLASIFICARLA en su respectivo bote.",
+    "sentence_1": "Para recoger la basura debes hacer CLIC y se guardará en tu mochila. Para depositarla en su bote presiona M y luego ARRASTRA al bote correspondiente.",
+
+    "title_completado": "¡Excelente trabajo!",
+    "sentence_completado": "Has recogido y clasificado la basura encontrada en el Bosque.\nDemuestra preocupación por la naturaleza. Recuerda nunca dejar residuos en ella.",
+    "title_pendiente": "Tú puedes",
+    "sentence_pendiente": "RECOGE la basura del LAGO para evitar la contaminación y que los animales del bosque se lastimen.\nAbre la mochila con la letra M y ARRÁSTRALA a la basura correspondiente."
+  },
   "carteles_bosque": {
     "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",
