@@ -40650,11 +40650,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Bienvenido
-    - Bienvenido
-    - "Interact\xFAa con tu entorno"
-    - Recuerda que...
-    - Conoce las especies
+    - first_challenge.fc_title_0
+    - first_challenge.fc_title_1
+    - first_challenge.fc_title_2
+    - first_challenge.fc_title_3
+    - first_challenge.fc_title_4
     sentences:
     - "\xA1Hola soy Paco! Y te doy la bienvenida al Bosque Protector Prosperina."
     - Explora y proteje al bosque y sus especies para convertirte en un gran Guardabosque.

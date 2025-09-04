@@ -257,10 +257,12 @@ public class DialogueManager : MonoBehaviour
             {
                 string clave = dialogue.title[i];
                 string traducido = LanguageManager.Instancia.ObtenerTexto(clave);
-                traducido = traducido.Trim('[', ']');
 
                 if (!string.IsNullOrEmpty(traducido))
+                {
+                    traducido = traducido.Trim('[', ']');
                     dialogue.title[i] = traducido;
+                }
                 else
                     Debug.LogWarning($"No se encontro traducción para la clave de título: {clave}");
             }
