@@ -38363,18 +38363,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Ayuda emplumada
-    - Entrega el alimento
-    - Entrega de comida
+    - fourth_challenge.title_0
+    - fourth_challenge.title_1
+    - fourth_challenge.title_2
     sentences:
-    - "Nuestro amigo, el Gavil\xE1n Dorsigris, se ha lastimado una de sus alas y no
-      puede conseguir su alimento por s\xED solo."
-    - "Para este reto debes BUSCAR dos ratones y una salamandra. Presta atenci\xF3n,
-      es posible que los escuches cuando est\xE9s cerca. \r\n\nPara solicitar ayuda
-      presiona la letra P.\r"
-    - "Una vez que has capturado el alimento, debes COLOCARLOS en la zona indicada
-      dando clic.\r\n\nEste es un ejemplo de cadena tr\xF3fica de las especies y c\xF3mo
-      se alimentan.\r"
+    - fourth_challenge.sentence_0
+    - fourth_challenge.sentence_1
+    - fourth_challenge.sentence_2
     sprites:
     - {fileID: 21300000, guid: c53ca4e41528fb644a0a23243c292d5a, type: 3}
     - {fileID: 0}
@@ -65177,11 +65172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - No lo defraudes.
+    - fourth_challenge.title_pendiente
     sentences:
-    - "COLECTA el alimento y DEJALO en la zona designada usando tu CLIC. \nNuestro
-      amigo cuenta contigo para recuperarse.\nBusca en los alrededores, seguro encuentras
-      lo que necesita."
+    - fourth_challenge.sentence_pendiente
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -88038,11 +88031,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "\xA1Lo has hecho muy bien!"
+    - fourth_challenge.title_completado
     sentences:
-    - "Gracias por cazar el alimento para el Gavil\xE1n Dorsigris, estamos seguros
-      que se recuperar\xE1 pronto y podr\xE1 cazar solo.En un bosque real evita acercarte
-      a su alimento. "
+    - fourth_challenge.sentence_completado
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -103045,10 +103036,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - RECUERDA
+    - fourth_challenge.title_suelo
     sentences:
-    - "\xA1Mira el suelo! Las especies son muy importante para la vida del bosque,
-      \xA1no la pises sin cuidado!\""
+    - fourth_challenge.sentence_suelo
     sprites: []
   dialogoCambiante: 0
   expresiones: 2

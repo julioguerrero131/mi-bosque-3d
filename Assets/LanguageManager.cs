@@ -389,6 +389,27 @@ public class LanguageManager : MonoBehaviour
             textos["third_challenge.recordatorio"] = tc.recordatorio;
         }
 
+        if (datos.fourth_challenge != null)
+        {
+            var fc = datos.fourth_challenge;
+            textos["fourth_challenge.title_suelo"] = fc.title_suelo;
+            textos["fourth_challenge.sentence_suelo"] = fc.sentence_suelo;
+
+            textos["fourth_challenge.title_0"] = fc.title_0;
+            textos["fourth_challenge.title_1"] = fc.title_1;
+            textos["fourth_challenge.title_2"] = fc.title_2;
+
+            textos["fourth_challenge.sentence_0"] = fc.sentence_0;
+            textos["fourth_challenge.sentence_1"] = fc.sentence_1;
+            textos["fourth_challenge.sentence_2"] = fc.sentence_2;
+
+            textos["fourth_challenge.title_completado"] = fc.title_completado;
+            textos["fourth_challenge.sentence_completado"] = fc.sentence_completado;
+            textos["fourth_challenge.title_pendiente"] = fc.title_pendiente;
+            textos["fourth_challenge.sentence_pendiente"] = fc.sentence_pendiente;
+
+        } 
+
         if (datos.carteles_bosque != null)
         {
             textos["carteles_bosque.entrada_bosque"] = datos.carteles_bosque.entrada_bosque;
@@ -415,6 +436,7 @@ public class LanguageManager : MonoBehaviour
         public ConseguirLibro conseguir_libro;
         public SecondChallenge second_challenge;
         public ThirdChallengeD third_challenge;
+        public FourthChallenge fourth_challenge;
     }
 
     // Botones
@@ -736,6 +758,26 @@ public class LanguageManager : MonoBehaviour
         public string sentence_pendiente;
 
         public string recordatorio;
+    }
+
+    [Serializable]
+    public class FourthChallenge
+    {
+        public string title_suelo;
+        public string sentence_suelo;
+
+        public string title_0;
+        public string title_1;
+        public string title_2;
+
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
     }
 
     [Serializable]

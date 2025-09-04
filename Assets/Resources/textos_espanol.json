@@ -267,6 +267,23 @@
 
     "recordatorio": "Atrapa al conejo beb룹 devuelvelo a su madriguera a tiempo."
   },
+  "fourth_challenge": {
+    "title_suelo": "RECUERDA",
+    "sentence_suelo": "¡Mira al suelo! Las especies son muy importantes para la vida en el bosque, ¡no las pises sin cuidado!",
+
+    "title_0": "Ayuda emplumada",
+    "title_1": "Entrega el alimento",
+    "title_2": "Entrega de comida",
+
+    "sentence_0": "Nuestro amigo el Gavilán Dorsigris, se ha lastimado una de sus alas y no puede conseguir su alimento por si solo.",
+    "sentence_1": "Para este reto debes BUSCAR dos ratones y una salamandra. Presta atención, es posible que los escuches cuando estés cerca.\n\nPara solicitar ayuda presiona la letra P.",
+    "sentence_2": "Una vez que has capturado el alimento, debes colocarlos en la zona indicada dando clic.\n\nEste es un ejemplo de cadena trófica de las especies y cómo se alimentan.",
+
+    "title_completado": "¡Lo haz hecho muy bien!",
+    "sentence_completado": "Gracias por cazar el alimento para el Gavilán Dorsigris, estamos seguros que se recuperará pronto y podrá cazar solo. En un bosque real evita acercarte a su alimento.",
+    "title_pendiente": "No lo defraudes",
+    "sentence_pendiente": "COLECTA el alimento y DEJALO en la zona designada usando tu CLIC.\nNuestro amigo cuenta contigo para recuperarse. Busca en los alerededores, seguro encuentras lo que necesita."
+  },
   "carteles_bosque": {
     "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
     "primer_nivel": "SIGUE EL CAMINO, ¡NO TE PIERDAS!",
