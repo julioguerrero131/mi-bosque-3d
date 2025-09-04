@@ -323,24 +323,53 @@ public class LanguageManager : MonoBehaviour
         if (datos.first_challenge != null)
         {
             var fc = datos.first_challenge;
-            textos["first_challenge.fc_title_0"] = fc.fc_title_0;
-            textos["first_challenge.fc_title_1"] = fc.fc_title_1;
-            textos["first_challenge.fc_title_2"] = fc.fc_title_2;
-            textos["first_challenge.fc_title_3"] = fc.fc_title_3;
-            textos["first_challenge.fc_title_4"] = fc.fc_title_4;
+            textos["first_challenge.title_0"] = fc.title_0;
+            textos["first_challenge.title_1"] = fc.title_1;
+            textos["first_challenge.title_2"] = fc.title_2;
+            textos["first_challenge.title_3"] = fc.title_3;
+            textos["first_challenge.title_4"] = fc.title_4;
 
-            textos["first_challenge.fc_sentence_0"] = fc.fc_sentence_0;
-            textos["first_challenge.fc_sentence_1"] = fc.fc_sentence_1;
-            textos["first_challenge.fc_sentence_2"] = fc.fc_sentence_2;
-            textos["first_challenge.fc_sentence_3"] = fc.fc_sentence_3;
-            textos["first_challenge.fc_sentence_4"] = fc.fc_sentence_4;
+            textos["first_challenge.sentence_0"] = fc.sentence_0;
+            textos["first_challenge.sentence_1"] = fc.sentence_1;
+            textos["first_challenge.sentence_2"] = fc.sentence_2;
+            textos["first_challenge.sentence_3"] = fc.sentence_3;
+            textos["first_challenge.sentence_4"] = fc.sentence_4;
 
-            Debug.Log("title 0:" + fc.fc_title_0);
-            Debug.Log("title 1:" + fc.fc_title_1);
-            Debug.Log("title 2:" + fc.fc_title_2);
-            Debug.Log("title 3:" + fc.fc_title_3);
-            Debug.Log("title 4:" + fc.fc_title_4);
+            Debug.Log("title 0:" + fc.title_0);
+            Debug.Log("title 1:" + fc.title_1);
+            Debug.Log("title 2:" + fc.title_2);
+            Debug.Log("title 3:" + fc.title_3);
+            Debug.Log("title 4:" + fc.title_4);
 
+        }
+
+        if (datos.conseguir_libro != null)
+        {
+            var cl = datos.conseguir_libro;
+            textos["conseguir_libro.title_0"] = cl.title_0;
+            textos["conseguir_libro.title_1"] = cl.title_1;
+            textos["conseguir_libro.title_2"] = cl.title_2;
+
+            textos["conseguir_libro.sentence_0"] = cl.sentence_0;
+            textos["conseguir_libro.sentence_1"] = cl.sentence_1;
+            textos["conseguir_libro.sentence_2"] = cl.sentence_2;
+        }
+
+        if(datos.second_challenge != null)
+        {
+            var sc = datos.second_challenge;
+            textos["second_challenge.title_0"] = sc.title_0;
+            textos["second_challenge.title_1"] = sc.title_1;
+            textos["second_challenge.title_2"] = sc.title_2;
+
+            textos["second_challenge.sentence_0"] = sc.sentence_0;
+            textos["second_challenge.sentence_1"] = sc.sentence_1;
+            textos["second_challenge.sentence_2"] = sc.sentence_2;
+
+            textos["second_challenge.title_completado"] = sc.title_completado;
+            textos["second_challenge.sentence_completado"] = sc.sentence_completado;
+            textos["second_challenge.title_pendiente"] = sc.title_pendiente;
+            textos["second_challenge.sentence_pendiente"] = sc.sentence_pendiente;
         }
 
         if (datos.carteles_bosque != null)
@@ -366,6 +395,8 @@ public class LanguageManager : MonoBehaviour
         public CartelesBosque carteles_bosque;
         public Lobby lobby;
         public FirstChallenge first_challenge;
+        public ConseguirLibro conseguir_libro;
+        public SecondChallenge second_challenge;
     }
 
     // Botones
@@ -630,17 +661,46 @@ public class LanguageManager : MonoBehaviour
     [Serializable]
     public class FirstChallenge
     {
-        public string fc_title_0;
-        public string fc_title_1;
-        public string fc_title_2;
-        public string fc_title_3;
-        public string fc_title_4;
+        public string title_0;
+        public string title_1;
+        public string title_2;
+        public string title_3;
+        public string title_4;
 
-        public string fc_sentence_0;
-        public string fc_sentence_1;
-        public string fc_sentence_2;
-        public string fc_sentence_3;
-        public string fc_sentence_4;
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+        public string sentence_3;
+        public string sentence_4;
+    }
+
+    [Serializable]
+    public class ConseguirLibro
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+    }
+
+    [Serializable]
+    public class SecondChallenge
+    {
+        public string title_0;
+        public string title_1;
+        public string title_2;
+
+        public string sentence_0;
+        public string sentence_1;
+        public string sentence_2;
+
+        public string title_completado;
+        public string sentence_completado;
+        public string title_pendiente;
+        public string sentence_pendiente;
     }
 
     [Serializable]

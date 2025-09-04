@@ -35175,17 +35175,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Muy bien
-    - "Interacci\xF3n con especies"
-    - Premios
+    - conseguir_libro.title_0
+    - conseguir_libro.title_1
+    - conseguir_libro.title_2
     sentences:
-    - "Ahora que sabes c\xF3mo moverte, te daremos este libro.\r\nEn \xE9l podr\xE1s
-      registrar las especies que vayas encontrando en el bosque cuando interact\xFAes
-      con ellas. Para abrirlo presiona la tecla \"L\"."
-    - "Para interactuar con los \xE1rboles y animalitos del bosque:\nColoca el PUNTO
-      DE MIRA donde desees y haz CLICK sobre ellas."
-    - "Aseg\xFArate de encontrarlos a todos para obtener grandes recompensas m\xE1s
-      adelante."
+    - conseguir_libro.sentence_0
+    - conseguir_libro.sentence_1
+    - conseguir_libro.sentence_2
     sprites:
     - {fileID: 21300000, guid: 053a1a4a7e2c2f549bd7bd2124b08dcd, type: 3}
     - {fileID: 21300000, guid: 39c4e23659d2d1f4bb3d5a5cafecd866, type: 3}
@@ -40650,20 +40646,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - first_challenge.fc_title_0
-    - first_challenge.fc_title_1
-    - first_challenge.fc_title_2
-    - first_challenge.fc_title_3
-    - first_challenge.fc_title_4
+    - first_challenge.title_0
+    - first_challenge.title_1
+    - first_challenge.title_2
+    - first_challenge.title_3
+    - first_challenge.title_4
     sentences:
-    - "\xA1Hola soy Paco! Y te doy la bienvenida al Bosque Protector Prosperina."
-    - Explora y proteje al bosque y sus especies para convertirte en un gran Guardabosque.
-    - Para interactuar con objetos y aprender sobre los animales y las plantas del
-      bosque, centralos en el PUNTO DE MIRA en tu pantalla y hasles CLIC.
-    - "En una visita real al bosque necesitas la ayuda de un GU\xCDA quien te informar\xE1
-      la ruta, y que existen zonas que podr\xEDan ser peligrosas."
-    - "Para familiarizarte con el bosque, tu primera misi\xF3n ser\xE1 ENCONTRAR 3
-      especies:\nUna ardilla, una iguana y un pechiche."
+    - first_challenge.sentence_0
+    - first_challenge.sentence_1
+    - first_challenge.sentence_2
+    - first_challenge.sentence_3
+    - first_challenge.sentence_4
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -67715,17 +67708,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Recolecta
-    - RECUERDA
-    - En marcha
+    - second_challenge.title_0
+    - second_challenge.title_1
+    - second_challenge.title_2
     sentences:
-    - "Es hora de que empieces a llenar un poco m\xE1s ese libro.\nEncuentra una ardilla,
-      una iguana y un \xE1rbol de pechiche en el bosque e interact\xFAa con ellos
-      para registrarlos en tu libro."
-    - "Para interactuar con los \xE1rboles y animalitos del bosque, coloca el PUNTO
-      DE MIRA donde desees y haz CLICK sobre ellos."
-    - Para ver las pistas de en donde se encuentran las especies que debes buscar,
-      presiona la letra "P"
+    - second_challenge.sentence_0
+    - second_challenge.sentence_1
+    - second_challenge.sentence_2
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -86313,10 +86302,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - Puedes hacerlo
+    - second_challenge.title_pendiente
     sentences:
-    - "Interact\xFAa con las especies del bosque para acceder a la siguiente estaci\xF3n,
-      recuerda que tenemos una gran variedad de animales y \xE1rboles."
+    - second_challenge.sentence_pendiente
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -97121,10 +97109,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     title:
-    - "\xA1Bien hecho!"
+    - second_challenge.title_completado
     sentences:
-    - "Al explorar la estaci\xF3n has descubierto especies del Bosque Protector Prosperina.
-      \r\nContin\xFAa explorando las nuevas estaciones y misiones.\r"
+    - second_challenge.sentence_completado
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0

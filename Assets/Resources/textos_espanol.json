@@ -218,17 +218,40 @@
     }
   },
   "first_challenge": {
-    "fc_title_0": "Bienvenido",
-    "fc_title_1": "Bienvenido",
-    "fc_title_2": "Interactúa con tu entorno",
-    "fc_title_3": "Recuerda que...",
-    "fc_title_4": "Conoce las especies",
+    "title_0": "Bienvenido",
+    "title_1": "Bienvenido",
+    "title_2": "Interactúa con tu entorno",
+    "title_3": "Recuerda que...",
+    "title_4": "Conoce las especies",
 
-    "fc_sentence_0": "¡Hola soy Paco! Y te doy la bienvenida al Bosque Protector Prosperina.",
-    "fc_sentence_1": "Explora y proteje el bosque y sus especies para convertirte en un Guardabosque.",
-    "fc_sentence_2": "Para interactuar con objetos y aprender sobre los animales y las plantas del bosque, céntralos en el PUNTO DE MIRA en tu pantalla y hazles CLIC.",
-    "fc_sentence_3": "En una visita real al bosque necesitas la ayuda de un GUÍA quien te informará de la ruta, y que existen zonas que podrían ser peligrosas.",
-    "fc_sentence_4": "Para familiarizarte con el bosque, tu primera misión será encontrar 3 especies: una ardilla, una iguana y un pechiche."
+    "sentence_0": "¡Hola soy Paco! Y te doy la bienvenida al Bosque Protector Prosperina.",
+    "sentence_1": "Explora y proteje el bosque y sus especies para convertirte en un Guardabosque.",
+    "sentence_2": "Para interactuar con objetos y aprender sobre los animales y las plantas del bosque, céntralos en el PUNTO DE MIRA en tu pantalla y hazles CLIC.",
+    "sentence_3": "En una visita real al bosque necesitas la ayuda de un GUÍA quien te informará de la ruta, y que existen zonas que podrían ser peligrosas.",
+    "sentence_4": "Para familiarizarte con el bosque, tu primera misión será encontrar 3 especies: una ardilla, una iguana y un pechiche."
+  },
+  "conseguir_libro": {
+    "title_0": "Muy bien",
+    "title_1": "Interacción con especies",
+    "title_2": "Premios",
+
+    "sentence_0": "Ahora que sabes cómo moverte, te daremos este libro.\nEn él podrás registrar las especies que vayas encontrando en el bosque cuando interactúes con ellas. Para abrirlo presiona la tecla L.",
+    "sentence_1": "Para interactuar con los árboles y animalitos del bosque:\nColoque el PUNTO DE MIRA donde desees y haz CLIC sobre ellas.",
+    "sentence_2": "Asegúrate de encontrarlos a todos para obtener grandes recompensas más adelante."
+  },
+  "second_challenge": {
+    "title_0": "Recolecta",
+    "title_1": "RECUERDA",
+    "title_2": "En marcha",
+
+    "sentence_0": "Es hora de que empieces a llevar un poco más ese libro.\nEncuentra una ardilla, una iguana y un árbol de pechiche en el bosque e interactúa con ellos para registrarlos en tu libro.",
+    "sentence_1": "Para interactuar con los árboles y animalitos del bosque, coloca el PUNTO DE MIRA donde desees y haz CLIC sobre ellos.",
+    "sentence_2": "Para ver las pistas de en donde se encuentran las especies que debes buscar, presiona la letra P.",
+
+    "title_completado": "¡Bien hecho!",
+    "sentence_completado": "Al explorar la estación han descubierto especies del Bosque Protector Prosperina.\nContinúa explorando las nuevas estaciones y misiones.",
+    "title_pendiente": "Puedes hacerlo",
+    "sentence_pendiente": "Interactúa con las especies del bosque para acceder a la siguiente estación, recuerda que tenemos una gran variedad de animales y árboles."
   },
   "carteles_bosque": {
     "entrada_bosque": "¡CUIDA EL BOSQUE, ES NUESTRO HOGAR!",
