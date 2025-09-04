@@ -189,6 +189,13 @@
     "caja_iguana": "Iguana",
     "caja_pechiche": "Pechiche"
   },
+  "recordatorios": {
+    "recordatorio_3": "Catch the rabbit and return it to the burrow ",
+    "recordatorio_4": "Find two mice and a salamander and leave them in the area ",
+    "recordatorio_5": "A place to get water... and a container to carry it in...",
+    "recordatorio_6": "Pick up the trash and put it in the trash cans",
+    "recordatorio_7": "Sow the seeds you collected in the greenhouse"
+  },
   "first_challenge": {
     "title_0": "Welcome",
     "title_1": "Welcome",

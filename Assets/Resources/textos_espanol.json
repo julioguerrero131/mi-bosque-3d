@@ -222,6 +222,13 @@
     "caja_iguana": "Iguana",
     "caja_pechiche": "Pechiche"
   },
+  "recordatorios": {
+    "recordatorio_3": "Atrapa al conejo y regrésalo a la madriguera ",
+    "recordatorio_4": "Encuentra dos ratones, una salamandra y dejalos en la zona ",
+    "recordatorio_5": "Un lugar de donde sacar agua... y un recipiente para llevarla...",
+    "recordatorio_6": "Recoge la basura y depositala en los botes",
+    "recordatorio_7": "Siembra las semillas que has recolectado en el invernadero"
+  },
   "first_challenge": {
     "title_0": "Bienvenido",
     "title_1": "Bienvenido",
@@ -270,7 +277,7 @@
     "title_pendiente": "No te rindas",
     "sentence_pendiente": "El conejo bebé necesita tu ayuda. ATRAPA al conejo y luego REGRÉSALO a su madriguera usando clic.",
 
-    "recordatorio": "Atrapa al conejo beb룹 devuelvelo a su madriguera a tiempo."
+    "recordatorio": "Atrapa al conejo bebé devuelvelo a su madriguera a tiempo."
   },
   "fourth_challenge": {
     "title_suelo": "RECUERDA",

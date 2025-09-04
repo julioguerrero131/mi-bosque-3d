@@ -36,12 +36,12 @@ public class LanguageManager : MonoBehaviour
         CargarIdioma(idioma);
     }
 
-    void Start()
-    {
-        // Solo para pruebas: eliminar idioma guardado
-        PlayerPrefs.DeleteKey("idioma");
-        PlayerPrefs.Save();
-    }
+    //void Start()
+    //{
+    //    // Solo para pruebas: eliminar idioma guardado
+    //    PlayerPrefs.DeleteKey("idioma");
+    //    PlayerPrefs.Save();
+    //}
 
     public void CargarIdioma(string archivoIdioma)
     {
@@ -327,6 +327,17 @@ public class LanguageManager : MonoBehaviour
             textos["controles.caja_pechiche"] = datos.controles.caja_pechiche;
         }
 
+        if (datos.recordatorios != null)
+        {
+            var rec = datos.recordatorios;
+            textos["recordatorios.recordatorio_3"] = rec.recordatorio_3;
+            textos["recordatorios.recordatorio_4"] = rec.recordatorio_4;
+            textos["recordatorios.recordatorio_5"] = rec.recordatorio_5;
+            textos["recordatorios.recordatorio_6"] = rec.recordatorio_6;
+            textos["recordatorios.recordatorio_7"] = rec.recordatorio_7;
+
+        }
+
         if (datos.first_challenge != null)
         {
             var fc = datos.first_challenge;
@@ -500,6 +511,7 @@ public class LanguageManager : MonoBehaviour
         public CartelesBosque carteles_bosque;
         public Lobby lobby;
         public Controles controles;
+        public Recordatorios recordatorios;
         public FirstChallenge first_challenge;
         public ConseguirLibro conseguir_libro;
         public SecondChallenge second_challenge;
@@ -775,6 +787,16 @@ public class LanguageManager : MonoBehaviour
         public string caja_ardilla;
         public string caja_iguana;
         public string caja_pechiche;
+    }
+
+    [Serializable]
+    public class Recordatorios
+    {
+        public string recordatorio_3;
+        public string recordatorio_4;
+        public string recordatorio_5;
+        public string recordatorio_6;
+        public string recordatorio_7;
     }
 
     [Serializable]

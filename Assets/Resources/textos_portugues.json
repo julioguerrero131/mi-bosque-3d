@@ -189,6 +189,13 @@
     "caja_iguana": "Iguana",
     "caja_pechiche": "Pechiche"
   },
+  "recordatorios": {
+    "recordatorio_3": "Pegue o coelho e devolva-o à toca ",
+    "recordatorio_4": "Encontre dois ratos e uma salamandra e deixe-os na área ",
+    "recordatorio_5": "Um lugar para pegar água... e um recipiente para carregá-la...",
+    "recordatorio_6": "Recolha o lixo e coloque-o nas lixeiras",
+    "recordatorio_7": "Plante as sementes que você coletou na estufa"
+  },
   "first_challenge": {
     "title_0": "Bem-vindo",
     "title_1": "Bem-vindo",
