@@ -7,15 +7,24 @@
   },
   "menu_pausa": {
     "guia": "Pausa: Esc\nVer mouse: Enter",
-    "menu": "MENU",
-    "modo": "MODO",
-    "mapa": "MAPA",
-    "lobby": "LOBBY",
-    "salir": "SALIR",
+    "menu": "MENU PAUSA",
+    "ajustes": "\tAJUSTES",
+    "mapa": "\tMAPA",
+    "lobby": "\tLOBBY",
+    "salir": "\tSALIR",
+    "diploma": "\tDIPLOMA",
+    "modo": "\tMODO",
+    "continuar": "CONTINUAR",
+    "noti_diploma": "Certificado guardado en:",
 
-    "modo_desc": "Seleccione el modo:",
-    "contrarreloj": "CONTRARRELOJ",
-    "normal": "NORMAL",
+    "ajuste_resolucion": "Seleccione calidad gráfica:",
+    "calidad_maxima": "\tMÁXIMA",
+    "calidad_media": "\tMEDIA",
+    "calidad_minima": "\tMÍNIMA",
+
+    "ajuste_modo": "Seleccione el modo:",
+    "modo_contrarreloj": "\tCONTRARRELOJ",
+    "modo_normal": "\tNORMAL",
     "volver": "VOLVER"
   },
   "menu_inicial": {

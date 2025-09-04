@@ -92,7 +92,27 @@ public class LanguageManager : MonoBehaviour
 
         if (datos.menu_pausa != null)
         {
-            textos["menu_pausa.guia"] = datos.menu_pausa.guia;
+            var mp = datos.menu_pausa;
+            textos["menu_pausa.guia"] = mp.guia;
+            textos["menu_pausa.menu"] = mp.menu;
+            textos["menu_pausa.ajustes"] = mp.ajustes;
+            textos["menu_pausa.mapa"] = mp.mapa;
+            textos["menu_pausa.lobby"] = mp.lobby;
+            textos["menu_pausa.salir"] = mp.salir;
+            textos["menu_pausa.diploma"] = mp.diploma;
+            textos["menu_pausa.modo"] = mp.modo;
+            textos["menu_pausa.continuar"] = mp.continuar;
+            textos["menu_pausa.noti_diploma"] = mp.noti_diploma;
+
+            textos["menu_pausa.ajuste_resolucion"] = mp.ajuste_resolucion;
+            textos["menu_pausa.calidad_maxima"] = mp.calidad_maxima;
+            textos["menu_pausa.calidad_media"] = mp.calidad_media;
+            textos["menu_pausa.calidad_minima"] = mp.calidad_minima;
+
+            textos["menu_pausa.ajuste_modo"] = mp.ajuste_modo;
+            textos["menu_pausa.modo_contrarreloj"] = mp.modo_contrarreloj;
+            textos["menu_pausa.modo_normal"] = mp.modo_normal;
+            textos["menu_pausa.volver"] = mp.volver;
         }
         
         if (datos.menu_inicial != null)
@@ -544,6 +564,23 @@ public class LanguageManager : MonoBehaviour
     public class MenuPausa
     {
         public string guia;
+        public string menu;
+        public string ajustes;
+        public string mapa;
+        public string lobby;
+        public string salir;
+        public string diploma;
+        public string modo;
+        public string continuar;
+        public string noti_diploma;
+        public string ajuste_resolucion;
+        public string calidad_maxima;
+        public string calidad_media;
+        public string calidad_minima;
+        public string ajuste_modo;
+        public string modo_contrarreloj;
+        public string modo_normal;
+        public string volver;
     }
 
     // Menu inicial

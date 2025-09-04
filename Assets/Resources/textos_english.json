@@ -6,16 +6,26 @@
     "entendido": "Understood"
   },
   "menu_pausa": {
-    "guia": "Pause: Esc\nShow mouse: Enter",
-    "menu": "MENU",
-    "modo": "MODE",
-    "mapa": "MAP",
-    "lobby": "LOBBY",
-    "salir": "EXIT",
-    "modo_desc": "Select the mode:",
-    "contrarreloj": "TIME TRIAL",
-    "normal": "NORMAL",
-    "volver": "GO BACK"
+    "guia": "Pause: Esc\nView mouse: Enter",
+    "menu": "MENU PAUSE",
+    "ajustes": "\tSETTINGS",
+    "mapa": "\tMAP",
+    "lobby": "\tLOBBY",
+    "salir": "\tEXIT",
+    "diploma": "\tDIPLOMA",
+    "modo": "\tMODE",
+    "continuar": "CONTINUE",
+    "noti_diploma": "Certificate saved in:",
+
+    "ajuste_resolucion": "Select graphic quality:",
+    "calidad_maxima": "\tMAXIMUM",
+    "calidad_media": "\tMEDIUM",
+    "calidad_minima": "\tMINIMUM",
+
+    "ajuste_modo": "Select mode:",
+    "modo_contrarreloj": "\tTIME TRIAL",
+    "modo_normal": "\tNORMAL",
+    "volver": "RETURN"
   },
   "menu_inicial": {
     "boton_jugar": "play",

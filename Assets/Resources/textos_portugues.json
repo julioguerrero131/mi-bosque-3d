@@ -6,16 +6,26 @@
     "entendido": "Entendido"
   },
   "menu_pausa": {
-    "guia": "Pausa: Esc\nVer mouse: Enter",
-    "menu": "MENU",
-    "modo": "MODO",
-    "mapa": "MAPA",
-    "lobby": "LOBBY",
-    "salir": "SAIR",
-    "modo_desc": "Selecione o modo:",
-    "contrarreloj": "CONTRA-RELÓGIO",
-    "normal": "NORMAL",
-    "volver": "VOLTAR"
+    "guia": "Pausa: Esc\nMouse de visualização: Enter",
+    "menu": "PAUSA NO MENU",
+    "ajustes": "\tCONFIGURAÇÕES",
+    "mapa": "\tMAPA",
+    "lobby": "\tSALÃO",
+    "salir": "\tSAIR",
+    "diploma": "\tDIPLOMA",
+    "modo": "\tMODO",
+    "continuar": "CONTINUAR",
+    "noti_diploma": "Certificado salvo em:",
+
+    "ajuste_resolucion": "Selecione a qualidade gráfica:",
+    "calidad_maxima": "\tMÁXIMA",
+    "calidad_media": "\tMEDIA",
+    "calidad_minima": "\tMÍNIMA",
+
+    "ajuste_modo": "Selecione o modo:",
+    "modo_contrarreloj": "\tTESTE DE TEMPO",
+    "modo_normal": "\tNORMAL",
+    "volver": "VOLVER"
   },
   "menu_inicial": {
     "boton_jugar": "jogar",
