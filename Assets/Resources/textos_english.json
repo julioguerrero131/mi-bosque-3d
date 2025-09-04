@@ -184,6 +184,11 @@
       "flora_4_sentence_1": "Bombacaceae Number of species reported by genus: 4"
     }
   },
+  "controles": {
+    "caja_ardilla": "Squirrel",
+    "caja_iguana": "Iguana",
+    "caja_pechiche": "Pechiche"
+  },
   "first_challenge": {
     "title_0": "Welcome",
     "title_1": "Welcome",

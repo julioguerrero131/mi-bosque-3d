@@ -2321,6 +2321,7 @@ GameObject:
   - component: {fileID: 46362885}
   - component: {fileID: 46362884}
   - component: {fileID: 46362883}
+  - component: {fileID: 46362886}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2406,6 +2407,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46362881}
   m_CullTransparentMesh: 0
+--- !u!114 &46362886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46362881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: controles.caja_ardilla
 --- !u!1 &48427488
 GameObject:
   m_ObjectHideFlags: 0
@@ -46130,6 +46144,7 @@ GameObject:
   - component: {fileID: 1123548406}
   - component: {fileID: 1123548405}
   - component: {fileID: 1123548404}
+  - component: {fileID: 1123548407}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -46213,6 +46228,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123548402}
   m_CullTransparentMesh: 0
+--- !u!114 &1123548407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123548402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: controles.caja_pechiche
 --- !u!1 &1124152426
 GameObject:
   m_ObjectHideFlags: 0
@@ -78140,6 +78168,7 @@ GameObject:
   - component: {fileID: 1541525570}
   - component: {fileID: 1541525569}
   - component: {fileID: 1541525568}
+  - component: {fileID: 1541525571}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -78225,6 +78254,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541525566}
   m_CullTransparentMesh: 0
+--- !u!114 &1541525571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541525566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: controles.caja_iguana
 --- !u!1001 &1543503848
 PrefabInstance:
   m_ObjectHideFlags: 0

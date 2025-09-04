@@ -217,6 +217,11 @@
       "flora_4_sentence_1": "Bombacaceae Número de especies reportado por género: 4"
     }
   },
+  "controles": {
+    "caja_ardilla": "Ardilla",
+    "caja_iguana": "Iguana",
+    "caja_pechiche": "Pechiche"
+  },
   "first_challenge": {
     "title_0": "Bienvenido",
     "title_1": "Bienvenido",

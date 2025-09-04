@@ -184,6 +184,11 @@
       "flora_4_sentence_1": "Bombacaceae Número de espécies relatado por gênero: 4"
     }
   },
+  "controles": {
+    "caja_ardilla": "Esquilo",
+    "caja_iguana": "Iguana",
+    "caja_pechiche": "Pechiche"
+  },
   "first_challenge": {
     "title_0": "Bem-vindo",
     "title_1": "Bem-vindo",

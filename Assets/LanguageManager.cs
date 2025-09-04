@@ -320,6 +320,13 @@ public class LanguageManager : MonoBehaviour
             }
         }
 
+        if (datos.controles != null)
+        {
+            textos["controles.caja_ardilla"] = datos.controles.caja_ardilla;
+            textos["controles.caja_iguana"] = datos.controles.caja_iguana;
+            textos["controles.caja_pechiche"] = datos.controles.caja_pechiche;
+        }
+
         if (datos.first_challenge != null)
         {
             var fc = datos.first_challenge;
@@ -334,13 +341,6 @@ public class LanguageManager : MonoBehaviour
             textos["first_challenge.sentence_2"] = fc.sentence_2;
             textos["first_challenge.sentence_3"] = fc.sentence_3;
             textos["first_challenge.sentence_4"] = fc.sentence_4;
-
-            Debug.Log("title 0:" + fc.title_0);
-            Debug.Log("title 1:" + fc.title_1);
-            Debug.Log("title 2:" + fc.title_2);
-            Debug.Log("title 3:" + fc.title_3);
-            Debug.Log("title 4:" + fc.title_4);
-
         }
 
         if (datos.conseguir_libro != null)
@@ -499,6 +499,7 @@ public class LanguageManager : MonoBehaviour
         public Tutorial tutorial;
         public CartelesBosque carteles_bosque;
         public Lobby lobby;
+        public Controles controles;
         public FirstChallenge first_challenge;
         public ConseguirLibro conseguir_libro;
         public SecondChallenge second_challenge;
@@ -768,6 +769,14 @@ public class LanguageManager : MonoBehaviour
     }
 
     // Bosque
+    [Serializable]
+    public class Controles
+    {
+        public string caja_ardilla;
+        public string caja_iguana;
+        public string caja_pechiche;
+    }
+
     [Serializable]
     public class FirstChallenge
     {
