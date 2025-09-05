@@ -686,7 +686,15 @@ public class Peticiones : MonoBehaviour
             string responseText = stReader.ReadToEnd();
             JObject jsonResponse = JObject.Parse(responseText);
             Debug.Log("Respuesta: " + responseText);
-            File.WriteAllText(Application.dataPath+ "/Resources/Questions/NuevasPreguntas.json", jsonResponse["payload"].ToString());
+
+            string path = "/Resources/Questions/NuevasPreguntas.json";
+            string idiomaGuardado = PlayerPrefs.GetString("idioma");
+            if (idiomaGuardado == "textos_english")
+                path = "/Resources/Questions/NewQuestions.json";
+            else if (idiomaGuardado == "textos_portugues")
+                path = "/Resources/Questions/NovasPerguntas.json";
+
+            File.WriteAllText(Application.dataPath+ path, jsonResponse["payload"].ToString());
             Debug.Log("json escrito y guardado ");
             /*if (jsonResponse.GetValue("status").ToObject<int>() == 400 && jsonResponse.GetValue("error").ToObject<string>().Contains("Token") && isFirstTime)
             {

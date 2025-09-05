@@ -16,6 +16,8 @@ public class LanguageButton : MonoBehaviour
         {
             // Leer idioma guardado y sincronizar índice
             string idiomaGuardado = PlayerPrefs.GetString("idioma", "textos_espanol");
+            string debug = PlayerPrefs.GetString("idioma");
+            Debug.Log("idioma guardado:" + debug);
 
             for (int i = 0; i < archivos.Length; i++)
             {
