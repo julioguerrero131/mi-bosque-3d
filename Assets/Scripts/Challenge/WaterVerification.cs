@@ -120,7 +120,9 @@ public class WaterVerification : MonoBehaviour
                 time.SetActive(false);
                 recordatorio.SetActive(false);
                 Debug.Log("Seteo actives");
-                texto.text = "Lo lograste! Has apagado el fuego, puedes continuar a la siguiente estación";
+                string txt = LanguageManager.Instancia.ObtenerTexto("seventh_challenge.water_logro");
+                //texto.text = "Lo lograste! Has apagado el fuego, puedes continuar a la siguiente estación";
+                texto.text = txt;
                 fuegoApagado = true;
                 //img.sprite = Resources.Load<Sprite>("ninabien");
                 img.sprite = Resources.Load<Sprite>("smoke");
@@ -135,7 +137,9 @@ public class WaterVerification : MonoBehaviour
             {
                 //img.sprite = Resources.Load<Sprite>("ninapreoc");
                 img.sprite = Resources.Load<Sprite>("fire");
-                texto.text = "Aún no tienes agua para apagar el fuego. Busca agua por los alrededores. Traela en un recipiente!";
+                string txt = LanguageManager.Instancia.ObtenerTexto("seventh_challenge.water_falta");
+                //texto.text = "Aún no tienes agua para apagar el fuego. Busca agua por los alrededores. Traela en un recipiente!";
+                texto.text = txt;
                 panelMsj.SetActive(true);
             }
 

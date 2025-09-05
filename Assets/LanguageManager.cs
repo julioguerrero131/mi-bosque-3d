@@ -535,6 +535,9 @@ public class LanguageManager : MonoBehaviour
             textos["seventh_challenge.sentence_wellzone_0"] = svc.sentence_wellzone_0;
             textos["seventh_challenge.sentence_wellzone_1"] = svc.sentence_wellzone_1;
             textos["seventh_challenge.sentence_wellzone_2"] = svc.sentence_wellzone_2;
+
+            textos["seventh_challenge.water_logro"] = svc.water_logro;
+            textos["seventh_challenge.water_falta"] = svc.water_falta;
         }
 
         if (datos.carteles_bosque != null)
@@ -614,6 +617,14 @@ public class LanguageManager : MonoBehaviour
             textos["contrarreloj.title_perdida"] = ct.title_perdida;
             textos["contrarreloj.contenido_perdida"] = ct.contenido_perdida;
         }
+
+        if (datos.feedback_preguntas != null)
+        {
+            var fp = datos.feedback_preguntas;
+            textos["feedback_preguntas.title_correcto"] = fp.title_correcto;
+            textos["feedback_preguntas.subtitle_correcto"] = fp.subtitle_correcto;
+            textos["feedback_preguntas.title_incorrecto"] = fp.title_incorrecto;
+        }
     }
 
     // CLASES
@@ -643,6 +654,7 @@ public class LanguageManager : MonoBehaviour
         public Logros logros;
         public Misiones misiones;
         public Contrarreloj contrarreloj;
+        public FeedbackPreguntas feedback_preguntas;
     }
 
     // Botones
@@ -1119,6 +1131,9 @@ public class LanguageManager : MonoBehaviour
         public string sentence_wellzone_0;
         public string sentence_wellzone_1;
         public string sentence_wellzone_2;
+
+        public string water_logro;
+        public string water_falta;
     }
 
     [Serializable]
@@ -1198,5 +1213,13 @@ public class LanguageManager : MonoBehaviour
         public string contenido_despedida;
         public string title_perdida;
         public string contenido_perdida;
+    }
+
+    [Serializable]
+    public class FeedbackPreguntas
+    {
+        public string title_correcto;
+        public string title_incorrecto;
+        public string subtitle_correcto;
     }
 }

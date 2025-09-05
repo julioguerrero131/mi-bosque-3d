@@ -331,7 +331,10 @@
     "title_wellzone_2": "Look for a container",
     "sentence_wellzone_0": "You found a well! Wells have a deep hole from which water is extracted.",
     "sentence_wellzone_1": "A bucket is thrown inside and recovered full of water with a rope.",
-    "sentence_wellzone_2": "It is sealed for safety but maybe we can find something useful near the well to collect water. LOOK around."
+    "sentence_wellzone_2": "It is sealed for safety but maybe we can find something useful near the well to collect water. LOOK around.",
+
+    "water_logro": "You did it! You have put out the fire, you can continue to the next station",
+    "water_falta": "You don't have water yet to put out the fire. Look for water in the surroundings. Bring it in a container!"
   },
   "carteles_bosque": {
     "entrada_bosque": "TAKE CARE OF THE FOREST, IT'S OUR HOME!",
@@ -397,5 +400,10 @@
     "contenido_despedida": "It seems you left TIME TRIAL mode. You can always play it again from the PAUSE menu.",
     "title_perdida": "TIMEEE",
     "contenido_perdida": "Time is up, it was a great attempt, always remember to RUN to complete the challenge within the limit. \nYou will return to the beginning of the Forest."
+  },
+  "feedback_preguntas": {
+    "title_correcto": "CONGRATS!",
+    "title_incorrecto": "OH! This time you didn't get it right.",
+    "subtitle_correcto": "Correct answer."
   }
 }

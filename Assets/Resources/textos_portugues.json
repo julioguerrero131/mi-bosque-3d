@@ -331,7 +331,10 @@
     "title_wellzone_2": "Procure um recipiente",
     "sentence_wellzone_0": "Você encontrou um poço! Os poços possuem um buraco de grande profundidade de onde se extrai água.",
     "sentence_wellzone_1": "Arroja-se um balde em seu interior e ele é recuperado cheio de água com uma corda.",
-    "sentence_wellzone_2": "Está selado por segurança mas talvez possamos encontrar algo útil perto do poço para recolher água. PROCURE ao redor."
+    "sentence_wellzone_2": "Está selado por segurança mas talvez possamos encontrar algo útil perto do poço para recolher água. PROCURE ao redor.",
+
+    "water_logro": "Você conseguiu! Você apagou o fogo, pode continuar para a próxima estação",
+    "water_falta": "Você ainda não tem água para apagar o fogo. Procure por água nos arredores. Traga-a em um recipiente!"
   },
   "carteles_bosque": {
     "entrada_bosque": "CUIDE DA FLORESTA, É NOSSO LAR!",
@@ -397,5 +400,10 @@
     "contenido_despedida": "Parece que você saiu do modo CONTRA-RELÓGIO. Você sempre pode voltar a jogá-lo no menu PAUSA.",
     "title_perdida": "TEMPOOO",
     "contenido_perdida": "O tempo acabou, foi uma ótima tentativa, lembre-se sempre de CORRER para poder completar o desafio dentro do limite. \nVocê voltará ao início da Floresta."
+  },
+  "feedback_preguntas": {
+    "title_correcto": "PARABÉNS!",
+    "title_incorrecto": "OPA! Desta vez você não acertou.",
+    "subtitle_correcto": "Resposta correta."
   }
 }
