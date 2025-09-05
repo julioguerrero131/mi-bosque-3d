@@ -150,6 +150,18 @@ public class LanguageManager : MonoBehaviour
             }
         }
 
+        if (datos.mensajes_error != null)
+        {
+            var me = datos.mensajes_error;
+            textos["mensajes_error.error_0"] = me.error_0;
+            textos["mensajes_error.error_1"] = me.error_1;
+            textos["mensajes_error.error_2"] = me.error_2;
+            textos["mensajes_error.error_3"] = me.error_3;
+            textos["mensajes_error.error_4"] = me.error_4;
+            textos["mensajes_error.error_5_0"] = me.error_5_0;
+            textos["mensajes_error.error_5_1"] = me.error_5_1;
+        }
+
         if(datos.tutorial != null)
         {
             textos["tutorial.dialogo_0"] = datos.tutorial.dialogo_0;
@@ -604,6 +616,7 @@ public class LanguageManager : MonoBehaviour
         public MenuPausa menu_pausa;
         public MenuInicial menu_inicial;
         public MenuPartidas menu_partidas;
+        public MensajesError mensajes_error;
         public Tutorial tutorial;
         public CartelesBosque carteles_bosque;
         public Lobby lobby;
@@ -694,6 +707,18 @@ public class LanguageManager : MonoBehaviour
     {
         public string cargar_partida;
         public string nueva_partida;
+    }
+
+    [Serializable]
+    public class MensajesError
+    {
+        public string error_0;
+        public string error_1;
+        public string error_2;
+        public string error_3;
+        public string error_4;
+        public string error_5_0;
+        public string error_5_1;
     }
 
     // Tutorial

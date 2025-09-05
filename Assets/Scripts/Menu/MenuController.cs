@@ -167,7 +167,9 @@ public class MenuController : MonoBehaviour
         {
             errorPanel.SetActive(true);
             actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó código de unidad");
-            errorMsj.text = "Escriba el código del profesor para continuar";
+            //errorMsj.text = "Escriba el código del profesor para continuar";
+            string errorText = LanguageManager.Instancia.ObtenerTexto("mensajes_error.error_3");
+            errorMsj.text = errorText;
         }
         else
         {
@@ -204,32 +206,44 @@ public class MenuController : MonoBehaviour
                 {
                     errorPanel.SetActive(true);
                     //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó nombre");
-                    errorMsj.text = "Completo los campos Nombre o Edad para continuar";
+                    string errorText = LanguageManager.Instancia.ObtenerTexto("mensajes_error.error_0");
+                    //errorMsj.text = "Completo los campos Nombre o Edad para continuar";
+                    errorMsj.text = errorText;
                     return false;
                 }
                 else if (!(int.TryParse(edad.text, out n_edad)))
                 {
                     errorPanel.SetActive(true);
                     //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó edad");
-                    errorMsj.text = "La edad que has ingresado es incorrecta";
+                    string errorText = LanguageManager.Instancia.ObtenerTexto("mensajes_error.error_1");
+                    //errorMsj.text = "La edad que has ingresado es incorrecta";
+                    errorMsj.text = errorText;
                     return false;
                 }
                 else if(n_edad < 5)
                 {
                     errorPanel.SetActive(true);
+                    string errorText = LanguageManager.Instancia.ObtenerTexto("mensajes_error.error_4");
                     //errorMsj.text = "Hmmm estás muy pequeño para jugar.\nIngresa tu edad nuevamente";
+                    errorMsj.text = errorText;
                     actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Edad inferior");
+                    return false;
                 }
                 else if (n_edad > 90)
                 {
                     errorPanel.SetActive(true);
+                    string errorText0 = LanguageManager.Instancia.ObtenerTexto("mensajes_error.error_5_0");
+                    string errorText1 = LanguageManager.Instancia.ObtenerTexto("mensajes_error.error_5_1");
                     //errorMsj.text = "WOAH! Tienes " + n_edad + "! .\nPrueba ingresando tu edad nuevamente";
+                    errorMsj.text = errorText0 + n_edad + errorText1;
                     actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Edad superior");
+                    return false;
                 }
                 else if (obtenerGenero(dropDownGenero) == "0")
                 {
                     errorPanel.SetActive(true);
                     //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó género");
+                    string errorText1 = LanguageManager.Instancia.ObtenerTexto("mensajes_error.error_2");
                     errorMsj.text = "Selecciona el género por favor";
                     return false;
                 }

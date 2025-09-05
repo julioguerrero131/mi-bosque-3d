@@ -52,6 +52,15 @@
       "invitado_2": " whenever you want!"
     }
   },
+  "mensajes_error": {
+    "error_0": "Complete the Name or Age fields to continue",
+    "error_1": "The age you entered is incorrect",
+    "error_2": "Please select the gender",
+    "error_3": "Type the teacher's code to continue",
+    "error_4": "Hmmm you are too young to play.\nPlease enter your age again",
+    "error_5_0": "WOAH! You are ",
+    "error_5_1": "! .\nPlease try entering your age again"
+  },
   "tutorial": {
     "dialogo_0": "Hello! I'm a Forest Ranger and I'll give you some instructions. Are you ready?",
     "dialogo_1": "To walk, use the keys: A to go left, D for right, S for back and W for forward.",

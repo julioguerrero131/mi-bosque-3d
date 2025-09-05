@@ -52,6 +52,15 @@
       "invitado_2": " quando quiser!"
     }
   },
+  "mensajes_error": {
+    "error_0": "Preencha os campos Nome ou Idade para continuar",
+    "error_1": "A idade que você inseriu está incorreta",
+    "error_2": "Por favor, selecione o gênero",
+    "error_3": "Escreva o código do professor para continuar",
+    "error_4": "Hmm, você é muito pequeno para jogar.\nInsira sua idade novamente",
+    "error_5_0": "WOAH! Você tem ",
+    "error_5_1": "! .\nPor favor, tente inserir sua idade novamente"
+  },
   "tutorial": {
     "dialogo_0": "Olá! Eu sou um Guarda Florestal e vou te dar algumas indicações. Você está pronto?",
     "dialogo_1": "Para caminhar use as teclas: A para ir para a esquerda, D para a direita, S para ir para trás e W para a frente.",

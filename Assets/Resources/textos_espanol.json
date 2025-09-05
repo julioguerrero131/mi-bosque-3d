@@ -52,6 +52,15 @@
       "invitado_2": " cuando quieras!"
     }
   },
+  "mensajes_error": {
+    "error_0": "Complete los campos Nombre o Edad para continuar",
+    "error_1": "La edad que has ingresado es incorrecta",
+    "error_2": "Selecciona el género por favor",
+    "error_3": "Escriba el código del profesor para continuar",
+    "error_4": "Hmmm estás muy pequeño para jugar.\nIngresa tu edad nuevamente",
+    "error_5_0": "WOAH! Tienes ",
+    "error_5_1": "! .\nPrueba ingresando tu edad nuevamente"
+  },
   "tutorial": {
     "dialogo_0": "Hola! soy un Guardabosque y te daré algunas indicaciones. ¿Estás listo?",
     "dialogo_1": "Para poder caminar utiliza las teclas: A para ir a la izquierda, D para la derecha, S para ir para atrás y W para adelante.",
