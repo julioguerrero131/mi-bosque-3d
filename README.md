@@ -1,11 +1,14 @@
 # MI BOSQUE 3D 🎮
-Videojuego Educativo / Simulador 3D del sendero en el Bosque Protector Prosperina
-Este proyecto es un juego desarrollado en Unity cuyo objetivo es concientizar sobre el cuidado de nuestros bosques y especies protegidas.  
+Videojuego Educativo / Simulador 3D del sendero en el Bosque Protector Prosperina. 
+
+Este proyecto es un juego desarrollado en Unity cuyo objetivo es concientizar sobre el cuidado de nuestros bosques y especies protegidas. 
+
 Está orientado a estudiantes de escuela y a todo el público en general. 
 
+---
 ## 🛠️ Requisitos
-- Unity [2019.1.4f1]
-- Lenguaje de scripting:[C#]
+- Unity 2019.1.4f1
+- Lenguaje de scripting: C#
 
 ## 🚀 Instalación y Ejecución
 1. Clonar el repositorio: 
