@@ -248,7 +248,8 @@
     "basura_papel": "Papel en papel",
     "basura_plastico": "Plástico en plástico",
     "basura_vidrio": "Vidrio en vidrio",
-    "basura_mal": "Eso no va ahí!"
+    "basura_mal": "Eso no va ahí!",
+    "sembrando": "Sembrando, espera..."
   },
   "first_challenge": {
     "title_0": "Bienvenido",

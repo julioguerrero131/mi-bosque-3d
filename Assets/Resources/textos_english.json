@@ -216,7 +216,8 @@
     "basura_papel": "Paper in paper bin",
     "basura_plastico": "Plastic in plastic bin",
     "basura_vidrio": "Glass in glass bin",
-    "basura_mal": "That doesn't go there!"
+    "basura_mal": "That doesn't go there!",
+    "sembrando": "Sowing, wait..."
   },
   "first_challenge": {
     "title_0": "Welcome",

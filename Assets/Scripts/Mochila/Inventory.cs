@@ -450,7 +450,8 @@ public class Inventory : MonoBehaviour
         //Farmer farmer = areaFarm.GetComponent<Farmer>();
         //message.text = "Sembrando";
         audioScript.reproducir();
-        message.text = "Sembrando, espera...";
+        string text = LanguageManager.Instancia.ObtenerTexto("recordatorios.sembrando");
+        message.text = text;
         //GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ShowMochila>().Continuar();
         feedback.SetActive(true);
         //GameObject.FindGameObjectWithTag("Bag").transform.GetChild(0).gameObject.SetActive(false);

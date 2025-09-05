@@ -372,6 +372,7 @@ public class LanguageManager : MonoBehaviour
             textos["recordatorios.basura_plastico"] = rec.basura_plastico;
             textos["recordatorios.basura_vidrio"] = rec.basura_vidrio;
             textos["recordatorios.basura_mal"] = rec.basura_mal;
+            textos["recordatorios.sembrando"] = rec.sembrando;
         }
 
         if (datos.first_challenge != null)
@@ -931,6 +932,7 @@ public class LanguageManager : MonoBehaviour
         public string basura_plastico;
         public string basura_vidrio;
         public string basura_mal;
+        public string sembrando;
     }
 
     [Serializable]
