@@ -14201,7 +14201,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 181.86
+      value: 181.87997
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
@@ -14211,7 +14211,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 405.3
+      value: 405.30402
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
@@ -14221,7 +14221,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.16031873
+      value: 0.08278287
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
@@ -14231,7 +14231,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9870653
+      value: 0.9965676
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
@@ -14246,7 +14246,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 18.451
+      value: 9.497001
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 739f4ff8c72a98d438c7797abd34d015,
         type: 3}
@@ -17357,6 +17357,7 @@ GameObject:
   - component: {fileID: 463792479}
   - component: {fileID: 463792478}
   - component: {fileID: 463792477}
+  - component: {fileID: 463792481}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: cartel_1
@@ -17548,6 +17549,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &463792481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463792475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: carteles_bosque.aire_fresco
 --- !u!1001 &464856352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23766,6 +23780,7 @@ GameObject:
   - component: {fileID: 612167000}
   - component: {fileID: 612166999}
   - component: {fileID: 612166998}
+  - component: {fileID: 612167002}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: cartel_2
@@ -23957,6 +23972,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &612167002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612166996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: carteles_bosque.primer_nivel
 --- !u!1 &613250165
 GameObject:
   m_ObjectHideFlags: 0
@@ -59674,6 +59702,7 @@ GameObject:
   - component: {fileID: 1292063052}
   - component: {fileID: 1292063051}
   - component: {fileID: 1292063050}
+  - component: {fileID: 1292063054}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: cartel_4
@@ -59865,6 +59894,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1292063054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292063048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: carteles_bosque.llegada_lago
 --- !u!1 &1294016451 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1586237228383438255, guid: 4c66d3f3626d0d34d9ef33cfa403410b,
@@ -68463,6 +68505,7 @@ GameObject:
   - component: {fileID: 1471031561}
   - component: {fileID: 1471031560}
   - component: {fileID: 1471031559}
+  - component: {fileID: 1471031563}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: cartel_1
@@ -68657,6 +68700,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1471031563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471031557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: carteles_bosque.basura
 --- !u!1 &1471696681
 GameObject:
   m_ObjectHideFlags: 0
@@ -78845,6 +78901,7 @@ GameObject:
   - component: {fileID: 1547117548}
   - component: {fileID: 1547117547}
   - component: {fileID: 1547117546}
+  - component: {fileID: 1547117550}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: cartel_3
@@ -79036,6 +79093,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1547117550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547117544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: carteles_bosque.segundo_nivel
 --- !u!1001 &1547228849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98902,6 +98972,7 @@ GameObject:
   - component: {fileID: 1950413786}
   - component: {fileID: 1950413785}
   - component: {fileID: 1950413784}
+  - component: {fileID: 1950413788}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: cartel_5
@@ -99093,6 +99164,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1950413788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950413782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: carteles_bosque.antes_nivel_4
 --- !u!4 &1954587176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2306865039890677219, guid: 96427032d6ea3384196fdd5e7c11c2c5,
@@ -100813,6 +100897,7 @@ GameObject:
   - component: {fileID: 2016908154}
   - component: {fileID: 2016908153}
   - component: {fileID: 2016908152}
+  - component: {fileID: 2016908156}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: cartel_1
@@ -100836,7 +100921,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 179.85501, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.302, y: 1.0628}
+  m_AnchoredPosition: {x: -0.302, y: 0.81}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2016908152
@@ -100905,7 +100990,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 37
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -100926,7 +101011,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -8.009325, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2016908152}
     characterCount: 99
@@ -101005,6 +101090,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &2016908156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016908150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: carteles_bosque.hojarasca
 --- !u!4 &2017765687 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 31f99d16c6cf30d408b04dcec6f5a857,
@@ -104725,6 +104823,7 @@ GameObject:
   - component: {fileID: 2122534313}
   - component: {fileID: 2122534312}
   - component: {fileID: 2122534311}
+  - component: {fileID: 2122534315}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: cartel_1
@@ -104916,6 +105015,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &2122534315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122534309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: carteles_bosque.entrada_bosque
 --- !u!1001 &2124063088
 PrefabInstance:
   m_ObjectHideFlags: 0

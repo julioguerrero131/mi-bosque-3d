@@ -526,11 +526,16 @@ public class LanguageManager : MonoBehaviour
 
         if (datos.carteles_bosque != null)
         {
-            textos["carteles_bosque.entrada_bosque"] = datos.carteles_bosque.entrada_bosque;
-            textos["carteles_bosque.primer_nivel"] = datos.carteles_bosque.primer_nivel;
-            textos["carteles_bosque.segundo_nivel"] = datos.carteles_bosque.segundo_nivel;
-            textos["carteles_bosque.llegada_lago"] = datos.carteles_bosque.llegada_lago;
-            textos["carteles_bosque.antes_nivel_4"] = datos.carteles_bosque.antes_nivel_4;
+            var cb = datos.carteles_bosque;
+            textos["carteles_bosque.entrada_bosque"] = cb.entrada_bosque;
+            textos["carteles_bosque.primer_nivel"] = cb.primer_nivel;
+            textos["carteles_bosque.segundo_nivel"] = cb.segundo_nivel;
+            textos["carteles_bosque.llegada_lago"] = cb.llegada_lago;
+            textos["carteles_bosque.antes_nivel_4"] = cb.antes_nivel_4;
+
+            textos["carteles_bosque.aire_fresco"] = cb.aire_fresco;
+            textos["carteles_bosque.hojarasca"] = cb.hojarasca;
+            textos["carteles_bosque.basura"] = cb.basura;
         }
     }
 
@@ -1030,5 +1035,9 @@ public class LanguageManager : MonoBehaviour
         public string segundo_nivel;
         public string llegada_lago;
         public string antes_nivel_4;
+
+        public string aire_fresco;
+        public string hojarasca;
+        public string basura;
     }
 }
