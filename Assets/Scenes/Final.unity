@@ -8205,14 +8205,14 @@ MonoBehaviour:
     Reyes\nJoel Torres\nJosue Cobos\nJuan Jimenez\nJuan Laso\nJuan Nebel\nJuan Vallejo\nLeonardo
     Mendoza\nLuis Carrasco\nLuis Salazar\nMiguel Parras\nMiguel Rivas\nMatheus L\xF3pez\nNicole
     Alvarez\nOscar Guaman\nPablo Delgado\nPedro Mendoza\nRichard Robayo\nRoberto Mena\nYsabel
-    Atiencia\nYsrael Larco\n\n\n\nAlfred Coloma\nErick Pulla\nYsrael Larco\n\n\n\n\n\n\n\nAldrin
-    Tobar\nDomenica Aguilera\nEdwin Rodas\nJonathan Guerrero\nMiguel Cercado\nMikaela
-    Espinoza\nRicardo Ibarra\nStephanie Moscoso\n\n\n\nCarlos Alvarado\nElba Requena\nMaria
-    Alvarez\nMaria Kalil\n\n\n\nAlfonso Chaw\nAdriana Navarrete\nAngelica Rivera\nGeorgina
-    Manzano\nYsrael Larco\n\n\n\n\n\nClaudia Rodriguez\nChristel Penafiel\nHector
-    Alvarado\nHenry Munoz\nJose Gaibor\nJose Moscoso\nKarla Sosa\nKeyla Intriago\nMilena
-    Pozo\nNancy Sierra\nNathaly Tomala\nOswaldo Molina\nSamantha Ortiz\nTatiana Castillo\nViancca
-    Ramos\n\n\n"
+    Atiencia\nYsrael Larco\nJulio Guerrero\nDaniel Villamar\n\n\n\nAlfred Coloma\nErick
+    Pulla\nYsrael Larco\n\n\n\n\n\n\n\nAldrin Tobar\nDomenica Aguilera\nEdwin Rodas\nJonathan
+    Guerrero\nMiguel Cercado\nMikaela Espinoza\nRicardo Ibarra\nStephanie Moscoso\n\n\n\nCarlos
+    Alvarado\nElba Requena\nMaria Alvarez\nMaria Kalil\n\n\n\nAlfonso Chaw\nAdriana
+    Navarrete\nAngelica Rivera\nGeorgina Manzano\nYsrael Larco\n\n\n\n\n\nClaudia
+    Rodriguez\nChristel Penafiel\nHector Alvarado\nHenry Munoz\nJose Gaibor\nJose
+    Moscoso\nKarla Sosa\nKeyla Intriago\nMilena Pozo\nNancy Sierra\nNathaly Tomala\nOswaldo
+    Molina\nSamantha Ortiz\nTatiana Castillo\nViancca Ramos\n\n\n"
 --- !u!222 &1141105514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20476,7 +20476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1820763799
 RectTransform:
   m_ObjectHideFlags: 0
