@@ -1,0 +1,1 @@
+# Reducir el tiempo de Celebración final
