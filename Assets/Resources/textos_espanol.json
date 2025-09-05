@@ -443,5 +443,13 @@
     "mision_5_descripcion": "Planta las semillas encontradas en tu aventura.",
     "mision_6_descripcion": "¡¡¡Encuentra todos los animales del bosque!!!",
     "mision_7_descripcion": "¡¡¡Encuentra a todos las plantas del bosque!!!"
+  },
+  "contrarreloj": {
+    "title_activo": "AAAAANo te detengas",
+    "contenido_activo": "Bienvenido al modo Contrarreloj, debes ser rápido y ágil, tendrás 5 minutos para completar todos los retos del Bosque Protector. ¡Mucha Suerte!",
+    "title_despedida": "Excelente intento",
+    "contenido_despedida": "Parece que saliste del modo CONTRARRELOJ. Siempre puedes volver a jugarlo desde el menú PAUSA.",
+    "title_perdida": "TIEMPOOO",
+    "contenido_perdida": "El tiempo se ha terminado, fue un grandioso intento, recuerda siempre CORRER para poder completar el desafío en el límite. \nVolverás al inicio del Bosque."
   }
 }

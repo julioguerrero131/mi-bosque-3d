@@ -389,5 +389,13 @@
     "mision_5_descripcion": "Plante as sementes encontradas em sua aventura.",
     "mision_6_descripcion": "Encontre todos os animais da floresta!!!",
     "mision_7_descripcion": "Encontre todas as plantas da floresta!!!"
+  },
+  "contrarreloj": {
+    "title_activo": "Não pare",
+    "contenido_activo": "Bem-vindo ao modo Contra-relógio, você deve ser rápido e ágil, terá 5 minutos para completar todos os desafios da Floresta Protetora. Boa sorte!",
+    "title_despedida": "Excelente tentativa",
+    "contenido_despedida": "Parece que você saiu do modo CONTRA-RELÓGIO. Você sempre pode voltar a jogá-lo no menu PAUSA.",
+    "title_perdida": "TEMPOOO",
+    "contenido_perdida": "O tempo acabou, foi uma ótima tentativa, lembre-se sempre de CORRER para poder completar o desafio dentro do limite. \nVocê voltará ao início da Floresta."
   }
 }

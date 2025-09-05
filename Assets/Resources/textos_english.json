@@ -389,5 +389,13 @@
     "mision_5_descripcion": "Plant the seeds you found on your adventure.",
     "mision_6_descripcion": "Find all the animals in the forest!!!",
     "mision_7_descripcion": "Find all the plants in the forest!!!"
+  },
+  "contrarreloj": {
+    "title_activo": "Don't stop",
+    "contenido_activo": "Welcome to Time Trial mode, you must be fast and agile, you will have 5 minutes to complete all the challenges of the Protected Forest. Good luck!",
+    "title_despedida": "Excellent try",
+    "contenido_despedida": "It seems you left TIME TRIAL mode. You can always play it again from the PAUSE menu.",
+    "title_perdida": "TIMEEE",
+    "contenido_perdida": "Time is up, it was a great attempt, always remember to RUN to complete the challenge within the limit. \nYou will return to the beginning of the Forest."
   }
 }

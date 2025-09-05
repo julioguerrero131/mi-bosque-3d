@@ -9964,6 +9964,7 @@ GameObject:
   - component: {fileID: 247927298}
   - component: {fileID: 247927300}
   - component: {fileID: 247927299}
+  - component: {fileID: 247927301}
   m_Layer: 5
   m_Name: PerdidaTittle
   m_TagString: Untagged
@@ -10032,6 +10033,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247927297}
   m_CullTransparentMesh: 0
+--- !u!114 &247927301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247927297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: contrarreloj.title_perdida
 --- !u!1 &251529947
 GameObject:
   m_ObjectHideFlags: 0
@@ -10262,6 +10276,7 @@ GameObject:
   - component: {fileID: 252788945}
   - component: {fileID: 252788947}
   - component: {fileID: 252788946}
+  - component: {fileID: 252788948}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -10330,6 +10345,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252788944}
   m_CullTransparentMesh: 0
+--- !u!114 &252788948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252788944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: botones.entendido
 --- !u!1 &253556217
 GameObject:
   m_ObjectHideFlags: 0
@@ -12314,6 +12342,7 @@ GameObject:
   - component: {fileID: 322538788}
   - component: {fileID: 322538790}
   - component: {fileID: 322538789}
+  - component: {fileID: 322538791}
   m_Layer: 5
   m_Name: ContenidoContrarrelojTxt
   m_TagString: Untagged
@@ -12384,6 +12413,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322538787}
   m_CullTransparentMesh: 0
+--- !u!114 &322538791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322538787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: contrarreloj.contenido_activo
 --- !u!1 &327899932
 GameObject:
   m_ObjectHideFlags: 0
@@ -13091,6 +13133,7 @@ GameObject:
   - component: {fileID: 345007495}
   - component: {fileID: 345007497}
   - component: {fileID: 345007496}
+  - component: {fileID: 345007498}
   m_Layer: 5
   m_Name: DespedidaContenidoContrarrelojTxt
   m_TagString: Untagged
@@ -13160,6 +13203,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345007494}
   m_CullTransparentMesh: 0
+--- !u!114 &345007498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345007494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: contrarreloj.contenido_despedida
 --- !u!1 &349014615
 GameObject:
   m_ObjectHideFlags: 0
@@ -14818,6 +14874,7 @@ GameObject:
   - component: {fileID: 376359895}
   - component: {fileID: 376359897}
   - component: {fileID: 376359896}
+  - component: {fileID: 376359898}
   m_Layer: 5
   m_Name: DespedidaTittle
   m_TagString: Untagged
@@ -14886,6 +14943,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376359894}
   m_CullTransparentMesh: 0
+--- !u!114 &376359898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376359894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: contrarreloj.title_despedida
 --- !u!1 &378576301
 GameObject:
   m_ObjectHideFlags: 0
@@ -18379,6 +18449,7 @@ GameObject:
   - component: {fileID: 491642779}
   - component: {fileID: 491642781}
   - component: {fileID: 491642780}
+  - component: {fileID: 491642782}
   m_Layer: 5
   m_Name: PerdidaContenidoContrarrelojTxt
   m_TagString: Untagged
@@ -18449,6 +18520,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491642778}
   m_CullTransparentMesh: 0
+--- !u!114 &491642782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491642778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: contrarreloj.contenido_perdida
 --- !u!1 &493684677
 GameObject:
   m_ObjectHideFlags: 0
@@ -42137,6 +42221,7 @@ GameObject:
   - component: {fileID: 1038554200}
   - component: {fileID: 1038554202}
   - component: {fileID: 1038554201}
+  - component: {fileID: 1038554203}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -42205,6 +42290,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038554199}
   m_CullTransparentMesh: 0
+--- !u!114 &1038554203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038554199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: botones.entendido
 --- !u!1 &1043239135
 GameObject:
   m_ObjectHideFlags: 0
@@ -47768,6 +47866,7 @@ GameObject:
   - component: {fileID: 1141278754}
   - component: {fileID: 1141278756}
   - component: {fileID: 1141278755}
+  - component: {fileID: 1141278757}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -47836,6 +47935,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141278753}
   m_CullTransparentMesh: 0
+--- !u!114 &1141278757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141278753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: botones.entendido
 --- !u!1 &1145018027
 GameObject:
   m_ObjectHideFlags: 0
@@ -83388,6 +83500,7 @@ GameObject:
   - component: {fileID: 1663601452}
   - component: {fileID: 1663601454}
   - component: {fileID: 1663601453}
+  - component: {fileID: 1663601455}
   m_Layer: 5
   m_Name: ContrarrelojTittle
   m_TagString: Untagged
@@ -83456,6 +83569,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1663601451}
   m_CullTransparentMesh: 0
+--- !u!114 &1663601455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663601451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: contrarreloj.title_activo
 --- !u!1 &1665481954
 GameObject:
   m_ObjectHideFlags: 0

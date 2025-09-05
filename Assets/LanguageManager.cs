@@ -602,7 +602,17 @@ public class LanguageManager : MonoBehaviour
             textos["misiones.mision_5_descripcion"] = ms.mision_5_descripcion;
             textos["misiones.mision_6_descripcion"] = ms.mision_6_descripcion;
             textos["misiones.mision_7_descripcion"] = ms.mision_7_descripcion;
+        }
 
+        if (datos.contrarreloj != null)
+        {
+            var ct = datos.contrarreloj;
+            textos["contrarreloj.title_activo"] = ct.title_activo;
+            textos["contrarreloj.contenido_activo"] = ct.contenido_activo;
+            textos["contrarreloj.title_despedida"] = ct.title_despedida;
+            textos["contrarreloj.contenido_despedida"] = ct.contenido_despedida;
+            textos["contrarreloj.title_perdida"] = ct.title_perdida;
+            textos["contrarreloj.contenido_perdida"] = ct.contenido_perdida;
         }
     }
 
@@ -632,6 +642,7 @@ public class LanguageManager : MonoBehaviour
         public SeventhChallenge seventh_challenge;
         public Logros logros;
         public Misiones misiones;
+        public Contrarreloj contrarreloj;
     }
 
     // Botones
@@ -1177,5 +1188,15 @@ public class LanguageManager : MonoBehaviour
         public string mision_5_descripcion;
         public string mision_6_descripcion;
         public string mision_7_descripcion;
+    }
+
+    [Serializable]
+    public class Contrarreloj {
+        public string title_activo;
+        public string contenido_activo;
+        public string title_despedida;
+        public string contenido_despedida;
+        public string title_perdida;
+        public string contenido_perdida;
     }
 }
