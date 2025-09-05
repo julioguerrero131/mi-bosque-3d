@@ -334,6 +334,7 @@
     "basura": "Ah não! Olhe quanta sujeira tem aqui. Este lago é a casa de muitos peixes, sapos e outros animais aquáticos. Quando a sujeira chega à água, eles ficam doentes e não conseguem viver bem! Este rio é o coração da floresta! Mantê-lo limpo ajuda a todos."
   },
   "logros": {
+    "info_medalla": "Obtido: ",
     "title_logro": "CONQUISTA DESBLOQUEADA!!!",
     "logro_0_nombre": "Guarda Florestal Explorador",
     "logro_0_descripcion": "Você encontrou as espécies solicitadas",
@@ -355,5 +356,28 @@
     "logro_8_descripcion": "Você terminou o jogo",
     "logro_9_nombre": "100% Concluído",
     "logro_9_descripcion": "Você concluiu tudo!!!"
+  },
+  "misiones": {
+    "estacion_mision": "Estação: ",
+    "req_mision": "Requisitos: \n",
+    "req_completados_mision": "\nRequisitos concluídos: \n",
+
+    "mision_0_nombre": "Encontre as espécies",
+    "mision_1_nombre": "Salve o coelho",
+    "mision_2_nombre": "Ajude o gavião",
+    "mision_3_nombre": "Evite o incêndio",
+    "mision_4_nombre": "Recicle",
+    "mision_5_nombre": "Plante as sementes",
+    "mision_6_nombre": "Amante da fauna",
+    "mision_7_nombre": "Amante da flora",
+
+    "mision_0_descripcion": "Mostre iniciativa encontrando as espécies solicitadas no início.",
+    "mision_1_descripcion": "Proteja o coelho de predadores devolvendo-o para sua casa.",
+    "mision_2_descripcion": "Encontre comida para o gavião ferido guiando-se pelo som da natureza.",
+    "mision_3_descripcion": "Salve a floresta de um potencial incêndio florestal.",
+    "mision_4_descripcion": "Recicle o lixo abandonado por outros visitantes.",
+    "mision_5_descripcion": "Plante as sementes encontradas em sua aventura.",
+    "mision_6_descripcion": "Encontre todos os animais da floresta!!!",
+    "mision_7_descripcion": "Encontre todas as plantas da floresta!!!"
   }
 }

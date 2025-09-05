@@ -541,6 +541,7 @@ public class LanguageManager : MonoBehaviour
         if (datos.logros != null)
         {
             var lg = datos.logros;
+            textos["logros.info_medalla"] = lg.info_medalla;
             textos["logros.title_logro"] = lg.title_logro;
 
             textos["logros.logro_0_nombre"] = lg.logro_0_nombre;
@@ -564,6 +565,31 @@ public class LanguageManager : MonoBehaviour
             textos["logros.logro_7_descripcion"] = lg.logro_7_descripcion;
             textos["logros.logro_8_descripcion"] = lg.logro_8_descripcion;
             textos["logros.logro_9_descripcion"] = lg.logro_9_descripcion;
+        }
+
+        if (datos.misiones != null)
+        {
+            var ms = datos.misiones;
+            textos["misiones.estacion_mision"] = ms.estacion_mision;
+            textos["misiones.req_mision"] = ms.req_mision;
+            textos["misiones.req_completados_mision"] = ms.req_completados_mision;
+            textos["misiones.mision_0_nombre"] = ms.mision_0_nombre;
+            textos["misiones.mision_1_nombre"] = ms.mision_1_nombre;
+            textos["misiones.mision_2_nombre"] = ms.mision_2_nombre;
+            textos["misiones.mision_3_nombre"] = ms.mision_3_nombre;
+            textos["misiones.mision_4_nombre"] = ms.mision_4_nombre;
+            textos["misiones.mision_5_nombre"] = ms.mision_5_nombre;
+            textos["misiones.mision_6_nombre"] = ms.mision_6_nombre;
+            textos["misiones.mision_7_nombre"] = ms.mision_7_nombre;
+            textos["misiones.mision_0_descripcion"] = ms.mision_0_descripcion;
+            textos["misiones.mision_1_descripcion"] = ms.mision_1_descripcion;
+            textos["misiones.mision_2_descripcion"] = ms.mision_2_descripcion;
+            textos["misiones.mision_3_descripcion"] = ms.mision_3_descripcion;
+            textos["misiones.mision_4_descripcion"] = ms.mision_4_descripcion;
+            textos["misiones.mision_5_descripcion"] = ms.mision_5_descripcion;
+            textos["misiones.mision_6_descripcion"] = ms.mision_6_descripcion;
+            textos["misiones.mision_7_descripcion"] = ms.mision_7_descripcion;
+
         }
     }
 
@@ -591,6 +617,7 @@ public class LanguageManager : MonoBehaviour
         public SixthChallenge sixth_challenge;
         public SeventhChallenge seventh_challenge;
         public Logros logros;
+        public Misiones misiones;
     }
 
     // Botones
@@ -1070,9 +1097,11 @@ public class LanguageManager : MonoBehaviour
         public string basura;
     }
 
+    // Logros
     [Serializable]
     public class Logros
     {
+        public string info_medalla;
         public string title_logro;
 
         public string logro_0_nombre;
@@ -1096,5 +1125,30 @@ public class LanguageManager : MonoBehaviour
         public string logro_7_descripcion;
         public string logro_8_descripcion;
         public string logro_9_descripcion;
+    }
+
+    // Misiones
+    [Serializable]
+    public class Misiones
+    {
+        public string estacion_mision;
+        public string req_mision;
+        public string req_completados_mision;
+        public string mision_0_nombre;
+        public string mision_1_nombre;
+        public string mision_2_nombre;
+        public string mision_3_nombre;
+        public string mision_4_nombre;
+        public string mision_5_nombre;
+        public string mision_6_nombre;
+        public string mision_7_nombre;
+        public string mision_0_descripcion;
+        public string mision_1_descripcion;
+        public string mision_2_descripcion;
+        public string mision_3_descripcion;
+        public string mision_4_descripcion;
+        public string mision_5_descripcion;
+        public string mision_6_descripcion;
+        public string mision_7_descripcion;
     }
 }

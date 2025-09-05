@@ -284,6 +284,29 @@ public class LogrosGlobales : MonoBehaviour
         List<int> reqEstaciones;
         Mision mision;
 
+        // LanguageManager
+        string estacion_mision = LanguageManager.Instancia.ObtenerTexto("misiones.estacion_mision");
+        string req_mision = LanguageManager.Instancia.ObtenerTexto("misiones.req_mision");
+        string req_completados_mision = LanguageManager.Instancia.ObtenerTexto("misiones.req_completados_mision");
+
+        string mision_0_nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_0_nombre");
+        string mision_1_nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_1_nombre");
+        string mision_2_nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_2_nombre");
+        string mision_3_nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_3_nombre");
+        string mision_4_nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_4_nombre");
+        string mision_5_nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_5_nombre");
+        string mision_6_nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_6_nombre");
+        string mision_7_nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_7_nombre");
+
+        string mision_0_descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_0_descripcion");
+        string mision_1_descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_1_descripcion");
+        string mision_2_descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_2_descripcion");
+        string mision_3_descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_3_descripcion");
+        string mision_4_descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_4_descripcion");
+        string mision_5_descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_5_descripcion");
+        string mision_6_descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_6_descripcion");
+        string mision_7_descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_7_descripcion");
+
         /*
          * aqui tambien va lo de los checks
          */
@@ -293,8 +316,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { };
-            mision = new Mision("Encuentra las especies", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Muestra iniciativa buscando las especies solicitadas" +
-                     " al iniciar.");
+            mision = new Mision(mision_0_nombre, "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_0_descripcion);
             misiones.Add(mision);
             checks[0].SetActive(false);
             checks[1].SetActive(true);
@@ -305,8 +327,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { "Iguana", "Ardilla de Guayaquil", "Pechiche" };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 1, 2 };
-            mision = new Mision("Encuentra las especies", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Muestra iniciativa buscando las especies solicitadas" +
-                     " al iniciar.");
+            mision = new Mision(mision_0_nombre, "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_0_descripcion);
             misiones.Add(mision);
             //Debug.Log(mision.nombre + " " + mision.estado);
         }
@@ -317,7 +338,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { };
-            mision = new Mision("Salva al conejo", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Protege al conejo de los depredadores devolviéndolo a su hogar.");
+            mision = new Mision(mision_1_nombre, "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_1_descripcion);
             misiones.Add(mision);
             checks[2].SetActive(false);
             checks[3].SetActive(true);
@@ -329,7 +350,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 3 };
 
-            mision = new Mision("Salva al conejo", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Protege al conejo de los depredadores devolviéndolo a su hogar.");
+            mision = new Mision(mision_1_nombre, "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_1_descripcion);
             misiones.Add(mision);
             //Debug.Log(mision.nombre + " " + mision.estado);
         }
@@ -341,8 +362,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { };
-            mision = new Mision("Ayuda al gavilán", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Encuentra comida para el Gavilán herido guiándote por el sonido" +
-                           " de la naturaleza");
+            mision = new Mision(mision_2_nombre, "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_2_descripcion);
             misiones.Add(mision);
             checks[4].SetActive(false);
             checks[5].SetActive(true);
@@ -354,8 +374,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 4 };
 
-            mision = new Mision("Ayuda al gavilán", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Encuentra comida para el Gavilán herido guiándote por el sonido" +
-                " de la naturaleza");
+            mision = new Mision(mision_2_nombre, "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_2_descripcion);
             misiones.Add(mision);
             //Debug.Log(mision.nombre + " " + mision.estado);
         }
@@ -366,7 +385,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { };
-            mision = new Mision("Evita el Incendio", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Salva al bosque de un potencial incendio forestal.");
+            mision = new Mision(mision_3_nombre, "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_3_descripcion);
             misiones.Add(mision);
             checks[6].SetActive(false);
             checks[7].SetActive(true);
@@ -378,7 +397,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 5 };
 
-            mision = new Mision("Evita el Incendio", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Salva al bosque de un potencial incendio forestal.");
+            mision = new Mision(mision_3_nombre, "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_3_descripcion);
             misiones.Add(mision);
             //Debug.Log(mision.nombre + " " + mision.estado);
         }
@@ -389,7 +408,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { };
-            mision = new Mision("Recicla", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Recicla la basura abandonada por otros visitantes.");
+            mision = new Mision(mision_4_nombre, "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_4_descripcion);
             misiones.Add(mision);
             checks[8].SetActive(false);
             checks[9].SetActive(true);
@@ -401,7 +420,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 6 };
 
-            mision = new Mision("Recicla", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Recicla la basura abandonada por otros visitantes.");
+            mision = new Mision(mision_4_nombre, "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_4_descripcion);
             misiones.Add(mision);
             //Debug.Log(mision.nombre + " " + mision.estado);
         }
@@ -412,7 +431,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { };
-            mision = new Mision("Planta las semillas", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Planta las semillas encontradas en tu aventura.");
+            mision = new Mision(mision_5_nombre, "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_5_descripcion);
             misiones.Add(mision);
             checks[10].SetActive(false);
             checks[11].SetActive(true);
@@ -424,7 +443,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 3 };
 
-            mision = new Mision("Planta las semillas", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Planta las semillas encontradas en tu aventura.");
+            mision = new Mision(mision_5_nombre, "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_5_descripcion);
             misiones.Add(mision);
             //Debug.Log(mision.nombre + " " + mision.estado);
 
@@ -436,7 +455,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { };
-            mision = new Mision("Amante de la fauna", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "¡¡¡Encuentra todos los animales del bosque!!!");
+            mision = new Mision(mision_6_nombre, "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_6_descripcion);
             misiones.Add(mision);
             checks[12].SetActive(false);
             checks[13].SetActive(true);
@@ -448,7 +467,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 6 };
 
-            mision = new Mision("Amante de la fauna", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "¡¡¡Encuentra todos los animales del bosque!!!");
+            mision = new Mision(mision_6_nombre, "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_6_descripcion);
             misiones.Add(mision);
             //Debug.Log(mision.nombre + " " + mision.estado);
         }
@@ -459,7 +478,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosComp = new List<string>() { };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { };
-            mision = new Mision("Amante de la flora", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "¡¡¡Encuentra a todos las plantas del bosque!!!");
+            mision = new Mision(mision_7_nombre, "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_7_descripcion);
             misiones.Add(mision);
             checks[14].SetActive(false);
             checks[15].SetActive(true);
@@ -471,7 +490,7 @@ public class LogrosGlobales : MonoBehaviour
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 3 };
 
-            mision = new Mision("Amante de la flora", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "¡¡¡Encuentra a todos las plantas del bosque!!!");
+            mision = new Mision(mision_7_nombre, "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, mision_7_descripcion);
             misiones.Add(mision);
             //Debug.Log(mision.nombre + " " + mision.estado);
         }
@@ -757,13 +776,15 @@ public class LogrosGlobales : MonoBehaviour
 
     public void InfMed(int medalla)
     {
+        string obt = LanguageManager.Instancia.ObtenerTexto("logros.info_medalla");
+
         //Debug.Log("Info de medalla" + medalla);
         medallas.SetActive(false);
 
         medallasdetalle.SetActive(true);
 
         medallasdetalleTitulo.GetComponent<Text>().text = logros[medalla].nombre;
-        medallasdetalleFecha.GetComponent<Text>().text = "Obtenida: " + logros[medalla].fecha;
+        medallasdetalleFecha.GetComponent<Text>().text = obt + logros[medalla].fecha;
         medallasdetalleDesc.GetComponent<Text>().text = logros[medalla].descripcion;
         medallasdetalleImagen.GetComponent<RawImage>().texture = logros[medalla].imagen.GetComponent<RawImage>().texture;
 
@@ -794,18 +815,21 @@ public class LogrosGlobales : MonoBehaviour
             }
             else
             {
+                string estacionText = LanguageManager.Instancia.ObtenerTexto("misiones.estacion_mision");  
+                string reqText = LanguageManager.Instancia.ObtenerTexto("misiones.req_mision");  
+                string reqCompText = LanguageManager.Instancia.ObtenerTexto("misiones.req_completados_mision");  
+                
                 misionesdetalleTitulo.GetComponent<Text>().text = misiones[mision + 4 * slothPage].nombre;
                 misionesdetalleEstado.GetComponent<Text>().text = misiones[mision + 4 * slothPage].estado;
 
-
-                misionesEstacion.GetComponent<Text>().text = "Estación: ";
+                misionesEstacion.GetComponent<Text>().text = estacionText;
                 foreach (int est in misiones[mision + 4 * slothPage].estacion)
                 {
                     misionesEstacion.GetComponent<Text>().text = misionesEstacion.GetComponent<Text>().text + est + "    ";
                 }
 
                 misionesRequisitos.GetComponent<Text>().text = misiones[mision + 4 * slothPage].descripcion + "\n\n";
-                misionesRequisitos.GetComponent<Text>().text = misionesRequisitos.GetComponent<Text>().text + "Requisitos: \n";
+                misionesRequisitos.GetComponent<Text>().text = misionesRequisitos.GetComponent<Text>().text + reqText;
                 if (misiones[mision + 4 * slothPage].estado == "Bloqueada")
                 {
                     foreach (string req in misiones[mision + 4 * slothPage].requisitosBlock)
@@ -821,7 +845,7 @@ public class LogrosGlobales : MonoBehaviour
                     }
                 }
 
-                misionesRequisitos.GetComponent<Text>().text = misionesRequisitos.GetComponent<Text>().text + "\nRequisitos completados: \n";
+                misionesRequisitos.GetComponent<Text>().text = misionesRequisitos.GetComponent<Text>().text + reqCompText;
                 if (misiones[mision + 4 * slothPage].estado == "Bloqueada")
                 {
                     foreach (string req in misiones[mision + 4 * slothPage].requisitosBlock)

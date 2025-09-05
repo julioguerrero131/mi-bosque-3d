@@ -334,6 +334,7 @@
     "basura": "Oh no! Look at how much trash is here. This lake is home to many fish, frogs, and other aquatic animals. When trash gets into the water, they get sick and can't live well! This river is the heart of the forest! Keeping it clean helps everyone."
   },
   "logros": {
+    "info_medalla": "Obtain: ",
     "title_logro": "ACHIEVEMENT UNLOCKED!!!",
     "logro_0_nombre": "Exploring Forest Ranger",
     "logro_0_descripcion": "You have found the requested species",
@@ -355,5 +356,28 @@
     "logro_8_descripcion": "You finished the game",
     "logro_9_nombre": "100% Complete",
     "logro_9_descripcion": "You completed everything!!!"
+  },
+  "misiones": {
+    "estacion_mision": "Station: ",
+    "req_mision": "Requirements: \n",
+    "req_completados_mision": "\nRequirements completed: \n",
+
+    "mision_0_nombre": "Find the species",
+    "mision_1_nombre": "Save the rabbit",
+    "mision_2_nombre": "Help the hawk",
+    "mision_3_nombre": "Prevent the fire",
+    "mision_4_nombre": "Recycle",
+    "mision_5_nombre": "Plant the seeds",
+    "mision_6_nombre": "Fauna lover",
+    "mision_7_nombre": "Flora lover",
+
+    "mision_0_descripcion": "Show initiative by finding the requested species at the start.",
+    "mision_1_descripcion": "Protect the rabbit from predators by returning it to its home.",
+    "mision_2_descripcion": "Find food for the injured hawk by following the sounds of nature.",
+    "mision_3_descripcion": "Save the forest from a potential wildfire.",
+    "mision_4_descripcion": "Recycle the trash left by other visitors.",
+    "mision_5_descripcion": "Plant the seeds you found on your adventure.",
+    "mision_6_descripcion": "Find all the animals in the forest!!!",
+    "mision_7_descripcion": "Find all the plants in the forest!!!"
   }
 }

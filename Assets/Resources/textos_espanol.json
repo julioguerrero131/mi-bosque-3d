@@ -388,6 +388,7 @@
     "basura": "¡Oh no! Mira cuánta basura hay aquí. Este lago es la casa de muchos peces, ranas y otros animales acuáticos. Cuando la basura llega al agua, ¡ellos se enferman y no pueden vivir bien! ¡Este río es el corazón del bosque! Mantenlo limpio ayuda a todos."
   },
   "logros": {
+    "info_medalla": "Obtenida: ",
     "title_logro": "LOGRO DESBLOQUEADO!!!",
     "logro_0_nombre": "Guardabosque Explorador",
     "logro_0_descripcion": "Has encontrado las especies solicitadas",
@@ -409,5 +410,28 @@
     "logro_8_descripcion": "Terminaste el juego ",
     "logro_9_nombre": "Completo 100%",
     "logro_9_descripcion": "¡¡¡Completaste todo!!! "
+  },
+  "misiones": {
+    "estacion_mision": "Estación: ",
+    "req_mision": "Requisitos: \n",
+    "req_completados_mision": "\nRequisitos completados: \n",
+
+    "mision_0_nombre": "Encuentra las especies",
+    "mision_1_nombre": "Salva al conejo",
+    "mision_2_nombre": "Ayuda al gavilán",
+    "mision_3_nombre": "Evita el Incendio",
+    "mision_4_nombre": "Recicla",
+    "mision_5_nombre": "Planta las semillas",
+    "mision_6_nombre": "Amante de la fauna",
+    "mision_7_nombre": "Amante de la flora",
+
+    "mision_0_descripcion": "Muestra iniciativa buscando las especies solicitadas al iniciar.",
+    "mision_1_descripcion": "Protege al conejo de los depredadores devolviéndolo a su hogar.",
+    "mision_2_descripcion": "Encuentra comida para el Gavilán herido guiándote por el sonido de la naturaleza",
+    "mision_3_descripcion": "Salva al bosque de un potencial incendio forestal.",
+    "mision_4_descripcion": "Recicla la basura abandonada por otros visitantes.",
+    "mision_5_descripcion": "Planta las semillas encontradas en tu aventura.",
+    "mision_6_descripcion": "¡¡¡Encuentra todos los animales del bosque!!!",
+    "mision_7_descripcion": "¡¡¡Encuentra a todos las plantas del bosque!!!"
   }
 }
