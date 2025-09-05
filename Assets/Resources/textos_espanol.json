@@ -242,7 +242,13 @@
     "animal_atrapado_0": "Has atrapado un ",
     "animal_atrapado_1": " en tu mochila",
     "recoge_basura": "Has recogido una basura. Revisa tu mochila ",
-    "fogata": "¡Increíble! Puedes acercarte a la fogata"
+    "fogata": "¡Increíble! Puedes acercarte a la fogata",
+    "basura_faltante_inicial": "Desechos por reciclar: 6",
+    "basura_faltante": "Desechos por reciclar: ",
+    "basura_papel": "Papel en papel",
+    "basura_plastico": "Plástico en plástico",
+    "basura_vidrio": "Vidrio en vidrio",
+    "basura_mal": "Eso no va ahí!"
   },
   "first_challenge": {
     "title_0": "Bienvenido",

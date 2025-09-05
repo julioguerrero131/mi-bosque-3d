@@ -286,8 +286,10 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                             {
                                 inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, true);
                                 basura += 1;
-                                inventory.ShowMessageM("Papel en papel");
-                                texto.GetComponent<Text>().text = "Desechos por reciclar: " + (6 - basura);
+                                string text = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_papel");
+                                inventory.ShowMessageM(text);
+                                string counterText = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_faltante");
+                                texto.GetComponent<Text>().text = counterText + (6 - basura);
                                 if(basura==6)
                                 {
                                     GameObject.Destroy(texto.transform.parent.gameObject);
@@ -296,7 +298,8 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                             }
                             else
                             {
-                                inventory.ShowMessageM("Esto no va ahí");
+                                string badText = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_mal");
+                                inventory.ShowMessageM(badText);
                                 
                             }
                         }
@@ -312,8 +315,10 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                             {
                                 inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, true);
                                 basura += 1;
-                                inventory.ShowMessageM("Vidrio con vidrio");
-                                texto.GetComponent<Text>().text = "Desechos por reciclar: " + (6 - basura);
+                                string text = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_vidrio");
+                                inventory.ShowMessageM(text);
+                                string counterText = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_faltante");
+                                texto.GetComponent<Text>().text = counterText + (6 - basura);
                                 if (basura == 6)
                                 {
                                     GameObject.Destroy(texto.transform.parent.gameObject);
@@ -322,7 +327,8 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                             }
                             else
                             {
-                                inventory.ShowMessageM("Eso no va ahi! ");
+                                string badText = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_mal");
+                                inventory.ShowMessageM(badText);
                             }
                         }
 
@@ -338,8 +344,10 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                             {
                                 inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, true);
                                 basura += 1;
-                                texto.GetComponent<Text>().text= "Desechos por reciclar: " + (6- basura);
-                                inventory.ShowMessageM("Plástico con Plástico");
+                                string text = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_plastico");
+                                inventory.ShowMessageM(text);
+                                string counterText = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_faltante");
+                                texto.GetComponent<Text>().text= counterText + (6- basura);
                                 if (basura == 6)
                                 {
                                     GameObject.Destroy(texto.transform.parent.gameObject);
@@ -348,7 +356,8 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                             }
                             else
                             {
-                                inventory.ShowMessageM("Eso no va ahi! ");
+                                string badText = LanguageManager.Instancia.ObtenerTexto("recordatorios.basura_mal");
+                                inventory.ShowMessageM(badText);
                             }
                         }
 

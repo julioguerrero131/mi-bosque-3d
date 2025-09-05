@@ -210,7 +210,13 @@
     "animal_atrapado_0": "Você pegou um ",
     "animal_atrapado_1": " na sua mochila",
     "recoge_basura": "You picked up some trash. Check your backpack ",
-    "fogata": "Incrível! Você pode chegar mais perto da fogueira!"
+    "fogata": "Incrível! Você pode chegar mais perto da fogueira!",
+    "basura_faltante_inicial": "Resíduos a reciclar: 6",
+    "basura_faltante": "Resíduos a reciclar: ",
+    "basura_papel": "Papel na lixeira de papel",
+    "basura_plastico": "Plástico na lixeira de plástico",
+    "basura_vidrio": "Vidro na lixeira de vidro",
+    "basura_mal": "Isso não vai aí!"
   },
   "first_challenge": {
     "title_0": "Bem-vindo",

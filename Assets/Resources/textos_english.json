@@ -210,7 +210,13 @@
     "animal_atrapado_0": "You have caught a ",
     "animal_atrapado_1": " in your backpack",
     "recoge_basura": "You picked up some trash. Check your backpack ",
-    "fogata": "Amazing! You can come closer to the campfire!"
+    "fogata": "Amazing! You can come closer to the campfire!",
+    "basura_faltante_inicial": "Waste to recycle: 6",
+    "basura_faltante": "Waste to recycle: ",
+    "basura_papel": "Paper in paper bin",
+    "basura_plastico": "Plastic in plastic bin",
+    "basura_vidrio": "Glass in glass bin",
+    "basura_mal": "That doesn't go there!"
   },
   "first_challenge": {
     "title_0": "Welcome",
