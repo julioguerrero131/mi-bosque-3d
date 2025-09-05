@@ -537,6 +537,34 @@ public class LanguageManager : MonoBehaviour
             textos["carteles_bosque.hojarasca"] = cb.hojarasca;
             textos["carteles_bosque.basura"] = cb.basura;
         }
+
+        if (datos.logros != null)
+        {
+            var lg = datos.logros;
+            textos["logros.title_logro"] = lg.title_logro;
+
+            textos["logros.logro_0_nombre"] = lg.logro_0_nombre;
+            textos["logros.logro_1_nombre"] = lg.logro_1_nombre;
+            textos["logros.logro_2_nombre"] = lg.logro_2_nombre;
+            textos["logros.logro_3_nombre"] = lg.logro_3_nombre;
+            textos["logros.logro_4_nombre"] = lg.logro_4_nombre;
+            textos["logros.logro_5_nombre"] = lg.logro_5_nombre;
+            textos["logros.logro_6_nombre"] = lg.logro_6_nombre;
+            textos["logros.logro_7_nombre"] = lg.logro_7_nombre;
+            textos["logros.logro_8_nombre"] = lg.logro_8_nombre;
+            textos["logros.logro_9_nombre"] = lg.logro_9_nombre;
+
+            textos["logros.logro_0_descripcion"] = lg.logro_0_descripcion;
+            textos["logros.logro_1_descripcion"] = lg.logro_1_descripcion;
+            textos["logros.logro_2_descripcion"] = lg.logro_2_descripcion;
+            textos["logros.logro_3_descripcion"] = lg.logro_3_descripcion;
+            textos["logros.logro_4_descripcion"] = lg.logro_4_descripcion;
+            textos["logros.logro_5_descripcion"] = lg.logro_5_descripcion;
+            textos["logros.logro_6_descripcion"] = lg.logro_6_descripcion;
+            textos["logros.logro_7_descripcion"] = lg.logro_7_descripcion;
+            textos["logros.logro_8_descripcion"] = lg.logro_8_descripcion;
+            textos["logros.logro_9_descripcion"] = lg.logro_9_descripcion;
+        }
     }
 
     // CLASES
@@ -562,6 +590,7 @@ public class LanguageManager : MonoBehaviour
         public FifthChallenge fifth_challenge;
         public SixthChallenge sixth_challenge;
         public SeventhChallenge seventh_challenge;
+        public Logros logros;
     }
 
     // Botones
@@ -1039,5 +1068,33 @@ public class LanguageManager : MonoBehaviour
         public string aire_fresco;
         public string hojarasca;
         public string basura;
+    }
+
+    [Serializable]
+    public class Logros
+    {
+        public string title_logro;
+
+        public string logro_0_nombre;
+        public string logro_1_nombre;
+        public string logro_2_nombre;
+        public string logro_3_nombre;
+        public string logro_4_nombre;
+        public string logro_5_nombre;
+        public string logro_6_nombre;
+        public string logro_7_nombre;
+        public string logro_8_nombre;
+        public string logro_9_nombre;
+
+        public string logro_0_descripcion;
+        public string logro_1_descripcion;
+        public string logro_2_descripcion;
+        public string logro_3_descripcion;
+        public string logro_4_descripcion;
+        public string logro_5_descripcion;
+        public string logro_6_descripcion;
+        public string logro_7_descripcion;
+        public string logro_8_descripcion;
+        public string logro_9_descripcion;
     }
 }

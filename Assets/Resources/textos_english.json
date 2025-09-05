@@ -332,5 +332,28 @@
     "aire_fresco": "The fresh air you breathe comes from the trees. Thanks, trees!",
     "hojarasca": "Look at the ground! The leaf litter is very important for the life of the forest. Don't step on it carelessly!",
     "basura": "Oh no! Look at how much trash is here. This lake is home to many fish, frogs, and other aquatic animals. When trash gets into the water, they get sick and can't live well! This river is the heart of the forest! Keeping it clean helps everyone."
+  },
+  "logros": {
+    "title_logro": "ACHIEVEMENT UNLOCKED!!!",
+    "logro_0_nombre": "Exploring Forest Ranger",
+    "logro_0_descripcion": "You have found the requested species",
+    "logro_1_nombre": "Swift Forest Ranger",
+    "logro_1_descripcion": "You saved the rabbit by returning it to its burrow",
+    "logro_2_nombre": "Gourmet Forest Ranger",
+    "logro_2_descripcion": "You have helped find food",
+    "logro_3_nombre": "Firefighter Forest Ranger",
+    "logro_3_descripcion": "You have prevented a fire",
+    "logro_4_nombre": "Ecologist Forest Ranger",
+    "logro_4_descripcion": "You have recycled found trash",
+    "logro_5_nombre": "Herbalist Forest Ranger",
+    "logro_5_descripcion": "You have planted the seeds you found",
+    "logro_6_nombre": "Fauna Guardian",
+    "logro_6_descripcion": "You learned about the animals of the Forest",
+    "logro_7_nombre": "Flora Guardian",
+    "logro_7_descripcion": "You learned about the plants of the Forest",
+    "logro_8_nombre": "Game Finished",
+    "logro_8_descripcion": "You finished the game",
+    "logro_9_nombre": "100% Complete",
+    "logro_9_descripcion": "You completed everything!!!"
   }
 }

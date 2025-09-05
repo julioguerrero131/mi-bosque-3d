@@ -43709,6 +43709,7 @@ GameObject:
   - component: {fileID: 1073871925}
   - component: {fileID: 1073871927}
   - component: {fileID: 1073871926}
+  - component: {fileID: 1073871928}
   m_Layer: 5
   m_Name: Titulo
   m_TagString: Untagged
@@ -43777,6 +43778,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073871924}
   m_CullTransparentMesh: 0
+--- !u!114 &1073871928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073871924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: logros.title_logro
 --- !u!1 &1084564057
 GameObject:
   m_ObjectHideFlags: 0

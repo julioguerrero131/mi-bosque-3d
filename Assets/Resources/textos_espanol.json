@@ -386,5 +386,28 @@
     "aire_fresco": "El aire fresco que respiras viene de los árboles. ¡Gracias árboles!",
     "hojarasca": "¡Mira el suelo! La hojarasca es muy importante para la vida del bosque, ¡No la pises sin cuidado!",
     "basura": "¡Oh no! Mira cuánta basura hay aquí. Este lago es la casa de muchos peces, ranas y otros animales acuáticos. Cuando la basura llega al agua, ¡ellos se enferman y no pueden vivir bien! ¡Este río es el corazón del bosque! Mantenlo limpio ayuda a todos."
+  },
+  "logros": {
+    "title_logro": "LOGRO DESBLOQUEADO!!!",
+    "logro_0_nombre": "Guardabosque Explorador",
+    "logro_0_descripcion": "Has encontrado las especies solicitadas",
+    "logro_1_nombre": "Guardabosque Veloz",
+    "logro_1_descripcion": "Has salvado al conejo devolviéndolo a su madriguera",
+    "logro_2_nombre": "Guardabosque Gourmet",
+    "logro_2_descripcion": "Has ayudado a conseguir alimento",
+    "logro_3_nombre": "Guardabosque Bombero",
+    "logro_3_descripcion": "Has evitado un incendio",
+    "logro_4_nombre": "Guardabosque Ecologista",
+    "logro_4_descripcion": "Has reciclado basura encontrada",
+    "logro_5_nombre": "Guardabosque herbolario",
+    "logro_5_descripcion": "Has plantado las semillas encontradas",
+    "logro_6_nombre": "Guardian de la Fauna",
+    "logro_6_descripcion": "Conociste los animales del Bosque",
+    "logro_7_nombre": "Guardian de la Flora",
+    "logro_7_descripcion": "Conociste las plantas del Bosque",
+    "logro_8_nombre": "Juego terminado",
+    "logro_8_descripcion": "Terminaste el juego ",
+    "logro_9_nombre": "Completo 100%",
+    "logro_9_descripcion": "¡¡¡Completaste todo!!! "
   }
 }

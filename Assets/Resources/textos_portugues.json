@@ -332,5 +332,28 @@
     "aire_fresco": "O ar fresco que você respira vem das árvores. Obrigado, árvores!",
     "hojarasca": "Olhe para o chão! A serapilheira é muito importante para a vida da floresta. Não pise nela sem cuidado!",
     "basura": "Ah não! Olhe quanta sujeira tem aqui. Este lago é a casa de muitos peixes, sapos e outros animais aquáticos. Quando a sujeira chega à água, eles ficam doentes e não conseguem viver bem! Este rio é o coração da floresta! Mantê-lo limpo ajuda a todos."
+  },
+  "logros": {
+    "title_logro": "CONQUISTA DESBLOQUEADA!!!",
+    "logro_0_nombre": "Guarda Florestal Explorador",
+    "logro_0_descripcion": "Você encontrou as espécies solicitadas",
+    "logro_1_nombre": "Guarda Florestal Veloz",
+    "logro_1_descripcion": "Você salvou o coelho devolvendo-o para sua toca",
+    "logro_2_nombre": "Guarda Florestal Gourmet",
+    "logro_2_descripcion": "Você ajudou a conseguir alimento",
+    "logro_3_nombre": "Guarda Florestal Bombeiro",
+    "logro_3_descripcion": "Você evitou um incêndio",
+    "logro_4_nombre": "Guarda Florestal Ecologista",
+    "logro_4_descripcion": "Você reciclou o lixo encontrado",
+    "logro_5_nombre": "Guarda Florestal Herborista",
+    "logro_5_descripcion": "Você plantou as sementes encontradas",
+    "logro_6_nombre": "Guardião da Fauna",
+    "logro_6_descripcion": "Você conheceu os animais da Floresta",
+    "logro_7_nombre": "Guardião da Flora",
+    "logro_7_descripcion": "Você conheceu as plantas da Floresta",
+    "logro_8_nombre": "Jogo Terminado",
+    "logro_8_descripcion": "Você terminou o jogo",
+    "logro_9_nombre": "100% Concluído",
+    "logro_9_descripcion": "Você concluiu tudo!!!"
   }
 }

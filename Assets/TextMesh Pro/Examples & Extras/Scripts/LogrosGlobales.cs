@@ -479,32 +479,55 @@ public class LogrosGlobales : MonoBehaviour
 
         slothPage = 0;
 
-        Logro Logro = new LogroUnico("Guardabosque Explorador", "Has encontrado las especies solicitadas", imageLogro1);
+        // LanguageManager Logros
+        string logro_0_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_0_nombre");
+        string logro_1_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_1_nombre");
+        string logro_2_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_2_nombre");
+        string logro_3_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_3_nombre");
+        string logro_4_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_4_nombre");
+        string logro_5_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_5_nombre");
+        string logro_6_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_6_nombre");
+        string logro_7_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_7_nombre");
+        string logro_8_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_8_nombre");
+        string logro_9_nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_9_nombre");
+
+        string logro_0_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_0_descripcion");
+        string logro_1_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_1_descripcion");
+        string logro_2_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_2_descripcion");
+        string logro_3_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_3_descripcion");
+        string logro_4_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_4_descripcion");
+        string logro_5_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_5_descripcion");
+        string logro_6_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_6_descripcion");
+        string logro_7_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_7_descripcion");
+        string logro_8_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_8_descripcion");
+        string logro_9_descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_9_descripcion");
+
+        Logro Logro = new LogroUnico(logro_0_nombre, logro_0_descripcion, imageLogro1);
         logros.Add(Logro);
         Debug.Log(Logro.descripcion);
         if (playerCtrl.GetComponent<Player>().playerData.logros[0] != "")
         { ProgresarLogro(0, playerCtrl.GetComponent<Player>().playerData.logros[0]); }
-        Logro = new LogroUnico("Guardabosque Veloz", "Has salvado al conejo devolviéndolo a su madriguera", imageLogro2);
+        Logro = new LogroUnico(logro_1_nombre, logro_1_descripcion, imageLogro2);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[1] != "")
         { ProgresarLogro(1, playerCtrl.GetComponent<Player>().playerData.logros[1]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroUnico("Guardabosque Gourmet", "Has ayudado a conseguir alimento", imageLogro3);
+        Logro = new LogroUnico(logro_2_nombre, logro_2_descripcion, imageLogro3);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[2] != "")
         { ProgresarLogro(2, playerCtrl.GetComponent<Player>().playerData.logros[2]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroUnico("Guardabosque Bombero", "Has evitado un incendio", imageLogro4);
+        Logro = new LogroUnico(logro_3_nombre, logro_3_descripcion, imageLogro4);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[3] != "")
         { ProgresarLogro(3, playerCtrl.GetComponent<Player>().playerData.logros[3]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroUnico("Guardabosque Ecologista", "Has reciclado basura encontrada", imageLogro5);
+        Logro = new LogroUnico(logro_4_nombre, logro_4_descripcion, imageLogro5);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[4] != "")
         { ProgresarLogro(4, playerCtrl.GetComponent<Player>().playerData.logros[4]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroUnico("Guardabosque herbolario", "Has plantado las semillas encontradas", imageLogro6);
+        Logro = new LogroUnico(logro_5_nombre, logro_5_descripcion, imageLogro6);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[5] != "")
         { ProgresarLogro(5, playerCtrl.GetComponent<Player>().playerData.logros[5]); }
@@ -512,22 +535,22 @@ public class LogrosGlobales : MonoBehaviour
 
 
 
-        Logro = new LogroRepetible("Guardian de la Fauna", "Conociste los animales del Bosque", -7, 1, imageFauna);
+        Logro = new LogroRepetible(logro_6_nombre, logro_6_descripcion, -7, 1, imageFauna);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[6] != "")
         { ProgresarLogro(6, playerCtrl.GetComponent<Player>().playerData.logros[6]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroRepetible("Guardian de la Flora", "Conociste las plantas del Bosque", -4, 1, imageFlora);
+        Logro = new LogroRepetible(logro_7_nombre, logro_7_descripcion, -4, 1, imageFlora);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[7] != "")
         { ProgresarLogro(7, playerCtrl.GetComponent<Player>().playerData.logros[7]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroUnico("Juego terminado", "Terminaste el juego ", imageCompletado);
+        Logro = new LogroUnico(logro_8_nombre, logro_8_descripcion, imageCompletado);
         logros.Add(Logro);
         /*if (playerCtrl.GetComponent<Player>().playerData.logros[8])
         { ProgresarLogro(8, "antes"); }*/
         //Debug.Log(Logro.descripcion);
-        Completo100 = new LogroRepetible("Completo 100%", "¡¡¡Completaste todo!!! ", -13, 1, imagePerfecto);
+        Completo100 = new LogroRepetible(logro_9_nombre, logro_9_descripcion, -13, 1, imagePerfecto);
         logros.Add(Completo100);
         //Debug.Log(Logro.descripcion);
         //Logro = new LogroRepetible("Lvl Up", "Subiste a nivel ", -1, 10, imageNivel);
