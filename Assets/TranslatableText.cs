@@ -18,7 +18,6 @@ public class TranslatableText : MonoBehaviour
             Debug.LogError("No se encontró componente Text en el objeto: " + gameObject.name);
             return;
         }
-        Debug.Log(textoUI.text);
     }
 
     private void OnEnable()

@@ -526,11 +526,44 @@ public class LanguageManager : MonoBehaviour
 
         if (datos.carteles_bosque != null)
         {
-            textos["carteles_bosque.entrada_bosque"] = datos.carteles_bosque.entrada_bosque;
-            textos["carteles_bosque.primer_nivel"] = datos.carteles_bosque.primer_nivel;
-            textos["carteles_bosque.segundo_nivel"] = datos.carteles_bosque.segundo_nivel;
-            textos["carteles_bosque.llegada_lago"] = datos.carteles_bosque.llegada_lago;
-            textos["carteles_bosque.antes_nivel_4"] = datos.carteles_bosque.antes_nivel_4;
+            var cb = datos.carteles_bosque;
+            textos["carteles_bosque.entrada_bosque"] = cb.entrada_bosque;
+            textos["carteles_bosque.primer_nivel"] = cb.primer_nivel;
+            textos["carteles_bosque.segundo_nivel"] = cb.segundo_nivel;
+            textos["carteles_bosque.llegada_lago"] = cb.llegada_lago;
+            textos["carteles_bosque.antes_nivel_4"] = cb.antes_nivel_4;
+
+            textos["carteles_bosque.aire_fresco"] = cb.aire_fresco;
+            textos["carteles_bosque.hojarasca"] = cb.hojarasca;
+            textos["carteles_bosque.basura"] = cb.basura;
+        }
+
+        if (datos.logros != null)
+        {
+            var lg = datos.logros;
+            textos["logros.title_logro"] = lg.title_logro;
+
+            textos["logros.logro_0_nombre"] = lg.logro_0_nombre;
+            textos["logros.logro_1_nombre"] = lg.logro_1_nombre;
+            textos["logros.logro_2_nombre"] = lg.logro_2_nombre;
+            textos["logros.logro_3_nombre"] = lg.logro_3_nombre;
+            textos["logros.logro_4_nombre"] = lg.logro_4_nombre;
+            textos["logros.logro_5_nombre"] = lg.logro_5_nombre;
+            textos["logros.logro_6_nombre"] = lg.logro_6_nombre;
+            textos["logros.logro_7_nombre"] = lg.logro_7_nombre;
+            textos["logros.logro_8_nombre"] = lg.logro_8_nombre;
+            textos["logros.logro_9_nombre"] = lg.logro_9_nombre;
+
+            textos["logros.logro_0_descripcion"] = lg.logro_0_descripcion;
+            textos["logros.logro_1_descripcion"] = lg.logro_1_descripcion;
+            textos["logros.logro_2_descripcion"] = lg.logro_2_descripcion;
+            textos["logros.logro_3_descripcion"] = lg.logro_3_descripcion;
+            textos["logros.logro_4_descripcion"] = lg.logro_4_descripcion;
+            textos["logros.logro_5_descripcion"] = lg.logro_5_descripcion;
+            textos["logros.logro_6_descripcion"] = lg.logro_6_descripcion;
+            textos["logros.logro_7_descripcion"] = lg.logro_7_descripcion;
+            textos["logros.logro_8_descripcion"] = lg.logro_8_descripcion;
+            textos["logros.logro_9_descripcion"] = lg.logro_9_descripcion;
         }
     }
 
@@ -557,6 +590,7 @@ public class LanguageManager : MonoBehaviour
         public FifthChallenge fifth_challenge;
         public SixthChallenge sixth_challenge;
         public SeventhChallenge seventh_challenge;
+        public Logros logros;
     }
 
     // Botones
@@ -1030,5 +1064,37 @@ public class LanguageManager : MonoBehaviour
         public string segundo_nivel;
         public string llegada_lago;
         public string antes_nivel_4;
+
+        public string aire_fresco;
+        public string hojarasca;
+        public string basura;
+    }
+
+    [Serializable]
+    public class Logros
+    {
+        public string title_logro;
+
+        public string logro_0_nombre;
+        public string logro_1_nombre;
+        public string logro_2_nombre;
+        public string logro_3_nombre;
+        public string logro_4_nombre;
+        public string logro_5_nombre;
+        public string logro_6_nombre;
+        public string logro_7_nombre;
+        public string logro_8_nombre;
+        public string logro_9_nombre;
+
+        public string logro_0_descripcion;
+        public string logro_1_descripcion;
+        public string logro_2_descripcion;
+        public string logro_3_descripcion;
+        public string logro_4_descripcion;
+        public string logro_5_descripcion;
+        public string logro_6_descripcion;
+        public string logro_7_descripcion;
+        public string logro_8_descripcion;
+        public string logro_9_descripcion;
     }
 }
