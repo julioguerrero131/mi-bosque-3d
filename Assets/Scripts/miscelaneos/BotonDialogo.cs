@@ -17,7 +17,7 @@ public class BotonDialogo : MonoBehaviour
     void Start()
     {
 #if UNITY_ANDROID || UNITY_IOS
-        GameObject.Find("Control Lupa").SetActive(false);
+        //GameObject.Find("Control Lupa").SetActive(false);
 #endif
         //dialogueTrigger = GetComponent<DialogueTrigger>();
     }

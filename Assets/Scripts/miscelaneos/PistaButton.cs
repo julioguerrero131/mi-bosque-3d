@@ -15,7 +15,7 @@ public class PistaButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
     void Update()
     {
 #if UNITY_STANDALONE_WIN || UNITY_STANDALONE
-        GameObject.Find("PistaButton").SetActive(false);
+        //GameObject.Find("PistaButton").SetActive(false);
 #endif
     }
 
