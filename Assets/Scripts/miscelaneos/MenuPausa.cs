@@ -12,6 +12,7 @@ public class MenuPausa : MonoBehaviour
     private Collider cameraBlocker;
     public static bool IsPaused = false;
     public static bool IsPausedByOtherCanvas = false;
+    public static bool IsCronometroPressed = false;
 
     public GameObject MenuPausaUI, panelEstrellas, Panel;
     public SceneChanger sceneChanger;
@@ -64,6 +65,25 @@ public class MenuPausa : MonoBehaviour
                 NL.cerrar();
             }
         }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            if (!(IsCronometroPressed))
+            {
+                IsCronometroPressed = true;
+                contextoContrarreloj();
+               
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
+            else
+            {
+                IsCronometroPressed = false;
+                ModoNormal();
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+
+            }
+        }
         if (manejadorJuego.PerdioContrarreloj)
         {
             //ModoNormal();
@@ -71,8 +91,10 @@ public class MenuPausa : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             fpscontroller.enabled = false;
             mouseController.enabled = false;
+            IsCronometroPressed = false;
             //manejadorJuego.PerdioContrarreloj = false;
         }
+
 
 
     }
