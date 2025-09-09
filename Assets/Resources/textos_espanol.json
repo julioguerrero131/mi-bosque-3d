@@ -10,6 +10,13 @@
     "desafios": " Desafío",
     "estacion": "Estación\t"
   },
+  "perfil": {
+    "title": "Perfil del Jugador",
+    "uni_edu": "Unidad Educativa",
+    "nivel": "Nivel",
+    "experiencia": "Experiencia",
+    "edad": " años"
+  },
   "menu_inventario": {
     "perfil": "Perfil",
     "misiones": "Misiones",

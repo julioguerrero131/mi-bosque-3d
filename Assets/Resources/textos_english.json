@@ -10,6 +10,13 @@
     "desafios": " Challenge",
     "estacion": "Station\t"
   },
+  "perfil": {
+    "title": "Player Profile",
+    "uni_edu": "Educational Unit",
+    "nivel": "Level",
+    "experiencia": "Experience",
+    "edad": " years old"
+  },
   "menu_inventario": {
     "perfil": "Profile",
     "misiones": "Mission",

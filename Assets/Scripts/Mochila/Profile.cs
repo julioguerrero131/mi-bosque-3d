@@ -42,7 +42,8 @@ public class Profile : MonoBehaviour
             img.sprite = sprites[3];
         }*/
 
-edad.text += player.playerData.edad + " años";
+        string edadTexto = LanguageManager.Instancia.ObtenerTexto("perfil.edad");
+        edad.text += player.playerData.edad + edadTexto;
 
         if (player.playerData.experiencia == 0)
         {

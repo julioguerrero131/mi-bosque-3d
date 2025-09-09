@@ -49316,6 +49316,7 @@ GameObject:
   - component: {fileID: 1153241155}
   - component: {fileID: 1153241157}
   - component: {fileID: 1153241156}
+  - component: {fileID: 1153241158}
   m_Layer: 0
   m_Name: NivelRowTxt (1)
   m_TagString: Untagged
@@ -49463,6 +49464,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153241154}
   m_CullTransparentMesh: 0
+--- !u!114 &1153241158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153241154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: perfil.nivel
 --- !u!1001 &1153373559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51835,6 +51849,7 @@ GameObject:
   - component: {fileID: 1172220256}
   - component: {fileID: 1172220258}
   - component: {fileID: 1172220257}
+  - component: {fileID: 1172220259}
   m_Layer: 0
   m_Name: ExperienciaTxt (1)
   m_TagString: Untagged
@@ -51982,6 +51997,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172220255}
   m_CullTransparentMesh: 0
+--- !u!114 &1172220259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172220255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: perfil.experiencia
 --- !u!1 &1173972920
 GameObject:
   m_ObjectHideFlags: 0
@@ -105515,6 +105543,7 @@ GameObject:
   - component: {fileID: 2083646588}
   - component: {fileID: 2083646590}
   - component: {fileID: 2083646589}
+  - component: {fileID: 2083646591}
   m_Layer: 0
   m_Name: UnidadEduTxt (1)
   m_TagString: Untagged
@@ -105662,6 +105691,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083646587}
   m_CullTransparentMesh: 0
+--- !u!114 &2083646591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083646587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: perfil.uni_edu
 --- !u!1 &2085103177
 GameObject:
   m_ObjectHideFlags: 0
@@ -112885,6 +112927,7 @@ GameObject:
   - component: {fileID: 7059356094932977396}
   - component: {fileID: 7059356094932977394}
   - component: {fileID: 7059356094932977395}
+  - component: {fileID: 7059356094932977398}
   m_Layer: 0
   m_Name: TituloPerfilTxt
   m_TagString: Untagged
@@ -112892,6 +112935,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7059356094932977398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7059356094932977397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: perfil.title
 --- !u!222 &7059356095009950114
 CanvasRenderer:
   m_ObjectHideFlags: 0

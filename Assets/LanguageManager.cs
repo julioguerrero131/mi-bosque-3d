@@ -97,6 +97,15 @@ public class LanguageManager : MonoBehaviour
             textos["interfaz.desafios"] = datos.interfaz.desafios;
         }
 
+        if (datos.perfil != null)
+        {
+            textos["perfil.title"] = datos.perfil.title;
+            textos["perfil.experiencia"] = datos.perfil.experiencia;
+            textos["perfil.uni_edu"] = datos.perfil.uni_edu;
+            textos["perfil.nivel"] = datos.perfil.nivel;
+            textos["perfil.edad"] = datos.perfil.edad;
+        }
+
         if (datos.menu_inventario != null)
         {
             textos["menu_inventario.perfil"] = datos.menu_inventario.perfil;
@@ -656,6 +665,7 @@ public class LanguageManager : MonoBehaviour
     {
         public Botones botones;
         public Interfaz interfaz;
+        public Perfil perfil;
         public MenuInventario menu_inventario;
         public MenuMochila menu_mochila;
         public MenuPausa menu_pausa;
@@ -698,6 +708,17 @@ public class LanguageManager : MonoBehaviour
         public string pausa;
         public string desafios;
         public string estacion;
+    }
+
+    // Perfil 
+    [Serializable]
+    public class Perfil
+    {
+        public string title;
+        public string uni_edu;
+        public string nivel;
+        public string experiencia;
+        public string edad;
     }
 
     // Menu Inventario
