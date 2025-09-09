@@ -28,7 +28,7 @@ Está orientado a estudiantes de escuela y a todo el público en general.
 - [Mensajes Pop Up](Documentacion/PopUpMensajes.md) 
 - [Minimizar Videos](Documentacion/MinimizarVideos.md.md)
 - [Reducir la duración de la celebración final](Documentacion/CelebracionFinalCorta.md.md)
-
+- [Pistas para objetos](Documentacion/ManejadorHalos.md)
 
 
 ## 💻 Colaboradores 2025-I
