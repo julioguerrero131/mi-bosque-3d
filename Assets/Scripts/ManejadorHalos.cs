@@ -46,6 +46,7 @@ public class ManejadorHalos : MonoBehaviour
                 StartCoroutine(MostrarMensajePista());
                 DispararPistaEstacionActual(estacionActual);  
             }
+
         }
     }
     public void DispararPistaEstacionActual(int estacionActual)

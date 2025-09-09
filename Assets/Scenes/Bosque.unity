@@ -39402,6 +39402,7 @@ MonoBehaviour:
   UnpausedSnapshot: {fileID: 24500006, guid: 12b4a7a7fbce6024e8687b4657c3ab44, type: 2}
   fadeTime: 1
   manejadorJuego: {fileID: 1241216879}
+  pistaexplicacion: {fileID: 620388169}
   actionLogger: {fileID: 0}
 --- !u!4 &957451491 stripped
 Transform:
