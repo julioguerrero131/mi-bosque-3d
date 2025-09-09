@@ -3,7 +3,8 @@
     "retroceder": "GO BACK",
     "continuar": "CONTINUE",
     "informacion": "Information",
-    "entendido": "Accept"
+    "entendido": "Accept",
+    "minimizar": "Minimize"
   },
   "interfaz": {
     "pausa": " Pause",

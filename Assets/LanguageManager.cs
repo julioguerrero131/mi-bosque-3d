@@ -88,6 +88,7 @@ public class LanguageManager : MonoBehaviour
             textos["botones.continuar"] = datos.botones.continuar;
             textos["botones.informacion"] = datos.botones.informacion;
             textos["botones.entendido"] = datos.botones.entendido;
+            textos["botones.minimizar"] = datos.botones.minimizar;
         }
 
         if (datos.interfaz != null)
@@ -699,6 +700,7 @@ public class LanguageManager : MonoBehaviour
         public string retroceder;
         public string informacion;
         public string entendido;
+        public string minimizar;
     }
 
     // Interfaz
