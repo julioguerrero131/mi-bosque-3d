@@ -25,7 +25,7 @@ public class BotonDialogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        /*
         if (Input.GetKeyDown(KeyCode.P))
         {
             if (!(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
@@ -41,7 +41,7 @@ public class BotonDialogo : MonoBehaviour
                 dialogue.sprites = new Sprite[] { ardilla, iguana, pepiche };
                 DialogueManager.instance.StartDialogue(dialogue, "", null, 2);
             }
-        }
+        }*/
 #if UNITY_ANDROID || UNITY_IOS
         if(pista.Pressed){
             if (!(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))

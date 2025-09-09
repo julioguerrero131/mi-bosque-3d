@@ -12,10 +12,12 @@ public class ManejadorHalos : MonoBehaviour
     [SerializeField] private GameObject haloRtn2;
     [SerializeField] private GameObject haloSalamandra;
     [SerializeField] private GameObject haloBalde;
+    [SerializeField] private GameObject explicacionPistaCanva;
     private Dictionary<int, List<GameObject>> halosPorEstacion = new Dictionary<int, List<GameObject>>();
     private Coroutine corriendo;
     private KeyCode teclaPista = KeyCode.P;
-    public float duracionEncendido = 1f;
+    public float duracionEncendido = 9f;
+    public float duracionMensajePista = 3f;
 
 
     private void Awake()
@@ -41,6 +43,7 @@ public class ManejadorHalos : MonoBehaviour
             int estacionActual = ObtenerEstacionActual();
             if (halosPorEstacion.ContainsKey(estacionActual))
             {
+                StartCoroutine(MostrarMensajePista());
                 DispararPistaEstacionActual(estacionActual);  
             }
         }
@@ -72,6 +75,14 @@ public class ManejadorHalos : MonoBehaviour
         return estacionActual;
         
     }
+    private IEnumerator MostrarMensajePista()
+    {
+        explicacionPistaCanva.SetActive(true);
+        Debug.Log("mostrando la pista");
+        yield return new WaitForSeconds(duracionMensajePista);
+        explicacionPistaCanva.SetActive(false);
+        Debug.Log("cerrando la pista");
+    }
     private IEnumerator EncenderYApagar(List<GameObject> lista)
     {
         foreach (var halo in lista)
@@ -82,5 +93,4 @@ public class ManejadorHalos : MonoBehaviour
         foreach (var halo in lista)
             if (halo != null) halo.SetActive(false);
     }
-
 }
