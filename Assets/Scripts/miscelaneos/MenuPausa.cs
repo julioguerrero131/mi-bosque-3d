@@ -23,6 +23,8 @@ public class MenuPausa : MonoBehaviour
     [SerializeField] private AudioMixerSnapshot UnpausedSnapshot;
     [SerializeField] private float fadeTime=1.0f;
     [SerializeField] public  ManejadorModoJuego manejadorJuego;
+    [SerializeField] public  GameObject pistaexplicacion;
+
     public GameObject actionLogger;
 
     private NotificarLogros NL;
@@ -61,6 +63,7 @@ public class MenuPausa : MonoBehaviour
             }
             else
             {
+                pistaexplicacion.SetActive(false);
                 PauseGame();
                 NL.cerrar();
             }
