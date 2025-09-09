@@ -97,6 +97,14 @@ public class LanguageManager : MonoBehaviour
             textos["interfaz.desafios"] = datos.interfaz.desafios;
         }
 
+        if (datos.menu_inventario != null)
+        {
+            textos["menu_inventario.perfil"] = datos.menu_inventario.perfil;
+            textos["menu_inventario.misiones"] = datos.menu_inventario.misiones;
+            textos["menu_inventario.desafios"] = datos.menu_inventario.desafios;
+            textos["menu_inventario.logros"] = datos.menu_inventario.logros;
+        }
+
         if (datos.menu_mochila != null)
         {
             textos["menu_mochila.semillas"] = datos.menu_mochila.semillas;
@@ -648,6 +656,7 @@ public class LanguageManager : MonoBehaviour
     {
         public Botones botones;
         public Interfaz interfaz;
+        public MenuInventario menu_inventario;
         public MenuMochila menu_mochila;
         public MenuPausa menu_pausa;
         public MenuInicial menu_inicial;
@@ -689,6 +698,16 @@ public class LanguageManager : MonoBehaviour
         public string pausa;
         public string desafios;
         public string estacion;
+    }
+
+    // Menu Inventario
+    [Serializable]
+    public class MenuInventario
+    {
+        public string desafios;
+        public string misiones;
+        public string logros;
+        public string perfil;
     }
 
     // Menu Mochila

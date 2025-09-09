@@ -4785,6 +4785,7 @@ GameObject:
   - component: {fileID: 124685019}
   - component: {fileID: 124685021}
   - component: {fileID: 124685020}
+  - component: {fileID: 124685022}
   m_Layer: 0
   m_Name: MisionesTxt
   m_TagString: Untagged
@@ -4932,6 +4933,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124685018}
   m_CullTransparentMesh: 0
+--- !u!114 &124685022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124685018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: menu_inventario.misiones
 --- !u!1 &126950762
 GameObject:
   m_ObjectHideFlags: 0
@@ -19219,6 +19233,7 @@ GameObject:
   - component: {fileID: 504449720}
   - component: {fileID: 504449722}
   - component: {fileID: 504449721}
+  - component: {fileID: 504449723}
   m_Layer: 0
   m_Name: PreguntaTxt
   m_TagString: Untagged
@@ -19372,6 +19387,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504449719}
   m_CullTransparentMesh: 0
+--- !u!114 &504449723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504449719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: menu_inventario.desafios
 --- !u!4 &507005179 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 31f99d16c6cf30d408b04dcec6f5a857,
@@ -25756,6 +25784,7 @@ GameObject:
   - component: {fileID: 662182620}
   - component: {fileID: 662182622}
   - component: {fileID: 662182621}
+  - component: {fileID: 662182623}
   m_Layer: 0
   m_Name: PerfilTxt
   m_TagString: Untagged
@@ -25903,6 +25932,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662182619}
   m_CullTransparentMesh: 0
+--- !u!114 &662182623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662182619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: menu_inventario.perfil
 --- !u!1 &664680702
 GameObject:
   m_ObjectHideFlags: 0
@@ -42699,6 +42741,7 @@ GameObject:
   - component: {fileID: 1025137007}
   - component: {fileID: 1025137009}
   - component: {fileID: 1025137008}
+  - component: {fileID: 1025137010}
   m_Layer: 0
   m_Name: LogrosTxt
   m_TagString: Untagged
@@ -42846,6 +42889,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025137006}
   m_CullTransparentMesh: 0
+--- !u!114 &1025137010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025137006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: menu_inventario.logros
 --- !u!1 &1034219897
 GameObject:
   m_ObjectHideFlags: 0
@@ -62430,7 +62486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -19.999878}
+  m_AnchoredPosition: {x: 0, y: -19.999863}
   m_SizeDelta: {x: 753.1, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1326612261

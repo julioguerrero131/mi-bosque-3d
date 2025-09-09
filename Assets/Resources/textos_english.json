@@ -10,6 +10,12 @@
     "desafios": " Challenge",
     "estacion": "Station\t"
   },
+  "menu_inventario": {
+    "perfil": "Profile",
+    "misiones": "Mission",
+    "logros": "Achieve",
+    "desafios": "Challenge"
+  },
   "menu_mochila": {
     "semillas": "Seeds",
     "accesorios": "Accessories"
