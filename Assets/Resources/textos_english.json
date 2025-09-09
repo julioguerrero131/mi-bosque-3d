@@ -5,6 +5,10 @@
     "informacion": "Information",
     "entendido": "Accept"
   },
+  "menu_mochila": {
+    "semillas": "Seeds",
+    "accesorios": "Accessories"
+  },
   "menu_pausa": {
     "guia": "Pause: Esc\nView mouse: Enter",
     "menu": "MENU PAUSE",

@@ -82,12 +82,18 @@ public class LanguageManager : MonoBehaviour
 
     private void CargarTextos(DatosIdioma datos)
     {
-        if(datos.botones != null)
+        if (datos.botones != null)
         {
             textos["botones.retroceder"] = datos.botones.retroceder;
             textos["botones.continuar"] = datos.botones.continuar;
             textos["botones.informacion"] = datos.botones.informacion;
             textos["botones.entendido"] = datos.botones.entendido;
+        }
+
+        if (datos.menu_mochila != null)
+        {
+            textos["menu_mochila.semillas"] = datos.menu_mochila.semillas;
+            textos["menu_mochila.accesorios"] = datos.menu_mochila.accesorios;
         }
 
         if (datos.menu_pausa != null)
@@ -634,6 +640,7 @@ public class LanguageManager : MonoBehaviour
     public class DatosIdioma
     {
         public Botones botones;
+        public MenuMochila menu_mochila;
         public MenuPausa menu_pausa;
         public MenuInicial menu_inicial;
         public MenuPartidas menu_partidas;
@@ -665,6 +672,14 @@ public class LanguageManager : MonoBehaviour
         public string retroceder;
         public string informacion;
         public string entendido;
+    }
+
+    // Menu Mochila
+    [Serializable]
+    public class MenuMochila
+    {
+        public string semillas;
+        public string accesorios;
     }
 
     // Menu pausa
