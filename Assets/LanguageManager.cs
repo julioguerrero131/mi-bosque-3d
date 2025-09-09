@@ -90,6 +90,13 @@ public class LanguageManager : MonoBehaviour
             textos["botones.entendido"] = datos.botones.entendido;
         }
 
+        if (datos.interfaz != null)
+        {
+            textos["interfaz.pausa"] = datos.interfaz.pausa;
+            textos["interfaz.estacion"] = datos.interfaz.estacion;
+            textos["interfaz.desafios"] = datos.interfaz.desafios;
+        }
+
         if (datos.menu_mochila != null)
         {
             textos["menu_mochila.semillas"] = datos.menu_mochila.semillas;
@@ -640,6 +647,7 @@ public class LanguageManager : MonoBehaviour
     public class DatosIdioma
     {
         public Botones botones;
+        public Interfaz interfaz;
         public MenuMochila menu_mochila;
         public MenuPausa menu_pausa;
         public MenuInicial menu_inicial;
@@ -674,8 +682,17 @@ public class LanguageManager : MonoBehaviour
         public string entendido;
     }
 
-    // Menu Mochila
+    // Interfaz
     [Serializable]
+    public class Interfaz
+    {
+        public string pausa;
+        public string desafios;
+        public string estacion;
+    }
+
+    // Menu Mochila
+    [Serializable]  
     public class MenuMochila
     {
         public string semillas;

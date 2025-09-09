@@ -5,6 +5,11 @@
     "informacion": "Information",
     "entendido": "Accept"
   },
+  "interfaz": {
+    "pausa": " Pause",
+    "desafios": " Challenge",
+    "estacion": "Station\t"
+  },
   "menu_mochila": {
     "semillas": "Seeds",
     "accesorios": "Accessories"
