@@ -67,15 +67,15 @@ public class GameManager : MonoBehaviour
         
     }
 
-    void Update()
-    {
-        if (authToken != null && !updateMode)
-        {
-            StartCoroutine(SaveAllSpecies());
-            //StartCoroutine(SaveList());
-            updateMode = true;
-        }
-    }
+    //void Update()
+    //{
+    //    if (authToken != null && !updateMode)
+    //    {
+    //        StartCoroutine(SaveAllSpecies());
+    //        //StartCoroutine(SaveList());
+    //        updateMode = true;
+    //    }
+    //}
     public void Zen()
     {
         ZenMode = true;
@@ -350,32 +350,32 @@ public class GameManager : MonoBehaviour
         yield break;
     }
 
-    private IEnumerator SaveAllSpecies()
-    {
-        UnityWebRequest www = UnityWebRequest.Get(SystemVariables.list_species);
-        www.SetRequestHeader("Authorization", GameManager.authToken);
+    //private IEnumerator SaveAllSpecies()
+    //{
+    //    UnityWebRequest www = UnityWebRequest.Get(SystemVariables.list_species);
+    //    www.SetRequestHeader("Authorization", GameManager.authToken);
 
-        yield return www.SendWebRequest();
+    //    yield return www.SendWebRequest();
 
-        if (www.responseCode.Equals(401))
-        {
-            //StartCoroutine(GameManager.getAuthToken());
-            www.SetRequestHeader("Authorization", GameManager.authToken);
-            yield return www.SendWebRequest();
-        }
+    //    if (www.responseCode.Equals(401))
+    //    {
+    //        //StartCoroutine(GameManager.getAuthToken());
+    //        www.SetRequestHeader("Authorization", GameManager.authToken);
+    //        yield return www.SendWebRequest();
+    //    }
 
-        if (www.isNetworkError || www.isHttpError)
-        {
-            Debug.Log(www.error);
-        }
-        else
-        {
-            string data = "{\"species\":" + www.downloadHandler.text + "}";
-            File.WriteAllText(Application.dataPath + SystemVariables.info_url + "species.json", data);
-        }
-        Debug.Log("Se han guardado todas las descripciones");
-        StartCoroutine(SaveAllAudios());
-    }
+    //    if (www.isNetworkError || www.isHttpError)
+    //    {
+    //        Debug.Log(www.error);
+    //    }
+    //    else
+    //    {
+    //        string data = "{\"species\":" + www.downloadHandler.text + "}";
+    //        File.WriteAllText(Application.dataPath + SystemVariables.info_url + "species.json", data);
+    //    }
+    //    Debug.Log("Se han guardado todas las descripciones");
+    //    StartCoroutine(SaveAllAudios());
+    //}
 
     private IEnumerator SaveAllAudios()
     {

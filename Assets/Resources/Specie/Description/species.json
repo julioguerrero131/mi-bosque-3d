@@ -4,6 +4,7 @@
       "specieId": "5dd842b34cb1654f42548571",
       "id": 1,
       "name": "Pinzón Sabanero",
+      "nameView": "Pinzón Sabanero",
       "family": "THRAUPIDAE",
       "video": "Videos/PINZON_SABANERO.mp4",
       "gallery": [
@@ -20,6 +21,7 @@
       "specieId": "5dd85226f65fd767fe2aff02",
       "id": 4,
       "name": "Iguana",
+      "nameView": "Iguana",
       "family": "Iguana",
       "video": "Videos/IGUANA.mp4",
       "gallery": [
@@ -50,6 +52,7 @@
       "specieId": "5dd85298fe5e8c68f7294bcf",
       "id": 5,
       "name": "Teca",
+      "nameView": "Teca",
       "family": "Verbenaceae",
       "gallery": [
         {
@@ -79,6 +82,7 @@
       "specieId": "5dd855515093256da22b1c33",
       "id": 9,
       "name": "Bototillo",
+      "nameView": "Bototillo",
       "family": "Bixaceae",
       "gallery": [
         {
@@ -108,6 +112,7 @@
       "specieId": "5dd855a15093256da22b1c37",
       "id": 10,
       "name": "Pechiche",
+      "nameView": "Pechiche",
       "family": "Vitex cymosa",
       "gallery": [
         {
@@ -137,6 +142,7 @@
       "specieId": "5dd8565344b5b86ed73021fc",
       "id": 11,
       "name": "Tangara Azul y Gris",
+      "nameView": "Tangara Azul y Gris",
       "family": "THRAUPIDAE",
       "video": "Videos/TANGARA_AZUL.mp4",
       "gallery": [
@@ -153,6 +159,7 @@
       "specieId": "5dd857f681dade71c84852c5",
       "id": 13,
       "name": "Guasmo",
+      "nameView": "Guasmo",
       "family": "Malvaceae",
       "gallery": [
         {
@@ -182,6 +189,7 @@
       "specieId": "5dd8583f81dade71c84852c9",
       "id": 14,
       "name": "Fernan Sánchez",
+      "nameView": "Fernan Sánchez",
       "family": "Polygonaceae",
       "gallery": [
         {
@@ -211,6 +219,7 @@
       "specieId": "5dd859b66d9512748f729e90",
       "id": 17,
       "name": "Tirano Tropical",
+      "nameView": "Tirano Tropical",
       "family": "TYRANNIDAE",
       "video": "Videos/TIRANO_TROPICAL.mp4",
       "gallery": [
@@ -248,6 +257,7 @@
       "specieId": "5dd85a8dc589a4759c90b67a",
       "id": 19,
       "name": "Cabezón Unicolor",
+      "nameView": "Cabezón Unicolor",
       "family": "TITYRIDAE",
       "gallery": [
         {
@@ -277,6 +287,7 @@
       "specieId": "5e04e8da8927aa66a61ecffb",
       "id": 21,
       "name": "Ardilla de Guayaquil",
+      "nameView": "Ardilla de Guayaquil",
       "family": "SCIURIDAE",
       "video": "Videos/ARDILLA.mp4",
       "gallery": [
@@ -321,6 +332,7 @@
       "specieId": "5e13d2f285e66449aa5e73c1",
       "id": 23,
       "name": "Ceibo",
+      "nameView": "Ceibo",
       "family": "Fabaceae",
       "gallery": [
         {
@@ -357,6 +369,7 @@
       "specieId": "10000001",
       "id": 29,
       "name": "Jacaranda",
+      "nameView": "Jacaranda",
       "family": "Bignoniaceae",
       "gallery": [
         {
@@ -386,6 +399,7 @@
       "specieId": "10000002",
       "id": 97,
       "name": "Guayacán",
+      "nameView": "Guayacán",
       "family": "Zygophyllaceae",
       "gallery": [
         {
@@ -415,6 +429,7 @@
       "specieId": "10000003",
       "id": 31,
       "name": "Laurel De Judea",
+      "nameView": "Laurel De Judea",
       "family": "Apocynaceae",
       "gallery": [
         {
@@ -444,6 +459,7 @@
       "specieId": "10000004",
       "id": 32,
       "name": "Oso Perezoso",
+      "nameView": "Oso Perezoso",
       "family": "Choloepodidae",
       "gallery": [
         {
@@ -480,6 +496,7 @@
       "specieId": "10000005",
       "id": 33,
       "name": "Venado Cola Blanca",
+      "nameView": "Venado Cola Blanca",
       "family": "Cervidae",
       "gallery": [
         {
@@ -516,6 +533,7 @@
       "specieId": "10000006",
       "id": 34,
       "name": "Zorra Pampera",
+      "nameView": "Zorra Pampera",
       "family": "Canidae",
       "gallery": [
         {
@@ -552,6 +570,7 @@
       "specieId": "10000007",
       "id": 35,
       "name": "Mono Araña",
+      "nameView": "Mono Araña",
       "family": "Atelidae",
       "gallery": [
         {
@@ -581,6 +600,7 @@
       "specieId": "10000008",
       "id": 36,
       "name": "Mono Aullador",
+      "nameView": "Mono Aullador",
       "family": "Atelidae",
       "gallery": [
         {
@@ -617,6 +637,7 @@
       "specieId": "10000009",
       "id": 37,
       "name": "Oso Hormiguero",
+      "nameView": "Oso Hormiguero",
       "family": "Chordata",
       "gallery": [
         {
@@ -653,6 +674,7 @@
       "specieId": "10000010",
       "id": 38,
       "name": "Loro Cara Roja",
+      "nameView": "Loro Cara Roja",
       "family": "Psittacidae",
       "gallery": [
         {
@@ -689,6 +711,7 @@
       "specieId": "10000010",
       "id": 39,
       "name": "Aninga",
+      "nameView": "Aninga",
       "family": "Anhingidae",
       "gallery": [
         {
@@ -725,6 +748,7 @@
       "specieId": "10000010",
       "id": 40,
       "name": "Cuco ardilla",
+      "nameView": "Cuco ardilla",
       "family": "Cuculidae",
       "gallery": [
         {
@@ -761,6 +785,7 @@
       "specieId": "10000010",
       "id": 42,
       "name": "Carpintero carinegro",
+      "nameView": "Carpintero carinegro",
       "family": "Picidae",
       "gallery": [
         {
@@ -790,6 +815,7 @@
       "specieId": "10000010",
       "id": 43,
       "name": "Garza blanca",
+      "nameView": "Garza blanca",
       "family": "Ardeidae",
       "gallery": [
         {
@@ -826,6 +852,7 @@
       "specieId": "10000010",
       "id": 44,
       "name": "Garza nocturna",
+      "nameView": "Garza nocturna",
       "family": "Ardeidae",
       "gallery": [
         {
@@ -855,6 +882,7 @@
       "specieId": "10000010",
       "id": 45,
       "name": "Mariposa azul",
+      "nameView": "Mariposa azul",
       "family": "Nymphalidae",
       "gallery": [
         {
@@ -891,6 +919,7 @@
       "specieId": "10000010",
       "id": 46,
       "name": "Tigrillo",
+      "nameView": "Tigrillo",
       "family": "Felidae",
       "gallery": [
         {

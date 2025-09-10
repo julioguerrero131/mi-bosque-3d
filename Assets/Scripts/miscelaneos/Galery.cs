@@ -83,7 +83,8 @@ public class Galery : MonoBehaviour
                 tree = new Arbol();
                 tree.SpecieId = specie.SpecieId;
                 tree.Id = specie.Id;
-                tree.Name = specie.Name;
+                //tree.Name = specie.Name;
+                tree.Name = specie.NameView;
                 tree.Family = specie.Family;
                 tree.Gallery = specie.Gallery;
                 tree.Video = specie.Video;

@@ -18,6 +18,7 @@ public class SpecieObject {
     public string SpecieId;
     public int Id;
     public string Name;
+    public string NameView;
     public string Family;
     public string Video;
     public Gallery[] Gallery;
