@@ -433,5 +433,13 @@
     "title_correcto": "PARABÉNS!",
     "title_incorrecto": "OPA! Desta vez você não acertou.",
     "subtitle_correcto": "Resposta correta."
+  },
+  "libro": {
+    "nombre": "Nome",
+    "familia": "Família",
+    "estacion": "Estação",
+    "descripcion": "Descrição da Espécie",
+    "latin": "Nome em Latim",
+    "otros_habitats": "Outros Habitats"
   }
 }

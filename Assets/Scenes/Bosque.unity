@@ -4706,6 +4706,7 @@ GameObject:
   - component: {fileID: 119463788}
   - component: {fileID: 119463790}
   - component: {fileID: 119463789}
+  - component: {fileID: 119463791}
   m_Layer: 5
   m_Name: LabelOtrosHabitats
   m_TagString: Untagged
@@ -4774,6 +4775,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119463787}
   m_CullTransparentMesh: 0
+--- !u!114 &119463791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119463787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.otros_habitats
 --- !u!1 &124685018
 GameObject:
   m_ObjectHideFlags: 0
@@ -22692,6 +22706,7 @@ GameObject:
   - component: {fileID: 577593706}
   - component: {fileID: 577593708}
   - component: {fileID: 577593707}
+  - component: {fileID: 577593709}
   m_Layer: 5
   m_Name: LabelNomLatin
   m_TagString: Untagged
@@ -22760,6 +22775,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577593705}
   m_CullTransparentMesh: 0
+--- !u!114 &577593709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577593705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.latin
 --- !u!1 &577688151
 GameObject:
   m_ObjectHideFlags: 0
@@ -23122,6 +23150,7 @@ GameObject:
   - component: {fileID: 586248438}
   - component: {fileID: 586248440}
   - component: {fileID: 586248439}
+  - component: {fileID: 586248441}
   m_Layer: 5
   m_Name: LabelFamilia
   m_TagString: Untagged
@@ -23190,6 +23219,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586248437}
   m_CullTransparentMesh: 0
+--- !u!114 &586248441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586248437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.familia
 --- !u!1 &589450943
 GameObject:
   m_ObjectHideFlags: 0
@@ -33935,6 +33977,7 @@ GameObject:
   - component: {fileID: 827604042}
   - component: {fileID: 827604044}
   - component: {fileID: 827604043}
+  - component: {fileID: 827604045}
   m_Layer: 5
   m_Name: LabelNomLatin
   m_TagString: Untagged
@@ -34003,6 +34046,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827604041}
   m_CullTransparentMesh: 0
+--- !u!114 &827604045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827604041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.latin
 --- !u!1 &828601173
 GameObject:
   m_ObjectHideFlags: 0
@@ -41130,6 +41186,7 @@ GameObject:
   - component: {fileID: 1001708214}
   - component: {fileID: 1001708216}
   - component: {fileID: 1001708215}
+  - component: {fileID: 1001708217}
   m_Layer: 5
   m_Name: LabelOtrosHabitats
   m_TagString: Untagged
@@ -41198,6 +41255,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001708213}
   m_CullTransparentMesh: 0
+--- !u!114 &1001708217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001708213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.otros_habitats
 --- !u!1 &1002220178
 GameObject:
   m_ObjectHideFlags: 0
@@ -47583,6 +47653,7 @@ GameObject:
   - component: {fileID: 1124152427}
   - component: {fileID: 1124152429}
   - component: {fileID: 1124152428}
+  - component: {fileID: 1124152430}
   m_Layer: 5
   m_Name: LabelNombre
   m_TagString: Untagged
@@ -47642,7 +47713,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nombre
+  m_Text: NombreXD
 --- !u!222 &1124152429
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47651,6 +47722,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124152426}
   m_CullTransparentMesh: 0
+--- !u!114 &1124152430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124152426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.nombre
 --- !u!1 &1129391195
 GameObject:
   m_ObjectHideFlags: 0
@@ -70547,6 +70631,7 @@ GameObject:
   - component: {fileID: 1477030736}
   - component: {fileID: 1477030738}
   - component: {fileID: 1477030737}
+  - component: {fileID: 1477030739}
   m_Layer: 5
   m_Name: LabelEstacion
   m_TagString: Untagged
@@ -70615,6 +70700,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477030735}
   m_CullTransparentMesh: 0
+--- !u!114 &1477030739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477030735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.estacion
 --- !u!1 &1478925903
 GameObject:
   m_ObjectHideFlags: 0
@@ -90294,6 +90392,7 @@ GameObject:
   - component: {fileID: 1747181454}
   - component: {fileID: 1747181456}
   - component: {fileID: 1747181455}
+  - component: {fileID: 1747181457}
   m_Layer: 5
   m_Name: LabelFamilia
   m_TagString: Untagged
@@ -90362,6 +90461,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747181453}
   m_CullTransparentMesh: 0
+--- !u!114 &1747181457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747181453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.familia
 --- !u!1 &1748572603
 GameObject:
   m_ObjectHideFlags: 0
@@ -92710,6 +92822,7 @@ GameObject:
   - component: {fileID: 1852214323}
   - component: {fileID: 1852214325}
   - component: {fileID: 1852214324}
+  - component: {fileID: 1852214326}
   m_Layer: 5
   m_Name: LabelDescripcion
   m_TagString: Untagged
@@ -92778,6 +92891,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852214322}
   m_CullTransparentMesh: 0
+--- !u!114 &1852214326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852214322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.descripcion
 --- !u!1 &1854230144
 GameObject:
   m_ObjectHideFlags: 0
@@ -92903,6 +93029,7 @@ GameObject:
   - component: {fileID: 1860506673}
   - component: {fileID: 1860506675}
   - component: {fileID: 1860506674}
+  - component: {fileID: 1860506676}
   m_Layer: 5
   m_Name: LabelNombre
   m_TagString: Untagged
@@ -92971,6 +93098,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860506672}
   m_CullTransparentMesh: 0
+--- !u!114 &1860506676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860506672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.nombre
 --- !u!1 &1861783337
 GameObject:
   m_ObjectHideFlags: 0
@@ -99651,6 +99791,7 @@ GameObject:
   - component: {fileID: 1908961188}
   - component: {fileID: 1908961190}
   - component: {fileID: 1908961189}
+  - component: {fileID: 1908961191}
   m_Layer: 5
   m_Name: LabelDescripcion
   m_TagString: Untagged
@@ -99719,6 +99860,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908961187}
   m_CullTransparentMesh: 0
+--- !u!114 &1908961191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908961187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.descripcion
 --- !u!1 &1910002911
 GameObject:
   m_ObjectHideFlags: 0
@@ -104973,6 +105127,7 @@ GameObject:
   - component: {fileID: 2064769620}
   - component: {fileID: 2064769622}
   - component: {fileID: 2064769621}
+  - component: {fileID: 2064769623}
   m_Layer: 5
   m_Name: LabelEstacion
   m_TagString: Untagged
@@ -105041,6 +105196,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064769619}
   m_CullTransparentMesh: 0
+--- !u!114 &2064769623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064769619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: libro.estacion
 --- !u!1 &2065043908
 GameObject:
   m_ObjectHideFlags: 0

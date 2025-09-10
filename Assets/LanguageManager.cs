@@ -663,6 +663,18 @@ public class LanguageManager : MonoBehaviour
             textos["feedback_preguntas.subtitle_correcto"] = fp.subtitle_correcto;
             textos["feedback_preguntas.title_incorrecto"] = fp.title_incorrecto;
         }
+
+        // Libro
+        if (datos.libro != null)
+        {
+            var lb = datos.libro;
+            textos["libro.nombre"] = lb.nombre;
+            textos["libro.familia"] = lb.familia;
+            textos["libro.estacion"] = lb.estacion;
+            textos["libro.descripcion"] = lb.descripcion;
+            textos["libro.latin"] = lb.latin;
+            textos["libro.otros_habitats"] = lb.otros_habitats;
+        }
     }
 
     // CLASES
@@ -698,6 +710,7 @@ public class LanguageManager : MonoBehaviour
         public Misiones misiones;
         public Contrarreloj contrarreloj;
         public FeedbackPreguntas feedback_preguntas;
+        public Libro libro;
     }
 
     // Botones
@@ -1312,5 +1325,17 @@ public class LanguageManager : MonoBehaviour
         public string title_correcto;
         public string title_incorrecto;
         public string subtitle_correcto;
+    }
+
+    // Libro
+    [Serializable]
+    public class Libro
+    {
+        public string nombre;
+        public string familia;
+        public string estacion;
+        public string descripcion;
+        public string latin;
+        public string otros_habitats;
     }
 }
