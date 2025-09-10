@@ -193,6 +193,13 @@ public class LanguageManager : MonoBehaviour
             textos["mensajes_error.error_5_1"] = me.error_5_1;
         }
 
+        if (datos.pista_luz != null)
+        {
+            textos["pista_luz.title"] = datos.pista_luz.title;
+            textos["pista_luz.nombre"] = datos.pista_luz.nombre;
+            textos["pista_luz.descripcion"] = datos.pista_luz.descripcion;
+        }
+
         if(datos.tutorial != null)
         {
             textos["tutorial.dialogo_0"] = datos.tutorial.dialogo_0;
@@ -673,6 +680,7 @@ public class LanguageManager : MonoBehaviour
         public MenuInicial menu_inicial;
         public MenuPartidas menu_partidas;
         public MensajesError mensajes_error;
+        public PistaLuz pista_luz;
         public Tutorial tutorial;
         public CartelesBosque carteles_bosque;
         public Lobby lobby;
@@ -816,6 +824,15 @@ public class LanguageManager : MonoBehaviour
         public string error_4;
         public string error_5_0;
         public string error_5_1;
+    }
+
+    // Pista Luz 
+    [Serializable]
+    public class PistaLuz
+    {
+        public string title;
+        public string nombre;
+        public string descripcion;
     }
 
     // Tutorial

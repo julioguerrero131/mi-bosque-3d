@@ -17695,6 +17695,7 @@ GameObject:
   - component: {fileID: 461585834}
   - component: {fileID: 461585836}
   - component: {fileID: 461585835}
+  - component: {fileID: 461585837}
   m_Layer: 5
   m_Name: DescripcionPista
   m_TagString: Untagged
@@ -17763,6 +17764,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461585833}
   m_CullTransparentMesh: 0
+--- !u!114 &461585837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461585833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: pista_luz.descripcion
 --- !u!1 &461714756
 GameObject:
   m_ObjectHideFlags: 0
@@ -92516,7 +92530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clave: 
+  clave: pista_luz.title
 --- !u!114 &1847762120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100557,6 +100571,7 @@ GameObject:
   - component: {fileID: 1944327302}
   - component: {fileID: 1944327304}
   - component: {fileID: 1944327303}
+  - component: {fileID: 1944327305}
   m_Layer: 5
   m_Name: NombrePista
   m_TagString: Untagged
@@ -100625,6 +100640,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944327301}
   m_CullTransparentMesh: 0
+--- !u!114 &1944327305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944327301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b80b96d6be91324786e576a44484c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: pista_luz.nombre
 --- !u!114 &1944401937
 MonoBehaviour:
   m_ObjectHideFlags: 0

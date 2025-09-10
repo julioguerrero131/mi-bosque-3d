@@ -84,6 +84,11 @@
     "error_5_0": "WOAH! Tienes ",
     "error_5_1": "! .\nPrueba ingresando tu edad nuevamente"
   },
+  "pista_luz": {
+    "title": "Pista, mira alrededor",
+    "nombre": "Al presionar la letra P",
+    "descripcion": "Lo que buscas se iluminará de color verde!"
+  },
   "tutorial": {
     "dialogo_0": "Hola! soy un Guardabosque y te daré algunas indicaciones. ¿Estás listo?",
     "dialogo_1": "Para poder caminar utiliza las teclas: A para ir a la izquierda, D para la derecha, S para ir para atrás y W para adelante.",

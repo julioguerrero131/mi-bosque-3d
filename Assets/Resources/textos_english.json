@@ -84,6 +84,11 @@
     "error_5_0": "WOAH! You are ",
     "error_5_1": "! .\nPlease try entering your age again"
   },
+  "pista_luz": {
+    "title": "Clue, look around",
+    "nombre": "By pressing the letter P",
+    "descripcion": "What you are looking for will light up green!"
+  },
   "tutorial": {
     "dialogo_0": "Hello! I'm a Forest Ranger and I'll give you some instructions. Are you ready?",
     "dialogo_1": "To walk, use the keys: A to go left, D for right, S for back and W for forward.",
