@@ -102,6 +102,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        Debug.Log("GameManager Awake");
         Debug.Log(Application.persistentDataPath);
 ;        if (instance == null)
         {
@@ -133,6 +134,8 @@ public class GameManager : MonoBehaviour
             lista = new List<StadisticsData.Stadistics>()
         };
         dataList = Resources.Load<TextAsset>("Specie/Description/species").text;
+        Debug.Log("Contenido datalist: " + dataList);
+
         try
         {
             test = JsonConvert.DeserializeObject<SpecieObjectList>(dataList);
@@ -141,7 +144,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("No hay datos de este árbol");
         }
-        Debug.Log(test.species[0].Id);
+        Debug.Log("test especies:" + test.species[0].Id);
         //
         //StartCoroutine(getAuthToken());
     }
