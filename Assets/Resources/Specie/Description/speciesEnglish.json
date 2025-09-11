@@ -21,14 +21,14 @@
       "specieId": "5dd85226f65fd767fe2aff02",
       "id": 4,
       "name": "Iguana",
-      "nameView": "Iguana",
+      "nameView": "Iguana Inglesa",
       "family": "Iguana",
       "video": "Videos/IGUANA.mp4",
       "gallery": [
         {
           "mongoId": "5dd85b1fbaf3fe76a27f1fe2",
           "id": 45,
-          "description": "Su nombre científico es Iguana iguana.",
+          "description": "Inglés: Su nombre científico es Iguana iguana.",
           "audioname": "Iguana_audio_descripcion_0",
           "imagename": "Iguana_image_0"
         },

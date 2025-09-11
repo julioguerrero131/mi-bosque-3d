@@ -133,7 +133,14 @@ public class GameManager : MonoBehaviour
         {
             lista = new List<StadisticsData.Stadistics>()
         };
-        dataList = Resources.Load<TextAsset>("Specie/Description/species").text;
+
+        string path = "Specie/Description/species";
+        string idiomaPref = PlayerPrefs.GetString("idioma");
+        if (idiomaPref == "textos_english")
+            path = "Specie/Description/speciesEnglish";
+        else if (idiomaPref == "textos_portugues")
+            path = "Specie/Description/speciesPortugues";
+        dataList = Resources.Load<TextAsset>(path).text;
         Debug.Log("Contenido datalist: " + dataList);
 
         try

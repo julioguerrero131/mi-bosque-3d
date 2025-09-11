@@ -83,14 +83,14 @@ public class Galery : MonoBehaviour
                 tree = new Arbol();
                 tree.SpecieId = specie.SpecieId;
                 tree.Id = specie.Id;
-                //tree.Name = specie.Name;
-                tree.Name = specie.NameView;
+                tree.Name = specie.Name;
+                tree.NameView = specie.NameView;
                 tree.Family = specie.Family;
                 tree.Gallery = specie.Gallery;
                 tree.Video = specie.Video;
             }
         }
-        titulo.text = tree.Name; 
+        titulo.text = tree.NameView; 
         String urlPrefix = "file://" + Application.streamingAssetsPath + "/"+  tree.Video;
         videoplayer.url = urlPrefix;
         CargarImagen(0);
@@ -140,6 +140,7 @@ public class Arbol
     public string SpecieId;
     public int Id;
     public string Name;
+    public string NameView;
     public string Family;
     public string Video;
     public Gallery[] Gallery;
