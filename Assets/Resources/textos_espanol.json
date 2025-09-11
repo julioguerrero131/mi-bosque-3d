@@ -130,7 +130,7 @@
     },
     "excursionistas": {
       "title_grupo": "Vámonos de excursión",
-      "sentence_grupo_0": "No creo que estemos listos para ir de excursión, ¡debemos estar seguros de tener todo lo necesario!",
+      "sentence_grupo_0": "No creo que estemos listos para ir de excursión, ¡debemos\nestar seguros de tener todo lo necesario!",
       "sentence_grupo_1": "Vamos a la puerta principal para ir al Bosque Protegido Prosperina",
       "sentence_grupo_2": "Al pasar la puerta, ¡Iniciaremos nuestra Excursión!"
     },

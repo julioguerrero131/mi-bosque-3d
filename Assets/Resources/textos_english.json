@@ -128,7 +128,7 @@
     },
     "excursionistas": {
       "title_grupo": "Let's go on an excursion",
-      "sentence_grupo_0": "I don't think we are ready to go on an excursion, we must be sure we have everything we need!",
+      "sentence_grupo_0": "I don't think we are ready to go on an excursion, \nwe must be sure we have everything we need!",
       "sentence_grupo_1": "Let's go to the main door to go to the Prosperina Protected Forest",
       "sentence_grupo_2": "When we pass the door, we will start our Excursion!"
     },
