@@ -674,6 +674,8 @@ public class LanguageManager : MonoBehaviour
             textos["libro.descripcion"] = lb.descripcion;
             textos["libro.latin"] = lb.latin;
             textos["libro.otros_habitats"] = lb.otros_habitats;
+            textos["libro.no_datos"] = lb.no_datos;
+            textos["libro.no_descubierto"] = lb.no_descubierto;
         }
     }
 
@@ -1337,5 +1339,7 @@ public class LanguageManager : MonoBehaviour
         public string descripcion;
         public string latin;
         public string otros_habitats;
+        public string no_datos;
+        public string no_descubierto;
     }
 }

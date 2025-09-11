@@ -190,6 +190,11 @@ public class BookPages : MonoBehaviour
         Debug.Log("size="+ isDiscovered.Length);
         Debug.Log("IZQ = " + izq);
 
+        // Language Manager
+        LanguageManager lm = LanguageManager.Instancia;
+        string no_datos = lm.ObtenerTexto("libro.no_datos");
+        string no_descubierto = lm.ObtenerTexto("libro.no_descubierto");
+
         if (isDiscovered[izq])
         {
             //Codigo que sirve para cambiar el contraste de la imagen si este ya fue descubierto (Desde el inicio)
@@ -212,12 +217,12 @@ public class BookPages : MonoBehaviour
             leftPage.transform.Find("Imagen").GetComponent<RawImage>().color = tempColor;
 
             leftPage.transform.Find("Imagen").GetComponent<RawImage>().texture = imagenes[izq];
-            leftPage.transform.Find("Estacion").GetComponent<Text>().text = "No hay datos.";
-            leftPage.transform.Find("Descripcion").GetComponent<Text>().text = "No hay datos.";
+            leftPage.transform.Find("Estacion").GetComponent<Text>().text = no_datos;
+            leftPage.transform.Find("Descripcion").GetComponent<Text>().text = no_datos;
 
-            leftPage.transform.Find("NomLatin").GetComponent<Text>().text = "No hay datos.";
-            leftPage.transform.Find("Familia").GetComponent<Text>().text = "No hay datos.";
-            leftPage.transform.Find("OtrosHabitats").GetComponent<Text>().text = "No se han descubierto.";
+            leftPage.transform.Find("NomLatin").GetComponent<Text>().text = no_datos;
+            leftPage.transform.Find("Familia").GetComponent<Text>().text = no_datos;
+            leftPage.transform.Find("OtrosHabitats").GetComponent<Text>().text = no_descubierto;
         }
 
 
@@ -252,15 +257,15 @@ public class BookPages : MonoBehaviour
                 tempColor.a = 0.35f;
                 rightPage.transform.Find("Imagen").GetComponent<RawImage>().color = tempColor;
 
-
+                
 
                 rightPage.transform.Find("Imagen").GetComponent<RawImage>().texture = imagenes[der];
-                rightPage.transform.Find("Estacion").GetComponent<Text>().text = "No hay datos.";
-                rightPage.transform.Find("Descripcion").GetComponent<Text>().text = "No hay datos.";
+                rightPage.transform.Find("Estacion").GetComponent<Text>().text = no_datos;
+                rightPage.transform.Find("Descripcion").GetComponent<Text>().text = no_datos;
 
-                rightPage.transform.Find("NomLatin").GetComponent<Text>().text = "No hay datos.";
-                rightPage.transform.Find("Familia").GetComponent<Text>().text = "No hay datos.";
-                rightPage.transform.Find("OtrosHabitats").GetComponent<Text>().text = "No se han descubierto.";
+                rightPage.transform.Find("NomLatin").GetComponent<Text>().text = no_datos;
+                rightPage.transform.Find("Familia").GetComponent<Text>().text = no_datos;
+                rightPage.transform.Find("OtrosHabitats").GetComponent<Text>().text = no_descubierto;
 
             }
         }

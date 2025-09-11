@@ -494,6 +494,9 @@
     "estacion": "Estacion",
     "descripcion": "Descripción de la Especie",
     "latin": "Nombre en Latín",
-    "otros_habitats": "Otros Hábitats"
+    "otros_habitats": "Otros Hábitats",
+
+    "no_datos": "No hay datos.",
+    "no_descubierto": "No se han descubierto."
   }
 }

@@ -440,6 +440,9 @@
     "estacion": "Station",
     "descripcion": "Species Description",
     "latin": "Latin Name",
-    "otros_habitats": "Other Habitats"
+    "otros_habitats": "Other Habitats",
+
+    "no_datos": "There is no data.",
+    "no_descubierto": "They have not been discovered."
   }
 }
