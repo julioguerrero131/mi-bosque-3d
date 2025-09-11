@@ -10,6 +10,7 @@ public class BookPages : MonoBehaviour
     public static BookPages instance;
     public Texture[] imagenes;
     public string[] nombres;
+    public string[] nombresView;
     public bool[] isDiscovered;
 
     public bool[] isLoaded; //Variable para comprobar que esten cargados pero no descubiertos
@@ -55,6 +56,8 @@ public class BookPages : MonoBehaviour
             "Iguana","Ardilla de Guayaquil","Pinzón Sabanero",
             "Tangara Azul y Gris"};
 
+        nombresView = new string[9];
+
         nombresLatin = new string[9] { "Erythrina Cristagalli", "Cochlospermum vitifolium", "Vitex cymosa", "Guazuma ulmifolia", "Triplaris cumingiana",
             "Iguana iguana", "Sciurus stramineus", "Sicalis flaveola",
             "Thraupis episcopus" };
@@ -89,6 +92,8 @@ public class BookPages : MonoBehaviour
             Debug.Log("specie");
             Debug.Log(specie.Name);
             nombres[contador]= specie.Name;
+            Debug.Log(specie.NameView);
+            nombresView[contador] = specie.NameView;
             Debug.Log(specie.Family);
             familias[contador] = specie.Family;
             Debug.Log(specie.Gallery[0].Id);
@@ -178,7 +183,8 @@ public class BookPages : MonoBehaviour
         int izq = nPagina * 2; //Estos numeros son los indices de las especies en los arreglos.
         int der = izq + 1;
 
-        leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[izq];
+        //leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[izq];
+        leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombresView[izq];
         //StartCoroutine(CargarInfo(nombres[izq], izq));
         Debug.Log("CARGANDO PAGINA");
         Debug.Log("size="+ isDiscovered.Length);
@@ -219,7 +225,8 @@ public class BookPages : MonoBehaviour
         //Se debe verificar si ambas paginas estan completas, puede que solo la izq tenga elementos.
         if (der < nombres.Length)
         {
-            rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[der];
+            //rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[der];
+            rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombresView[der];
             if (isDiscovered[der])
             {
                 //StartCoroutine(CargarInfo(nombres[der], der));
