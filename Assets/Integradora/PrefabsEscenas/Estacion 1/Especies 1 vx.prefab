@@ -4316,6 +4316,7 @@ GameObject:
   - component: {fileID: 9056619123138076738}
   - component: {fileID: 6559663337141580402}
   - component: {fileID: 8200017178029738982}
+  - component: {fileID: 7154316317469561838}
   m_Layer: 0
   m_Name: New Text
   m_TagString: Untagged
@@ -4397,6 +4398,19 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &7154316317469561838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290281819299007476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.ceibo
 --- !u!1 &5324360741310087371
 GameObject:
   m_ObjectHideFlags: 0
@@ -6652,6 +6666,19 @@ Transform:
   m_Father: {fileID: 464389587370098025}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &379281226360844082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7847586129914529366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.jacaranda
 --- !u!1 &7880836041436002595
 GameObject:
   m_ObjectHideFlags: 0
@@ -8620,6 +8647,12 @@ PrefabInstance:
 --- !u!4 &7847064488709046100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1997361740729298368, guid: 0cd4355573162af40ad7a8f3ecc0a9ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 8601403013794730644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7847586129914529366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1996898357022495938, guid: 0cd4355573162af40ad7a8f3ecc0a9ea,
     type: 3}
   m_PrefabInstance: {fileID: 8601403013794730644}
   m_PrefabAsset: {fileID: 0}

@@ -8,6 +8,7 @@ public class TranslatableTMP2 : MonoBehaviour
     public string clave;
     private TextMeshProUGUI textoUI;   // Para UI (Canvas)
     private TextMeshPro texto3D;       // Para textos 3D
+    private TextMesh textoMesh;        // Para el TextMesh clásico
 
     // Start is called before the first frame update
     private void Awake()
@@ -15,10 +16,11 @@ public class TranslatableTMP2 : MonoBehaviour
         // Intentar obtener ambos, pero solo uno será válido
         textoUI = GetComponent<TextMeshProUGUI>();
         texto3D = GetComponent<TextMeshPro>();
+        textoMesh = GetComponent<TextMesh>();
 
-        if (textoUI == null && texto3D == null)
+        if (textoUI == null && texto3D == null && textoMesh == null)
         {
-            Debug.LogError("No se encontró ni TextMeshProUGUI ni TextMeshPro en el objeto: " + gameObject.name);
+            Debug.LogError("No se encontró ni TextMeshProUGUI, TextMeshPro ni TextMesh en el objeto: " + gameObject.name);
             return;
         }
     }
@@ -39,9 +41,7 @@ public class TranslatableTMP2 : MonoBehaviour
     private void OnDisable()
     {
         if (LanguageManager.Instancia != null)
-        {
             LanguageManager.Instancia.OnIdiomaCambiado -= ActualizarTexto;
-        }
     }
 
     private void ActualizarTexto()
@@ -55,6 +55,9 @@ public class TranslatableTMP2 : MonoBehaviour
 
             if (texto3D != null)
                 texto3D.text = nuevoTexto;
+
+            if (textoMesh != null)
+                textoMesh.text = nuevoTexto;
         }
     }
 

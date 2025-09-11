@@ -677,6 +677,20 @@ public class LanguageManager : MonoBehaviour
             textos["libro.no_datos"] = lb.no_datos;
             textos["libro.no_descubierto"] = lb.no_descubierto;
         }
+
+        // Arboles
+        if (datos.arboles != null)
+        {
+            var arboles = datos.arboles;
+            textos["arboles.ceibo"] = arboles.ceibo;
+            textos["arboles.jacaranda"] = arboles.jacaranda;
+            textos["arboles.bototillo"] = arboles.bototillo;
+            textos["arboles.pechiche"] = arboles.pechiche;
+            textos["arboles.laurel"] = arboles.laurel;
+            textos["arboles.fernan_sanchez"] = arboles.fernan_sanchez;
+            textos["arboles.guasmo"] = arboles.guasmo;
+            textos["arboles.guayacan"] = arboles.guayacan;
+        }
     }
 
     // CLASES
@@ -713,6 +727,7 @@ public class LanguageManager : MonoBehaviour
         public Contrarreloj contrarreloj;
         public FeedbackPreguntas feedback_preguntas;
         public Libro libro;
+        public Arboles arboles;
     }
 
     // Botones
@@ -1341,5 +1356,19 @@ public class LanguageManager : MonoBehaviour
         public string otros_habitats;
         public string no_datos;
         public string no_descubierto;
+    }
+
+    // Arboles
+    [Serializable]
+    public class Arboles
+    {
+        public string ceibo;
+        public string jacaranda;
+        public string bototillo;
+        public string pechiche;
+        public string laurel;
+        public string fernan_sanchez;
+        public string guasmo;
+        public string guayacan;
     }
 }

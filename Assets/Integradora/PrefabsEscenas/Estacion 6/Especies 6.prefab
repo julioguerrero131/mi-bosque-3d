@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4535757817523531575}
   - component: {fileID: 4535757817523531573}
   - component: {fileID: 4535757817523531572}
+  - component: {fileID: 6232341764427083707}
   m_Layer: 0
   m_Name: New Text
   m_TagString: Untagged
@@ -92,6 +93,19 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &6232341764427083707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535757817523531574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.fernan_sanchez
 --- !u!1 &4535757818214633939
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +320,7 @@ GameObject:
   - component: {fileID: 4535757819025538429}
   - component: {fileID: 4535757819025538427}
   - component: {fileID: 4535757819025538426}
+  - component: {fileID: 4762356398704193626}
   m_Layer: 0
   m_Name: New Text
   m_TagString: Untagged
@@ -387,6 +402,19 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &4762356398704193626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535757819025538428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.guasmo
 --- !u!65 &4535757817074264668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -524,6 +552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   semillasAnim: {fileID: 0}
+  padreSemillas: {fileID: 0}
 --- !u!114 &4535757818992734495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,6 +577,19 @@ MonoBehaviour:
   canvasJoy: {fileID: 0}
   actionLogger: {fileID: 0}
   specieName: Ceibo
+--- !u!114 &2483206590483345868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5413676658958191451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.guayacan
 --- !u!1 &6350426252819669584
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,15 +3649,15 @@ PrefabInstance:
     - {fileID: 1767110423, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
     - {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
---- !u!4 &4538601643743359434 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4052329360818378, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a,
-    type: 3}
-  m_PrefabInstance: {fileID: 4535757818992734464}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4536462887310805534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1969506690038558, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4535757818992734464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4538601643743359434 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4052329360818378, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a,
     type: 3}
   m_PrefabInstance: {fileID: 4535757818992734464}
   m_PrefabAsset: {fileID: 0}
@@ -3788,6 +3830,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c004649b18cf1c84dbf5635804cef837, type: 3}
+--- !u!1 &5413676658958191451 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1996898357022495938, guid: c004649b18cf1c84dbf5635804cef837,
+    type: 3}
+  m_PrefabInstance: {fileID: 5807205098012925849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5417649685953639001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1997361740729298368, guid: c004649b18cf1c84dbf5635804cef837,

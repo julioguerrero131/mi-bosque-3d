@@ -2208,6 +2208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   semillasAnim: {fileID: 0}
+  padreSemillas: {fileID: 0}
 --- !u!65 &5985087613431764034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2245,6 +2246,19 @@ MonoBehaviour:
   canvasJoy: {fileID: 0}
   actionLogger: {fileID: 0}
   specieName: "Gavil\xE1n Dorsigris"
+--- !u!114 &7484014663787080771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5985087613504804766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.jacaranda
 --- !u!1 &5985087613540821568
 GameObject:
   m_ObjectHideFlags: 0
@@ -12734,6 +12748,12 @@ PrefabInstance:
 --- !u!4 &5981106770213891740 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1997361740729298368, guid: 0cd4355573162af40ad7a8f3ecc0a9ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 5240260326144361308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5985087613504804766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1996898357022495938, guid: 0cd4355573162af40ad7a8f3ecc0a9ea,
     type: 3}
   m_PrefabInstance: {fileID: 5240260326144361308}
   m_PrefabAsset: {fileID: 0}

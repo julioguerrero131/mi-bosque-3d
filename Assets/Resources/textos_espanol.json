@@ -498,5 +498,15 @@
 
     "no_datos": "No hay datos.",
     "no_descubierto": "No se han descubierto."
+  },
+  "arboles": {
+    "ceibo": ">Ceibo<\nClic en el árbol\npara más información",
+    "jacaranda": ">Jacaranda<\nClic en el árbol\npara más información",
+    "bototillo": ">Bototillo<\nClic en el árbol\npara más información",
+    "pechiche": ">Pechiche<\nClic en el árbol\npara más información",
+    "laurel": ">Laurel<\nClic en el árbol\npara más información",
+    "fernan_sanchez": ">Fernan Sánchez<\nClic en el árbol\npara más información",
+    "guasmo": ">Guasmo<\nClic en el árbol\npara más información",
+    "guayacan": ">Guayacán<\nClic en el árbol\npara más información"
   }
 }

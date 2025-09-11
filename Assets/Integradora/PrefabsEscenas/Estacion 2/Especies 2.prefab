@@ -5123,6 +5123,7 @@ GameObject:
   - component: {fileID: 686367643336915290}
   - component: {fileID: 686367643336915292}
   - component: {fileID: 686367643336915291}
+  - component: {fileID: 4717694679488340829}
   m_Layer: 0
   m_Name: New Text
   m_TagString: Untagged
@@ -5204,6 +5205,19 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &4717694679488340829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686367643336915289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.bototillo
 --- !u!1 &686367644569196469
 GameObject:
   m_ObjectHideFlags: 0
@@ -5215,6 +5229,7 @@ GameObject:
   - component: {fileID: 686367644569196470}
   - component: {fileID: 686367644569196472}
   - component: {fileID: 686367644569196471}
+  - component: {fileID: 1947285036125884312}
   m_Layer: 0
   m_Name: New Text
   m_TagString: Untagged
@@ -5296,6 +5311,19 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &1947285036125884312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686367644569196469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.pechiche
 --- !u!1 &686392662610645187
 GameObject:
   m_ObjectHideFlags: 0
@@ -69643,6 +69671,19 @@ Transform:
   m_Father: {fileID: 8289945998645620755}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7308828567299324510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369091752618427492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049e2c4fa079e874499edff0992e9e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clave: arboles.laurel
 --- !u!1 &8378429756677432353
 GameObject:
   m_ObjectHideFlags: 0
@@ -77905,6 +77946,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63134f4cfe99714693806f04be52562, type: 3}
+--- !u!1 &8369091752618427492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1996898357022495938, guid: f63134f4cfe99714693806f04be52562,
+    type: 3}
+  m_PrefabInstance: {fileID: 8039651984428109990}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8370671125612084582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1997361740729298368, guid: f63134f4cfe99714693806f04be52562,

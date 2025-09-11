@@ -61651,6 +61651,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  nombresView: []
   isDiscovered: 000000000000000000
   isLoaded: 000000000000000000
   descripciones: []
