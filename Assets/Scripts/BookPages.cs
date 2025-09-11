@@ -10,7 +10,6 @@ public class BookPages : MonoBehaviour
     public static BookPages instance;
     public Texture[] imagenes;
     public string[] nombres;
-    public string[] nombresView;
     public bool[] isDiscovered;
 
     public bool[] isLoaded; //Variable para comprobar que esten cargados pero no descubiertos
@@ -56,8 +55,6 @@ public class BookPages : MonoBehaviour
             "Iguana","Ardilla de Guayaquil","Pinzón Sabanero",
             "Tangara Azul y Gris"};
 
-        nombresView = new string[9];
-
         nombresLatin = new string[9] { "Erythrina Cristagalli", "Cochlospermum vitifolium", "Vitex cymosa", "Guazuma ulmifolia", "Triplaris cumingiana",
             "Iguana iguana", "Sciurus stramineus", "Sicalis flaveola",
             "Thraupis episcopus" };
@@ -89,12 +86,8 @@ public class BookPages : MonoBehaviour
         otrosHabitats = new string[elementos];
         foreach (SpecieObject specie in GameManager.instance.test.species)
         {
-            Debug.Log("specie");
-            Debug.Log(specie.Name);
+            Debug.Log("specie...nombre:" + specie.Name + " family:" + specie.Family + " id:" + specie.Gallery[0].Id + " description:" + specie.Gallery[0].Description);
             nombres[contador]= specie.Name;
-            Debug.Log(specie.NameView);
-            nombresView[contador] = specie.NameView;
-            Debug.Log(specie.Family);
             familias[contador] = specie.Family;
             Debug.Log(specie.Gallery[0].Id);
             nombresLatin[contador] = specie.Gallery[0].Description;
@@ -184,7 +177,7 @@ public class BookPages : MonoBehaviour
         int der = izq + 1;
 
         //leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[izq];
-        leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombresView[izq];
+        leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[izq];
         //StartCoroutine(CargarInfo(nombres[izq], izq));
         Debug.Log("CARGANDO PAGINA");
         Debug.Log("size="+ isDiscovered.Length);
@@ -231,7 +224,7 @@ public class BookPages : MonoBehaviour
         if (der < nombres.Length)
         {
             //rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[der];
-            rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombresView[der];
+            rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[der];
             if (isDiscovered[der])
             {
                 //StartCoroutine(CargarInfo(nombres[der], der));
