@@ -107,7 +107,8 @@
     "dialogo_9": "Para pular você deve pressionar a tecla de Espaço. Tente!",
     "dialogo_10": "Muito bom salto! Você foi ótimo.",
     "dialogo_11": "Terminamos as indicações.",
-    "dialogo_12": "Agora você já pode iniciar sua aventura."
+    "dialogo_12": "Agora você já pode iniciar sua aventura.",
+    "son": "\nexistem "
   },
   "lobby": {
     "bruno": {
@@ -115,7 +116,7 @@
       "title_1": "EXPLORE A FLORESTA",
       "title_2": "DICAS PARA INICIAR",
       "sentence_0": "Bem-vindo à FLORESTA PROTETORA PROSPERINA",
-      "sentence_1": "Resolva os desafios de cada estação para se tornar um GUARDA FLORESTAL DIGITAL",
+      "sentence_1": "Resolva os desafios de cada estação para se tornar um \nGUARDA FLORESTAL DIGITAL",
       "sentence_2": "1. Explore as cabanas\n2. Interaja com os grupos de excursão"
     },
     "cabanas_info": {

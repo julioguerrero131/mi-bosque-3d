@@ -107,7 +107,8 @@
     "dialogo_9": "To jump you must press the Space key. Try it!",
     "dialogo_10": "Very good jump! You did great.",
     "dialogo_11": "We have finished the instructions.",
-    "dialogo_12": "Now you can start your adventure."
+    "dialogo_12": "Now you can start your adventure.",
+    "son": "\nthere are "
   },
   "lobby": {
     "bruno": {
@@ -115,7 +116,7 @@
       "title_1": "EXPLORE THE FOREST",
       "title_2": "TIPS TO START",
       "sentence_0": "Welcome to the PROSPERINA PROTECTED FOREST",
-      "sentence_1": "Solve the challenges of each station to become a DIGITAL FOREST RANGER",
+      "sentence_1": "Solve the challenges of each station to become a \nDIGITAL FOREST RANGER",
       "sentence_2": "1. Explore the cabins\n2. Interact with the excursion groups"
     },
     "cabanas_info": {

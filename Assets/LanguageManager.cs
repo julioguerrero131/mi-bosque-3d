@@ -220,6 +220,7 @@ public class LanguageManager : MonoBehaviour
             textos["tutorial.dialogo_10"] = datos.tutorial.dialogo_10;
             textos["tutorial.dialogo_11"] = datos.tutorial.dialogo_11;
             textos["tutorial.dialogo_12"] = datos.tutorial.dialogo_12;
+            textos["tutorial.son"] = datos.tutorial.son;
         }
 
         if (datos.lobby != null)
@@ -892,6 +893,7 @@ public class LanguageManager : MonoBehaviour
         public string dialogo_10;
         public string dialogo_11;
         public string dialogo_12;
+        public string son;
     }
 
     // Lobby

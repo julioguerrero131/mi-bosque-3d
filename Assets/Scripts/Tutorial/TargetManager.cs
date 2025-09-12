@@ -91,6 +91,7 @@ public class TargetManager: MonoBehaviour
 
     IEnumerator texting()
     {
+        string son = LanguageManager.Instancia.ObtenerTexto("tutorial.son");
         // leemos cada letra del mensaje para su visibilidad con una espera de 0.02 segundos
         foreach(char letter in message[index].ToCharArray())
         {
@@ -105,7 +106,7 @@ public class TargetManager: MonoBehaviour
             // obtenemos el numero de esferas
             numTargetRed = GameObject.FindGameObjectsWithTag("TargetRed").Length;
             // colocamos el numero de esferas en el panel
-            text.text += "\nson "+numTargetRed;
+            text.text += son+numTargetRed;
 
         }
 
@@ -116,7 +117,7 @@ public class TargetManager: MonoBehaviour
             // obtenemos el numero de esferas
             numTargetGreen = GameObject.FindGameObjectsWithTag("TargetGreen").Length;
             // colocamos el numero de esferas en el panel
-            text.text += "\nson "+numTargetGreen;
+            text.text += son+numTargetGreen;
 
         }
                 

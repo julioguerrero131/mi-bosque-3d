@@ -107,7 +107,8 @@
     "dialogo_9": "Para saltar debes presionar la tecla de Espacios. ¡Inténtalo!",
     "dialogo_10": "¡Muy buen salto! Lo has hecho genial.",
     "dialogo_11": "Hemos terminado las indicaciones.",
-    "dialogo_12": "Ahora ya puedes iniciar tu aventura."
+    "dialogo_12": "Ahora ya puedes iniciar tu aventura.",
+    "son": "\nson "
   },
   "lobby": {
     "bruno": {
