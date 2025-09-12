@@ -5,34 +5,34 @@ using UnityEngine.Video;
 public class MinimizarVideos : MonoBehaviour
 {
     [Header("Referencias")]
-    [SerializeField] private GameObject videoCanvas;    // El panel/canvas que contiene el video
-    [SerializeField] private VideoPlayer videoPlayer;   // El componente VideoPlayer
-    [SerializeField] private AudioSource audioSource;   // El AudioSource del VideoPlayer (si lo usas separado)
-    [SerializeField] private GameObject videoCanvas2;    // El panel/canvas que contiene el video
-    [SerializeField] private VideoPlayer videoPlayer2;   // El componente VideoPlayer
-    [SerializeField] private AudioSource audioSource2;   // El AudioSource del VideoPlayer (si lo usas separado)
+    [SerializeField] private GameObject videoCanvas;    
+    [SerializeField] private VideoPlayer videoPlayer;   
+    [SerializeField] private AudioSource audioSource;   
+    [SerializeField] private GameObject videoCanvas2;    
+    [SerializeField] private VideoPlayer videoPlayer2;   
+    [SerializeField] private AudioSource audioSource2;   
     private bool VideoUnoMinimizado;
 
     private void Start()
     {
         VideoUnoMinimizado = false;
     }
-    // Llamar este método en el botón Minimizar
+    
     public void OnMinimizar()
     {
         if (videoPlayer != null)
         {
-            videoPlayer.Stop(); // detiene video y audio vinculados
+            videoPlayer.Stop(); 
         }
 
         if (audioSource != null)
         {
-            audioSource.Stop(); // por si el audio sigue en loop separado
+            audioSource.Stop(); 
         }
 
         if (videoCanvas != null)
         {
-            videoCanvas.SetActive(false); // oculta el panel/canvas del video
+            videoCanvas.SetActive(false); 
         }
 
         Debug.Log("Video1 detenido y minimizado.");
@@ -43,17 +43,17 @@ public class MinimizarVideos : MonoBehaviour
     {
         if (videoPlayer2 != null)
         {
-            videoPlayer2.Stop(); // detiene video y audio vinculados
+            videoPlayer2.Stop(); 
         }
 
         if (audioSource2 != null)
         {
-            audioSource2.Stop(); // por si el audio sigue en loop separado
+            audioSource2.Stop();
         }
 
         if (videoCanvas2 != null)
         {
-            videoCanvas2.SetActive(false); // oculta el panel/canvas del video
+            videoCanvas2.SetActive(false); 
         }
 
         Debug.Log("Video2 detenido y minimizado.");

@@ -64,8 +64,9 @@ Su función principal es manejar el temporizador, mostrarlo en pantalla, activar
 - `colorPeligro`: color que toma el texto cuando el tiempo está por terminar.  
 
 El modo contrarreloj utiliza variables con `[SerializeField]`, lo que significa que no es necesario utilizar otros métodos dentro del código para relacionarlas, se pueden asignar los valores(objetos) a las variables desde el editor de Unity
-<img src="ImagenesDocumentacion/ContrarrelojVariables.png" alt="Manejo de Variables" width="400"/>
-
+<p align="center">
+  <img src="ImagenesDocumentacion/ContrarrelojVariables.png" alt="Manejo de Variables" width="400"/>
+</p>
 ### 🔗 Integración con `MenuPausa`
 
 El `MenuPausa` controla la transición entre los modos:  
@@ -84,3 +85,4 @@ El `MenuPausa` controla la transición entre los modos:
    - Si faltan menos de 3 minutos → se activa el aviso visual y sonoro.  
    - Si el tiempo llega a cero → se ejecuta `perdidaModoContrarreloj()`.  
 4. Al finalizar, se muestra `activarDespedida()`.  
+

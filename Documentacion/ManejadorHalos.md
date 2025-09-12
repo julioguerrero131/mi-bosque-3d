@@ -59,3 +59,15 @@ Su objetivo es ayudar al jugador a identificar elementos clave en cada estación
 - **Estación 3** → Halo de *Conejo*.  
 - **Estación 4** → Halos de *Ratón 1*, *Ratón 2* y *Salamandra*.  
 - **Estación 7** → Halo de *Balde*.  
+
+### Mensaje Pop Up, explicación de la Pista
+
+Se añadió un cartel que explica lo que sucede al presionar la tecla ‘P’ , usando la misma estética que los carteles de anuncio de **`Logro Conseguido`**, esto en base a las ideas del director del proyecto, este cartel se encuentra dentro del **`GameObject Canva`**, el cual es responsable de acomodar todos los carteles que vemos en pantalla, se activa de la misma manera que los Halos, está referenciado en el controlador de Halos y se activa con una corrutina, su duración es de 3s encendido, se puede modificar desde el motor, está bajo la variable ‘Duración Mensaje Pista’
+<p align="center">
+  <img src="ImagenesDocumentacion/pista_mensaje.png" alt="Manejo de Variables" width="400"/>
+</p>
+
+El GameObject del Cartel se llama **`‘Panel Pista’`**
+<p align="center">
+  <img src="ImagenesDocumentacion/manejador_halos_pista.png" alt="Manejo de Variables" width="400"/>
+</p>

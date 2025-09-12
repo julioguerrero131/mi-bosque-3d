@@ -14,13 +14,6 @@
         "gameLevel": {
           "Name": "Bosque-Estación 4"
         }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
       }
     ],
     "options": [
@@ -73,20 +66,6 @@
     "difficulty": 2,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
       {
         "GameLevelId": 5,
         "updatedAt": null,
@@ -353,13 +332,6 @@
         "gameLevel": {
           "Name": "Bosque-Estación 3"
         }
-      },
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
       }
     ],
     "options": [
@@ -548,13 +520,6 @@
         "gameLevel": {
           "Name": "Bosque-Estación 3"
         }
-      },
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
       }
     ],
     "options": [
@@ -607,13 +572,6 @@
     "difficulty": 3,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
-      },
       {
         "GameLevelId": 4,
         "updatedAt": null,
@@ -802,13 +760,6 @@
     "difficulty": 2,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
       {
         "GameLevelId": 5,
         "updatedAt": null,
@@ -1508,13 +1459,7 @@
     "difficulty": 1,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
-      },
+
       {
         "GameLevelId": 4,
         "updatedAt": null,
@@ -1573,13 +1518,7 @@
     "difficulty": 2,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
-      },
+
       {
         "GameLevelId": 4,
         "updatedAt": null,
@@ -1638,13 +1577,7 @@
     "difficulty": 3,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
+
       {
         "GameLevelId": 5,
         "updatedAt": null,
@@ -2694,20 +2627,6 @@
         "gameLevel": {
           "Name": "Bosque-Estación 5"
         }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
       }
     ],
     "options": [
@@ -2760,20 +2679,6 @@
     "difficulty": 1,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
       {
         "GameLevelId": 6,
         "updatedAt": null,
@@ -2838,20 +2743,6 @@
         "gameLevel": {
           "Name": "Bosque-Estación 5"
         }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
       }
     ],
     "options": [
@@ -2904,20 +2795,6 @@
     "difficulty": 1,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
       {
         "GameLevelId": 6,
         "updatedAt": null,
@@ -2982,20 +2859,6 @@
         "gameLevel": {
           "Name": "Bosque-Estación 5"
         }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
       }
     ],
     "options": [
@@ -3048,20 +2911,6 @@
     "difficulty": 1,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
       {
         "GameLevelId": 6,
         "updatedAt": null,
@@ -3126,20 +2975,6 @@
         "gameLevel": {
           "Name": "Bosque-Estación 4"
         }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
       }
     ],
     "options": [
@@ -3192,20 +3027,8 @@
     "difficulty": 1,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
+
+
       {
         "GameLevelId": 6,
         "updatedAt": null,
@@ -3264,20 +3087,6 @@
     "difficulty": 1,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
       {
         "GameLevelId": 5,
         "updatedAt": null,
