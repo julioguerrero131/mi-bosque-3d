@@ -23,6 +23,7 @@ public class ManejadorHalos : MonoBehaviour
     private void Awake()
     {
         halosPorEstacion.Add(1, new List<GameObject> { haloArdilla, haloIguana,haloPechiche });
+        halosPorEstacion.Add(2, new List<GameObject> { haloArdilla, haloIguana,haloPechiche });
         halosPorEstacion.Add(3, new List<GameObject> { haloConejo });
         halosPorEstacion.Add(4, new List<GameObject> { haloRtn1,haloRtn2,haloSalamandra });
         halosPorEstacion.Add(6,new List<GameObject> { haloBalde });
