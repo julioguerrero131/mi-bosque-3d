@@ -59,6 +59,7 @@ public class LanguageButton : MonoBehaviour
         if (LanguageManager.Instancia != null)
         {
             LanguageManager.Instancia.CargarIdioma(archivoIdioma);
+            LanguageEvents.TriggerLanguageChanged(archivoIdioma);
             Debug.Log("Idioma cambiado a: " + idiomas[idiomaActual]);
         }
         else

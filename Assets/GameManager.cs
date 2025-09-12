@@ -159,11 +159,13 @@ public class GameManager : MonoBehaviour
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnLevelFinishedLoading;
+        LanguageEvents.OnLanguageChanged += RecargarEspecies;
     }
 
     void OnDisable()
     {
         SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+        LanguageEvents.OnLanguageChanged -= RecargarEspecies;
     }
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
@@ -528,6 +530,28 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.LogWarning("No se encontró el spawn o el player");
+        }
+    }
+
+
+    private void RecargarEspecies(string idiomaPref)
+    {
+        string path = "Specie/Description/species";
+        if (idiomaPref == "textos_english")
+            path = "Specie/Description/speciesEnglish";
+        else if (idiomaPref == "textos_portugues")
+            path = "Specie/Description/speciesPortugues";
+
+        dataList = Resources.Load<TextAsset>(path).text;
+
+        try
+        {
+            test = JsonConvert.DeserializeObject<SpecieObjectList>(dataList);
+            Debug.Log("✅ Especies recargadas para: " + idiomaPref);
+        }
+        catch
+        {
+            Debug.Log("❌ No se pudieron recargar especies.");
         }
     }
 

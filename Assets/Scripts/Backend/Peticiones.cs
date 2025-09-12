@@ -24,12 +24,16 @@ public class Peticiones : MonoBehaviour
     public GameObject actionLogger;
     public ActionLogger AC;
 
+    private PreguntaObjectList preguntasActuales;
+
     private void Start()
     {
         ServicePointManager.ServerCertificateValidationCallback = ValidateServerCertificate;
         actionLogger = GameObject.Find("ActionLogger");
         AC = actionLogger.GetComponent<ActionLogger>();
         TryResend();
+
+        RecargarPreguntas(PlayerPrefs.GetString("idioma"));
     }
 
     public void TryResend()
@@ -1029,4 +1033,34 @@ public class Peticiones : MonoBehaviour
             return json1;
         }
     }
+
+    private void OnEnable()
+    {
+        LanguageEvents.OnLanguageChanged += RecargarPreguntas;
+    }
+
+    private void OnDisable()
+    {
+        LanguageEvents.OnLanguageChanged -= RecargarPreguntas;
+    }
+
+
+    private void RecargarPreguntas(string idiomaPref)
+    {
+        Debug.Log("♻️ Recargando preguntas desde Peticiones para idioma: " + idiomaPref);
+
+        // Llamamos a RestClient para obtener las preguntas (Resources.Load interno)
+        RestClient.Instance.Get((PreguntaObjectList result) =>
+        {
+            // Guardamos la lista en el campo de la clase
+            preguntasActuales = result;
+            Debug.Log("✅ Preguntas actualizadas en Peticiones para: " + idiomaPref + " (count: " + (result?.preguntas?.Count ?? 0) + ")");
+
+            // Si necesitas procesarlas ahora (ej. actualizar UI o guardarlas en disco) hazlo aquí.
+            // Ejemplo: guardar en disco (opcional)
+            // File.WriteAllText(..., JsonConvert.SerializeObject(result)); // si lo deseas
+        });
+    }
+
+
 }

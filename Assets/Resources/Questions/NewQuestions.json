@@ -1,343 +1,343 @@
   [
-  {
-    "ChallengeID": 1,
-    "codename": "challenge_1",
-    "question": "¿Cuál es la dieta del Pinzón Sabanero Azafranado?",
-    "score": 1,
-    "image": "files/Qe-HtdCBsAlmx4icA0Vy0.jpg",
-    "difficulty": 1,
-    "updatedAt": null,
-    "gameLevelsChallenges": [
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
+    {
+      "ChallengeID": 1,
+      "codename": "challenge_1",
+      "question": "What is the diet of the Saffron Savannah Finch?",
+      "score": 1,
+      "image": "files/Qe-HtdCBsAlmx4icA0Vy0.jpg",
+      "difficulty": 1,
+      "updatedAt": null,
+      "gameLevelsChallenges": [
+        {
+          "GameLevelId": 5,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 4"
+          }
+        },
+        {
+          "GameLevelId": 5,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 4"
+          }
         }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
+      ],
+      "options": [
+        {
+          "ChallengeOptionId": 1,
+          "codename": "option_1A",
+          "correctOption": false,
+          "text": "Frutas",
+          "image": "files/M8f03Re5AQs60YzQ0enlT.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 2,
+          "codename": "option_1B",
+          "correctOption": true,
+          "text": "Granos y semillas",
+          "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 3,
+          "codename": "option_1C",
+          "correctOption": false,
+          "text": "Lombrices",
+          "image": "files/pEKbR_9M19TNvtgf_m9cK.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 4,
+          "codename": "option_1D",
+          "correctOption": false,
+          "text": "Insectos",
+          "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
+          "updatedAt": null
         }
-      }
-    ],
-    "options": [
-      {
-        "ChallengeOptionId": 1,
-        "codename": "option_1A",
-        "correctOption": false,
-        "text": "Frutas",
-        "image": "files/M8f03Re5AQs60YzQ0enlT.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 2,
-        "codename": "option_1B",
-        "correctOption": true,
-        "text": "Granos y semillas",
-        "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 3,
-        "codename": "option_1C",
-        "correctOption": false,
-        "text": "Lombrices",
-        "image": "files/pEKbR_9M19TNvtgf_m9cK.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 4,
-        "codename": "option_1D",
-        "correctOption": false,
-        "text": "Insectos",
-        "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
-        "updatedAt": null
-      }
-    ],
-    "feedback": {
-      "ChallengeFeedbackId": 1,
-      "feedback": "La dieta del Pinzón Sabanero Azafranado se basa en granos y semillas que encuentra en el suelo.",
-      "image": null,
-      "updatedAt": null
-    }
-  },
-  {
-    "ChallengeID": 2,
-    "codename": "challenge_2",
-    "question": "¿Cuál es la dieta princial del Gavilán Dorsigris?",
-    "score": 1,
-    "image": "files/-fzFTtx9rpy8aE6pm_Xsd.jpg",
-    "difficulty": 2,
-    "updatedAt": null,
-    "gameLevelsChallenges": [
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      }
-    ],
-    "options": [
-      {
-        "ChallengeOptionId": 5,
-        "codename": "option_2A",
-        "correctOption": false,
-        "text": "Hormigas",
-        "image": "files/8JAE4qzGxFknnYrYvV2NJ.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 6,
-        "codename": "option_2B",
-        "correctOption": true,
-        "text": "Roedores",
-        "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 7,
-        "codename": "option_2C",
-        "correctOption": false,
-        "text": "Cucarachas",
-        "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 8,
-        "codename": "option_2D",
-        "correctOption": false,
-        "text": "Abejas",
-        "image": "files/3PDldViFxlnkQC5ZHq51N.png",
+      ],
+      "feedback": {
+        "ChallengeFeedbackId": 1,
+        "feedback": "La dieta del Pinzón Sabanero Azafranado se basa en granos y semillas que encuentra en el suelo.",
+        "image": null,
         "updatedAt": null
       }
-    ],
-    "feedback": {
-      "ChallengeFeedbackId": 2,
-      "feedback": "La dieta principal del Gavilán Dorsigris se basa en roedores.",
-      "image": null,
-      "updatedAt": null
-    }
-  },
-  {
-    "ChallengeID": 3,
-    "codename": "challenge_3",
-    "question": "El Gavilán Dorsigris planea con regularidad manteniendo sus alas...",
-    "score": 1,
-    "image": "files/Tj8f_HilJ-dQZSvUMfmfv.jpg",
-    "difficulty": 2,
-    "updatedAt": null,
-    "gameLevelsChallenges": [
-      {
-        "GameLevelId": 1,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Lobby"
+    },
+    {
+      "ChallengeID": 2,
+      "codename": "challenge_2",
+      "question": "What is the main diet of the Grey-backed Hawk?",
+      "score": 1,
+      "image": "files/-fzFTtx9rpy8aE6pm_Xsd.jpg",
+      "difficulty": 2,
+      "updatedAt": null,
+      "gameLevelsChallenges": [
+        {
+          "GameLevelId": 5,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 4"
+          }
+        },
+        {
+          "GameLevelId": 5,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 4"
+          }
+        },
+        {
+          "GameLevelId": 5,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 4"
+          }
         }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
+      ],
+      "options": [
+        {
+          "ChallengeOptionId": 5,
+          "codename": "option_2A",
+          "correctOption": false,
+          "text": "Hormigas",
+          "image": "files/8JAE4qzGxFknnYrYvV2NJ.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 6,
+          "codename": "option_2B",
+          "correctOption": true,
+          "text": "Roedores",
+          "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 7,
+          "codename": "option_2C",
+          "correctOption": false,
+          "text": "Cucarachas",
+          "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 8,
+          "codename": "option_2D",
+          "correctOption": false,
+          "text": "Abejas",
+          "image": "files/3PDldViFxlnkQC5ZHq51N.png",
+          "updatedAt": null
         }
-      }
-    ],
-    "options": [
-      {
-        "ChallengeOptionId": 9,
-        "codename": "option_3A",
-        "correctOption": false,
-        "text": "En movimiento",
-        "image": "files/lOd36dY-h3aeaViMq0oxl.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 10,
-        "codename": "option_3B",
-        "correctOption": false,
-        "text": "Despleplegadas",
-        "image": "files/28WZsZEX8UE5KspLPO5HU.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 11,
-        "codename": "option_3C",
-        "correctOption": true,
-        "text": "Planas",
-        "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 12,
-        "codename": "option_3D",
-        "correctOption": false,
-        "text": "En abanico",
-        "image": "files/8rJrBtidwt9yBCYyH2yQO.png",
-        "updatedAt": null
-      }
-    ],
-    "feedback": {
-      "ChallengeFeedbackId": 3,
-      "feedback": "El Gavilán Dorsigris posa al descubierto al filo del bosque y planea con regularidad, manteniendo sus alas planas.",
-      "image": null,
-      "updatedAt": null
-    }
-  },
-  {
-    "ChallengeID": 4,
-    "codename": "challenge_4",
-    "question": "¿Cómo planea el Gavilán Dorsigris?",
-    "score": 1,
-    "image": "files/X7_ZNhzA1lx-JPSgwCy7u.jpg",
-    "difficulty": 2,
-    "updatedAt": null,
-    "gameLevelsChallenges": [
-      {
-        "GameLevelId": 2,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 1"
-        }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      }
-    ],
-    "options": [
-      {
-        "ChallengeOptionId": 13,
-        "codename": "option_4A",
-        "correctOption": false,
-        "text": "Por mucho tiempo y altura",
-        "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 14,
-        "codename": "option_4B",
-        "correctOption": false,
-        "text": "No planea",
-        "image": "files/W4OqHbTrnwIwnOE5oKBdT.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 15,
-        "codename": "option_4C",
-        "correctOption": false,
-        "text": "Por ráfagas de tiempo",
-        "image": "files/lOd36dY-h3aeaViMq0oxl.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 16,
-        "codename": "option_4D",
-        "correctOption": true,
-        "text": "Por poco tiempo y altura",
-        "image": "files/8rJrBtidwt9yBCYyH2yQO.png",
+      ],
+      "feedback": {
+        "ChallengeFeedbackId": 2,
+        "feedback": "La dieta principal del Gavilán Dorsigris se basa en roedores.",
+        "image": null,
         "updatedAt": null
       }
-    ],
-    "feedback": {
-      "ChallengeFeedbackId": 4,
-      "feedback": "El Gavilán Dorsigris planea por poco tiempo y poca altura.",
-      "image": null,
-      "updatedAt": null
-    }
-  },
-  {
-    "ChallengeID": 5,
-    "codename": "challenge_5",
-    "question": "Iguana Lagarto Lagartija",
-    "score": 1,
-    "image": "files/OF1mT_006vPkw1jCOGxDT.jpg",
-    "difficulty": 1,
-    "updatedAt": null,
-    "gameLevelsChallenges": [
-      {
-        "GameLevelId": 1,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Lobby"
+    },
+    {
+      "ChallengeID": 3,
+      "codename": "challenge_3",
+      "question": "The Grey-backed Hawk glides regularly, holding its wings...",
+      "score": 1,
+      "image": "files/Tj8f_HilJ-dQZSvUMfmfv.jpg",
+      "difficulty": 2,
+      "updatedAt": null,
+      "gameLevelsChallenges": [
+        {
+          "GameLevelId": 1,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Lobby"
+          }
+        },
+        {
+          "GameLevelId": 5,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 4"
+          }
         }
-      },
-      {
-        "GameLevelId": 2,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 1"
+      ],
+      "options": [
+        {
+          "ChallengeOptionId": 9,
+          "codename": "option_3A",
+          "correctOption": false,
+          "text": "En movimiento",
+          "image": "files/lOd36dY-h3aeaViMq0oxl.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 10,
+          "codename": "option_3B",
+          "correctOption": false,
+          "text": "Despleplegadas",
+          "image": "files/28WZsZEX8UE5KspLPO5HU.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 11,
+          "codename": "option_3C",
+          "correctOption": true,
+          "text": "Planas",
+          "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 12,
+          "codename": "option_3D",
+          "correctOption": false,
+          "text": "En abanico",
+          "image": "files/8rJrBtidwt9yBCYyH2yQO.png",
+          "updatedAt": null
         }
-      },
-      {
-        "GameLevelId": 3,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 2"
-        }
-      }
-    ],
-    "options": [
-      {
-        "ChallengeOptionId": 17,
-        "codename": "option_5A",
-        "correctOption": false,
-        "text": "Carnívora",
-        "image": "files/kzDAmlo9q8hkCKmaSVNPw.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 18,
-        "codename": "option_5B",
-        "correctOption": true,
-        "text": "Herbívora",
-        "image": "files/WjIrUGyTYdkTwBM9UUe8-.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 19,
-        "codename": "option_5C",
-        "correctOption": false,
-        "text": "Omnívora",
-        "image": "files/qCx1XFSasXJoXIjwdvUiE.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 20,
-        "codename": "option_5D",
-        "correctOption": false,
-        "text": "Ninguna de las anteriores",
-        "image": "files/F8EQh7K79hhs--6m8SUsl.png",
+      ],
+      "feedback": {
+        "ChallengeFeedbackId": 3,
+        "feedback": "El Gavilán Dorsigris posa al descubierto al filo del bosque y planea con regularidad, manteniendo sus alas planas.",
+        "image": null,
         "updatedAt": null
       }
-    ],
-    "feedback": {
-      "ChallengeFeedbackId": 5,
-      "feedback": "La iguana es herbivora y como tal casi la mitad de su alimentacion se basa en verduras. La fruta tambien forma parte de su dieta.",
-      "image": null,
-      "updatedAt": null
-    }
-  },
+    },
+    {
+      "ChallengeID": 4,
+      "codename": "challenge_4",
+      "question": "How does the Grey-backed Hawk glide?",
+      "score": 1,
+      "image": "files/X7_ZNhzA1lx-JPSgwCy7u.jpg",
+      "difficulty": 2,
+      "updatedAt": null,
+      "gameLevelsChallenges": [
+        {
+          "GameLevelId": 2,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 1"
+          }
+        },
+        {
+          "GameLevelId": 5,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 4"
+          }
+        }
+      ],
+      "options": [
+        {
+          "ChallengeOptionId": 13,
+          "codename": "option_4A",
+          "correctOption": false,
+          "text": "Por mucho tiempo y altura",
+          "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 14,
+          "codename": "option_4B",
+          "correctOption": false,
+          "text": "No planea",
+          "image": "files/W4OqHbTrnwIwnOE5oKBdT.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 15,
+          "codename": "option_4C",
+          "correctOption": false,
+          "text": "Por ráfagas de tiempo",
+          "image": "files/lOd36dY-h3aeaViMq0oxl.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 16,
+          "codename": "option_4D",
+          "correctOption": true,
+          "text": "Por poco tiempo y altura",
+          "image": "files/8rJrBtidwt9yBCYyH2yQO.png",
+          "updatedAt": null
+        }
+      ],
+      "feedback": {
+        "ChallengeFeedbackId": 4,
+        "feedback": "El Gavilán Dorsigris planea por poco tiempo y poca altura.",
+        "image": null,
+        "updatedAt": null
+      }
+    },
+    {
+      "ChallengeID": 5,
+      "codename": "challenge_5",
+      "question": "What kind of animal is the iguana?",
+      "score": 1,
+      "image": "files/OF1mT_006vPkw1jCOGxDT.jpg",
+      "difficulty": 1,
+      "updatedAt": null,
+      "gameLevelsChallenges": [
+        {
+          "GameLevelId": 1,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Lobby"
+          }
+        },
+        {
+          "GameLevelId": 2,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 1"
+          }
+        },
+        {
+          "GameLevelId": 3,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 2"
+          }
+        }
+      ],
+      "options": [
+        {
+          "ChallengeOptionId": 17,
+          "codename": "option_5A",
+          "correctOption": false,
+          "text": "Carnívora",
+          "image": "files/kzDAmlo9q8hkCKmaSVNPw.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 18,
+          "codename": "option_5B",
+          "correctOption": true,
+          "text": "Herbívora",
+          "image": "files/WjIrUGyTYdkTwBM9UUe8-.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 19,
+          "codename": "option_5C",
+          "correctOption": false,
+          "text": "Omnívora",
+          "image": "files/qCx1XFSasXJoXIjwdvUiE.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 20,
+          "codename": "option_5D",
+          "correctOption": false,
+          "text": "Ninguna de las anteriores",
+          "image": "files/F8EQh7K79hhs--6m8SUsl.png",
+          "updatedAt": null
+        }
+      ],
+      "feedback": {
+        "ChallengeFeedbackId": 5,
+        "feedback": "The iguana is a herbivore, and as such, almost half of its diet consists of vegetables. Fruit is also part of its diet.",
+        "image": null,
+        "updatedAt": null
+      }
+    },
   {
     "ChallengeID": 6,
     "codename": "challenge_6",

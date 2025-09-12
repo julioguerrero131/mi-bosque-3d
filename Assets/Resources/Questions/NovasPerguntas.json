@@ -266,78 +266,78 @@
       "updatedAt": null
     }
   },
-  {
-    "ChallengeID": 5,
-    "codename": "challenge_5",
-    "question": "¿Qué tipo de animal es la iguana? Protugues",
-    "score": 1,
-    "image": "files/OF1mT_006vPkw1jCOGxDT.jpg",
-    "difficulty": 1,
-    "updatedAt": null,
-    "gameLevelsChallenges": [
-      {
-        "GameLevelId": 1,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Lobby"
+    {
+      "ChallengeID": 5,
+      "codename": "challenge_5",
+      "question": "Que tipo de animal é a iguana?",
+      "score": 1,
+      "image": "files/OF1mT_006vPkw1jCOGxDT.jpg",
+      "difficulty": 1,
+      "updatedAt": null,
+      "gameLevelsChallenges": [
+        {
+          "GameLevelId": 1,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Lobby"
+          }
+        },
+        {
+          "GameLevelId": 2,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 1"
+          }
+        },
+        {
+          "GameLevelId": 3,
+          "updatedAt": null,
+          "gameLevel": {
+            "Name": "Bosque-Estación 2"
+          }
         }
-      },
-      {
-        "GameLevelId": 2,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 1"
+      ],
+      "options": [
+        {
+          "ChallengeOptionId": 17,
+          "codename": "option_5A",
+          "correctOption": false,
+          "text": "Carnívora",
+          "image": "files/kzDAmlo9q8hkCKmaSVNPw.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 18,
+          "codename": "option_5B",
+          "correctOption": true,
+          "text": "Herbívora",
+          "image": "files/WjIrUGyTYdkTwBM9UUe8-.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 19,
+          "codename": "option_5C",
+          "correctOption": false,
+          "text": "Omnívora",
+          "image": "files/qCx1XFSasXJoXIjwdvUiE.png",
+          "updatedAt": null
+        },
+        {
+          "ChallengeOptionId": 20,
+          "codename": "option_5D",
+          "correctOption": false,
+          "text": "Ninguna de las anteriores",
+          "image": "files/F8EQh7K79hhs--6m8SUsl.png",
+          "updatedAt": null
         }
-      },
-      {
-        "GameLevelId": 3,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 2"
-        }
+      ],
+      "feedback": {
+        "ChallengeFeedbackId": 5,
+        "feedback": "A iguana é herbívora e, como tal, quase metade de sua dieta consiste em vegetais. Frutas também fazem parte de sua dieta.",
+        "image": null,
+        "updatedAt": null
       }
-    ],
-    "options": [
-      {
-        "ChallengeOptionId": 17,
-        "codename": "option_5A",
-        "correctOption": false,
-        "text": "Carnívora",
-        "image": "files/kzDAmlo9q8hkCKmaSVNPw.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 18,
-        "codename": "option_5B",
-        "correctOption": true,
-        "text": "Herbívora",
-        "image": "files/WjIrUGyTYdkTwBM9UUe8-.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 19,
-        "codename": "option_5C",
-        "correctOption": false,
-        "text": "Omnívora",
-        "image": "files/qCx1XFSasXJoXIjwdvUiE.png",
-        "updatedAt": null
-      },
-      {
-        "ChallengeOptionId": 20,
-        "codename": "option_5D",
-        "correctOption": false,
-        "text": "Ninguna de las anteriores",
-        "image": "files/F8EQh7K79hhs--6m8SUsl.png",
-        "updatedAt": null
-      }
-    ],
-    "feedback": {
-      "ChallengeFeedbackId": 5,
-      "feedback": "La iguana es herbivora y como tal casi la mitad de su alimentacion se basa en verduras. La fruta tambien forma parte de su dieta.",
-      "image": null,
-      "updatedAt": null
-    }
-  },
+    },
   {
     "ChallengeID": 6,
     "codename": "challenge_6",

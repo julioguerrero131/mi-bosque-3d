@@ -576,6 +576,8 @@ public class LogrosGlobales : MonoBehaviour
         //logros.Add(Logro);
         //Debug.Log(Logro.descripcion);
         Debug.Log(logros.Count);
+
+        RecargarTextos(PlayerPrefs.GetString("idioma"));
     }
 
     // Update is called once per frame
@@ -880,5 +882,69 @@ public class LogrosGlobales : MonoBehaviour
         misionesLista.SetActive(true);
     }
 
+    private void OnEnable()
+    {
+        LanguageEvents.OnLanguageChanged += RecargarTextos;
+    }
+
+    private void OnDisable()
+    {
+        LanguageEvents.OnLanguageChanged -= RecargarTextos;
+    }
+
+    private void RecargarTextos(string idioma)
+    {
+        Debug.Log("♻️ Actualizando textos de misiones y logros al idioma: " + idioma);
+
+        // Actualizar nombres y descripciones de misiones
+        if (misiones.Count >= 8) // asumimos 8 misiones como en Start()
+        {
+            misiones[0].nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_0_nombre");
+            misiones[0].descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_0_descripcion");
+            misiones[1].nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_1_nombre");
+            misiones[1].descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_1_descripcion");
+            misiones[2].nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_2_nombre");
+            misiones[2].descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_2_descripcion");
+            misiones[3].nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_3_nombre");
+            misiones[3].descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_3_descripcion");
+            misiones[4].nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_4_nombre");
+            misiones[4].descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_4_descripcion");
+            misiones[5].nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_5_nombre");
+            misiones[5].descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_5_descripcion");
+            misiones[6].nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_6_nombre");
+            misiones[6].descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_6_descripcion");
+            misiones[7].nombre = LanguageManager.Instancia.ObtenerTexto("misiones.mision_7_nombre");
+            misiones[7].descripcion = LanguageManager.Instancia.ObtenerTexto("misiones.mision_7_descripcion");
+        }
+
+        // Actualizar nombres y descripciones de logros
+        if (logros.Count >= 10) // asumimos 10 logros como en Start()
+        {
+            logros[0].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_0_nombre");
+            logros[0].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_0_descripcion");
+            logros[1].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_1_nombre");
+            logros[1].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_1_descripcion");
+            logros[2].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_2_nombre");
+            logros[2].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_2_descripcion");
+            logros[3].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_3_nombre");
+            logros[3].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_3_descripcion");
+            logros[4].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_4_nombre");
+            logros[4].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_4_descripcion");
+            logros[5].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_5_nombre");
+            logros[5].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_5_descripcion");
+            logros[6].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_6_nombre");
+            logros[6].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_6_descripcion");
+            logros[7].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_7_nombre");
+            logros[7].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_7_descripcion");
+            logros[8].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_8_nombre");
+            logros[8].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_8_descripcion");
+            logros[9].nombre = LanguageManager.Instancia.ObtenerTexto("logros.logro_9_nombre");
+            logros[9].descripcion = LanguageManager.Instancia.ObtenerTexto("logros.logro_9_descripcion");
+        }
+
+        // Actualizar UI si los paneles están abiertos
+        //abrirMisiones();
+        //abrirMedallas();
+    }
 
 }
