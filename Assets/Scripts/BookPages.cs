@@ -10,6 +10,7 @@ public class BookPages : MonoBehaviour
     public static BookPages instance;
     public Texture[] imagenes;
     public string[] nombres;
+    public string[] nombresView;
     public bool[] isDiscovered;
 
     public bool[] isLoaded; //Variable para comprobar que esten cargados pero no descubiertos
@@ -51,21 +52,21 @@ public class BookPages : MonoBehaviour
         imagenes = new Texture[elementos];
         descripciones = new string[elementos];
 
-        nombres = new string[9] {"Ceibo","Bototillo","Pechiche","Guasmo","Fernan Sánchez",
-            "Iguana","Ardilla de Guayaquil","Pinzón Sabanero",
-            "Tangara Azul y Gris"};
+        //nombres = new string[9] {"Ceibo","Bototillo","Pechiche","Guasmo","Fernan Sánchez",
+        //    "Iguana","Ardilla de Guayaquil","Pinzón Sabanero",
+        //    "Tangara Azul y Gris"};
 
-        nombresLatin = new string[9] { "Erythrina Cristagalli", "Cochlospermum vitifolium", "Vitex cymosa", "Guazuma ulmifolia", "Triplaris cumingiana",
-            "Iguana iguana", "Sciurus stramineus", "Sicalis flaveola",
-            "Thraupis episcopus" };
+        //nombresLatin = new string[9] { "Erythrina Cristagalli", "Cochlospermum vitifolium", "Vitex cymosa", "Guazuma ulmifolia", "Triplaris cumingiana",
+        //    "Iguana iguana", "Sciurus stramineus", "Sicalis flaveola",
+        //    "Thraupis episcopus" };
 
-        familias = new string[9] { "Faboideae", "Bixaceae", "Lamiaceae", "Malvaceae", "Polygonaceae",
-            "Iguanidae", "Sciuridae", "Emberizidae", 
-            "Thraupidae" };
+        //familias = new string[9] { "Faboideae", "Bixaceae", "Lamiaceae", "Malvaceae", "Polygonaceae",
+        //    "Iguanidae", "Sciuridae", "Emberizidae", 
+        //    "Thraupidae" };
 
-        otrosHabitats = new string[9] {"Argentina, Bolivia, Brasil", "México", "Panamá, Antillas, Venezuela", "México", "Colombia",
-            "Centroamérica, Caribe", "Cordillera de los Andes", "Argentina, Brasil, Panamá",
-            "Costa Rica, Panamá, Perú" };
+        //otrosHabitats = new string[9] {"Argentina, Bolivia, Brasil", "México", "Panamá, Antillas, Venezuela", "México", "Colombia",
+        //    "Centroamérica, Caribe", "Cordillera de los Andes", "Argentina, Brasil, Panamá",
+        //    "Costa Rica, Panamá, Perú" };
         isDiscovered = new bool[elementos];
         isDiscovered = (bool[]) GameManager.instance.playerData.isDiscovered.Clone();
         setearInfo();
@@ -81,19 +82,28 @@ public class BookPages : MonoBehaviour
         int elementos = GameManager.instance.test.species.Count;
         int contador = 0;
         nombres = new string[elementos];
+        nombresView = new string[elementos];
         nombresLatin = new string[elementos];
         familias = new string[elementos];
         otrosHabitats = new string[elementos];
+
+        Debug.Log("setearInfo species");
         foreach (SpecieObject specie in GameManager.instance.test.species)
         {
-            Debug.Log("specie...nombre:" + specie.Name + " family:" + specie.Family + " id:" + specie.Gallery[0].Id + " description:" + specie.Gallery[0].Description);
+            Debug.Log("specie Name:" + specie.Name);
+            Debug.Log("specie NameView:" + specie.NameView);
+            Debug.Log("specie Family:" + specie.Family);
+            Debug.Log("specie Id:" + specie.Gallery[0].Id);
+            Debug.Log("specie Description:" + specie.Gallery[0].Description);
             nombres[contador]= specie.Name;
+            nombresView[contador]= specie.NameView;
             familias[contador] = specie.Family;
-            Debug.Log(specie.Gallery[0].Id);
+            //Debug.Log(specie.Gallery[0].Id);
             nombresLatin[contador] = specie.Gallery[0].Description;
-            Debug.Log(specie.Gallery[0].Description);
+            //Debug.Log(specie.Gallery[0].Description);
             try{
-                Debug.Log(specie.Gallery[1].Description);
+                Debug.Log("specie otrosHabitats:" + specie.Gallery[1].Description);
+                //Debug.Log(specie.Gallery[1].Description);
                 otrosHabitats[contador] = specie.Gallery[1].Description;
             }
             catch(Exception e)
@@ -105,6 +115,14 @@ public class BookPages : MonoBehaviour
             descripciones[contador] = specie.Gallery[0].Description;
             contador++;
         }
+
+        Debug.Log("cantidad especies: "+ elementos);
+        Debug.Log("nombres especies:");
+        for (int i = 0; i<nombres.Length; i++)
+        {
+            Debug.Log("book especies[" + i + "]:" + nombres[i]);
+        }
+
         /*for (int i = 0; i < nombres.Length; i++)
         {
             foreach (SpecieObject specie in GameManager.instance.test.species)
@@ -135,6 +153,8 @@ public class BookPages : MonoBehaviour
         for (int indice = 0; indice < nombres.Length; indice++)
         {
             isLoaded[indice] = true;
+            Debug.Log("reg especie: " + especie);
+            Debug.Log("reg nombres[indice]: " + nombres[indice]);
             if (nombres[indice].Equals(especie))
             {
                 isDiscovered[indice] = true;
@@ -177,7 +197,7 @@ public class BookPages : MonoBehaviour
         int der = izq + 1;
 
         //leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[izq];
-        leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[izq];
+        leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombresView[izq];
         //StartCoroutine(CargarInfo(nombres[izq], izq));
         Debug.Log("CARGANDO PAGINA");
         Debug.Log("size="+ isDiscovered.Length);
@@ -224,7 +244,7 @@ public class BookPages : MonoBehaviour
         if (der < nombres.Length)
         {
             //rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[der];
-            rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[der];
+            rightPage.transform.Find("Nombre").GetComponent<Text>().text = nombresView[der];
             if (isDiscovered[der])
             {
                 //StartCoroutine(CargarInfo(nombres[der], der));

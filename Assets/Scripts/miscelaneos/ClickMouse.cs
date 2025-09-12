@@ -106,6 +106,8 @@ public class ClickMouse : MonoBehaviour
         string estacion = gameObject.transform.parent.parent.parent.gameObject.GetComponent<Estacion>().ID.ToString();
         //OBTENER ESTACION ACTUAL AQUI
         BookPages.instance.registrarEspecie(specieName, estacion);
+        Debug.Log("Registrar Especie: " + specieName);
+        Debug.Log("Estacion: " + estacion);
         //Tambien se deberia agregar la estacion
 
     }
