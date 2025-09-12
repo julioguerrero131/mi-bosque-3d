@@ -14,23 +14,26 @@ public class FinalManager : MonoBehaviour
     public AudioSource audioClap;
     public Canvas canvas;
     public Transform target;
-    public int currentSpeed = 3;
-    public GameObject miniCertificado;
 
+    // Velocidades y control
+    public int currentSpeed = 6;                 // velocidad de la cámara
+    public float diplomaScaleTarget = 0.5f;      // tamaño final del diploma
+    public float diplomaScaleSpeed = 3f;         // rapidez del escalado
+    public float pauseBeforeCredits = 1.0f;      // pausa antes de créditos
+
+    public GameObject miniCertificado;
     public Text playerName;
     public PlayerData playerData;
-
     public GameObject diploma;
+
     bool onDiplome = true;
-    int segundos = 0;
-
-    
     GameObject background;
-    float ending = 0.0f;
-
     public GameObject credits;
-    
-    
+
+    // Flags de control
+    private bool fadingToCredits = false;
+    private bool creditsLaunched = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,75 +45,76 @@ public class FinalManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time > 2 )
+        if (Time.time > 2)
         {
             cameraAutoMove();
             statePolo();
         }
 
-        if(onDiplome)
+        if (onDiplome)
         {
             activeDiplome();
         }
 
-        if(segundos == 9)
+        if (fadingToCredits)
         {
-            onDiplome = false;
             transitionToCredits();
         }
-             
     }
 
     void cameraAutoMove()
     {
-        //genera el vector entre la posicion de la camera y la posicion objetivo
-        Vector3 nextPos = Vector3.MoveTowards(camera.transform.position, target.position, currentSpeed*Time.deltaTime);
-        // mueve la camera
+        Vector3 nextPos = Vector3.MoveTowards(camera.transform.position, target.position, currentSpeed * Time.deltaTime);
         camera.GetComponent<Rigidbody>().MovePosition(nextPos);
     }
 
     void statePolo()
     {
-        //cuando el audio de aplausos se detiene entra al if
-        if(!audioClap.GetComponent<AudioSource>().isPlaying)
+        if (!audioClap.GetComponent<AudioSource>().isPlaying)
         {
-            //cambia la animacion de polo a descanso
-            polo.GetComponent<Animator>().SetInteger("state",1);
+            polo.GetComponent<Animator>().SetInteger("state", 1);
         }
     }
 
     void activeDiplome()
     {
-        // evalua si la camara esta en la posicion requerida para activar el dilpoma
-        if(camera.transform.position.z <= target.position.z)
+        if (camera.transform.position.z <= target.position.z)
         {
-            //desactivamos el mini cetificado
             miniCertificado.SetActive(false);
-
-            // activamos el diploma
             diploma.SetActive(true);
-            
-                        
-            // aumento de la scale con el paso del tiempo
-             RectTransform rt = diploma.GetComponent<RectTransform>();
-             rt.localScale = Vector3.Lerp (rt.localScale, new Vector3(0.5f, 0.5f, 0.5f), 1.5f * Time.deltaTime);
 
-             ending += Time.deltaTime;
-             segundos = (int)ending % 60;            
-        }        
+            RectTransform rt = diploma.GetComponent<RectTransform>();
+            Vector3 targetScale = Vector3.one * diplomaScaleTarget;
+            rt.localScale = Vector3.Lerp(rt.localScale, targetScale, diplomaScaleSpeed * Time.deltaTime);
 
+            if (Vector3.Distance(rt.localScale, targetScale) < 0.01f)
+            {
+                onDiplome = false;
+
+                if (!creditsLaunched)
+                {
+                    creditsLaunched = true;
+                    StartCoroutine(StartCreditsAfter(pauseBeforeCredits));
+                }
+            }
+        }
+    }
+
+    IEnumerator StartCreditsAfter(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        fadingToCredits = true;
     }
 
     void transitionToCredits()
     {
-        //silenciamos la musica
         audioClap.GetComponent<AudioSource>().Stop();
-        
+
         Color colorDiplome = diploma.GetComponent<Image>().color;
         colorDiplome.a = Mathf.Lerp(colorDiplome.a, 0.0f, 2 * Time.deltaTime);
         diploma.GetComponent<Image>().color = colorDiplome;
 
-        if(colorDiplome.a < 0.5f)
+        if (colorDiplome.a < 0.5f)
         {
             diploma.transform.GetChild(0).gameObject.SetActive(false);
         }
@@ -118,21 +122,20 @@ public class FinalManager : MonoBehaviour
         background.SetActive(true);
         Color colorBackground = background.GetComponent<Image>().color;
         colorBackground.a = Mathf.Lerp(colorBackground.a, 1.0f, 2 * Time.deltaTime);
-
         background.GetComponent<Image>().color = colorBackground;
 
-        if(colorBackground.a > 0.99)
+        if (colorBackground.a > 0.99f)
         {
             offElements();
             credits.SetActive(true);
             playCredits();
+            fadingToCredits = false; // evitar que siga llamando
         }
-        
     }
 
     void playCredits()
     {
-        credits.GetComponent<Animator>().Play("Base Layer.Credits",0,0);
+        credits.GetComponent<Animator>().Play("Base Layer.Credits", 0, 0);
     }
 
     void offElements()
@@ -144,11 +147,9 @@ public class FinalManager : MonoBehaviour
         polo.SetActive(false);
     }
 
-
     void loadData()
     {
         playerData = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>().playerData;
         playerName.text = playerData.nombre;
     }
-
 }
