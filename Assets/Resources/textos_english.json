@@ -108,7 +108,8 @@
     "dialogo_10": "Very good jump! You did great.",
     "dialogo_11": "We have finished the instructions.",
     "dialogo_12": "Now you can start your adventure.",
-    "son": "\nthere are "
+    "son": "\nthere are ",
+    "vamos": "COME ON!"
   },
   "lobby": {
     "bruno": {
