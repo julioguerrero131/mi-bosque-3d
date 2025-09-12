@@ -597,6 +597,11 @@ public class LanguageManager : MonoBehaviour
             textos["carteles_bosque.aire_fresco"] = cb.aire_fresco;
             textos["carteles_bosque.hojarasca"] = cb.hojarasca;
             textos["carteles_bosque.basura"] = cb.basura;
+
+            textos["carteles_bosque.lago"] = cb.lago;
+            textos["carteles_bosque.pozo"] = cb.pozo;
+            textos["carteles_bosque.invernadero"] = cb.invernadero;
+            textos["carteles_bosque.mirador"] = cb.mirador;
         }
 
         if (datos.logros != null)
@@ -1283,6 +1288,11 @@ public class LanguageManager : MonoBehaviour
         public string aire_fresco;
         public string hojarasca;
         public string basura;
+
+        public string lago;
+        public string pozo;
+        public string invernadero;
+        public string mirador;
     }
 
     // Logros

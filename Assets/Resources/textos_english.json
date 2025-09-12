@@ -379,7 +379,11 @@
     "antes_nivel_4": "AVOID MAKING FIRE, PROTECT THE FOREST!",
     "aire_fresco": "The fresh air you breathe comes from the trees. Thanks, trees!",
     "hojarasca": "Look at the ground! The leaf litter is very important for the life of the forest. Don't step on it carelessly!",
-    "basura": "Oh no! Look at how much trash is here. This lake is home to many fish, frogs, and other aquatic animals. When trash gets into the water, they get sick and can't live well! This river is the heart of the forest! Keeping it clean helps everyone."
+    "basura": "Oh no! Look at how much trash is here. This lake is home to many fish, frogs, and other aquatic animals. When trash gets into the water, they get sick and can't live well! This river is the heart of the forest! Keeping it clean helps everyone.",
+    "lago": "Lake",
+    "pozo": "Well",
+    "invernadero": "Greenhouse",
+    "mirador": "Viewpoint"
   },
   "logros": {
     "info_medalla": "Obtain: ",

@@ -433,7 +433,12 @@
 
     "aire_fresco": "El aire fresco que respiras viene de los árboles. ¡Gracias árboles!",
     "hojarasca": "¡Mira el suelo! La hojarasca es muy importante para la vida del bosque, ¡No la pises sin cuidado!",
-    "basura": "¡Oh no! Mira cuánta basura hay aquí. Este lago es la casa de muchos peces, ranas y otros animales acuáticos. Cuando la basura llega al agua, ¡ellos se enferman y no pueden vivir bien! ¡Este río es el corazón del bosque! Mantenlo limpio ayuda a todos."
+    "basura": "¡Oh no! Mira cuánta basura hay aquí. Este lago es la casa de muchos peces, ranas y otros animales acuáticos. Cuando la basura llega al agua, ¡ellos se enferman y no pueden vivir bien! ¡Este río es el corazón del bosque! Mantenlo limpio ayuda a todos.",
+
+    "lago": "Lago",
+    "pozo": "Pozo",
+    "invernadero": "Invernadero",
+    "mirador": "Mirador"
   },
   "logros": {
     "info_medalla": "Obtenida: ",

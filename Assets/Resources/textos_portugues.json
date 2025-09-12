@@ -379,7 +379,11 @@
     "antes_nivel_4": "EVITE FAZER FOGO, PROTEJA A FLORESTA!",
     "aire_fresco": "O ar fresco que você respira vem das árvores. Obrigado, árvores!",
     "hojarasca": "Olhe para o chão! A serapilheira é muito importante para a vida da floresta. Não pise nela sem cuidado!",
-    "basura": "Ah não! Olhe quanta sujeira tem aqui. Este lago é a casa de muitos peixes, sapos e outros animais aquáticos. Quando a sujeira chega à água, eles ficam doentes e não conseguem viver bem! Este rio é o coração da floresta! Mantê-lo limpo ajuda a todos."
+    "basura": "Ah não! Olhe quanta sujeira tem aqui. Este lago é a casa de muitos peixes, sapos e outros animais aquáticos. Quando a sujeira chega à água, eles ficam doentes e não conseguem viver bem! Este rio é o coração da floresta! Mantê-lo limpo ajuda a todos.",
+    "lago": "Lago",
+    "pozo": "Poço",
+    "invernadero": "Estufa",
+    "mirador": "Mirante"
   },
   "logros": {
     "info_medalla": "Obtido: ",
