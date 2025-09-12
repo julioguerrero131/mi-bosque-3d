@@ -306,6 +306,8 @@ public class ShowMochila : MonoBehaviour
         //Dictionary<int, bool> preguntasPlayer = profile.player.playerData.getPreguntasDict();
         Dictionary<int, bool> preguntasPlayer = GameManager.instance.playerData.getPreguntasDict();
 
+        string nodesb = LanguageManager.Instancia.ObtenerTexto("menu_inventario.no_desbloq");
+
         foreach (PreguntaObject question in objectList.preguntas)
         {
             GameObject pregunta = Instantiate(Pregunta, new Vector3(0, 0, 0), Quaternion.identity);
@@ -359,7 +361,8 @@ public class ShowMochila : MonoBehaviour
             }
             else
             {
-                pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "- Pregunta no desbloqueada -";
+                //pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "- Pregunta no desbloqueada -";
+                pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = nodesb;
                 questionsDict.Add(question.ChallengeID, (question, pregunta, "block"));
             }
 
@@ -390,6 +393,8 @@ public class ShowMochila : MonoBehaviour
 
     public void MostrarInfoPreguntas(int id)
     {
+        string resp = LanguageManager.Instancia.ObtenerTexto("menu_inventario.respuesta");
+        string est = LanguageManager.Instancia.ObtenerTexto("menu_inventario.estaciones");
 
         (PreguntaObject, GameObject, string) tuplaQueestion = questionsDict[id];
         if (tuplaQueestion.Item3 != "block")
@@ -407,9 +412,9 @@ public class ShowMochila : MonoBehaviour
                     correcta = opt;
                 }
             }
-            PreguntaRespuesta.GetComponent<UnityEngine.UI.Text>().text = "Respuesta: " + correcta.text + "\n\n" + question.feedback.feedback;
+            PreguntaRespuesta.GetComponent<UnityEngine.UI.Text>().text = resp + correcta.text + "\n\n" + question.feedback.feedback;
             //PreguntaRespuesta.GetComponent<UnityEngine.UI.Text>().text = "Respuesta: " + question.Options[question.Answer] + "\n\n" + question.feedback.feedback;
-            PreguntaStacion.GetComponent<UnityEngine.UI.Text>().text = "Estaciones: ";
+            PreguntaStacion.GetComponent<UnityEngine.UI.Text>().text = est;
 
             List<int> estacionesDePreg = new List<int>();
             foreach (GameLevelsChallenges gl in question.gameLevelsChallenges)

@@ -111,8 +111,13 @@ public class LanguageManager : MonoBehaviour
         {
             textos["menu_inventario.perfil"] = datos.menu_inventario.perfil;
             textos["menu_inventario.misiones"] = datos.menu_inventario.misiones;
+            textos["menu_inventario.descripcion_misiones"] = datos.menu_inventario.descripcion_misiones;
             textos["menu_inventario.desafios"] = datos.menu_inventario.desafios;
             textos["menu_inventario.logros"] = datos.menu_inventario.logros;
+            textos["menu_inventario.preguntas"] = datos.menu_inventario.preguntas;
+            textos["menu_inventario.no_desbloq"] = datos.menu_inventario.no_desbloq;
+            textos["menu_inventario.respuesta"] = datos.menu_inventario.respuesta;
+            textos["menu_inventario.estaciones"] = datos.menu_inventario.estaciones;
         }
 
         if (datos.menu_mochila != null)
@@ -767,8 +772,13 @@ public class LanguageManager : MonoBehaviour
     {
         public string desafios;
         public string misiones;
+        public string descripcion_misiones;
         public string logros;
         public string perfil;
+        public string preguntas;
+        public string no_desbloq;
+        public string respuesta;
+        public string estaciones;
     }
 
     // Menu Mochila

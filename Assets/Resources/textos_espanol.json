@@ -21,8 +21,13 @@
   "menu_inventario": {
     "perfil": "Perfil",
     "misiones": "Misiones",
+    "descripcion_misiones": "¡Completa las misiones para volverte un guardabosque virtual!",
     "logros": "Logros",
-    "desafios": "Desafíos"
+    "desafios": "Desafíos",
+    "preguntas": "Preguntas",
+    "no_desbloq": "- Pregunta no desbloqueada -",
+    "respuesta": "Respuesta: ",
+    "estaciones": "Estaciones: "
   },
   "menu_mochila": {
     "semillas": "Semillas",

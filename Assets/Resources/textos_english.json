@@ -21,8 +21,13 @@
   "menu_inventario": {
     "perfil": "Profile",
     "misiones": "Mission",
+    "descripcion_misiones": "Complete the missions to become a virtual ranger!",
     "logros": "Achieve",
-    "desafios": "Challenge"
+    "desafios": "Challenge",
+    "preguntas": "Questions",
+    "no_desbloq": "- Question not unlocked -",
+    "respuesta": "Answer: ",
+    "estaciones": "Stations: "
   },
   "menu_mochila": {
     "semillas": "Seeds",
