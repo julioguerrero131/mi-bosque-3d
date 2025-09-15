@@ -4,14 +4,14 @@
       "specieId": "5dd842b34cb1654f42548571",
       "id": 1,
       "name": "Pinzón Sabanero",
-      "nameView": "Pinzón Ingles",
+      "nameView": "Savannah Sparrow",
       "family": "THRAUPIDAE",
       "video": "Videos/PINZON_SABANERO.mp4",
       "gallery": [
         {
           "mongoId": "5dd8431a4a39665044fb91cb",
           "id": 1,
-          "description": " Miden 14 cm. Se alimentan de granos y semillas que encuentran en el suelo. Construyen nidos en árboles aislados.",
+          "description": "They measure 14 cm. They feed on grains and seeds they find on the ground. They build nests in isolated trees.",
           "audioname": "Pinzón Sabanero_audio_descripcion_0",
           "imagename": "Pinzón Sabanero_image_0"
         }
@@ -21,28 +21,28 @@
       "specieId": "5dd85226f65fd767fe2aff02",
       "id": 4,
       "name": "Iguana",
-      "nameView": "Iguana Inglesa",
+      "nameView": "Iguana",
       "family": "Iguana",
       "video": "Videos/IGUANA.mp4",
       "gallery": [
         {
           "mongoId": "5dd85b1fbaf3fe76a27f1fe2",
           "id": 45,
-          "description": "Inglés: Su nombre científico es Iguana iguana.",
+          "description": "Its scientific name is Iguana iguana.",
           "audioname": "Iguana_audio_descripcion_0",
           "imagename": "Iguana_image_0"
         },
         {
           "mongoId": "5dd85b1fbaf3fe76a27f1fe3",
           "id": 44,
-          "description": "Son herbívoros y habitan en selvas tropicales y manglares.",
+          "description": "They are herbivores and inhabit tropical jungles and mangroves.",
           "audioname": "Iguana_audio_descripcion_0",
           "imagename": "Iguana_image_0"
         },
         {
           "mongoId": "5dd85b1fbaf3fe76a27f1fe4",
           "id": 45,
-          "description": "A pesar de su tamaño, pueden moverse velozmente entre las plantas y son excelentes trepadoras.",
+          "description": "Despite their size, they can move swiftly among plants and are excellent climbers.",
           "audioname": "Iguana_audio_descripcion_1",
           "imagename": "Iguana_image_1"
         }
@@ -52,27 +52,27 @@
       "specieId": "5dd85298fe5e8c68f7294bcf",
       "id": 5,
       "name": "Teca",
-      "nameView": "Teca Ingles",
+      "nameView": "Teak",
       "family": "Verbenaceae",
       "gallery": [
         {
           "mongoId": "5dd852c1fe5e8c68f7294bd0",
           "id": 7,
-          "description": "Es un árbol frondoso, se usa para la fabricación de muebles y embarcaciones lujosas.",
+          "description": "It is a leafy tree, used for the manufacture of furniture and luxurious boats.",
           "audioname": "Teca_audio_descripcion_0",
           "imagename": "Teca_image_0"
         },
         {
           "mongoId": "5dd852c1fe5e8c68f7294bd1",
           "id": 8,
-          "description": "Es un árbol frondoso, se usa para la fabricación de muebles y embarcaciones lujosas.",
+          "description": "It is a leafy tree, used for the manufacture of furniture and luxurious boats.",
           "audioname": "Teca_audio_descripcion_1",
           "imagename": "Teca_image_1"
         },
         {
           "mongoId": "5dd852c1fe5e8c68f7294bd2",
           "id": 9,
-          "description": "Es un árbol frondoso, se usa para la fabricación de muebles y embarcaciones lujosas.",
+          "description": "It is a leafy tree, used for the manufacture of furniture and luxurious boats.",
           "audioname": "Teca_audio_descripcion_2",
           "imagename": "Teca_image_2"
         }
@@ -82,27 +82,27 @@
       "specieId": "5dd855515093256da22b1c33",
       "id": 9,
       "name": "Bototillo",
-      "nameView": "Bototillo Ingles",
+      "nameView": "Bototillo",
       "family": "Bixaceae",
       "gallery": [
         {
           "mongoId": "5dd855795093256da22b1c34",
           "id": 18,
-          "description": "La floración del árbol Bototillo es de un amarillo intenso, dura de 3 a 4 semanas.",
+          "description": "The flowering of the Bototillo tree is an intense yellow, lasting 3 to 4 weeks.",
           "audioname": "Bototillo_audio_descripcion_0",
           "imagename": "Bototillo_image_0"
         },
         {
           "mongoId": "5dd855795093256da22b1c35",
           "id": 19,
-          "description": "La floración del árbol Bototillo es de un amarillo intenso, dura de 3 a 4 semanas.",
+          "description": "The flowering of the Bototillo tree is an intense yellow, lasting 3 to 4 weeks.",
           "audioname": "Bototillo_audio_descripcion_1",
           "imagename": "Bototillo_image_1"
         },
         {
           "mongoId": "5dd855795093256da22b1c36",
           "id": 20,
-          "description": "La floración del árbol Bototillo es de un amarillo intenso, dura de 3 a 4 semanas.",
+          "description": "The flowering of the Bototillo tree is an intense yellow, lasting 3 to 4 weeks.",
           "audioname": "Bototillo_audio_descripcion_2",
           "imagename": "Bototillo_image_2"
         }
@@ -112,27 +112,27 @@
       "specieId": "5dd855a15093256da22b1c37",
       "id": 10,
       "name": "Pechiche",
-      "nameView": "Pechiche Ingles",
+      "nameView": "Pechiche",
       "family": "Vitex cymosa",
       "gallery": [
         {
           "mongoId": "5dd8562644b5b86ed73021f9",
           "id": 21,
-          "description": "Su nombre científico es Vitex Gigantea Kunth es un árbol que llega a medir 20 m. de alto.",
+          "description": "Its scientific name is Vitex Gigantea Kunth, it is a tree that can reach 20 m in height.",
           "audioname": "Pechiche_audio_descripcion_0",
           "imagename": "Pechiche_image_0"
         },
         {
           "mongoId": "5dd8562644b5b86ed73021fa",
           "id": 22,
-          "description": "Su nombre científico es Vitex Gigantea Kunth es un árbol que llega a medir 20 m. de alto.",
+          "description": "Its scientific name is Vitex Gigantea Kunth, it is a tree that can reach 20 m in height.",
           "audioname": "Pechiche_audio_descripcion_1",
           "imagename": "Pechiche_image_1"
         },
         {
           "mongoId": "5dd8562644b5b86ed73021fb",
           "id": 23,
-          "description": "Su nombre científico es Vitex Gigantea Kunth es un árbol que llega a medir 20 m. de alto.",
+          "description": "Its scientific name is Vitex Gigantea Kunth, it is a tree that can reach 20 m in height.",
           "audioname": "Pechiche_audio_descripcion_2",
           "imagename": "Pechiche_image_2"
         }
@@ -142,14 +142,14 @@
       "specieId": "5dd8565344b5b86ed73021fc",
       "id": 11,
       "name": "Tangara Azul y Gris",
-      "nameView": "Tangara Azul y Ingles",
+      "nameView": "Blue and Gray Tanager",
       "family": "THRAUPIDAE",
       "video": "Videos/TANGARA_AZUL.mp4",
       "gallery": [
         {
           "mongoId": "5dd8566444b5b86ed73021fd",
           "id": 24,
-          "description": "Esta hermosa ave que se alimenta principalmente de frutos lleva el nombre Tangara Azuleja por el color de su plumaje.",
+          "description": "This beautiful bird, which feeds mainly on fruits, is named the Blue-Gray Tanager due to the color of its plumage.",
           "audioname": "Tangara Azul y Gris_audio_descripcion_0",
           "imagename": "Tangara Azul y Gris_image_0"
         }
@@ -159,27 +159,27 @@
       "specieId": "5dd857f681dade71c84852c5",
       "id": 13,
       "name": "Guasmo",
-      "nameView": "Guasmo Ingles",
+      "nameView": "Guasmo",
       "family": "Malvaceae",
       "gallery": [
         {
           "mongoId": "5dd85bd0171a027783efa942",
           "id": 46,
-          "description": "Es un árbol de porte bajo con hojas simples y produce flores pequeñas. ",
+          "description": "It is a low-stature tree with simple leaves and produces small flowers.",
           "audioname": "Guasmo_audio_descripcion_0",
           "imagename": "Guasmo_image_0"
         },
         {
           "mongoId": "5dd85bd0171a027783efa943",
           "id": 47,
-          "description": "Es un árbol de porte bajo con hojas simples y produce flores pequeñas. ",
+          "description": "It is a low-stature tree with simple leaves and produces small flowers.",
           "audioname": "Guasmo_audio_descripcion_1",
           "imagename": "Guasmo_image_1"
         },
         {
           "mongoId": "5dd85bd0171a027783efa944",
           "id": 48,
-          "description": "Es un árbol de porte bajo con hojas simples y produce flores pequeñas. ",
+          "description": "It is a low-stature tree with simple leaves and produces small flowers.",
           "audioname": "Guasmo_audio_descripcion_2",
           "imagename": "Guasmo_image_2"
         }
@@ -189,27 +189,27 @@
       "specieId": "5dd8583f81dade71c84852c9",
       "id": 14,
       "name": "Fernan Sánchez",
-      "nameView": "Fernan Sánchez Ingles",
+      "nameView": "Fernan Sanchez",
       "family": "Polygonaceae",
       "gallery": [
         {
           "mongoId": "5dd8590671628572e2aad060",
           "id": 31,
-          "description": "Ampliamente distribuido en bosques húmedos, incluyendo llanuras de ríos y bosques secos.",
+          "description": "Widely distributed in humid forests, including river plains and dry forests.",
           "audioname": "Fernan Sánchez_audio_descripcion_0",
           "imagename": "Fernan Sánchez_image_0"
         },
         {
           "mongoId": "5dd8590671628572e2aad061",
           "id": 32,
-          "description": "Ampliamente distribuido en bosques húmedos, incluyendo llanuras de ríos y bosques secos.",
+          "description": "Widely distributed in humid forests, including river plains and dry forests.",
           "audioname": "Fernan Sánchez_audio_descripcion_1",
           "imagename": "Fernan Sánchez_image_1"
         },
         {
           "mongoId": "5dd8590671628572e2aad062",
           "id": 33,
-          "description": "Ampliamente distribuido en bosques húmedos, incluyendo llanuras de ríos y bosques secos.",
+          "description": "Widely distributed in humid forests, including river plains and dry forests.",
           "audioname": "Fernan Sánchez_audio_descripcion_2",
           "imagename": "Fernan Sánchez_image_2"
         }
@@ -219,35 +219,35 @@
       "specieId": "5dd859b66d9512748f729e90",
       "id": 17,
       "name": "Tirano Tropical",
-      "nameView": "Tirano Tropical Ingles",
+      "nameView": "Tropical Kingbird",
       "family": "TYRANNIDAE",
       "video": "Videos/TIRANO_TROPICAL.mp4",
       "gallery": [
         {
           "mongoId": "5dd85c5584573f78b5601112",
           "id": 51,
-          "description": "Su nombre científico es Tyrannus melancholicus.",
+          "description": "Its scientific name is Tyrannus melancholicus.",
           "audioname": "Tirano Tropical_audio_descripcion_0",
           "imagename": "Tirano Tropical_image_0"
         },
         {
           "mongoId": "5dd85c5584573f78b5601113",
           "id": 49,
-          "description": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
+          "description": "It feeds mainly on insects that it captures with its aerial maneuvers, it also consumes fruit.",
           "audioname": "Tirano Tropical_audio_descripcion_0",
           "imagename": "Tirano Tropical_image_0"
         },
         {
           "mongoId": "5dd85c5684573f78b5601114",
           "id": 50,
-          "description": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
+          "description": "It feeds mainly on insects that it captures with its aerial maneuvers, it also consumes fruit.",
           "audioname": "Tirano Tropical_audio_descripcion_1",
           "imagename": "Tirano Tropical_image_1"
         },
         {
           "mongoId": "5dd85c5684573f78b5601115",
           "id": 51,
-          "description": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
+          "description": "It feeds mainly on insects that it captures with its aerial maneuvers, it also consumes fruit.",
           "audioname": "Tirano Tropical_audio_descripcion_2",
           "imagename": "Tirano Tropical_image_2"
         }
@@ -257,27 +257,27 @@
       "specieId": "5dd85a8dc589a4759c90b67a",
       "id": 19,
       "name": "Cabezón Unicolor",
-      "nameView": "Cabezón Unicolor Ingles",
+      "nameView": "Pale-billed Aracari",
       "family": "TITYRIDAE",
       "gallery": [
         {
           "mongoId": "5dd85aaec589a4759c90b67b",
           "id": 41,
-          "description": "A menudo en parejas, regularmente yergue las plumas coronarias para formar una cresta redonda y esponjosa mientras cabecea alertantemente.",
+          "description": "Often in pairs, it regularly erects its crown feathers to form a round, fluffy crest while nodding alertly.",
           "audioname": "Cabezón Unicolor_audio_descripcion_0",
           "imagename": "Cabezón Unicolor_image_0"
         },
         {
           "mongoId": "5dd85aaec589a4759c90b67c",
           "id": 42,
-          "description": "A menudo en parejas, regularmente yergue las plumas coronarias para formar una cresta redonda y esponjosa mientras cabecea alertantemente.",
+          "description": "Often in pairs, it regularly erects its crown feathers to form a round, fluffy crest while nodding alertly.",
           "audioname": "Cabezón Unicolor_audio_descripcion_1",
           "imagename": "Cabezón Unicolor_image_1"
         },
         {
           "mongoId": "5dd85aaec589a4759c90b67d",
           "id": 43,
-          "description": "A menudo en parejas, regularmente yergue las plumas coronarias para formar una cresta redonda y esponjosa mientras cabecea alertantemente.",
+          "description": "Often in pairs, it regularly erects its crown feathers to form a round, fluffy crest while nodding alertly.",
           "audioname": "Cabezón Unicolor_audio_descripcion_2",
           "imagename": "Cabezón Unicolor_image_2"
         }
@@ -287,42 +287,42 @@
       "specieId": "5e04e8da8927aa66a61ecffb",
       "id": 21,
       "name": "Ardilla de Guayaquil",
-      "nameView": "Ardilla Inglesa",
+      "nameView": "Guayaquil Squirrel",
       "family": "SCIURIDAE",
       "video": "Videos/ARDILLA.mp4",
       "gallery": [
         {
           "mongoId": "5e04e9cf898f5067dfced5e1",
           "id": 60,
-          "description": "Su nombre científico es Sciurus stramineus.",
+          "description": "Its scientific name is Sciurus stramineus.",
           "audioname": "Ardilla_audio_descripcion_1",
           "imagename": "Ardilla_image_0"
         },
         {
           "mongoId": "5e04e9cf898f5067dfced5e2",
           "id": 57,
-          "description": "Es una especie de ardilla que mide entre 18 y 22 cm el cuerpo y la cola entre 25 y 33 cm, es de color grisáceo para mimetizarse con el ambiente.",
+          "description": "It is a species of squirrel that measures between 18 and 22 cm in body length and the tail between 25 and 33 cm, it is grayish in color to blend in with the environment.",
           "audioname": "Ardilla_audio_descripcion_1",
           "imagename": "Ardilla_image_0"
         },
         {
           "mongoId": "5e04e9d0898f5067dfced5e3",
           "id": 58,
-          "description": "Es un mamífero roedor,mide entre 35 y 45 cm de longitud de las que casi la mitad pertenece a la cola.",
+          "description": "It is a rodent mammal, measuring between 35 and 45 cm in length, almost half of which is the tail.",
           "audioname": "Ardilla_audio_descripcion_1",
           "imagename": "Ardilla_image_1"
         },
         {
           "mongoId": "5e04e9d0898f5067dfced5e4",
           "id": 59,
-          "description": "Se alimenta de frutos y se refugia en los huecos de los árboles.",
+          "description": "It feeds on fruits and takes refuge in tree hollows.",
           "audioname": "Ardilla_audio_descripcion_1",
           "imagename": "Ardilla_image_2"
         },
         {
           "mongoId": "5e04e9d0898f5067dfced5e5",
           "id": 60,
-          "description": "Se alimenta de frutos y se refugia en los huecos de los árboles.",
+          "description": "It feeds on fruits and takes refuge in tree hollows.",
           "audioname": "Ardilla_audio_descripcion_1",
           "imagename": "Ardilla_image_3"
         }
@@ -332,34 +332,34 @@
       "specieId": "5e13d2f285e66449aa5e73c1",
       "id": 23,
       "name": "Ceibo",
-      "nameView": "Ceibo Ingles",
+      "nameView": "Ceibo",
       "family": "Fabaceae",
       "gallery": [
         {
           "mongoId": "5e13d346137dd54ad63e4b04",
           "id": 62,
-          "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
+          "description": "The ceibo is a native Latin American species, it can grow up to 40 meters tall and live over 100 years.",
           "audioname": "Ceibo_audio_descripcion_0",
           "imagename": "Ceibo_image_0"
         },
         {
           "mongoId": "5e13d346137dd54ad63e4b05",
           "id": 63,
-          "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
+          "description": "The ceibo is a native Latin American species, it can grow up to 40 meters tall and live over 100 years.",
           "audioname": "Ceibo_audio_descripcion_1",
           "imagename": "Ceibo_image_1"
         },
         {
           "mongoId": "5e13d346137dd54ad63e4b06",
           "id": 64,
-          "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
+          "description": "The ceibo is a native Latin American species, it can grow up to 40 meters tall and live over 100 years.",
           "audioname": "Ceibo_audio_descripcion_2",
           "imagename": "Ceibo_image_2"
         },
         {
           "mongoId": "5e13d346137dd54ad63e4b07",
           "id": 65,
-          "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
+          "description": "The ceibo is a native Latin American species, it can grow up to 40 meters tall and live over 100 years.",
           "audioname": "Ceibo_audio_descripcion_3",
           "imagename": "Ceibo_image_3"
         }
@@ -369,27 +369,27 @@
       "specieId": "10000001",
       "id": 29,
       "name": "Jacaranda",
-      "nameView": "Jacaranda Inglesa",
+      "nameView": "Jacaranda",
       "family": "Bignoniaceae",
       "gallery": [
         {
           "mongoId": "20000001",
           "id": 94,
-          "description": "Jacaranda es un árbol subtropical de Sudamérica ampliamente cultivado por sus vistosas y duraderas flores violetas.",
+          "description": "Jacaranda is a subtropical tree from South America widely cultivated for its showy and long-lasting violet flowers.",
           "audioname": "Jacaranda_audio_descripcion_0",
           "imagename": "Jacaranda_image_0"
         },
         {
           "mongoId": "20000002",
           "id": 95,
-          "description": "El árbol adulto alcanza una altura de 12 a 15 metros,5​ hasta 20 metros en condiciones favorables.",
+          "description": "The adult tree reaches a height of 12 to 15 meters, up to 20 meters under favorable conditions.",
           "audioname": "Jacaranda_audio_descripcion_1",
           "imagename": "Jacaranda_image_1"
         },
         {
           "mongoId": "20000003",
           "id": 96,
-          "description": "La copa del jacarandá no tiene una forma uniforme: algunas veces en forma de una sombrilla, algunas veces de forma piramidal, pero nunca densa.",
+          "description": "The crown of the jacaranda does not have a uniform shape: sometimes umbrella-shaped, sometimes pyramidal, but never dense.",
           "audioname": "Jacaranda_audio_descripcion_2",
           "imagename": "Jacaranda_image_2"
         }
@@ -399,27 +399,27 @@
       "specieId": "10000002",
       "id": 97,
       "name": "Guayacán",
-      "nameView": "Guayacán Ingles",
+      "nameView": "Guayacan",
       "family": "Zygophyllaceae",
       "gallery": [
         {
           "mongoId": "20000004",
           "id": 97,
-          "description": "El Guayacan pueden recibir el nombre de palo santo o de palo de hierro debido a su dura madera.",
+          "description": "The Guayacan can be called holy wood or ironwood due to its hard wood.",
           "audioname": "Guayacana_audio_descripcion_0",
           "imagename": "Guayacan_image_0"
         },
         {
           "mongoId": "20000005",
           "id": 98,
-          "description": "Son árboles autóctonos del Caribe y de la costa norte de América del Sur.",
+          "description": "They are trees native to the Caribbean and the northern coast of South America.",
           "audioname": "Guayacan_audio_descripcion_1",
           "imagename": "Guayacan_image_1"
         },
         {
           "mongoId": "20000006",
           "id": 99,
-          "description": "El árbol es de crecimiento lento y de altura relativamente pequeña, incluso cuando es maduro y viejo. Tiene flores pequeñas de color azul violáceo.",
+          "description": "The tree is slow-growing and relatively small in height, even when mature and old. It has small bluish-violet flowers.",
           "audioname": "Guayacan_audio_descripcion_2",
           "imagename": "Guayacan_image_2"
         }
@@ -429,27 +429,27 @@
       "specieId": "10000003",
       "id": 31,
       "name": "Laurel De Judea",
-      "nameView": "Laurel Del Ingles",
+      "nameView": "Laurel of Judea",
       "family": "Apocynaceae",
       "gallery": [
         {
           "mongoId": "20000007",
           "id": 100,
-          "description": "Originariamente se encontraba como planta nativa en una amplia zona que cubría las riberas de la cuenca del mar Mediterráneo hasta China, Vietnam.",
+          "description": "Originally found as a native plant in a wide area covering the banks of the Mediterranean basin to China, Vietnam.",
           "audioname": "LaurelDeJudea_audio_descripcion_0",
           "imagename": "LaurelDeJudea_image_0"
         },
         {
           "mongoId": "20000008",
           "id": 101,
-          "description": "Se ha difundido ampliamente por todas las zonas con clima propicio como planta ornamental.",
+          "description": "It has been widely spread to all areas with a suitable climate as an ornamental plant.",
           "audioname": "LaurelDeJudea_audio_descripcion_1",
           "imagename": "LaurelDeJudea_image_1"
         },
         {
           "mongoId": "20000009",
           "id": 102,
-          "description": "Contiene varios compuestos tóxicos, e históricamente se ha considerado una planta venenosa, su amargura lo hace desagradable para los humanos y la mayoría de los animales.",
+          "description": "It contains several toxic compounds, and historically it has been considered a poisonous plant, its bitterness makes it unpleasant for humans and most animals.",
           "audioname": "LaurelDeJudea_audio_descripcion_2",
           "imagename": "LaurelDeJudea_image_2"
         }
@@ -459,34 +459,34 @@
       "specieId": "10000004",
       "id": 32,
       "name": "Oso Perezoso",
-      "nameView": "Oso Ingles",
+      "nameView": "Sloth Bear",
       "family": "Choloepodidae",
       "gallery": [
         {
           "mongoId": "20000010",
           "id": 105,
-          "description": "Su nombre científico es Choloepus hoffmanni.",
+          "description": "Its scientific name is Choloepus hoffmanni.",
           "audioname": "OsoPerezoso_audio_descripcion_0",
           "imagename": "OsoPerezoso_image_0"
         },
         {
           "mongoId": "20000011",
           "id": 103,
-          "description": "Es un animal solitario, nocturno y arborícola que habita en la selva y en los bosques.",
+          "description": "It is a solitary, nocturnal, and arboreal animal that lives in the jungle and forests.",
           "audioname": "OsoPerezoso_audio_descripcion_0",
           "imagename": "OsoPerezoso_image_0"
         },
         {
           "mongoId": "20000012",
           "id": 104,
-          "description": "Con su peluda piel, grandes garras y movimientos deliberados, los perezosos de dos dedos no se confunden con ningún otro animal.",
+          "description": "With its furry skin, large claws, and deliberate movements, the two-toed sloth is not confused with any other animal.",
           "audioname": "OsoPerezoso_audio_descripcion_1",
           "imagename": "OsoPerezoso_image_1"
         },
         {
           "mongoId": "20000013",
           "id": 105,
-          "description": "Estos animales, de 5 a 7 kg y de aproximadamente 60 cm de largo.",
+          "description": "These animals, weighing 5 to 7 kg and approximately 60 cm long.",
           "audioname": "OsoPerezoso_audio_descripcion_2",
           "imagename": "OsoPerezoso_image_2"
         }
@@ -496,34 +496,34 @@
       "specieId": "10000005",
       "id": 33,
       "name": "Venado Cola Blanca",
-      "nameView": "Venado Cola Inglesa",
+      "nameView": "White-tailed Deer",
       "family": "Cervidae",
       "gallery": [
         {
           "mongoId": "20000012",
           "id": 108,
-          "description": "Su nombre científico es Odocoileus peruvianus.",
+          "description": "Its scientific name is Odocoileus peruvianus.",
           "audioname": "VenadoColaBlanca_audio_descripcion_0",
           "imagename": "VenadoColaBlanca_image_0"
         },
         {
           "mongoId": "20000013",
           "id": 106,
-          "description": "El venado de cola blanca es rumiante y herbívoro. Busca entre la vegetación para consumir hojas, brotes, frutos y semillas, así como setas.",
+          "description": "The white-tailed deer is a ruminant and herbivore. It searches through vegetation to consume leaves, buds, fruits, and seeds, as well as mushrooms.",
           "audioname": "VenadoColaBlanca_audio_descripcion_0",
           "imagename": "VenadoColaBlanca_image_0"
         },
         {
           "mongoId": "20000014",
           "id": 107,
-          "description": "Los machos presentan cornamentas ramificadas e inclinadas hacia atrás, que de adultos y según la edad alcanzan entre 8 y 64 cm.",
+          "description": "Males have branched antlers that tilt backward, which as adults and depending on age, reach between 8 and 64 cm.",
           "audioname": "VenadoColaBlanca_audio_descripcion_1",
           "imagename": "VenadoColaBlanca_image_1"
         },
         {
           "mongoId": "20000015",
           "id": 108,
-          "description": "La punta de la cola es blanca, lo que le sirve para batirla como señal de alarma.",
+          "description": "The tip of the tail is white, which it uses to wag as an alarm signal.",
           "audioname": "VenadoColaBlanca_audio_descripcion_2",
           "imagename": "VenadoColaBlanca_image_2"
         }
@@ -533,34 +533,34 @@
       "specieId": "10000006",
       "id": 34,
       "name": "Zorra Pampera",
-      "nameView": "Zorra Inglesa",
+      "nameView": "Pampas Fox",
       "family": "Canidae",
       "gallery": [
         {
           "mongoId": "20000015",
           "id": 111,
-          "description": "Su nombre científico es Lycalopex sechurae.",
+          "description": "Its scientific name is Lycalopex sechurae.",
           "audioname": "ZorraPampera_audio_descripcion_0",
           "imagename": "ZorraPampera_image_0"
         },
         {
           "mongoId": "20000016",
           "id": 109,
-          "description": "Este es un cánido de color pálido agutí y su cola presenta la punta negra.",
+          "description": "This is a canid with pale agouti color and its tail has a black tip.",
           "audioname": "ZorraPampera_audio_descripcion_0",
           "imagename": "ZorraPampera_image_0"
         },
         {
           "mongoId": "20000017",
           "id": 110,
-          "description": " La cabeza es pequeña, con las orejas relativamente largas y un hocico corto. El rostro es gris, con un anillo marrón rojizo alrededor de los ojos.",
+          "description": "The head is small, with relatively long ears and a short snout. The face is gray, with a reddish-brown ring around the eyes.",
           "audioname": "ZorraPampera_audio_descripcion_1",
           "imagename": "ZorraPampera_image_1"
         },
         {
           "mongoId": "20000018",
           "id": 111,
-          "description": "El rango principal de la especie se extiende desde el suroeste y sur del Ecuador, al sur, a través de las tierras bajas costeras del Perú, hasta el norte de Lima.",
+          "description": "The main range of the species extends from the southwest and south of Ecuador, south through the coastal lowlands of Peru, to northern Lima.",
           "audioname": "ZorraPampera_audio_descripcion_2",
           "imagename": "ZorraPampera_image_2"
         }
@@ -570,27 +570,27 @@
       "specieId": "10000007",
       "id": 35,
       "name": "Mono Araña",
-      "nameView": "Mono Ingles",
+      "nameView": "Spider Monkey",
       "family": "Atelidae",
       "gallery": [
         {
           "mongoId": "20000018",
           "id": 114,
-          "description": "Su nombre científico es Ateles fusciceps.",
+          "description": "Its scientific name is Ateles fusciceps.",
           "audioname": "MonoAraña_audio_descripcion_0",
           "imagename": "MonoAraña_image_0"
         },
         {
           "mongoId": "20000020",
           "id": 113,
-          "description": " El nombre Ateles hace referencia a la ausencia de un pulgar oponible en las especies del género",
+          "description": "The name Ateles refers to the absence of an opposable thumb in the species of the genus.",
           "audioname": "MonoAraña_audio_descripcion_1",
           "imagename": "MonoAraña_image_1"
         },
         {
           "mongoId": "20000021",
           "id": 114,
-          "description": "Según la especie, su cuerpo mide de 65 a 90 cm de longitud, y la cola prensil de 60 a 92 cm.",
+          "description": "Depending on the species, its body measures from 65 to 90 cm in length, and the prehensile tail from 60 to 92 cm.",
           "audioname": "MonoAraña_audio_descripcion_2",
           "imagename": "MonoAraña_image_2"
         }
@@ -600,34 +600,34 @@
       "specieId": "10000008",
       "id": 36,
       "name": "Mono Aullador",
-      "nameView": "Mono Ingles",
+      "nameView": "Howler Monkey",
       "family": "Atelidae",
       "gallery": [
         {
           "mongoId": "20000021",
           "id": 117,
-          "description": "Su nombre científico es Alouatta palliata.",
+          "description": "Its scientific name is Alouatta palliata.",
           "audioname": "MonoAullador_audio_descripcion_0",
           "imagename": "MonoAullador_image_0"
         },
         {
           "mongoId": "20000022",
           "id": 115,
-          "description": "El mono aullador vive en la zona tropical, desde el sur de México, hasta el noreste de Argentina.",
+          "description": "The howler monkey lives in the tropical zone, from southern Mexico to northeastern Argentina.",
           "audioname": "MonoAullador_audio_descripcion_0",
           "imagename": "MonoAullador_image_0"
         },
         {
           "mongoId": "20000023",
           "id": 116,
-          "description": "Posee pelaje más largo y de color blanco amarillento a los lados del cuerpo, dándole un aspecto de capa o manto.",
+          "description": "It has longer fur, yellowish-white in color on the sides of the body, giving it the appearance of a cape or mantle.",
           "audioname": "MonoAullador_audio_descripcion_1",
           "imagename": "MonoAullador_image_1"
         },
         {
           "mongoId": "20000024",
           "id": 117,
-          "description": "Habita las zonas de selva, especialmente en las selvas de galería del Norte de la América del Sur.",
+          "description": "It inhabits jungle areas, especially the gallery forests of northern South America.",
           "audioname": "MonoAullador_audio_descripcion_2",
           "imagename": "MonoAullador_image_2"
         }
@@ -637,34 +637,34 @@
       "specieId": "10000009",
       "id": 37,
       "name": "Oso Hormiguero",
-      "nameView": "Oso Hormiguero Ingles",
+      "nameView": "Anteater",
       "family": "Chordata",
       "gallery": [
         {
           "mongoId": "20000024",
           "id": 120,
-          "description": "Su nombre científico es Tamandua mexicana.",
+          "description": "Its scientific name is Tamandua mexicana.",
           "audioname": "OsoHormiguero_audio_descripcion_0",
           "imagename": "OsoHormiguero_image_0"
         },
         {
           "mongoId": "20000025",
           "id": 118,
-          "description": "El cuerpo es robusto. Puede medir de 1,20 a 1,30 m de largo y la cola de 75 a 85 cm, y puede llegar a pesar hasta 40 kg.",
+          "description": "The body is robust. It can measure from 1.20 to 1.30 m in length and the tail from 75 to 85 cm, and can weigh up to 40 kg.",
           "audioname": "OsoHormiguero_audio_descripcion_0",
           "imagename": "OsoHormiguero_image_0"
         },
         {
           "mongoId": "20000026",
           "id": 119,
-          "description": "A pesar de su nombre, no tienen ningún parentesco cercano con los osos.",
+          "description": "Despite its name, they are not closely related to bears.",
           "audioname": "OsoHormiguero_audio_descripcion_1",
           "imagename": "OsoHormiguero_image_1"
         },
         {
           "mongoId": "20000027",
           "id": 120,
-          "description": "Son animales mirmecófagos, esto es, que se alimentan de hormigas y termitas. Con sus fuertes uñas abren los hormigueros y termiteros, y con la larga y viscosa lengua capturan los insectos.",
+          "description": "They are myrmecophagous animals, meaning they feed on ants and termites. With their strong claws, they open anthills and termite mounds, and with their long, viscous tongue, they capture the insects.",
           "audioname": "OsoHormiguero_audio_descripcion_2",
           "imagename": "OsoHormiguero_image_2"
         }
@@ -674,34 +674,34 @@
       "specieId": "10000010",
       "id": 38,
       "name": "Loro Cara Roja",
-      "nameView": "Loro Cara Inglesa",
+      "nameView": "Red-faced Parrot",
       "family": "Psittacidae",
       "gallery": [
         {
           "mongoId": "20000027",
           "id": 123,
-          "description": "Su nombre científico es  Amazona viridigenalis.",
+          "description": "Its scientific name is Amazona viridigenalis.",
           "audioname": "LoroCaraRoja_audio_descripcion_0",
           "imagename": "LoroCaraRoja_image_0"
         },
         {
           "mongoId": "20000028",
           "id": 121,
-          "description": "Ave verde brillante, de entre 30 a 35 cm de longitud, cuya característica es su cara de color rojo intenso, y una línea roja en la curva de sus alas. Pico curvo, fuerte y ganchudo; cola larga y puntiaguda.",
+          "description": "Bright green bird, between 30 to 35 cm in length, characterized by its intense red face, and a red line on the curve of its wings. Curved, strong, and hooked beak; long, pointed tail.",
           "audioname": "LoroCaraRoja_audio_descripcion_0",
           "imagename": "LoroCaraRoja_image_0"
         },
         {
           "mongoId": "20000029",
           "id": 122,
-          "description": "En sus primeros meses la cría no presenta la coloración rojiza en la cabeza, sino al cumplir el primer año de edad.",
+          "description": "In its first months, the chick does not have the reddish coloration on its head, but rather after its first year of age.",
           "audioname": "LoroCaraRoja_audio_descripcion_1",
           "imagename": "LoroCaraRoja_image_1"
         },
         {
           "mongoId": "20000030",
           "id": 123,
-          "description": "Tienen lengua gruesa y musculosa, utilizada con gran habilidad para romper semillas y granos.",
+          "description": "They have a thick, muscular tongue, used with great skill to break seeds and grains.",
           "audioname": "LoroCaraRoja_audio_descripcion_2",
           "imagename": "LoroCaraRoja_image_2"
         }
@@ -711,34 +711,34 @@
       "specieId": "10000010",
       "id": 39,
       "name": "Aninga",
-      "nameView": "Aninga Inglesa",
+      "nameView": "Anhinga",
       "family": "Anhingidae",
       "gallery": [
         {
           "mongoId": "20000027",
           "id": 126,
-          "description": "Su nombre científico es Anhinga anhinga.",
+          "description": "Its scientific name is Anhinga anhinga.",
           "audioname": "Aninga_audio_descripcion_0",
           "imagename": "Aninga_image_0"
         },
         {
           "mongoId": "20000028",
           "id": 124,
-          "description": "Habitan en ambientes acuáticos templados y cálidos del viejo y nuevo mundo. Se alimentan especialmente de peces.",
+          "description": "They inhabit temperate and warm aquatic environments of the Old and New World. They feed especially on fish.",
           "audioname": "Aninga_audio_descripcion_0",
           "imagename": "Aninga_image_0"
         },
         {
           "mongoId": "20000029",
           "id": 125,
-          "description": "Morfológicamente, las aningas destacan por su delgado y largo cuello, el cual es la única parte del cuerpo que sobresale del agua quedando el resto del cuerpo sumergido.",
+          "description": "Morphologically, anhingas stand out for their thin, long neck, which is the only part of the body that protrudes from the water, with the rest of the body submerged.",
           "audioname": "Aninga_audio_descripcion_1",
           "imagename": "Aninga_image_1"
         },
         {
           "mongoId": "20000030",
           "id": 126,
-          "description": "En líneas generales los machos poseen un plumaje más oscuro, una cresta eréctil en el cráneo y un pico mayor.",
+          "description": "In general, males have darker plumage, an erectile crest on the skull, and a larger beak.",
           "audioname": "Aninga_audio_descripcion_2",
           "imagename": "Aninga_image_2"
         }
@@ -748,34 +748,34 @@
       "specieId": "10000010",
       "id": 40,
       "name": "Cuco ardilla",
-      "nameView": "Cuco ardilla Ingles",
+      "nameView": "Squirrel Cuckoo",
       "family": "Cuculidae",
       "gallery": [
         {
           "mongoId": "20000027",
           "id": 129,
-          "description": "Su nombre científico es Piaya cayana.",
+          "description": "Its scientific name is Piaya cayana.",
           "audioname": "CucoArdilla_audio_descripcion_0",
           "imagename": "_image_0"
         },
         {
           "mongoId": "20000028",
           "id": 127,
-          "description": "Se alimenta de insectos grandes, como cigarras o chicharras, avispas y orugas y ocasionalmente arácnidos, lagartijas y algunas frutas.",
+          "description": "It feeds on large insects, such as cicadas, wasps, and caterpillars, and occasionally on arachnids, lizards, and some fruits.",
           "audioname": "CucoArdilla_audio_descripcion_0",
           "imagename": "_image_0"
         },
         {
           "mongoId": "20000029",
           "id": 128,
-          "description": "Es una especie abundante y parece tolerar la intervención humana, siempre y cuando no se destruya el bosque.",
+          "description": "It is an abundant species and seems to tolerate human intervention, as long as the forest is not destroyed.",
           "audioname": "CucoArdilla_audio_descripcion_1",
           "imagename": "CucoArdilla_image_1"
         },
         {
           "mongoId": "20000030",
           "id": 129,
-          "description": "Su nido es una taza de hojas, construido en una rama de un árbol, oculta en la vegetación densa, a una altura de 1 a 12 m.",
+          "description": "Its nest is a cup of leaves, built on a tree branch, hidden in dense vegetation, at a height of 1 to 12 m.",
           "audioname": "CucoArdilla_audio_descripcion_2",
           "imagename": "CucoArdilla_image_2"
         }
@@ -785,27 +785,27 @@
       "specieId": "10000010",
       "id": 42,
       "name": "Carpintero carinegro",
-      "nameView": "Carpintero Ingles",
+      "nameView": "Woodpecker",
       "family": "Picidae",
       "gallery": [
         {
           "mongoId": "20000027",
           "id": 135,
-          "description": "Su nombre científico es Melanerpes pucherani.",
+          "description": "Its scientific name is Melanerpes pucherani.",
           "audioname": "CarpinteroCarinegro_audio_descripcion_0",
           "imagename": "CarpinteroCarinegro_image_0"
         },
         {
           "mongoId": "20000029",
           "id": 134,
-          "description": "Tienen fuertes picos, para taladrar y tamborilear en los árboles, y lenguas finas, puntiagudas y con pequeñas cerdas, para extraer la comida.",
+          "description": "They have strong beaks for drilling and drumming on trees, and thin, pointed tongues with small bristles to extract food.",
           "audioname": "CarpinteroCarinegro_audio_descripcion_1",
           "imagename": "CarpinteroCarinegro_image_1"
         },
         {
           "mongoId": "20000030",
           "id": 135,
-          "description": "Se alimentan de insectos, gusanos y larvas que pueden encontrar durante todo el año, capturándolos bajo la corteza o perforando el interior de los árboles o de los troncos caídos.",
+          "description": "They feed on insects, worms, and larvae that they can find year-round, capturing them under the bark or by drilling into the interior of trees or fallen trunks.",
           "audioname": "CarpinteroCarinegro_audio_descripcion_2",
           "imagename": "CarpinteroCarinegro_image_2"
         }
@@ -815,34 +815,34 @@
       "specieId": "10000010",
       "id": 43,
       "name": "Garza blanca",
-      "nameView": "Garza blanca Inglesa",
+      "nameView": "White Heron",
       "family": "Ardeidae",
       "gallery": [
         {
           "mongoId": "20000027",
           "id": 138,
-          "description": "Su nombre científico es Ardea alba.",
+          "description": "Its scientific name is Ardea alba.",
           "audioname": "GarzaBlanca_audio_descripcion_0",
           "imagename": "GarzaBlanca_image_0"
         },
         {
           "mongoId": "20000028",
           "id": 136,
-          "description": "Es un ave acuática de plumaje blanco, grande y esbelta, que puede alcanzar el metro de altura.",
+          "description": "It is a large, slender white-plumaged aquatic bird that can reach a meter in height.",
           "audioname": "GarzaBlanca_audio_descripcion_0",
           "imagename": "GarzaBlanca_image_0"
         },
         {
           "mongoId": "20000029",
           "id": 137,
-          "description": "Vuela con su largo cuello retraído, pero suele caminar con él estirado. ",
+          "description": "It flies with its long neck retracted, but usually walks with it extended.",
           "audioname": "GarzaBlanca_audio_descripcion_1",
           "imagename": "GarzaBlanca_image_1"
         },
         {
           "mongoId": "20000030",
           "id": 138,
-          "description": "Se alimenta en aguas poco profundas, o hábitats más secos, principalmente de peces, ranas, pequeños mamíferos y ocasionalmente aves pequeñas y reptiles.",
+          "description": "It feeds in shallow waters or drier habitats, mainly on fish, frogs, small mammals, and occasionally small birds and reptiles.",
           "audioname": "GarzaBlanca_audio_descripcion_2",
           "imagename": "GarzaBlanca_image_2"
         }
@@ -852,27 +852,27 @@
       "specieId": "10000010",
       "id": 44,
       "name": "Garza nocturna",
-      "nameView": "Garza nocturna inglesa",
+      "nameView": "Night Heron",
       "family": "Ardeidae",
       "gallery": [
         {
           "mongoId": "20000027",
           "id": 141,
-          "description": "Su nombre científico es Nycticorax nycticorax.",
+          "description": "Its scientific name is Nycticorax nycticorax.",
           "audioname": "GarzaNocturna_audio_descripcion_0",
           "imagename": "GarzaNocturna_image_0"
         },
         {
           "mongoId": "20000029",
           "id": 140,
-          "description": "Se alimenta principalmente de peces, anfibios, pequeños reptiles e insectos. Excepcionalmente puede completar su dieta con algún ratón.",
+          "description": "It feeds mainly on fish, amphibians, small reptiles, and insects. Exceptionally, it may supplement its diet with a mouse.",
           "audioname": "GarzaNocturna_audio_descripcion_1",
           "imagename": "GarzaNocturna_image_1"
         },
         {
           "mongoId": "20000030",
           "id": 141,
-          "description": "En Chiloé, un archipiélago del sur de Chile, esta ave tiene un papel importante en la mitología local, porque es asociada con la brujería y las fuerzas del mal.",
+          "description": "In Chiloé, an archipelago in southern Chile, this bird plays an important role in local mythology because it is associated with witchcraft and evil forces.",
           "audioname": "GarzaNocturna_audio_descripcion_2",
           "imagename": "GarzaNocturna_image_2"
         }
@@ -882,34 +882,34 @@
       "specieId": "10000010",
       "id": 45,
       "name": "Mariposa azul",
-      "nameView": "Mariposa azul inglesa",
+      "nameView": "Blue Butterfly",
       "family": "Nymphalidae",
       "gallery": [
         {
           "mongoId": "20000027",
           "id": 144,
-          "description": "Su nombre científico es Morpho spp.",
+          "description": "Its scientific name is Morpho spp.",
           "audioname": "MariposaAzul_audio_descripcion_0",
           "imagename": "MariposaAzul_image_0"
         },
         {
           "mongoId": "20000028",
           "id": 142,
-          "description": "Es de color azul iridiscente y gran tamaño, con una envergadura alar de 15 centímetros.",
+          "description": "It is iridescent blue and large, with a wingspan of 15 centimeters.",
           "audioname": "MariposaAzul_audio_descripcion_0",
           "imagename": "MariposaAzul_image_0"
         },
         {
           "mongoId": "20000029",
           "id": 143,
-          "description": "El adulto bebe el jugo de las frutas en descomposición con su larga probóscide.",
+          "description": "The adult drinks the juice of decomposing fruits with its long proboscis.",
           "audioname": "MariposaAzul_audio_descripcion_1",
           "imagename": "MariposaAzul_image_1"
         },
         {
           "mongoId": "20000030",
           "id": 144,
-          "description": "Las mariposas morfo azul, debido a su color azul eléctrico se le atribuyen una serie de simbolismos positivos.",
+          "description": "Blue morpho butterflies, due to their electric blue color, are attributed a series of positive symbolisms.",
           "audioname": "MariposaAzul_audio_descripcion_2",
           "imagename": "MariposaAzul_image_2"
         }
@@ -919,34 +919,34 @@
       "specieId": "10000010",
       "id": 46,
       "name": "Tigrillo",
-      "nameView": "Tigrillo Ingles",
+      "nameView": "Tiger Cat",
       "family": "Felidae",
       "gallery": [
         {
           "mongoId": "20000027",
           "id": 147,
-          "description": "Su nombre científico es Leopardus tigrinus.",
+          "description": "Its scientific name is Leopardus tigrinus.",
           "audioname": "Tigrillo_audio_descripcion_0",
           "imagename": "Tigrillo_image_0"
         },
         {
           "mongoId": "20000028",
           "id": 145,
-          "description": "Alcanza una longitud cabeza-cuerpo de 39 a 78 cm, con una cola de 20 a 42 cm de largo. La altura está entre 22 y 30 cm. Su peso varía entre los 2 y 3 kg.",
+          "description": "It reaches a head-body length of 39 to 78 cm, with a tail 20 to 42 cm long. The height is between 22 and 30 cm. Its weight varies between 2 and 3 kg.",
           "audioname": "Tigrillo_audio_descripcion_0",
           "imagename": "Tigrillo_image_0"
         },
         {
           "mongoId": "20000029",
           "id": 146,
-          "description": "La piel es gruesa y suave, de coloración marrón claro a ocre oscuro, con numerosas rosetas negruzcas en el dorso y los flancos.",
+          "description": "The skin is thick and soft, light brown to dark ocher in color, with numerous blackish rosettes on the back and flanks.",
           "audioname": "Tigrillo_audio_descripcion_1",
           "imagename": "_image_1"
         },
         {
           "mongoId": "20000030",
           "id": 147,
-          "description": "La longevidad se le estima en unos 17 años; en cautiverio está documentada hasta en 20 años.",
+          "description": "Its longevity is estimated at about 17 years; in captivity, it is documented up to 20 years.",
           "audioname": "Tigrillo_audio_descripcion_2",
           "imagename": "Tigrillo_image_2"
         }

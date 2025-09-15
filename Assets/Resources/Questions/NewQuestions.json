@@ -1,359 +1,331 @@
-  [
-    {
-      "ChallengeID": 1,
-      "codename": "challenge_1",
-      "question": "What is the diet of the Saffron Savannah Finch?",
-      "score": 1,
-      "image": "files/Qe-HtdCBsAlmx4icA0Vy0.jpg",
-      "difficulty": 1,
-      "updatedAt": null,
-      "gameLevelsChallenges": [
-        {
-          "GameLevelId": 5,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 4"
-          }
-        },
-        {
-          "GameLevelId": 5,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 4"
-          }
+[
+  {
+    "ChallengeID": 1,
+    "codename": "challenge_1",
+    "question": "What is the diet of the Saffron Finch?",
+    "score": 1,
+    "image": "files/Qe-HtdCBsAlmx4icA0Vy0.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
         }
-      ],
-      "options": [
-        {
-          "ChallengeOptionId": 1,
-          "codename": "option_1A",
-          "correctOption": false,
-          "text": "Frutas",
-          "image": "files/M8f03Re5AQs60YzQ0enlT.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 2,
-          "codename": "option_1B",
-          "correctOption": true,
-          "text": "Granos y semillas",
-          "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 3,
-          "codename": "option_1C",
-          "correctOption": false,
-          "text": "Lombrices",
-          "image": "files/pEKbR_9M19TNvtgf_m9cK.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 4,
-          "codename": "option_1D",
-          "correctOption": false,
-          "text": "Insectos",
-          "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
-          "updatedAt": null
-        }
-      ],
-      "feedback": {
-        "ChallengeFeedbackId": 1,
-        "feedback": "La dieta del Pinzón Sabanero Azafranado se basa en granos y semillas que encuentra en el suelo.",
-        "image": null,
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 1,
+        "codename": "option_1A",
+        "correctOption": false,
+        "text": "Fruits",
+        "image": "files/M8f03Re5AQs60YzQ0enlT.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 2,
+        "codename": "option_1B",
+        "correctOption": true,
+        "text": "Grains and seeds",
+        "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 3,
+        "codename": "option_1C",
+        "correctOption": false,
+        "text": "Worms",
+        "image": "files/pEKbR_9M19TNvtgf_m9cK.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 4,
+        "codename": "option_1D",
+        "correctOption": false,
+        "text": "Insects",
+        "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
         "updatedAt": null
       }
-    },
-    {
-      "ChallengeID": 2,
-      "codename": "challenge_2",
-      "question": "What is the main diet of the Grey-backed Hawk?",
-      "score": 1,
-      "image": "files/-fzFTtx9rpy8aE6pm_Xsd.jpg",
-      "difficulty": 2,
-      "updatedAt": null,
-      "gameLevelsChallenges": [
-        {
-          "GameLevelId": 5,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 4"
-          }
-        },
-        {
-          "GameLevelId": 5,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 4"
-          }
-        },
-        {
-          "GameLevelId": 5,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 4"
-          }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 1,
+      "feedback": "The diet of the Saffron Finch is based on grains and seeds it finds on the ground.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 2,
+    "codename": "challenge_2",
+    "question": "What is the main diet of the Gray-backed Hawk?",
+    "score": 1,
+    "image": "files/-fzFTtx9rpy8aE6pm_Xsd.jpg",
+    "difficulty": 2,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
         }
-      ],
-      "options": [
-        {
-          "ChallengeOptionId": 5,
-          "codename": "option_2A",
-          "correctOption": false,
-          "text": "Hormigas",
-          "image": "files/8JAE4qzGxFknnYrYvV2NJ.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 6,
-          "codename": "option_2B",
-          "correctOption": true,
-          "text": "Roedores",
-          "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 7,
-          "codename": "option_2C",
-          "correctOption": false,
-          "text": "Cucarachas",
-          "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 8,
-          "codename": "option_2D",
-          "correctOption": false,
-          "text": "Abejas",
-          "image": "files/3PDldViFxlnkQC5ZHq51N.png",
-          "updatedAt": null
-        }
-      ],
-      "feedback": {
-        "ChallengeFeedbackId": 2,
-        "feedback": "La dieta principal del Gavilán Dorsigris se basa en roedores.",
-        "image": null,
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 5,
+        "codename": "option_2A",
+        "correctOption": false,
+        "text": "Ants",
+        "image": "files/8JAE4qzGxFknnYrYvV2NJ.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 6,
+        "codename": "option_2B",
+        "correctOption": true,
+        "text": "Rodents",
+        "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 7,
+        "codename": "option_2C",
+        "correctOption": false,
+        "text": "Cockroaches",
+        "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 8,
+        "codename": "option_2D",
+        "correctOption": false,
+        "text": "Bees",
+        "image": "files/3PDldViFxlnkQC5ZHq51N.png",
         "updatedAt": null
       }
-    },
-    {
-      "ChallengeID": 3,
-      "codename": "challenge_3",
-      "question": "The Grey-backed Hawk glides regularly, holding its wings...",
-      "score": 1,
-      "image": "files/Tj8f_HilJ-dQZSvUMfmfv.jpg",
-      "difficulty": 2,
-      "updatedAt": null,
-      "gameLevelsChallenges": [
-        {
-          "GameLevelId": 1,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Lobby"
-          }
-        },
-        {
-          "GameLevelId": 5,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 4"
-          }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 2,
+      "feedback": "The main diet of the Gray-backed Hawk is based on rodents.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 3,
+    "codename": "challenge_3",
+    "question": "The Gray-backed Hawk regularly glides keeping its wings...",
+    "score": 1,
+    "image": "files/Tj8f_HilJ-dQZSvUMfmfv.jpg",
+    "difficulty": 2,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 1,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Lobby"
         }
-      ],
-      "options": [
-        {
-          "ChallengeOptionId": 9,
-          "codename": "option_3A",
-          "correctOption": false,
-          "text": "En movimiento",
-          "image": "files/lOd36dY-h3aeaViMq0oxl.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 10,
-          "codename": "option_3B",
-          "correctOption": false,
-          "text": "Despleplegadas",
-          "image": "files/28WZsZEX8UE5KspLPO5HU.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 11,
-          "codename": "option_3C",
-          "correctOption": true,
-          "text": "Planas",
-          "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 12,
-          "codename": "option_3D",
-          "correctOption": false,
-          "text": "En abanico",
-          "image": "files/8rJrBtidwt9yBCYyH2yQO.png",
-          "updatedAt": null
+      },
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
         }
-      ],
-      "feedback": {
-        "ChallengeFeedbackId": 3,
-        "feedback": "El Gavilán Dorsigris posa al descubierto al filo del bosque y planea con regularidad, manteniendo sus alas planas.",
-        "image": null,
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 9,
+        "codename": "option_3A",
+        "correctOption": false,
+        "text": "In motion",
+        "image": "files/lOd36dY-h3aeaViMq0oxl.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 10,
+        "codename": "option_3B",
+        "correctOption": false,
+        "text": "Unfurled",
+        "image": "files/28WZsZEX8UE5KspLPO5HU.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 11,
+        "codename": "option_3C",
+        "correctOption": true,
+        "text": "Flat",
+        "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 12,
+        "codename": "option_3D",
+        "correctOption": false,
+        "text": "Fanned",
+        "image": "files/8rJrBtidwt9yBCYyH2yQO.png",
         "updatedAt": null
       }
-    },
-    {
-      "ChallengeID": 4,
-      "codename": "challenge_4",
-      "question": "How does the Grey-backed Hawk glide?",
-      "score": 1,
-      "image": "files/X7_ZNhzA1lx-JPSgwCy7u.jpg",
-      "difficulty": 2,
-      "updatedAt": null,
-      "gameLevelsChallenges": [
-        {
-          "GameLevelId": 2,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 1"
-          }
-        },
-        {
-          "GameLevelId": 5,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 4"
-          }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 3,
+      "feedback": "The Gray-backed Hawk perches in the open at the forest edge and glides regularly, keeping its wings flat.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 4,
+    "codename": "challenge_4",
+    "question": "How does the Gray-backed Hawk glide?",
+    "score": 1,
+    "image": "files/X7_ZNhzA1lx-JPSgwCy7u.jpg",
+    "difficulty": 2,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
         }
-      ],
-      "options": [
-        {
-          "ChallengeOptionId": 13,
-          "codename": "option_4A",
-          "correctOption": false,
-          "text": "Por mucho tiempo y altura",
-          "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 14,
-          "codename": "option_4B",
-          "correctOption": false,
-          "text": "No planea",
-          "image": "files/W4OqHbTrnwIwnOE5oKBdT.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 15,
-          "codename": "option_4C",
-          "correctOption": false,
-          "text": "Por ráfagas de tiempo",
-          "image": "files/lOd36dY-h3aeaViMq0oxl.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 16,
-          "codename": "option_4D",
-          "correctOption": true,
-          "text": "Por poco tiempo y altura",
-          "image": "files/8rJrBtidwt9yBCYyH2yQO.png",
-          "updatedAt": null
+      },
+      {
+        "GameLevelId": 5,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 4"
         }
-      ],
-      "feedback": {
-        "ChallengeFeedbackId": 4,
-        "feedback": "El Gavilán Dorsigris planea por poco tiempo y poca altura.",
-        "image": null,
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 13,
+        "codename": "option_4A",
+        "correctOption": false,
+        "text": "For a long time and at height",
+        "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 14,
+        "codename": "option_4B",
+        "correctOption": false,
+        "text": "It does not glide",
+        "image": "files/W4OqHbTrnwIwnOE5oKBdT.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 15,
+        "codename": "option_4C",
+        "correctOption": false,
+        "text": "In bursts of time",
+        "image": "files/lOd36dY-h3aeaViMq0oxl.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 16,
+        "codename": "option_4D",
+        "correctOption": true,
+        "text": "For a short time and at low height",
+        "image": "files/8rJrBtidwt9yBCYyH2yQO.png",
         "updatedAt": null
       }
-    },
-    {
-      "ChallengeID": 5,
-      "codename": "challenge_5",
-      "question": "What kind of animal is the iguana?",
-      "score": 1,
-      "image": "files/OF1mT_006vPkw1jCOGxDT.jpg",
-      "difficulty": 1,
-      "updatedAt": null,
-      "gameLevelsChallenges": [
-        {
-          "GameLevelId": 1,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Lobby"
-          }
-        },
-        {
-          "GameLevelId": 2,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 1"
-          }
-        },
-        {
-          "GameLevelId": 3,
-          "updatedAt": null,
-          "gameLevel": {
-            "Name": "Bosque-Estación 2"
-          }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 4,
+      "feedback": "The Gray-backed Hawk glides for a short time and at low height.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 5,
+    "codename": "challenge_5",
+    "question": "What type of animal is the iguana?",
+    "score": 1,
+    "image": "files/OF1mT_006vPkw1jCOGxDT.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 1,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Lobby"
         }
-      ],
-      "options": [
-        {
-          "ChallengeOptionId": 17,
-          "codename": "option_5A",
-          "correctOption": false,
-          "text": "Carnívora",
-          "image": "files/kzDAmlo9q8hkCKmaSVNPw.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 18,
-          "codename": "option_5B",
-          "correctOption": true,
-          "text": "Herbívora",
-          "image": "files/WjIrUGyTYdkTwBM9UUe8-.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 19,
-          "codename": "option_5C",
-          "correctOption": false,
-          "text": "Omnívora",
-          "image": "files/qCx1XFSasXJoXIjwdvUiE.png",
-          "updatedAt": null
-        },
-        {
-          "ChallengeOptionId": 20,
-          "codename": "option_5D",
-          "correctOption": false,
-          "text": "Ninguna de las anteriores",
-          "image": "files/F8EQh7K79hhs--6m8SUsl.png",
-          "updatedAt": null
+      },
+      {
+        "GameLevelId": 2,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 1"
         }
-      ],
-      "feedback": {
-        "ChallengeFeedbackId": 5,
-        "feedback": "The iguana is a herbivore, and as such, almost half of its diet consists of vegetables. Fruit is also part of its diet.",
-        "image": null,
+      },
+      {
+        "GameLevelId": 3,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 2"
+        }
+      }
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 17,
+        "codename": "option_5A",
+        "correctOption": false,
+        "text": "Carnivorous",
+        "image": "files/kzDAmlo9q8hkCKmaSVNPw.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 18,
+        "codename": "option_5B",
+        "correctOption": true,
+        "text": "Herbivorous",
+        "image": "files/WjIrUGyTYdkTwBM9UUe8-.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 19,
+        "codename": "option_5C",
+        "correctOption": false,
+        "text": "Omnivorous",
+        "image": "files/qCx1XFSasXJoXIjwdvUiE.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 20,
+        "codename": "option_5D",
+        "correctOption": false,
+        "text": "None of the above",
+        "image": "files/F8EQh7K79hhs--6m8SUsl.png",
         "updatedAt": null
       }
-    },
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 5,
+      "feedback": "The iguana is herbivorous, and as such, almost half of its diet is based on vegetables. Fruit is also part of its diet.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
   {
     "ChallengeID": 6,
     "codename": "challenge_6",
-    "question": "¿De qué color es el plumaje del Garrapatero Piquiestriado?",
+    "question": "What color is the plumage of the Groove-billed Ani?",
     "score": 1,
     "image": "files/a3998ozrorSOhkRE4knrl.jpg",
     "difficulty": 2,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
-      },
       {
         "GameLevelId": 4,
         "updatedAt": null,
@@ -367,7 +339,7 @@
         "ChallengeOptionId": 21,
         "codename": "option_6A",
         "correctOption": false,
-        "text": "Blanco con negro",
+        "text": "White with black",
         "image": "files/H5H_l50VvckwxWEZ4RM5d.png",
         "updatedAt": null
       },
@@ -375,7 +347,7 @@
         "ChallengeOptionId": 22,
         "codename": "option_6B",
         "correctOption": false,
-        "text": "Rojo con rayas negras",
+        "text": "Red with black stripes",
         "image": "files/-kdfKD_pE-uPkZGpm9WOo.png",
         "updatedAt": null
       },
@@ -383,7 +355,7 @@
         "ChallengeOptionId": 23,
         "codename": "option_6C",
         "correctOption": false,
-        "text": "Negro con amarillo",
+        "text": "Black with yellow",
         "image": "files/8lKhEGEEubWELSA0EO9Cl.png",
         "updatedAt": null
       },
@@ -391,14 +363,14 @@
         "ChallengeOptionId": 24,
         "codename": "option_6D",
         "correctOption": true,
-        "text": "Negro con tonos azules",
+        "text": "Black with blue tones",
         "image": "files/HVRlolohKGquwKoudWrrl.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 6,
-      "feedback": "Su plumaje es negro con tonos azules, tiene el pico aplastado a los lados con ranuras alargadas.",
+      "feedback": "Its plumage is black with blue tones, it has a flattened beak on the sides with elongated grooves.",
       "image": null,
       "updatedAt": null
     }
@@ -406,7 +378,7 @@
   {
     "ChallengeID": 7,
     "codename": "challenge_7",
-    "question": "La Tangara Azuleja lleva su nombre por...",
+    "question": "The Blue-gray Tanager gets its name from...",
     "score": 1,
     "image": "files/N-iyrP76u8xlrow423QkI.jpg",
     "difficulty": 2,
@@ -432,7 +404,7 @@
         "ChallengeOptionId": 25,
         "codename": "option_7A",
         "correctOption": false,
-        "text": "Sus patas",
+        "text": "Its legs",
         "image": "files/Pn9WSUwdw_bMHs8MYCAyt.png",
         "updatedAt": null
       },
@@ -440,7 +412,7 @@
         "ChallengeOptionId": 26,
         "codename": "option_7B",
         "correctOption": false,
-        "text": "Su pico",
+        "text": "Its beak",
         "image": "files/9kJN-9H-ul4DtZrQ_OzIO.png",
         "updatedAt": null
       },
@@ -448,7 +420,7 @@
         "ChallengeOptionId": 27,
         "codename": "option_7C",
         "correctOption": false,
-        "text": "Sus ojos",
+        "text": "Its eyes",
         "image": "files/9GaOBwv_iYJjXtQXxL6zf.png",
         "updatedAt": null
       },
@@ -456,14 +428,14 @@
         "ChallengeOptionId": 28,
         "codename": "option_7D",
         "correctOption": true,
-        "text": "Su plumaje",
+        "text": "Its plumage",
         "image": "files/M7tvB4srEjuWxuBMhJApf.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 7,
-      "feedback": "Esta hermosa ave que se alimenta principalmente de frutos lleva el nombre Tangara Azuleja por el color de su plumaje.",
+      "feedback": "This beautiful bird, which feeds mainly on fruits, is named the Blue-gray Tanager for the color of its plumage.",
       "image": null,
       "updatedAt": null
     }
@@ -471,7 +443,7 @@
   {
     "ChallengeID": 8,
     "codename": "challenge_8",
-    "question": "¿Cuál es la dieta principal de la Tangara Azuleja",
+    "question": "What is the main diet of the Blue-gray Tanager?",
     "score": 1,
     "image": "files/N-iyrP76u8xlrow423QkI.jpg",
     "difficulty": 1,
@@ -497,7 +469,7 @@
         "ChallengeOptionId": 29,
         "codename": "option_8A",
         "correctOption": true,
-        "text": "Frutas",
+        "text": "Fruits",
         "image": "files/M8f03Re5AQs60YzQ0enlT.png",
         "updatedAt": null
       },
@@ -505,7 +477,7 @@
         "ChallengeOptionId": 30,
         "codename": "option_8B",
         "correctOption": false,
-        "text": "Semillas",
+        "text": "Seeds",
         "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
         "updatedAt": null
       },
@@ -513,7 +485,7 @@
         "ChallengeOptionId": 31,
         "codename": "option_8C",
         "correctOption": false,
-        "text": "Animales muertos",
+        "text": "Dead animals",
         "image": "files/Zt9uzDo0B1OkOXJvKUZQa.png",
         "updatedAt": null
       },
@@ -521,14 +493,14 @@
         "ChallengeOptionId": 32,
         "codename": "option_8D",
         "correctOption": false,
-        "text": "Huevos",
+        "text": "Eggs",
         "image": "files/h8ykrFj1CBXVFPl62vdnb.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 8,
-      "feedback": "La dieta principal de la Tangara Azuleja se basa en frutas, pero también se alimenta de néctar e insectos.",
+      "feedback": "The main diet of the Blue-gray Tanager is based on fruits, but it also feeds on nectar and insects.",
       "image": null,
       "updatedAt": null
     }
@@ -536,19 +508,12 @@
   {
     "ChallengeID": 9,
     "codename": "challenge_9",
-    "question": "¿Durante qué momento del día está activo el Búho Blanquinegro?",
+    "question": "During what time of day is the Black-and-white Owl active?",
     "score": 1,
     "image": "files/6aFVgKeRHU6l0OF8PkvS4.jpg",
     "difficulty": 3,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
-      },
       {
         "GameLevelId": 4,
         "updatedAt": null,
@@ -562,7 +527,7 @@
         "ChallengeOptionId": 33,
         "codename": "option_9A",
         "correctOption": false,
-        "text": "En la mañana",
+        "text": "In the morning",
         "image": "files/9JPO3Xe1bd83bQ045OKbL.png",
         "updatedAt": null
       },
@@ -570,7 +535,7 @@
         "ChallengeOptionId": 34,
         "codename": "option_9B",
         "correctOption": false,
-        "text": "En la tarde",
+        "text": "In the afternoon",
         "image": "files/n_WWQnfj-616DPNfwBkxr.png",
         "updatedAt": null
       },
@@ -578,7 +543,7 @@
         "ChallengeOptionId": 35,
         "codename": "option_9C",
         "correctOption": true,
-        "text": "En la noche",
+        "text": "At night",
         "image": "files/0MYobpJs2Wxxg6wYbG0Hz.png",
         "updatedAt": null
       },
@@ -586,14 +551,14 @@
         "ChallengeOptionId": 36,
         "codename": "option_9D",
         "correctOption": false,
-        "text": "Está activa todo el dia",
+        "text": "It is active all day",
         "image": "files/INQjoIP55QnBwEhMK2kim.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 9,
-      "feedback": "El Búho Blanquinegro es un ave que está activa únicamente durante la noche.",
+      "feedback": "The Black-and-white Owl is a bird that is active only at night.",
       "image": null,
       "updatedAt": null
     }
@@ -601,19 +566,12 @@
   {
     "ChallengeID": 10,
     "codename": "challenge_10",
-    "question": "¿Qué movimiento hace la cola del Momoto Gritón?",
+    "question": "What movement does the Rufous Motmot's tail make?",
     "score": 1,
     "image": "files/AaD7PGxUXoSmGkQnLgeKp.jpg",
     "difficulty": 3,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
-      },
       {
         "GameLevelId": 4,
         "updatedAt": null,
@@ -635,7 +593,7 @@
         "ChallengeOptionId": 38,
         "codename": "option_10B",
         "correctOption": false,
-        "text": "No mueve la cola",
+        "text": "It does not move its tail",
         "image": "files/5Ms6OpEXkUeGXReabkmX8.png",
         "updatedAt": null
       },
@@ -643,7 +601,7 @@
         "ChallengeOptionId": 39,
         "codename": "option_10C",
         "correctOption": true,
-        "text": "Pendular",
+        "text": "Pendulum-like",
         "image": "files/tyh47XbvSuZS40ytPdTLW.png",
         "updatedAt": null
       },
@@ -651,14 +609,14 @@
         "ChallengeOptionId": 40,
         "codename": "option_10D",
         "correctOption": false,
-        "text": "De un lado al otro",
+        "text": "From side to side",
         "image": "files/cNKT6c26vWOxVzZQiflcd.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 10,
-      "feedback": "El Momoto Gritón suele analizar sus alrededores realizando un movimiento pendular de la cola.",
+      "feedback": "The Rufous Motmot often analyzes its surroundings by performing a pendulum-like movement of its tail.",
       "image": null,
       "updatedAt": null
     }
@@ -666,7 +624,7 @@
   {
     "ChallengeID": 11,
     "codename": "challenge_11",
-    "question": "¿De qué se alimenta la Garcilla Estriada?",
+    "question": "What does the Striated Heron feed on?",
     "score": 1,
     "image": "files/zsLMRO1XlLCw7-Op2Mq6q.jpg",
     "difficulty": 2,
@@ -692,7 +650,7 @@
         "ChallengeOptionId": 41,
         "codename": "option_11A",
         "correctOption": false,
-        "text": "Vegetación acuática",
+        "text": "Aquatic vegetation",
         "image": "files/AEeiVzGXV-WJOeVIcEXvD.png",
         "updatedAt": null
       },
@@ -700,7 +658,7 @@
         "ChallengeOptionId": 42,
         "codename": "option_11B",
         "correctOption": false,
-        "text": "Huevos",
+        "text": "Eggs",
         "image": "files/h8ykrFj1CBXVFPl62vdnb.png",
         "updatedAt": null
       },
@@ -708,7 +666,7 @@
         "ChallengeOptionId": 43,
         "codename": "option_11C",
         "correctOption": true,
-        "text": "Peces, anfibios e invertebrados",
+        "text": "Fish, amphibians, and invertebrates",
         "image": "files/VPiVQ4Yu0Txd1e5EqCMzL.png",
         "updatedAt": null
       },
@@ -716,14 +674,14 @@
         "ChallengeOptionId": 44,
         "codename": "option_11D",
         "correctOption": false,
-        "text": "Animales muertos",
+        "text": "Dead animals",
         "image": "files/Zt9uzDo0B1OkOXJvKUZQa.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 11,
-      "feedback": "La Garcilla Estriada se encuentra en manglares, esteros y otros cuerpos de agua donde se alimenta de peces, anfibios e invertebrados.",
+      "feedback": "The Striated Heron is found in mangroves, estuaries, and other bodies of water where it feeds on fish, amphibians, and invertebrates.",
       "image": null,
       "updatedAt": null
     }
@@ -731,7 +689,7 @@
   {
     "ChallengeID": 12,
     "codename": "challenge_12",
-    "question": "¿Cómo caza la Garcilla Estriada?",
+    "question": "How does the Striated Heron hunt?",
     "score": 1,
     "image": "files/zsLMRO1XlLCw7-Op2Mq6q.jpg",
     "difficulty": 2,
@@ -757,7 +715,7 @@
         "ChallengeOptionId": 45,
         "codename": "option_12A",
         "correctOption": false,
-        "text": "Trepada en los árboles",
+        "text": "Perched in trees",
         "image": "files/mvLUAwBDDyN3smJNea3Ic.png",
         "updatedAt": null
       },
@@ -765,7 +723,7 @@
         "ChallengeOptionId": 46,
         "codename": "option_12B",
         "correctOption": false,
-        "text": "En el aire en pleno vuelo",
+        "text": "In the air while flying",
         "image": "files/yG_Iab7sRL_Vj4OyITSGt.png",
         "updatedAt": null
       },
@@ -773,7 +731,7 @@
         "ChallengeOptionId": 47,
         "codename": "option_12C",
         "correctOption": false,
-        "text": "Escarbando en la tierra",
+        "text": "Digging in the ground",
         "image": "files/UUQ4Mjma-cB5zRbD-Upva.png",
         "updatedAt": null
       },
@@ -781,14 +739,14 @@
         "ChallengeOptionId": 48,
         "codename": "option_12D",
         "correctOption": true,
-        "text": "De pie o en cuclillas",
+        "text": "Standing or crouching",
         "image": "files/fz4I51MYeqonX4mk21eSK.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 12,
-      "feedback": "La Garcilla Estriada caza de pie o en cuclillas, justo afuera del agua.",
+      "feedback": "The Striated Heron hunts standing or crouching, just outside the water.",
       "image": null,
       "updatedAt": null
     }
@@ -796,19 +754,12 @@
   {
     "ChallengeID": 13,
     "codename": "challenge_13",
-    "question": "¿Cómo se lo halla normalmente al Mosquero Rayado?",
+    "question": "How is the Streaked Flycatcher normally found?",
     "score": 1,
     "image": "files/Vu9cGPmUkH7kmdHd15yAv.jpg",
     "difficulty": 2,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
       {
         "GameLevelId": 5,
         "updatedAt": null,
@@ -822,7 +773,7 @@
         "ChallengeOptionId": 49,
         "codename": "option_13A",
         "correctOption": false,
-        "text": "De día",
+        "text": "During the day",
         "image": "files/INQjoIP55QnBwEhMK2kim.png",
         "updatedAt": null
       },
@@ -830,7 +781,7 @@
         "ChallengeOptionId": 50,
         "codename": "option_13B",
         "correctOption": false,
-        "text": "De noche",
+        "text": "At night",
         "image": "files/0MYobpJs2Wxxg6wYbG0Hz.png",
         "updatedAt": null
       },
@@ -838,7 +789,7 @@
         "ChallengeOptionId": 51,
         "codename": "option_13C",
         "correctOption": true,
-        "text": "En pareja",
+        "text": "In pairs",
         "image": "files/DFnWMoVf4NzQbokFsoUDM.png",
         "updatedAt": null
       },
@@ -846,14 +797,14 @@
         "ChallengeOptionId": 52,
         "codename": "option_13D",
         "correctOption": false,
-        "text": "En época de invierno",
+        "text": "In winter time",
         "image": "files/uxTeeM1-WgnjdKw5hf-03.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 13,
-      "feedback": "El Mosquero Rayado es hallado solo y/o en pareja, generalmente ruidoso y conspicuo",
+      "feedback": "The Streaked Flycatcher is found alone and/or in pairs, generally noisy and conspicuous.",
       "image": null,
       "updatedAt": null
     }
@@ -861,7 +812,7 @@
   {
     "ChallengeID": 14,
     "codename": "challenge_14",
-    "question": "¿Cuál es la dieta del Mosquero Rayado?",
+    "question": "What is the diet of the Streaked Flycatcher?",
     "score": 1,
     "image": "files/d1FhEhav-3xsLyK1e1vOd.jpg",
     "difficulty": 1,
@@ -887,7 +838,7 @@
         "ChallengeOptionId": 53,
         "codename": "option_14A",
         "correctOption": false,
-        "text": "Larvas",
+        "text": "Larvae",
         "image": "files/JMQSkrbkJUZzMifKYJEUb.png",
         "updatedAt": null
       },
@@ -895,7 +846,7 @@
         "ChallengeOptionId": 54,
         "codename": "option_14B",
         "correctOption": true,
-        "text": "Frutas e insectos",
+        "text": "Fruits and insects",
         "image": "files/M8f03Re5AQs60YzQ0enlT.png",
         "updatedAt": null
       },
@@ -903,7 +854,7 @@
         "ChallengeOptionId": 55,
         "codename": "option_14C",
         "correctOption": false,
-        "text": "Semillas",
+        "text": "Seeds",
         "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
         "updatedAt": null
       },
@@ -911,14 +862,14 @@
         "ChallengeOptionId": 56,
         "codename": "option_14D",
         "correctOption": false,
-        "text": "Vegetación acuática",
+        "text": "Aquatic vegetation",
         "image": "files/AEeiVzGXV-WJOeVIcEXvD.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 14,
-      "feedback": "La dieta del Mosquero Rayado se basa en frutas y en una gran variedad de insectos capturados mediante vaivenes aéreos.",
+      "feedback": "The diet of the Streaked Flycatcher is based on fruits and a wide variety of insects captured through aerial sallies.",
       "image": null,
       "updatedAt": null
     }
@@ -926,7 +877,7 @@
   {
     "ChallengeID": 15,
     "codename": "challenge_15",
-    "question": "¿Cuál es la dieta del Pájaro Carpintero?",
+    "question": "What is the diet of the Woodpecker?",
     "score": 1,
     "image": "files/k7rX8SKeEKYNHJTq9tcu0.jpg",
     "difficulty": 1,
@@ -952,7 +903,7 @@
         "ChallengeOptionId": 57,
         "codename": "option_15A",
         "correctOption": true,
-        "text": "Insectos",
+        "text": "Insects",
         "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
         "updatedAt": null
       },
@@ -960,7 +911,7 @@
         "ChallengeOptionId": 58,
         "codename": "option_15B",
         "correctOption": false,
-        "text": "Semillas",
+        "text": "Seeds",
         "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
         "updatedAt": null
       },
@@ -968,7 +919,7 @@
         "ChallengeOptionId": 59,
         "codename": "option_15C",
         "correctOption": false,
-        "text": "Peces",
+        "text": "Fish",
         "image": "files/VPiVQ4Yu0Txd1e5EqCMzL.png",
         "updatedAt": null
       },
@@ -976,14 +927,14 @@
         "ChallengeOptionId": 60,
         "codename": "option_15D",
         "correctOption": false,
-        "text": "Invertebrados acuáticos",
+        "text": "Aquatic invertebrates",
         "image": "files/2RFhiUhnrQdb7o65HKumd.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 15,
-      "feedback": "La dieta del Pájaro Carpintero se basa principalmente de insectos que captura en los troncos de los árboles.",
+      "feedback": "The diet of the Woodpecker is mainly based on insects it captures on tree trunks.",
       "image": null,
       "updatedAt": null
     }
@@ -991,7 +942,7 @@
   {
     "ChallengeID": 16,
     "codename": "challenge_16",
-    "question": "¿Cuál es la dieta principal del Colibrí?",
+    "question": "What is the main diet of the Hummingbird?",
     "score": 1,
     "image": "files/OOzjig6BVMAYPeZGSVGcd.jpg",
     "difficulty": 1,
@@ -1017,7 +968,7 @@
         "ChallengeOptionId": 61,
         "codename": "option_16A",
         "correctOption": false,
-        "text": "Huevos",
+        "text": "Eggs",
         "image": "files/h8ykrFj1CBXVFPl62vdnb.png",
         "updatedAt": null
       },
@@ -1025,7 +976,7 @@
         "ChallengeOptionId": 62,
         "codename": "option_16B",
         "correctOption": false,
-        "text": "Peces pequeños",
+        "text": "Small fish",
         "image": "files/VPiVQ4Yu0Txd1e5EqCMzL.png",
         "updatedAt": null
       },
@@ -1033,7 +984,7 @@
         "ChallengeOptionId": 63,
         "codename": "option_16C",
         "correctOption": false,
-        "text": "Vegetación acuática",
+        "text": "Aquatic vegetation",
         "image": "files/AEeiVzGXV-WJOeVIcEXvD.png",
         "updatedAt": null
       },
@@ -1041,14 +992,14 @@
         "ChallengeOptionId": 64,
         "codename": "option_16D",
         "correctOption": true,
-        "text": "Néctar",
+        "text": "Nectar",
         "image": "files/77v0C4-wN6nI7Drknl3lg.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 16,
-      "feedback": "La dieta principal del Colibrí se basa en nectar.",
+      "feedback": "The main diet of the Hummingbird is based on nectar.",
       "image": null,
       "updatedAt": null
     }
@@ -1056,7 +1007,7 @@
   {
     "ChallengeID": 17,
     "codename": "challenge_17",
-    "question": "¿Dónde carga el Zambullidor Piquipinto a sus polluelos?",
+    "question": "Where does the White-capped Dipper carry its chicks?",
     "score": 1,
     "image": "files/hgElRsvczShkww66I9mE6.jpg",
     "difficulty": 2,
@@ -1067,7 +1018,7 @@
         "ChallengeOptionId": 65,
         "codename": "option_17A",
         "correctOption": true,
-        "text": "En la espalda",
+        "text": "On its back",
         "image": "files/jhl3S9-mkFRx5D6NWekJg.png",
         "updatedAt": null
       },
@@ -1075,7 +1026,7 @@
         "ChallengeOptionId": 66,
         "codename": "option_17B",
         "correctOption": false,
-        "text": "En las patas",
+        "text": "On its legs",
         "image": "files/Pn9WSUwdw_bMHs8MYCAyt.png",
         "updatedAt": null
       },
@@ -1083,7 +1034,7 @@
         "ChallengeOptionId": 67,
         "codename": "option_17C",
         "correctOption": false,
-        "text": "Debajo de las alas",
+        "text": "Under its wings",
         "image": "files/28WZsZEX8UE5KspLPO5HU.png",
         "updatedAt": null
       },
@@ -1091,14 +1042,14 @@
         "ChallengeOptionId": 68,
         "codename": "option_17D",
         "correctOption": false,
-        "text": "En la cabeza",
+        "text": "On its head",
         "image": "files/Uj8cWjQOWy_PX22z9FcYa.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 17,
-      "feedback": "El Zambullidor Piquipinto adulto suele cargar a los polluelos sobre su espalda.",
+      "feedback": "The adult White-capped Dipper usually carries its chicks on its back.",
       "image": null,
       "updatedAt": null
     }
@@ -1106,7 +1057,7 @@
   {
     "ChallengeID": 18,
     "codename": "challenge_18",
-    "question": "¿Dónde habita el Momotido?",
+    "question": "Where does the Motmot live?",
     "score": 1,
     "image": "files/A5rzqvWz1KX8hbC5yZXwl.jpg",
     "difficulty": 2,
@@ -1123,7 +1074,7 @@
         "GameLevelId": 2,
         "updatedAt": null,
         "gameLevel": {
-          "Name": "Bosque-Estación 1"
+          "Name": "Forest-Station 1"
         }
       }
     ],
@@ -1132,7 +1083,7 @@
         "ChallengeOptionId": 69,
         "codename": "option_18A",
         "correctOption": true,
-        "text": "Bosque seco",
+        "text": "Dry forest",
         "image": "files/4G4D4-1UAfzUhw3M719dT.png",
         "updatedAt": null
       },
@@ -1140,7 +1091,7 @@
         "ChallengeOptionId": 70,
         "codename": "option_18B",
         "correctOption": false,
-        "text": "Bosque húmedo",
+        "text": "Rainforest",
         "image": "files/d9vSvrub6fJbIy6rbAJdR.png",
         "updatedAt": null
       },
@@ -1148,7 +1099,7 @@
         "ChallengeOptionId": 71,
         "codename": "option_18C",
         "correctOption": false,
-        "text": "Cuerpos de agua",
+        "text": "Bodies of water",
         "image": "files/qlghP86xPy_iUvAnYQrUZ.png",
         "updatedAt": null
       },
@@ -1156,14 +1107,14 @@
         "ChallengeOptionId": 72,
         "codename": "option_18D",
         "correctOption": false,
-        "text": "Sotobosque",
+        "text": "Understory",
         "image": "files/vURFjIV4mYNhZiQ7tBYjd.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 18,
-      "feedback": "El Momotido habita principalmente en los bosques secos.",
+      "feedback": "The Motmot mainly inhabits dry forests.",
       "image": null,
       "updatedAt": null
     }
@@ -1171,7 +1122,7 @@
   {
     "ChallengeID": 19,
     "codename": "challenge_19",
-    "question": "¿Cuál es la dieta principal de la Garza Nocturna Coroniamarilla?",
+    "question": "What is the main diet of the Yellow-crowned Night Heron?",
     "score": 1,
     "image": "files/G1aQYep2a_DnJQPxR0u1M.jpg",
     "difficulty": 1,
@@ -1182,7 +1133,7 @@
         "ChallengeOptionId": 73,
         "codename": "option_19A",
         "correctOption": true,
-        "text": "Cangrejos",
+        "text": "Crabs",
         "image": "files/3bJkXWEGBFJcsKP95BWtb.png",
         "updatedAt": null
       },
@@ -1190,7 +1141,7 @@
         "ChallengeOptionId": 74,
         "codename": "option_19B",
         "correctOption": false,
-        "text": "Peces",
+        "text": "Fish",
         "image": "files/VPiVQ4Yu0Txd1e5EqCMzL.png",
         "updatedAt": null
       },
@@ -1198,7 +1149,7 @@
         "ChallengeOptionId": 75,
         "codename": "option_19C",
         "correctOption": false,
-        "text": "Pulpos",
+        "text": "Octopuses",
         "image": "files/HYcgIEeF8HfHmCGNjAbr_.png",
         "updatedAt": null
       },
@@ -1206,14 +1157,14 @@
         "ChallengeOptionId": 76,
         "codename": "option_19D",
         "correctOption": false,
-        "text": "Langostas",
+        "text": "Lobsters",
         "image": "files/7KFcuHIeP4FrLPjbnryDJ.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 19,
-      "feedback": "La Garza Nocturna Coroniamarilla habita en los manglares donde se alimenta principalmente de cangrejos.",
+      "feedback": "The Yellow-crowned Night Heron lives in mangroves where it feeds mainly on crabs.",
       "image": null,
       "updatedAt": null
     }
@@ -1221,7 +1172,7 @@
   {
     "ChallengeID": 20,
     "codename": "challenge_20",
-    "question": "¿Dónde habita la Garceta Grande?",
+    "question": "Where does the Great Egret live?",
     "score": 1,
     "image": "files/L-SfT-xcI5DYIh5fz-GLC.jpg",
     "difficulty": 2,
@@ -1232,7 +1183,7 @@
         "ChallengeOptionId": 77,
         "codename": "option_20A",
         "correctOption": false,
-        "text": "Matorrales deciduos",
+        "text": "Deciduous shrubs",
         "image": "files/kRRJQRwlqvaqbprCD7Vog.png",
         "updatedAt": null
       },
@@ -1240,7 +1191,7 @@
         "ChallengeOptionId": 78,
         "codename": "option_20B",
         "correctOption": false,
-        "text": "Matorrales áridos",
+        "text": "Arid shrubs",
         "image": "files/Plh7kjP5QSvmRqAjFQ3Gl.png",
         "updatedAt": null
       },
@@ -1248,7 +1199,7 @@
         "ChallengeOptionId": 79,
         "codename": "option_20C",
         "correctOption": true,
-        "text": "Cuerpos de agua",
+        "text": "Bodies of water",
         "image": "files/qlghP86xPy_iUvAnYQrUZ.png",
         "updatedAt": null
       },
@@ -1256,14 +1207,14 @@
         "ChallengeOptionId": 80,
         "codename": "option_20D",
         "correctOption": false,
-        "text": "Bosque húmedo",
+        "text": "Rainforest",
         "image": "files/d9vSvrub6fJbIy6rbAJdR.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 20,
-      "feedback": "La Garceta Grande es una especie gregaria que habita en cuerpos de agua dulce y salada.",
+      "feedback": "The Great Egret is a gregarious species that inhabits freshwater and saltwater bodies.",
       "image": null,
       "updatedAt": null
     }
@@ -1271,7 +1222,7 @@
   {
     "ChallengeID": 21,
     "codename": "challenge_21",
-    "question": "¿De que se alimenta el Gallinazo de Cabeza Roja?",
+    "question": "What does the Red-Headed Vulture feed on?",
     "score": 1,
     "image": "files/UaF1nD4Db8TXADB05GHNS.jpg",
     "difficulty": 3,
@@ -1290,7 +1241,7 @@
         "ChallengeOptionId": 81,
         "codename": "option_21A",
         "correctOption": false,
-        "text": "Insectos",
+        "text": "Insects",
         "image": "files/sD-0bt9Gx-ADIKbP_MeUa.png",
         "updatedAt": null
       },
@@ -1298,7 +1249,7 @@
         "ChallengeOptionId": 82,
         "codename": "option_21B",
         "correctOption": false,
-        "text": "Frutas",
+        "text": "Fruits",
         "image": "files/CO14thumoJ67z3sGcPeL0.png",
         "updatedAt": null
       },
@@ -1306,7 +1257,7 @@
         "ChallengeOptionId": 83,
         "codename": "option_21C",
         "correctOption": false,
-        "text": "Granos y Semillas",
+        "text": "Grains and Seeds",
         "image": "files/t_wKRPknWWVMeHl2lYsrS.png",
         "updatedAt": null
       },
@@ -1314,14 +1265,14 @@
         "ChallengeOptionId": 84,
         "codename": "option_21D",
         "correctOption": true,
-        "text": "Animales muertos",
+        "text": "Dead animals",
         "image": "files/Zt9uzDo0B1OkOXJvKUZQa.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 21,
-      "feedback": "El Gallinazo Cabeza Roja es una especie carroñera. Localiza los cadáveres de otros animales con su aguda visión y su sentido del olfato.",
+      "feedback": "The Red-Headed Vulture is a scavenger species. It locates the carcasses of other animals using its sharp vision and sense of smell.",
       "image": null,
       "updatedAt": null
     }
@@ -1329,7 +1280,7 @@
   {
     "ChallengeID": 22,
     "codename": "challenge_22",
-    "question": "¿Cuál es la presa principal del Halcón Reidor?",
+    "question": "What is the main prey of the Laughing Falcon?",
     "score": 1,
     "image": "files/Ptlu8o_pCyhSAZovujxNX.jpg",
     "difficulty": 1,
@@ -1340,7 +1291,7 @@
         "ChallengeOptionId": 85,
         "codename": "option_22A",
         "correctOption": false,
-        "text": "Insectos",
+        "text": "Insects",
         "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
         "updatedAt": null
       },
@@ -1348,7 +1299,7 @@
         "ChallengeOptionId": 86,
         "codename": "option_22B",
         "correctOption": false,
-        "text": "Peces",
+        "text": "Fish",
         "image": "files/VPiVQ4Yu0Txd1e5EqCMzL.png",
         "updatedAt": null
       },
@@ -1356,7 +1307,7 @@
         "ChallengeOptionId": 87,
         "codename": "option_22C",
         "correctOption": true,
-        "text": "Culebras",
+        "text": "Snakes",
         "image": "files/g4oQpB5ZroEmzQaT95ure.png",
         "updatedAt": null
       },
@@ -1364,14 +1315,14 @@
         "ChallengeOptionId": 88,
         "codename": "option_22D",
         "correctOption": false,
-        "text": "Larvas",
+        "text": "Larvae",
         "image": "files/JMQSkrbkJUZzMifKYJEUb.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 22,
-      "feedback": "La presa principal del Halcón Reidor son las culebras a las cuales golpea con sus patas, les corta la cabeza con su pico y luego se las come.",
+      "feedback": "The main prey of the Laughing Falcon is snakes, which it strikes with its talons, decapitates with its beak, and then eats.",
       "image": null,
       "updatedAt": null
     }
@@ -1379,7 +1330,7 @@
   {
     "ChallengeID": 23,
     "codename": "challenge_23",
-    "question": "¿A qué roedor se asemeja el comportamiento de la Golondrina?",
+    "question": "Which rodent does the Swallow's behavior resemble?",
     "score": 1,
     "image": "files/xEdjpBVNOMvDdib-ay50C.jpg",
     "difficulty": 1,
@@ -1398,7 +1349,7 @@
         "ChallengeOptionId": 89,
         "codename": "option_23A",
         "correctOption": true,
-        "text": "Ardilla",
+        "text": "Squirrel",
         "image": "files/t_wKRPknWWVMeHl2lYsrS.png",
         "updatedAt": null
       },
@@ -1406,7 +1357,7 @@
         "ChallengeOptionId": 90,
         "codename": "option_23B",
         "correctOption": false,
-        "text": "Hámster",
+        "text": "Hamster",
         "image": "files/UM7ebBKehqgvfkwvMLk7P.png",
         "updatedAt": null
       },
@@ -1414,7 +1365,7 @@
         "ChallengeOptionId": 91,
         "codename": "option_23C",
         "correctOption": false,
-        "text": "Rata",
+        "text": "Rat",
         "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
         "updatedAt": null
       },
@@ -1422,14 +1373,14 @@
         "ChallengeOptionId": 92,
         "codename": "option_23D",
         "correctOption": false,
-        "text": "Conejo",
+        "text": "Rabbit",
         "image": "files/WjIrUGyTYdkTwBM9UUe8-.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 23,
-      "feedback": "El comportamiento de la Golondrina se asemeja a la ardilla ya que prefiere trasladarse saltando de rama en rama con la agilidad y rapidez que lo hace dicha especie, rara vez vuela para trasladarse.",
+      "feedback": "The behavior of the Swallow resembles that of a squirrel, as it prefers to move by jumping from branch to branch with agility and speed, rarely flying to move.",
       "image": null,
       "updatedAt": null
     }
@@ -1437,7 +1388,7 @@
   {
     "ChallengeID": 24,
     "codename": "challenge_24",
-    "question": "¿De qué se alimenta el Colibrí?",
+    "question": "What does the Hummingbird feed on?",
     "score": 1,
     "image": "files/OOzjig6BVMAYPeZGSVGcd.jpg",
     "difficulty": 1,
@@ -1463,7 +1414,7 @@
         "ChallengeOptionId": 93,
         "codename": "option_24A",
         "correctOption": false,
-        "text": "Frutas",
+        "text": "Fruits",
         "image": "files/M8f03Re5AQs60YzQ0enlT.png",
         "updatedAt": null
       },
@@ -1471,7 +1422,7 @@
         "ChallengeOptionId": 94,
         "codename": "option_24B",
         "correctOption": false,
-        "text": "Arañas",
+        "text": "Spiders",
         "image": "files/pL-ZnKLAAB5uf8GKfyqT4.png",
         "updatedAt": null
       },
@@ -1479,7 +1430,7 @@
         "ChallengeOptionId": 95,
         "codename": "option_24C",
         "correctOption": false,
-        "text": "Insectos",
+        "text": "Insects",
         "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
         "updatedAt": null
       },
@@ -1487,14 +1438,14 @@
         "ChallengeOptionId": 96,
         "codename": "option_24D",
         "correctOption": true,
-        "text": "Néctar de las flores",
+        "text": "Flower nectar",
         "image": "files/P6GzFW8EXs7c-bJQDLPak.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 24,
-      "feedback": "El Colibrí se alimenta del nectar de las flores, ayudando en la polinización.",
+      "feedback": "The Hummingbird feeds on flower nectar, helping with pollination.",
       "image": null,
       "updatedAt": null
     }
@@ -1502,19 +1453,13 @@
   {
     "ChallengeID": 25,
     "codename": "challenge_25",
-    "question": "¿De qué se alimenta el Trogón ecuatoriano?",
+    "question": "What does the Ecuadorian Trogon feed on?",
     "score": 1,
     "image": "files/OqDqInw6d5ptiaYQRHs0S.jpg",
     "difficulty": 1,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
-      },
+
       {
         "GameLevelId": 4,
         "updatedAt": null,
@@ -1528,7 +1473,7 @@
         "ChallengeOptionId": 97,
         "codename": "option_25A",
         "correctOption": false,
-        "text": "Animales muertos",
+        "text": "Dead animals",
         "image": "files/Zt9uzDo0B1OkOXJvKUZQa.png",
         "updatedAt": null
       },
@@ -1536,7 +1481,7 @@
         "ChallengeOptionId": 98,
         "codename": "option_25B",
         "correctOption": false,
-        "text": "Semillas",
+        "text": "Seeds",
         "image": "files/cG4S9G2lWoFZVZ9SOYJNb.png",
         "updatedAt": null
       },
@@ -1544,7 +1489,7 @@
         "ChallengeOptionId": 99,
         "codename": "option_25C",
         "correctOption": true,
-        "text": "Insectos",
+        "text": "Insects",
         "image": "files/t1f1kFRXBJo3VC-VxN3V3.png",
         "updatedAt": null
       },
@@ -1552,14 +1497,14 @@
         "ChallengeOptionId": 100,
         "codename": "option_25D",
         "correctOption": false,
-        "text": "Invertebrados acuáticos",
+        "text": "Aquatic invertebrates",
         "image": "files/2RFhiUhnrQdb7o65HKumd.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 25,
-      "feedback": "El Trogón ecuatoriano se alimenta mayormente de insectos, aunque tambien lo hace de frutas.",
+      "feedback": "The Ecuadorian Trogon feeds mainly on insects, although it also consumes fruits.",
       "image": null,
       "updatedAt": null
     }
@@ -1567,19 +1512,13 @@
   {
     "ChallengeID": 26,
     "codename": "challenge_26",
-    "question": "¿Dónde habita el Buho Blanquinegro?",
+    "question": "Where does the Black-and-White Owl live?",
     "score": 1,
     "image": "files/XDEfUDWhB7cQVulvGJiJb.jpg",
     "difficulty": 2,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 4,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 3"
-        }
-      },
+
       {
         "GameLevelId": 4,
         "updatedAt": null,
@@ -1593,7 +1532,7 @@
         "ChallengeOptionId": 101,
         "codename": "option_26A",
         "correctOption": false,
-        "text": "Matorrales áridos",
+        "text": "Arid scrublands",
         "image": "files/Plh7kjP5QSvmRqAjFQ3Gl.png",
         "updatedAt": null
       },
@@ -1601,7 +1540,7 @@
         "ChallengeOptionId": 102,
         "codename": "option_26B",
         "correctOption": false,
-        "text": "Matorrales deciduos",
+        "text": "Deciduous scrublands",
         "image": "files/kRRJQRwlqvaqbprCD7Vog.png",
         "updatedAt": null
       },
@@ -1609,7 +1548,7 @@
         "ChallengeOptionId": 103,
         "codename": "option_26C",
         "correctOption": false,
-        "text": "Jardínes",
+        "text": "Gardens",
         "image": "files/j3yYzJc5z3pTGRV-t_PjG.png",
         "updatedAt": null
       },
@@ -1617,14 +1556,14 @@
         "ChallengeOptionId": 104,
         "codename": "option_26D",
         "correctOption": true,
-        "text": "Bosques Secos",
+        "text": "Dry forests",
         "image": "files/4G4D4-1UAfzUhw3M719dT.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 26,
-      "feedback": "El Búho Blanquinegro habita principalmente en los bosques secos y se lo puede avistar de noche.",
+      "feedback": "The Black-and-White Owl mainly inhabits dry forests and can be spotted at night.",
       "image": null,
       "updatedAt": null
     }
@@ -1632,19 +1571,13 @@
   {
     "ChallengeID": 27,
     "codename": "challenge_27",
-    "question": "¿Cómo es el comportamiento alimenticio del Pajaro Carpintero?",
+    "question": "What is the feeding behavior of the Woodpecker?",
     "score": 1,
     "image": "files/e8eziyarCmIQoQmqYYIag.jpg",
     "difficulty": 3,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
+
       {
         "GameLevelId": 5,
         "updatedAt": null,
@@ -1658,7 +1591,7 @@
         "ChallengeOptionId": 105,
         "codename": "option_27A",
         "correctOption": false,
-        "text": "Caza desde una vegetación flotante",
+        "text": "Hunts from floating vegetation",
         "image": "files/AEeiVzGXV-WJOeVIcEXvD.png",
         "updatedAt": null
       },
@@ -1666,7 +1599,7 @@
         "ChallengeOptionId": 106,
         "codename": "option_27B",
         "correctOption": true,
-        "text": "Esculca troncos en busca de comida",
+        "text": "Pecks trunks in search of food",
         "image": "files/mvLUAwBDDyN3smJNea3Ic.png",
         "updatedAt": null
       },
@@ -1674,7 +1607,7 @@
         "ChallengeOptionId": 107,
         "codename": "option_27C",
         "correctOption": false,
-        "text": "Observa su presa y se lanza para atraparla",
+        "text": "Watches its prey and dives to catch it",
         "image": "files/28WZsZEX8UE5KspLPO5HU.png",
         "updatedAt": null
       },
@@ -1682,14 +1615,14 @@
         "ChallengeOptionId": 108,
         "codename": "option_27D",
         "correctOption": false,
-        "text": "Espera a su presa al pie de la orilla",
+        "text": "Waits for its prey at the water's edge",
         "image": "files/fz4I51MYeqonX4mk21eSK.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 27,
-      "feedback": "Con su potente pico el Pajaro Carpintero esculca troncos y ramas en busca de insectos, pero también se alimenta de frutas e insectos que caza en el aire.",
+      "feedback": "With its powerful beak, the Woodpecker pecks trunks and branches in search of insects, but it also feeds on fruits and insects caught in the air.",
       "image": null,
       "updatedAt": null
     }
@@ -1697,7 +1630,7 @@
   {
     "ChallengeID": 28,
     "codename": "challenge_28",
-    "question": "¿Cuál es la dieta principal del Mosquero Picudo?",
+    "question": "What is the main diet of the Long-tailed Flycatcher?",
     "score": 1,
     "image": "files/SyZsctgvm8LRDzifMUqX2.jpg",
     "difficulty": 1,
@@ -1723,7 +1656,7 @@
         "ChallengeOptionId": 109,
         "codename": "option_28A",
         "correctOption": true,
-        "text": "Cigarras",
+        "text": "Cicadas",
         "image": "files/vucW5iWIzQJUoH5VyLKa-.png",
         "updatedAt": null
       },
@@ -1731,7 +1664,7 @@
         "ChallengeOptionId": 110,
         "codename": "option_28B",
         "correctOption": false,
-        "text": "Cucarachas",
+        "text": "Cockroaches",
         "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
         "updatedAt": null
       },
@@ -1739,7 +1672,7 @@
         "ChallengeOptionId": 111,
         "codename": "option_28C",
         "correctOption": false,
-        "text": "Hormigas",
+        "text": "Ants",
         "image": "files/8JAE4qzGxFknnYrYvV2NJ.png",
         "updatedAt": null
       },
@@ -1747,14 +1680,14 @@
         "ChallengeOptionId": 112,
         "codename": "option_28D",
         "correctOption": false,
-        "text": "Abejas",
+        "text": "Bees",
         "image": "files/3PDldViFxlnkQC5ZHq51N.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 28,
-      "feedback": "El Mosquero Picudo se alimenta principalmente de insectos grandes como las cigarras, golpeándolas contra una rama o el suelo antes de comersela, también consume fruta en pocas cantidades.",
+      "feedback": "The Long-tailed Flycatcher mainly feeds on large insects like cicadas, striking them against a branch or the ground before eating them. It also consumes small amounts of fruit.",
       "image": null,
       "updatedAt": null
     }
@@ -1762,7 +1695,7 @@
   {
     "ChallengeID": 29,
     "codename": "challenge_29",
-    "question": "¿En qué época del año son más abundantes los Pinzones Pechicarmesí?",
+    "question": "During which season are Crimson-breasted Finches most abundant?",
     "score": 1,
     "image": "files/BXTM4ItGintWXghGQHYva.jpg",
     "difficulty": 3,
@@ -1788,7 +1721,7 @@
         "ChallengeOptionId": 113,
         "codename": "option_29A",
         "correctOption": false,
-        "text": "Época de calor",
+        "text": "Hot season",
         "image": "files/INQjoIP55QnBwEhMK2kim.png",
         "updatedAt": null
       },
@@ -1796,7 +1729,7 @@
         "ChallengeOptionId": 114,
         "codename": "option_29B",
         "correctOption": false,
-        "text": "Época húmeda",
+        "text": "Humid season",
         "image": "files/G4SdYIEk3j-v1qc2shLe-.png",
         "updatedAt": null
       },
@@ -1804,7 +1737,7 @@
         "ChallengeOptionId": 115,
         "codename": "option_29C",
         "correctOption": true,
-        "text": "Época de lluvia",
+        "text": "Rainy season",
         "image": "files/uxTeeM1-WgnjdKw5hf-03.png",
         "updatedAt": null
       },
@@ -1812,14 +1745,14 @@
         "ChallengeOptionId": 116,
         "codename": "option_29D",
         "correctOption": false,
-        "text": "Época seca",
+        "text": "Dry season",
         "image": "files/TucP8FdXst8Su6_cSDcpq.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 29,
-      "feedback": "Los Pinzones Pechicarmesí son más abundantes en la época de lluvia, el resto del año son gregarias usualmente con otros espigueros y semilleros.",
+      "feedback": "Crimson-breasted Finches are most abundant during the rainy season; the rest of the year they usually flock with other finches and seed-eaters.",
       "image": null,
       "updatedAt": null
     }
@@ -1827,7 +1760,7 @@
   {
     "ChallengeID": 30,
     "codename": "challenge_30",
-    "question": "¿Qué tipo de simbiosis realiza el Vaquero Brilloso con los animales de granja?",
+    "question": "What type of symbiosis does the Glossy Cowbird have with farm animals?",
     "score": 1,
     "image": "files/oHVAl-Eq2z4P1BJHAkAmL.jpg",
     "difficulty": 3,
@@ -1838,7 +1771,7 @@
         "ChallengeOptionId": 117,
         "codename": "option_30A",
         "correctOption": false,
-        "text": "Amensalismo",
+        "text": "Amensalism",
         "image": "files/sBwTmM-jl-On6j1urP5v6.png",
         "updatedAt": null
       },
@@ -1846,7 +1779,7 @@
         "ChallengeOptionId": 118,
         "codename": "option_30B",
         "correctOption": false,
-        "text": "Comensalismo",
+        "text": "Commensalism",
         "image": "files/bHmxpN62M2YENCSNyuSBD.png",
         "updatedAt": null
       },
@@ -1854,7 +1787,7 @@
         "ChallengeOptionId": 119,
         "codename": "option_30C",
         "correctOption": false,
-        "text": "Parasitismo",
+        "text": "Parasitism",
         "image": "files/0GiwMzMSaAkvU9dvrcA_b.png",
         "updatedAt": null
       },
@@ -1862,14 +1795,14 @@
         "ChallengeOptionId": 120,
         "codename": "option_30D",
         "correctOption": true,
-        "text": "Mutualismo",
+        "text": "Mutualism",
         "image": "files/WpeHvTUu8imw0LqJjhk3h.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 30,
-      "feedback": "El Vaquero Brilloso habita en zonas agrícolas donde a menudo monta los lomos de vacas, caballos y ovejas para alimentarse de los insectos que se acercan a dichos animales de granja.",
+      "feedback": "The Glossy Cowbird inhabits agricultural areas where it often rides on the backs of cows, horses, and sheep to feed on the insects that approach these farm animals.",
       "image": null,
       "updatedAt": null
     }
@@ -1877,7 +1810,7 @@
   {
     "ChallengeID": 31,
     "codename": "challenge_31",
-    "question": "¿Qué animal no encontramos en el Bosque Protector Prosperina?",
+    "question": "Which animal is not found in the Prosperina Protected Forest?",
     "score": 1,
     "image": "files/ZehUCXePhR45WVdzw_jto.jpg",
     "difficulty": 1,
@@ -1904,7 +1837,7 @@
         "ChallengeOptionId": 122,
         "codename": "option_31B",
         "correctOption": false,
-        "text": "Mono araña",
+        "text": "Spider Monkey",
         "image": "files/X5sQG10U6SkO_2LE4gP6n.png",
         "updatedAt": null
       },
@@ -1912,7 +1845,7 @@
         "ChallengeOptionId": 123,
         "codename": "option_31C",
         "correctOption": false,
-        "text": "Ardilla",
+        "text": "Squirrel",
         "image": "files/7lEM0-JjcdN6yRaRnvtGX.png",
         "updatedAt": null
       },
@@ -1920,14 +1853,14 @@
         "ChallengeOptionId": 124,
         "codename": "option_31D",
         "correctOption": false,
-        "text": "Búho",
+        "text": "Owl",
         "image": "files/vs4GevEQLoIjh4ufbvqe-.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 31,
-      "feedback": "La Llama no se encuentra en el Bosque Protector Prosperina.",
+      "feedback": "The Llama is not found in the Prosperina Protected Forest.",
       "image": null,
       "updatedAt": null
     }
@@ -1935,7 +1868,7 @@
   {
     "ChallengeID": 32,
     "codename": "challenge_32",
-    "question": "¿Cuáles son las principales amenazas en un bosque seco tropical?",
+    "question": "What are the main threats in a tropical dry forest?",
     "score": 1,
     "image": "files/ZehUCXePhR45WVdzw_jto.jpg",
     "difficulty": 1,
@@ -1954,7 +1887,7 @@
         "ChallengeOptionId": 125,
         "codename": "option_32A",
         "correctOption": false,
-        "text": "Contaminación",
+        "text": "Pollution",
         "image": "files/beo-qnqJ1w-O-i7wQbMU7.png",
         "updatedAt": null
       },
@@ -1962,7 +1895,7 @@
         "ChallengeOptionId": 126,
         "codename": "option_32B",
         "correctOption": false,
-        "text": "Deforestación",
+        "text": "Deforestation",
         "image": "files/6Seh2pcJn4ylVCOp5er0X.png",
         "updatedAt": null
       },
@@ -1970,7 +1903,7 @@
         "ChallengeOptionId": 127,
         "codename": "option_32C",
         "correctOption": false,
-        "text": "Incendios",
+        "text": "Fires",
         "image": "files/IJ3fc3PQSg_PvFywt_Z0-.png",
         "updatedAt": null
       },
@@ -1978,14 +1911,14 @@
         "ChallengeOptionId": 128,
         "codename": "option_32D",
         "correctOption": true,
-        "text": "Todas",
+        "text": "All of the above",
         "image": "files/F8EQh7K79hhs--6m8SUsl.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 32,
-      "feedback": "Contaminación, deforestación e incendios, son todas potenciales amenazas frente al bosque.",
+      "feedback": "Pollution, deforestation, and fires are all potential threats to the forest.",
       "image": null,
       "updatedAt": null
     }
@@ -1993,7 +1926,7 @@
   {
     "ChallengeID": 33,
     "codename": "challenge_33",
-    "question": "Si usted se encuentra con una basura en el sendero de un bosque ¿Que haría?",
+    "question": "If you find trash on a forest trail, what would you do?",
     "score": 1,
     "image": "files/ZehUCXePhR45WVdzw_jto.jpg",
     "difficulty": 1,
@@ -2012,7 +1945,7 @@
         "ChallengeOptionId": 129,
         "codename": "option_33A",
         "correctOption": false,
-        "text": "Patearla",
+        "text": "Kick it",
         "image": "files/BA6BAslZgHPRqLQMYmYCi.png",
         "updatedAt": null
       },
@@ -2020,7 +1953,7 @@
         "ChallengeOptionId": 130,
         "codename": "option_33B",
         "correctOption": false,
-        "text": "Arrojarla fuera del sendero",
+        "text": "Throw it off the trail",
         "image": "files/hBrH_5542J9jWVXKu_V8Z.png",
         "updatedAt": null
       },
@@ -2028,7 +1961,7 @@
         "ChallengeOptionId": 131,
         "codename": "option_33C",
         "correctOption": true,
-        "text": "Llevarla al basurero",
+        "text": "Take it to the trash bin",
         "image": "files/R9C4R6nECTaLKfX2nRQEo.png",
         "updatedAt": null
       },
@@ -2036,14 +1969,14 @@
         "ChallengeOptionId": 132,
         "codename": "option_33D",
         "correctOption": false,
-        "text": "Enterrarla",
+        "text": "Bury it",
         "image": "files/dFwEfTvbt2OnfBIli4MFH.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 33,
-      "feedback": "Botar la basura en el respectivo basurero ayuda a reducir la contaminación en el Bosque Protector Prosperina.",
+      "feedback": "Throwing trash in the appropriate bin helps reduce pollution in the Prosperina Protected Forest.",
       "image": null,
       "updatedAt": null
     }
@@ -2051,7 +1984,7 @@
   {
     "ChallengeID": 34,
     "codename": "challenge_34",
-    "question": "Si usted se encuentra con una flor hermosa en un bosque seco tropical ¿Que haría?",
+    "question": "If you find a beautiful flower in a tropical dry forest, what would you do?",
     "score": 1,
     "image": "files/ZehUCXePhR45WVdzw_jto.jpg",
     "difficulty": 1,
@@ -2070,7 +2003,7 @@
         "ChallengeOptionId": 133,
         "codename": "option_34A",
         "correctOption": false,
-        "text": "Llevarla a casa",
+        "text": "Take it home",
         "image": "files/ylMLSVfWT2IVau9VxhbIw.png",
         "updatedAt": null
       },
@@ -2078,7 +2011,7 @@
         "ChallengeOptionId": 134,
         "codename": "option_34B",
         "correctOption": true,
-        "text": "Solo mirar",
+        "text": "Just look at it",
         "image": "files/77v0C4-wN6nI7Drknl3lg.png",
         "updatedAt": null
       },
@@ -2086,7 +2019,7 @@
         "ChallengeOptionId": 135,
         "codename": "option_34C",
         "correctOption": false,
-        "text": "Esconderla",
+        "text": "Hide it",
         "image": "files/mZjph8XVMzEYMSF0TVyFP.png",
         "updatedAt": null
       },
@@ -2094,14 +2027,14 @@
         "ChallengeOptionId": 136,
         "codename": "option_34D",
         "correctOption": false,
-        "text": "Quemarla",
+        "text": "Burn it",
         "image": "files/IJ3fc3PQSg_PvFywt_Z0-.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 34,
-      "feedback": "El comportamiento correcto es observar a la flor para no alterar el ecosistema.",
+      "feedback": "The correct behavior is to observe the flower without disturbing the ecosystem.",
       "image": null,
       "updatedAt": null
     }
@@ -2109,7 +2042,7 @@
   {
     "ChallengeID": 35,
     "codename": "challenge_35",
-    "question": "¿Qué especie de planta no encontramos en el Bosque Protector Prosperina?",
+    "question": "Which plant species is not found in the Prosperina Protected Forest?",
     "score": 1,
     "image": "files/ZehUCXePhR45WVdzw_jto.jpg",
     "difficulty": 3,
@@ -2144,7 +2077,7 @@
         "ChallengeOptionId": 139,
         "codename": "option_35C",
         "correctOption": true,
-        "text": "Pino",
+        "text": "Pine",
         "image": "files/5KfLHN9CNS9L4XArSDBxB.png",
         "updatedAt": null
       },
@@ -2159,7 +2092,7 @@
     ],
     "feedback": {
       "ChallengeFeedbackId": 35,
-      "feedback": "El pino no se encuentra en el Bosque Protector Prosperina.",
+      "feedback": "The Pine is not found in the Prosperina Protected Forest.",
       "image": null,
       "updatedAt": null
     }
@@ -2167,7 +2100,7 @@
   {
     "ChallengeID": 36,
     "codename": "challenge_36",
-    "question": "¿En qué región habita el Oso Perezoso",
+    "question": "In which region does the Sloth Bear live?",
     "score": 1,
     "image": "files/Xr1Y0tVCSwx50ENQVUjID.jpg",
     "difficulty": 1,
@@ -2178,7 +2111,7 @@
         "ChallengeOptionId": 141,
         "codename": "option_36A",
         "correctOption": true,
-        "text": "Costa",
+        "text": "Coast",
         "image": "files/nPq8Nz1tHzJPwugki8pf0.png",
         "updatedAt": null
       },
@@ -2186,7 +2119,7 @@
         "ChallengeOptionId": 142,
         "codename": "option_36B",
         "correctOption": false,
-        "text": "Sierra",
+        "text": "Highlands",
         "image": "files/rZdhtPOWZo4lH8AchDCzT.png",
         "updatedAt": null
       },
@@ -2194,7 +2127,7 @@
         "ChallengeOptionId": 143,
         "codename": "option_36C",
         "correctOption": false,
-        "text": "Oriente",
+        "text": "Amazon",
         "image": "files/g4J0OLVy7hxNMdQF5couh.png",
         "updatedAt": null
       },
@@ -2209,7 +2142,7 @@
     ],
     "feedback": {
       "ChallengeFeedbackId": 36,
-      "feedback": "El Oso Perezoso es mas comun en la Region de la Costa.",
+      "feedback": "The Sloth Bear is more common in the Coastal region.",
       "image": null,
       "updatedAt": null
     }
@@ -2217,7 +2150,7 @@
   {
     "ChallengeID": 37,
     "codename": "challenge_37",
-    "question": "¿El Oso Perezoso es mas activo cuando es...",
+    "question": "The Sloth Bear is more active when...",
     "score": 1,
     "image": "files/Xr1Y0tVCSwx50ENQVUjID.jpg",
     "difficulty": 1,
@@ -2228,7 +2161,7 @@
         "ChallengeOptionId": 145,
         "codename": "option_37A",
         "correctOption": false,
-        "text": "De Mañana",
+        "text": "In the Morning",
         "image": "files/9JPO3Xe1bd83bQ045OKbL.png",
         "updatedAt": null
       },
@@ -2236,7 +2169,7 @@
         "ChallengeOptionId": 146,
         "codename": "option_37B",
         "correctOption": false,
-        "text": "De Tarde",
+        "text": "In the Afternoon",
         "image": "files/n_WWQnfj-616DPNfwBkxr.png",
         "updatedAt": null
       },
@@ -2244,7 +2177,7 @@
         "ChallengeOptionId": 147,
         "codename": "option_37C",
         "correctOption": true,
-        "text": "De Noche",
+        "text": "At Night",
         "image": "files/0MYobpJs2Wxxg6wYbG0Hz.png",
         "updatedAt": null
       },
@@ -2252,14 +2185,14 @@
         "ChallengeOptionId": 148,
         "codename": "option_37D",
         "correctOption": false,
-        "text": "Todo el dia",
+        "text": "All day",
         "image": "files/INQjoIP55QnBwEhMK2kim.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 37,
-      "feedback": "El Oso Perezoso es un animal nocturno lo que significa que solo es activo cuando es de noche.",
+      "feedback": "The Sloth Bear is a nocturnal animal, meaning it is only active at night.",
       "image": null,
       "updatedAt": null
     }
@@ -2267,7 +2200,7 @@
   {
     "ChallengeID": 38,
     "codename": "challenge_38",
-    "question": "¿En qué provincia NO ha sido registrado el Mono Araña?",
+    "question": "In which province has the Spider Monkey NOT been recorded?",
     "score": 1,
     "image": "files/S-RbnNngCSrGoHBEJrdAK.jpg",
     "difficulty": 1,
@@ -2309,7 +2242,7 @@
     ],
     "feedback": {
       "ChallengeFeedbackId": 38,
-      "feedback": "Esmeraldas, Manabi, Carchi son provincias en las que se ha registrado oficialmente un avistamiento del Mono Araña.",
+      "feedback": "Esmeraldas, Manabi, and Carchi are provinces where the Spider Monkey has been officially sighted.",
       "image": null,
       "updatedAt": null
     }
@@ -2317,7 +2250,7 @@
   {
     "ChallengeID": 39,
     "codename": "challenge_39",
-    "question": "¿Qué come principalmente el Mono Araña?",
+    "question": "What does the Spider Monkey primarily eat?",
     "score": 1,
     "image": "files/S-RbnNngCSrGoHBEJrdAK.jpg",
     "difficulty": 1,
@@ -2328,7 +2261,7 @@
         "ChallengeOptionId": 153,
         "codename": "option_39A",
         "correctOption": true,
-        "text": "Frutas",
+        "text": "Fruits",
         "image": "files/M8f03Re5AQs60YzQ0enlT.png",
         "updatedAt": null
       },
@@ -2336,7 +2269,7 @@
         "ChallengeOptionId": 154,
         "codename": "option_39B",
         "correctOption": false,
-        "text": "Insectos",
+        "text": "Insects",
         "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
         "updatedAt": null
       },
@@ -2352,14 +2285,14 @@
         "ChallengeOptionId": 156,
         "codename": "option_39D",
         "correctOption": false,
-        "text": "Roedores",
+        "text": "Rodents",
         "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 39,
-      "feedback": "El Mono Araña es un animal Frutariano.",
+      "feedback": "The Spider Monkey is a frugivorous animal.",
       "image": null,
       "updatedAt": null
     }
@@ -2367,7 +2300,7 @@
   {
     "ChallengeID": 40,
     "codename": "challenge_40",
-    "question": "¿De qué se alimenta la Ardilla de Guayaquil?",
+    "question": "What does the Guayaquil Squirrel eat?",
     "score": 1,
     "image": "files/a94PGORq_6LIktWYIGIao.jpg",
     "difficulty": 1,
@@ -2393,7 +2326,7 @@
         "ChallengeOptionId": 157,
         "codename": "option_40A",
         "correctOption": false,
-        "text": "Roedores",
+        "text": "Rodents",
         "image": "files/3a2B_ywznZ7PMZZtQqQzW.png",
         "updatedAt": null
       },
@@ -2401,7 +2334,7 @@
         "ChallengeOptionId": 158,
         "codename": "option_40B",
         "correctOption": false,
-        "text": "Insectos",
+        "text": "Insects",
         "image": "files/NzEkeSOUG6gnx1G9MJqLA.png",
         "updatedAt": null
       },
@@ -2409,7 +2342,7 @@
         "ChallengeOptionId": 159,
         "codename": "option_40C",
         "correctOption": true,
-        "text": "Frutas",
+        "text": "Fruits",
         "image": "files/M8f03Re5AQs60YzQ0enlT.png",
         "updatedAt": null
       },
@@ -2417,14 +2350,14 @@
         "ChallengeOptionId": 160,
         "codename": "option_40D",
         "correctOption": false,
-        "text": "Huevos",
+        "text": "Eggs",
         "image": "files/W4OqHbTrnwIwnOE5oKBdT.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 40,
-      "feedback": "La ardilla de Guayaquil es un animal Frutariano.",
+      "feedback": "The Guayaquil Squirrel is a frugivorous animal.",
       "image": null,
       "updatedAt": null
     }
@@ -2432,7 +2365,7 @@
   {
     "ChallengeID": 41,
     "codename": "challenge_41",
-    "question": "¿En qué se basa principalmente la dieta del Jaguar?",
+    "question": "What does the Jaguar's diet mainly consist of?",
     "score": 1,
     "image": "files/15Z4cj4eCjvo_i4ggwVhL.jpg",
     "difficulty": 3,
@@ -2443,7 +2376,7 @@
         "ChallengeOptionId": 161,
         "codename": "option_41A",
         "correctOption": false,
-        "text": "Insectos",
+        "text": "Insects",
         "image": "files/sD-0bt9Gx-ADIKbP_MeUa.png",
         "updatedAt": null
       },
@@ -2451,7 +2384,7 @@
         "ChallengeOptionId": 162,
         "codename": "option_41B",
         "correctOption": true,
-        "text": "Carne",
+        "text": "Meat",
         "image": "files/kzDAmlo9q8hkCKmaSVNPw.png",
         "updatedAt": null
       },
@@ -2459,7 +2392,7 @@
         "ChallengeOptionId": 163,
         "codename": "option_41C",
         "correctOption": false,
-        "text": "Ganos",
+        "text": "Fruits",
         "image": "files/t_wKRPknWWVMeHl2lYsrS.png",
         "updatedAt": null
       },
@@ -2467,14 +2400,14 @@
         "ChallengeOptionId": 164,
         "codename": "option_41D",
         "correctOption": false,
-        "text": "Animales muertos",
+        "text": "Dead animals",
         "image": "files/Zt9uzDo0B1OkOXJvKUZQa.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 41,
-      "feedback": "El Jaguar es un animal Carnivoro, dado que solo come Carne.",
+      "feedback": "The Jaguar is a carnivorous animal, as it only eats meat.",
       "image": null,
       "updatedAt": null
     }
@@ -2482,7 +2415,7 @@
   {
     "ChallengeID": 42,
     "codename": "challenge_42",
-    "question": "¿Cuál es el principal hábitat del Murciélago Frutero?",
+    "question": "What is the main habitat of the Fruit Bat?",
     "score": 1,
     "image": "files/ueC_PfchKTOEY-6KhsVEH.jpg",
     "difficulty": 3,
@@ -2493,7 +2426,7 @@
         "ChallengeOptionId": 165,
         "codename": "option_42A",
         "correctOption": false,
-        "text": "Sotobosque",
+        "text": "Understory",
         "image": "files/vURFjIV4mYNhZiQ7tBYjd.png",
         "updatedAt": null
       },
@@ -2501,7 +2434,7 @@
         "ChallengeOptionId": 166,
         "codename": "option_42B",
         "correctOption": false,
-        "text": "Cuerpos de Agua",
+        "text": "Water bodies",
         "image": "files/qlghP86xPy_iUvAnYQrUZ.png",
         "updatedAt": null
       },
@@ -2509,7 +2442,7 @@
         "ChallengeOptionId": 167,
         "codename": "option_42C",
         "correctOption": false,
-        "text": "Bosque Húmedo",
+        "text": "Rainforest",
         "image": "files/d9vSvrub6fJbIy6rbAJdR.png",
         "updatedAt": null
       },
@@ -2517,14 +2450,14 @@
         "ChallengeOptionId": 168,
         "codename": "option_42D",
         "correctOption": true,
-        "text": "Bosque Seco",
+        "text": "Dry Forest",
         "image": "files/4G4D4-1UAfzUhw3M719dT.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 42,
-      "feedback": "El principal hábitat del Murciélago Frutero son los Bosques Secos Tropicales y Semitropicales.",
+      "feedback": "The main habitat of the Fruit Bat is Tropical and Semitropical Dry Forests.",
       "image": null,
       "updatedAt": null
     }
@@ -2532,7 +2465,7 @@
   {
     "ChallengeID": 43,
     "codename": "challenge_43",
-    "question": "¿Cómo considera la UNIM al Murciélago Frutero?",
+    "question": "How does UNIM classify the Fruit Bat?",
     "score": 1,
     "image": "files/ueC_PfchKTOEY-6KhsVEH.jpg",
     "difficulty": 1,
@@ -2543,7 +2476,7 @@
         "ChallengeOptionId": 169,
         "codename": "option_43A",
         "correctOption": true,
-        "text": "Especie de Preocupacion Menor",
+        "text": "Least Concern species",
         "image": "files/lXINPgr0S3buTent_AW2B.png",
         "updatedAt": null
       },
@@ -2551,7 +2484,7 @@
         "ChallengeOptionId": 170,
         "codename": "option_43B",
         "correctOption": false,
-        "text": "Especie Amenazada",
+        "text": "Threatened species",
         "image": "files/1paltG9OvZ2ahFPcxGK2W.png",
         "updatedAt": null
       },
@@ -2559,7 +2492,7 @@
         "ChallengeOptionId": 171,
         "codename": "option_43C",
         "correctOption": false,
-        "text": "Especie no Evaluada",
+        "text": "Not Evaluated",
         "image": "files/E0dkxWYo-od2Cf6tJISK1.png",
         "updatedAt": null
       },
@@ -2567,14 +2500,14 @@
         "ChallengeOptionId": 172,
         "codename": "option_43D",
         "correctOption": false,
-        "text": "Extinta",
+        "text": "Extinct",
         "image": "files/Kwy1gaQpnSuvQPe8mkEQA.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 43,
-      "feedback": "UNIM le dio la categoria de Preocupacion Menor (LC) al Murcielago Frutero.",
+      "feedback": "UNIM gave the Fruit Bat the category of Least Concern (LC).",
       "image": null,
       "updatedAt": null
     }
@@ -2582,7 +2515,7 @@
   {
     "ChallengeID": 44,
     "codename": "challenge_44",
-    "question": "¿De qué región es procedente el Oso Hormiguero?",
+    "question": "Which region is the Anteater from?",
     "score": 1,
     "image": "files/iAlTzx3m-Bz3TYnQX9y8x.jpg",
     "difficulty": 1,
@@ -2593,7 +2526,7 @@
         "ChallengeOptionId": 173,
         "codename": "option_44A",
         "correctOption": true,
-        "text": "Costa",
+        "text": "Coast",
         "image": "files/nPq8Nz1tHzJPwugki8pf0.png",
         "updatedAt": null
       },
@@ -2601,7 +2534,7 @@
         "ChallengeOptionId": 174,
         "codename": "option_44B",
         "correctOption": false,
-        "text": "Sierra",
+        "text": "Highlands",
         "image": "files/rZdhtPOWZo4lH8AchDCzT.png",
         "updatedAt": null
       },
@@ -2609,7 +2542,7 @@
         "ChallengeOptionId": 175,
         "codename": "option_44C",
         "correctOption": false,
-        "text": "Oriente",
+        "text": "Amazon",
         "image": "files/g4J0OLVy7hxNMdQF5couh.png",
         "updatedAt": null
       },
@@ -2624,7 +2557,7 @@
     ],
     "feedback": {
       "ChallengeFeedbackId": 44,
-      "feedback": "Los mayores avistamientos de Oso Hormiguero se han realizado en la Region de la Costa.",
+      "feedback": "Most Anteater sightings have been recorded in the Coastal Region.",
       "image": null,
       "updatedAt": null
     }
@@ -2632,7 +2565,7 @@
   {
     "ChallengeID": 45,
     "codename": "challenge_45",
-    "question": "¿Cómo se alimenta el Oso Hormiguero?",
+    "question": "How does the Anteater feed?",
     "score": 1,
     "image": "files/iAlTzx3m-Bz3TYnQX9y8x.jpg",
     "difficulty": 1,
@@ -2643,7 +2576,7 @@
         "ChallengeOptionId": 177,
         "codename": "option_45A",
         "correctOption": true,
-        "text": "Con las Garras",
+        "text": "With its Claws",
         "image": "files/5LtGGX-CK1X4bcEPY_SS3.png",
         "updatedAt": null
       },
@@ -2651,7 +2584,7 @@
         "ChallengeOptionId": 178,
         "codename": "option_45B",
         "correctOption": false,
-        "text": "Con la Lengua",
+        "text": "With its Tongue",
         "image": "files/l0V8TOjTYNbBfq0TJsczw.png",
         "updatedAt": null
       },
@@ -2659,7 +2592,7 @@
         "ChallengeOptionId": 179,
         "codename": "option_45C",
         "correctOption": false,
-        "text": "Con los Dientes",
+        "text": "With its Teeth",
         "image": "files/NbN5CrqE4yZjy-uP9xGWw.png",
         "updatedAt": null
       },
@@ -2667,14 +2600,14 @@
         "ChallengeOptionId": 180,
         "codename": "option_45D",
         "correctOption": false,
-        "text": "Con la Cola",
+        "text": "With its Tail",
         "image": "files/gPtxBhe-iWg8wV7qU6m2I.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 45,
-      "feedback": "El Oso Hormiguero usa su lengua para cazar a las hormigas de su hormiguero.",
+      "feedback": "The Anteater uses its tongue to catch ants from its anthill.",
       "image": null,
       "updatedAt": null
     }
@@ -2682,7 +2615,7 @@
   {
     "ChallengeID": 46,
     "codename": "challenge_46",
-    "question": "Escoge la frase correcta con respecto al reciclaje:",
+    "question": "Choose the correct phrase regarding recycling:",
     "score": 1,
     "image": "files/W-uVU3JDD21njkIHHKFxu.png",
     "difficulty": 1,
@@ -2692,21 +2625,7 @@
         "GameLevelId": 6,
         "updatedAt": null,
         "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
+          "Name": "Forest-Station 5"
         }
       }
     ],
@@ -2746,7 +2665,7 @@
     ],
     "feedback": {
       "ChallengeFeedbackId": 46,
-      "feedback": "Las 3R son Reduce, Reusa y Recicla",
+      "feedback": "The 3Rs are Reduce, Reuse, and Recycle.",
       "image": null,
       "updatedAt": null
     }
@@ -2754,7 +2673,7 @@
   {
     "ChallengeID": 47,
     "codename": "challenge_47",
-    "question": "¿Cuál de las siguientes opciones no pertenece a las 3R?",
+    "question": "Which of the following options is not part of the 3Rs?",
     "score": 1,
     "image": "files/W-uVU3JDD21njkIHHKFxu.png",
     "difficulty": 1,
@@ -2764,21 +2683,7 @@
         "GameLevelId": 6,
         "updatedAt": null,
         "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
+          "Name": "Forest-Station 5"
         }
       }
     ],
@@ -2795,7 +2700,7 @@
         "ChallengeOptionId": 186,
         "codename": "option_47B",
         "correctOption": false,
-        "text": "Recicla",
+        "text": "Recycle",
         "image": "files/EqMv8Ot0cgxHGwggeRX1u.png",
         "updatedAt": null
       },
@@ -2803,7 +2708,7 @@
         "ChallengeOptionId": 187,
         "codename": "option_47C",
         "correctOption": true,
-        "text": "Revende",
+        "text": "Resell",
         "image": "files/q6T_oT4MMhjpuvCOpn0M7.png",
         "updatedAt": null
       },
@@ -2811,14 +2716,14 @@
         "ChallengeOptionId": 188,
         "codename": "option_47D",
         "correctOption": false,
-        "text": "Reusa",
+        "text": "Reuse",
         "image": "files/tCEMR9BuZNpryZ9ScacsI.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 47,
-      "feedback": "Revende no es parte de las 3R.",
+      "feedback": "Resell is not part of the 3Rs.",
       "image": null,
       "updatedAt": null
     }
@@ -2826,7 +2731,7 @@
   {
     "ChallengeID": 48,
     "codename": "challenge_48",
-    "question": "¿De qué color es el contenedor para reciclar papel o cartón?",
+    "question": "What color is the container for recycling paper or cardboard?",
     "score": 1,
     "image": "files/W-uVU3JDD21njkIHHKFxu.png",
     "difficulty": 1,
@@ -2836,21 +2741,7 @@
         "GameLevelId": 6,
         "updatedAt": null,
         "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
+          "Name": "Forest-Station 5"
         }
       }
     ],
@@ -2859,7 +2750,7 @@
         "ChallengeOptionId": 189,
         "codename": "option_48A",
         "correctOption": false,
-        "text": "Verde",
+        "text": "Green",
         "image": "files/nSPfF9h16kAehk2WoDuAn.png",
         "updatedAt": null
       },
@@ -2867,7 +2758,7 @@
         "ChallengeOptionId": 190,
         "codename": "option_48B",
         "correctOption": true,
-        "text": "Azul",
+        "text": "Blue",
         "image": "files/oFZe8cxuIzWJ3PPPNPIRm.png",
         "updatedAt": null
       },
@@ -2875,7 +2766,7 @@
         "ChallengeOptionId": 191,
         "codename": "option_48C",
         "correctOption": false,
-        "text": "Amarillo",
+        "text": "Yellow",
         "image": "files/o4ZTYc07DR0WkrsdwLzHl.png",
         "updatedAt": null
       },
@@ -2883,14 +2774,14 @@
         "ChallengeOptionId": 192,
         "codename": "option_48D",
         "correctOption": false,
-        "text": "Rojo",
+        "text": "Red",
         "image": "files/2qXwV7ivOJEWkFWZt2B0U.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 48,
-      "feedback": "El contenedor azul es el indicado para papel y cartón.",
+      "feedback": "The blue container is designated for paper and cardboard.",
       "image": null,
       "updatedAt": null
     }
@@ -2898,7 +2789,7 @@
   {
     "ChallengeID": 49,
     "codename": "challenge_49",
-    "question": "¿De qué color es el contenedor para reciclar vidrio?",
+    "question": "What color is the container for recycling glass?",
     "score": 1,
     "image": "files/W-uVU3JDD21njkIHHKFxu.png",
     "difficulty": 1,
@@ -2908,21 +2799,7 @@
         "GameLevelId": 6,
         "updatedAt": null,
         "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
+          "Name": "Forest-Station 5"
         }
       }
     ],
@@ -2931,7 +2808,7 @@
         "ChallengeOptionId": 193,
         "codename": "option_49A",
         "correctOption": false,
-        "text": "Rojo",
+        "text": "Red",
         "image": "files/2qXwV7ivOJEWkFWZt2B0U.png",
         "updatedAt": null
       },
@@ -2939,7 +2816,7 @@
         "ChallengeOptionId": 194,
         "codename": "option_49B",
         "correctOption": false,
-        "text": "Amarillo",
+        "text": "Yellow",
         "image": "files/o4ZTYc07DR0WkrsdwLzHl.png",
         "updatedAt": null
       },
@@ -2947,7 +2824,7 @@
         "ChallengeOptionId": 195,
         "codename": "option_49C",
         "correctOption": false,
-        "text": "Azul",
+        "text": "Blue",
         "image": "files/oFZe8cxuIzWJ3PPPNPIRm.png",
         "updatedAt": null
       },
@@ -2955,14 +2832,14 @@
         "ChallengeOptionId": 196,
         "codename": "option_49D",
         "correctOption": true,
-        "text": "Verde",
+        "text": "Green",
         "image": "files/nSPfF9h16kAehk2WoDuAn.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 49,
-      "feedback": "El contenedor verde es el indicado para vidrio.",
+      "feedback": "The green container is designated for glass.",
       "image": null,
       "updatedAt": null
     }
@@ -2970,7 +2847,7 @@
   {
     "ChallengeID": 50,
     "codename": "challenge_50",
-    "question": "¿De qué color es el contenedor para reciclar plástico?",
+    "question": "What color is the container for recycling plastic?",
     "score": 1,
     "image": "files/W-uVU3JDD21njkIHHKFxu.png",
     "difficulty": 1,
@@ -2980,21 +2857,7 @@
         "GameLevelId": 6,
         "updatedAt": null,
         "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
+          "Name": "Forest-Station 5"
         }
       }
     ],
@@ -3003,7 +2866,7 @@
         "ChallengeOptionId": 197,
         "codename": "option_50A",
         "correctOption": true,
-        "text": "Amarillo",
+        "text": "Yellow",
         "image": "files/o4ZTYc07DR0WkrsdwLzHl.png",
         "updatedAt": null
       },
@@ -3011,7 +2874,7 @@
         "ChallengeOptionId": 198,
         "codename": "option_50B",
         "correctOption": false,
-        "text": "Azul",
+        "text": "Blue",
         "image": "files/oFZe8cxuIzWJ3PPPNPIRm.png",
         "updatedAt": null
       },
@@ -3019,7 +2882,7 @@
         "ChallengeOptionId": 199,
         "codename": "option_50C",
         "correctOption": false,
-        "text": "Rojo",
+        "text": "Red",
         "image": "files/2qXwV7ivOJEWkFWZt2B0U.png",
         "updatedAt": null
       },
@@ -3027,14 +2890,14 @@
         "ChallengeOptionId": 200,
         "codename": "option_50D",
         "correctOption": false,
-        "text": "Verde",
+        "text": "Green",
         "image": "files/nSPfF9h16kAehk2WoDuAn.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 50,
-      "feedback": "El contenedor amarillo  es el indicado para plástico",
+      "feedback": "The yellow container is designated for plastic.",
       "image": null,
       "updatedAt": null
     }
@@ -3042,7 +2905,7 @@
   {
     "ChallengeID": 51,
     "codename": "challenge_51",
-    "question": "¿Qué podría pasar si boto un vidrio en el bosque?",
+    "question": "What could happen if I throw a glass bottle in the forest?",
     "score": 1,
     "image": "files/2z2AVZN-K-87uBJJT8Dpy.png",
     "difficulty": 1,
@@ -3054,20 +2917,7 @@
         "gameLevel": {
           "Name": "Bosque-Estación 5"
         }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
+
       }
     ],
     "options": [
@@ -3075,7 +2925,7 @@
         "ChallengeOptionId": 201,
         "codename": "option_51A",
         "correctOption": false,
-        "text": "Deforestación",
+        "text": "Deforestation",
         "image": "files/6Seh2pcJn4ylVCOp5er0X.png",
         "updatedAt": null
       },
@@ -3083,7 +2933,7 @@
         "ChallengeOptionId": 202,
         "codename": "option_51B",
         "correctOption": false,
-        "text": "Todas",
+        "text": "All of them",
         "image": "files/F8EQh7K79hhs--6m8SUsl.png",
         "updatedAt": null
       },
@@ -3091,7 +2941,7 @@
         "ChallengeOptionId": 203,
         "codename": "option_51C",
         "correctOption": true,
-        "text": "Incendios",
+        "text": "Fires",
         "image": "files/IJ3fc3PQSg_PvFywt_Z0-.png",
         "updatedAt": null
       },
@@ -3099,14 +2949,14 @@
         "ChallengeOptionId": 204,
         "codename": "option_51D",
         "correctOption": false,
-        "text": "Contaminación",
+        "text": "Pollution",
         "image": "files/beo-qnqJ1w-O-i7wQbMU7.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 51,
-      "feedback": "Dejar vidrios botados es una de las principales causas de incendio en los bosques.",
+      "feedback": "Leaving glass bottles on the ground is one of the main causes of forest fires.",
       "image": null,
       "updatedAt": null
     }
@@ -3114,7 +2964,7 @@
   {
     "ChallengeID": 52,
     "codename": "challenge_52",
-    "question": "¿Cuáles son las principales amenazas en un bosque seco tropical?",
+    "question": "What are the main threats in a tropical dry forest?",
     "score": 1,
     "image": "files/2z2AVZN-K-87uBJJT8Dpy.png",
     "difficulty": 1,
@@ -3126,20 +2976,7 @@
         "gameLevel": {
           "Name": "Bosque-Estación 4"
         }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
+
       }
     ],
     "options": [
@@ -3147,7 +2984,7 @@
         "ChallengeOptionId": 205,
         "codename": "option_52A",
         "correctOption": false,
-        "text": "Contaminación",
+        "text": "Pollution",
         "image": "files/beo-qnqJ1w-O-i7wQbMU7.png",
         "updatedAt": null
       },
@@ -3155,7 +2992,7 @@
         "ChallengeOptionId": 206,
         "codename": "option_52B",
         "correctOption": false,
-        "text": "Deforestación",
+        "text": "Deforestation",
         "image": "files/6Seh2pcJn4ylVCOp5er0X.png",
         "updatedAt": null
       },
@@ -3163,7 +3000,7 @@
         "ChallengeOptionId": 207,
         "codename": "option_52C",
         "correctOption": true,
-        "text": "Incendios",
+        "text": "Fires",
         "image": "files/IJ3fc3PQSg_PvFywt_Z0-.png",
         "updatedAt": null
       },
@@ -3171,14 +3008,14 @@
         "ChallengeOptionId": 208,
         "codename": "option_52D",
         "correctOption": false,
-        "text": "Todas",
+        "text": "All of them",
         "image": "files/F8EQh7K79hhs--6m8SUsl.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 52,
-      "feedback": "Todas las opciones mencionadas son riesgos comunes en un bosque seco tropical.",
+      "feedback": "All the mentioned options are common risks in a tropical dry forest.",
       "image": null,
       "updatedAt": null
     }
@@ -3186,26 +3023,14 @@
   {
     "ChallengeID": 53,
     "codename": "challenge_53",
-    "question": "Cuando usted termina de comer un bocadillo, ¿qué debería hacer con los desechos?",
+    "question": "When you finish eating a snack, what should you do with the waste?",
     "score": 1,
     "image": "files/2z2AVZN-K-87uBJJT8Dpy.png",
     "difficulty": 1,
     "updatedAt": null,
     "gameLevelsChallenges": [
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
-      {
-        "GameLevelId": 6,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 5"
-        }
-      },
+
+
       {
         "GameLevelId": 6,
         "updatedAt": null,
@@ -3219,7 +3044,7 @@
         "ChallengeOptionId": 209,
         "codename": "option_53A",
         "correctOption": false,
-        "text": "Arrojarla fuera del sendero",
+        "text": "Throw it off the trail",
         "image": "files/hBrH_5542J9jWVXKu_V8Z.png",
         "updatedAt": null
       },
@@ -3227,7 +3052,7 @@
         "ChallengeOptionId": 210,
         "codename": "option_53B",
         "correctOption": false,
-        "text": "Enterrarla",
+        "text": "Bury it",
         "image": "files/dFwEfTvbt2OnfBIli4MFH.png",
         "updatedAt": null
       },
@@ -3235,7 +3060,7 @@
         "ChallengeOptionId": 211,
         "codename": "option_53C",
         "correctOption": false,
-        "text": "Patearla",
+        "text": "Kick it",
         "image": "files/BA6BAslZgHPRqLQMYmYCi.png",
         "updatedAt": null
       },
@@ -3243,14 +3068,14 @@
         "ChallengeOptionId": 212,
         "codename": "option_53D",
         "correctOption": true,
-        "text": "Llevarla al basurero",
+        "text": "Take it to the trash can",
         "image": "files/R9C4R6nECTaLKfX2nRQEo.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 53,
-      "feedback": "No se puede botar basura en los bosques sino que se debe llevar al basurero más cercano.",
+      "feedback": "You cannot throw garbage in the forest; it must be taken to the nearest trash can.",
       "image": null,
       "updatedAt": null
     }
@@ -3258,7 +3083,7 @@
   {
     "ChallengeID": 54,
     "codename": "challenge_54",
-    "question": "Si usted se encuentra con un fruto raro en un bosque seco tropical, ¿qué haría?",
+    "question": "If you find a strange fruit in a tropical dry forest, what would you do?",
     "score": 1,
     "image": "files/2z2AVZN-K-87uBJJT8Dpy.png",
     "difficulty": 1,
@@ -3270,20 +3095,7 @@
         "gameLevel": {
           "Name": "Bosque-Estación 4"
         }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
-      },
-      {
-        "GameLevelId": 5,
-        "updatedAt": null,
-        "gameLevel": {
-          "Name": "Bosque-Estación 4"
-        }
+
       }
     ],
     "options": [
@@ -3291,7 +3103,7 @@
         "ChallengeOptionId": 213,
         "codename": "option_54A",
         "correctOption": false,
-        "text": "Comerlo",
+        "text": "Eat it",
         "image": "files/cVpjJczucV4DcQeOqJCPo.png",
         "updatedAt": null
       },
@@ -3299,7 +3111,7 @@
         "ChallengeOptionId": 214,
         "codename": "option_54B",
         "correctOption": false,
-        "text": "Llevarlo a casa",
+        "text": "Take it home",
         "image": "files/ylMLSVfWT2IVau9VxhbIw.png",
         "updatedAt": null
       },
@@ -3307,7 +3119,7 @@
         "ChallengeOptionId": 215,
         "codename": "option_54C",
         "correctOption": true,
-        "text": "Solo mirar",
+        "text": "Just look at it",
         "image": "files/77v0C4-wN6nI7Drknl3lg.png",
         "updatedAt": null
       },
@@ -3315,254 +3127,254 @@
         "ChallengeOptionId": 216,
         "codename": "option_54D",
         "correctOption": false,
-        "text": "Esconderlo",
+        "text": "Hide it",
         "image": "files/mZjph8XVMzEYMSF0TVyFP.png",
         "updatedAt": null
       }
     ],
     "feedback": {
       "ChallengeFeedbackId": 54,
-      "feedback": "No se debe ingerir frutas del piso porque pueden ser venenosas.",
+      "feedback": "You should not eat fruits from the ground because they may be poisonous.",
       "image": null,
       "updatedAt": null
     }
   },
   {
-        "ChallengeID": 55,
-        "codename": "challenge_48",
-        "question": "Si veo una fogata encendida en el bosque, ¿qué debo hacer?",
-        "score": 1,
-        "image": "files/W-uVU3JDD21njkIHHKFxu.png",
-        "difficulty": 1,
+    "ChallengeID": 55,
+    "codename": "challenge_48",
+    "question": "If I see a fire burning in the forest, what should I do?",
+    "score": 1,
+    "image": "files/W-uVU3JDD21njkIHHKFxu.png",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 7,
         "updatedAt": null,
-        "gameLevelsChallenges": [
-        {
-            "GameLevelId": 7,
-            "updatedAt": null,
-            "gameLevel": {
-            "Name": "Bosque-Estación 6"
-            }
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
         }
+      }
 
 
-        ],
-        "options": [
-        {
-            "ChallengeOptionId": 217,
-            "codename": "option_1A",
-            "correctOption": false,
-            "text": "Dejarla así, seguro alguien más la apagará.",
-            "image": "files/nSPfF9h16kAehk2WoDuAn.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 218,
-            "codename": "option_1B",
-            "correctOption": false,
-            "text": "Echarle más leña para que siga encendida.",
-            "image": "files/oFZe8cxuIzWJ3PPPNPIRm.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 219,
-            "codename": "option_1C",
-            "correctOption": true,
-            "text": "Avisar inmediatamente a un adulto responsable o un guardaparque.",
-            "image": "files/o4ZTYc07DR0WkrsdwLzHl.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 220,
-            "codename": "option_1D",
-            "correctOption": false,
-            "text": "Intentar apagarla yo solo con mis manos.",
-            "image": "files/2qXwV7ivOJEWkFWZt2B0U.png",
-            "updatedAt": null
-        }
-        ],
-        "feedback": {
-        "ChallengeFeedbackId": 55,
-        "feedback": "Nunca intentes apagarla solo, mejor avisa a un adulto para evitar un incendio.",
-        "image": null,
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 217,
+        "codename": "option_1A",
+        "correctOption": false,
+        "text": "Leave it as it is, someone will probably put it out.",
+        "image": "files/nSPfF9h16kAehk2WoDuAn.png",
         "updatedAt": null
-        }
-    },
-    {
-        "ChallengeID": 56,
-        "codename": "challenge_2",
-        "question": "¿Qué debemos evitar cuando caminemos por el sendero del bosque?",
-        "score": 1,
-        "image": "files/OOzjig6BVMAYPeZGSVGcd.jpg",
-        "difficulty": 1,
-        "updatedAt": null,
-        "gameLevelsChallenges": [
-        {
-            "GameLevelId": 6,
-            "updatedAt": null,
-            "gameLevel": {
-            "Name": "Bosque-Estación 5"
-            }
-        }
-
-        ],
-        "options": [
-        {
-            "ChallengeOptionId": 221,
-            "codename": "option_1A",
-            "correctOption": true,
-            "text": "Botar basura en el bosque.",
-            "image": "files/h8ykrFj1CBXVFPl62vdnb.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 219,
-            "codename": "option_1B",
-            "correctOption": false,
-            "text": "Seguir las instrucciones del guardabosque y letreros",
-            "image": "files/VPiVQ4Yu0Txd1e5EqCMzL.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 222,
-            "codename": "option_1C",
-            "correctOption": true,
-            "text": "Caminar despacio para ver por donde pisamos.",
-            "image": "files/AEeiVzGXV-WJOeVIcEXvD.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 223,
-            "codename": "option_1D",
-            "correctOption": false,
-            "text": "Caminar en silencio para apreciar a las especies. ",
-            "image": "files/77v0C4-wN6nI7Drknl3lg.png",
-            "updatedAt": null
-        }
-        ],
-        "feedback": {
-        "ChallengeFeedbackId": 56,
-        "feedback": "La basura daña a los animales y al bosque. Llévala contigo hasta un basurero.",
-        "image": null,
+      },
+      {
+        "ChallengeOptionId": 218,
+        "codename": "option_1B",
+        "correctOption": false,
+        "text": "Add more wood to keep it burning.",
+        "image": "files/oFZe8cxuIzWJ3PPPNPIRm.png",
         "updatedAt": null
-        }
-    },
-    {
-        "ChallengeID": 57,
-        "codename": "challenge_3",
-        "question": "Si queremos encender una fogata, ¿Qué medidas debemos tomar en cuenta?",
-        "score": 1,
-        "image": "files/hgElRsvczShkww66I9mE6.jpg",
-        "difficulty": 1,
-        "updatedAt": null,
-        "gameLevelsChallenges": [
-        {
-            "GameLevelId": 7,
-            "updatedAt": null,
-            "gameLevel": {
-            "Name": "Bosque-Estación 6"
-            }
-        }
-
-        ],
-        "options": [
-        {
-            "ChallengeOptionId": 224,
-            "codename": "option_1A",
-            "correctOption": true,
-            "text": "Evitar tener vegetación seca alrededor de la fogata.",
-            "image": "files/jhl3S9-mkFRx5D6NWekJg.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 218,
-            "codename": "option_1B",
-            "correctOption": false,
-            "text": "Dejar encendida la fogata para que los animales se abriguen.",
-            "image": "files/Pn9WSUwdw_bMHs8MYCAyt.png",
-            "updatedAt": null
-        },
-
-        {
-            "ChallengeOptionId": 225,
-            "codename": "option_1D",
-            "correctOption": false,
-            "text": "Ninguna, la fogata se apagará sola despues de varios días.",
-            "image": "files/Uj8cWjQOWy_PX22z9FcYa.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 219,
-            "codename": "option_1D",
-            "correctOption": true,
-            "text": "Hablar con un adulto responsable para que apague la fogata. ",
-            "image": "files/A5rzqvWz1KX8hbC5yZXwl.jpg",
-            "updatedAt": null
-        }
-        ],
-        "feedback": {
-        "ChallengeFeedbackId": 57,
-        "feedback": "Si hay hojas o ramas secas cerca, el fuego se puede expandir y causar un incendio.",
-        "image": null,
+      },
+      {
+        "ChallengeOptionId": 219,
+        "codename": "option_1C",
+        "correctOption": true,
+        "text": "Immediately inform a responsible adult or a park ranger.",
+        "image": "files/o4ZTYc07DR0WkrsdwLzHl.png",
         "updatedAt": null
-        }
-    },
-    {
-        "ChallengeID": 58,
-        "codename": "challenge_4",
-        "question": "¿Por qué es peligroso dejar botellas de vidrio en el bosque?",
-        "score": 1,
-        "image": "files/A5rzqvWz1KX8hbC5yZXwl.jpg",
-        "difficulty": 1,
-        "updatedAt": null,
-        "gameLevelsChallenges": [
-        {
-            "GameLevelId": 6,
-            "updatedAt": null,
-            "gameLevel": {
-            "Name": "Bosque-Estación 5"
-            }
-        }
-
-        ],
-        "options": [
-        {
-            "ChallengeOptionId": 226,
-            "codename": "option_1A",
-            "correctOption": false,
-            "text": "Porque los animales podrían cortarse.",
-            "image": "files/4G4D4-1UAfzUhw3M719dT.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 221,
-            "codename": "option_1B",
-            "correctOption": false,
-            "text": "Porque afecta las fotos que tomaré del paisaje del bosque.",
-            "image": "files/d9vSvrub6fJbIy6rbAJdR.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 229,
-            "codename": "option_1C",
-            "correctOption": true,
-            "text": "Porque el sol puede pasar a través del vidrio y encender el bosque seco. ",
-            "image": "files/qlghP86xPy_iUvAnYQrUZ.png",
-            "updatedAt": null
-        },
-        {
-            "ChallengeOptionId": 228,
-            "codename": "option_1D",
-            "correctOption": false,
-            "text": "No es peligroso, sirve para almacenar agua para los animales.",
-            "image": "files/vURFjIV4mYNhZiQ7tBYjd.png",
-            "updatedAt": null
-        }
-        ],
-        "feedback": {
-        "ChallengeFeedbackId": 58,
-        "feedback": "El vidrio funciona como una lupa y puede provocar un incendio en la vegetación.",
-        "image": null,
+      },
+      {
+        "ChallengeOptionId": 220,
+        "codename": "option_1D",
+        "correctOption": false,
+        "text": "Try to put it out by myself with my hands.",
+        "image": "files/2qXwV7ivOJEWkFWZt2B0U.png",
         "updatedAt": null
-        }        
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 55,
+      "feedback": "Never try to put it out alone; better inform an adult to prevent a fire.",
+      "image": null,
+      "updatedAt": null
     }
+  },
+  {
+    "ChallengeID": 56,
+    "codename": "challenge_2",
+    "question": "What should we avoid when walking along the forest trail?",
+    "score": 1,
+    "image": "files/OOzjig6BVMAYPeZGSVGcd.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 221,
+        "codename": "option_1A",
+        "correctOption": true,
+        "text": "Throwing trash in the forest.",
+        "image": "files/h8ykrFj1CBXVFPl62vdnb.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 219,
+        "codename": "option_1B",
+        "correctOption": false,
+        "text": "Follow the ranger's instructions and signs.",
+        "image": "files/VPiVQ4Yu0Txd1e5EqCMzL.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 222,
+        "codename": "option_1C",
+        "correctOption": true,
+        "text": "Walk slowly to watch where we step.",
+        "image": "files/AEeiVzGXV-WJOeVIcEXvD.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 223,
+        "codename": "option_1D",
+        "correctOption": false,
+        "text": "Walk quietly to appreciate the species.",
+        "image": "files/77v0C4-wN6nI7Drknl3lg.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 56,
+      "feedback": "Trash harms animals and the forest. Take it with you to a trash can.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 57,
+    "codename": "challenge_3",
+    "question": "If we want to light a campfire, what precautions should we take?",
+    "score": 1,
+    "image": "files/hgElRsvczShkww66I9mE6.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 7,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 6"
+        }
+      }
+
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 224,
+        "codename": "option_1A",
+        "correctOption": true,
+        "text": "Avoid having dry vegetation around the fire.",
+        "image": "files/jhl3S9-mkFRx5D6NWekJg.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 218,
+        "codename": "option_1B",
+        "correctOption": false,
+        "text": "Leave the fire burning so animals can stay warm.",
+        "image": "files/Pn9WSUwdw_bMHs8MYCAyt.png",
+        "updatedAt": null
+      },
+
+      {
+        "ChallengeOptionId": 225,
+        "codename": "option_1D",
+        "correctOption": false,
+        "text": "None, the fire will go out by itself after several days.",
+        "image": "files/Uj8cWjQOWy_PX22z9FcYa.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 219,
+        "codename": "option_1D",
+        "correctOption": true,
+        "text": "Talk to a responsible adult to put out the fire.",
+        "image": "files/A5rzqvWz1KX8hbC5yZXwl.jpg",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 57,
+      "feedback": "If there are dry leaves or branches nearby, the fire can spread and cause a forest fire.",
+      "image": null,
+      "updatedAt": null
+    }
+  },
+  {
+    "ChallengeID": 58,
+    "codename": "challenge_4",
+    "question": "Why is it dangerous to leave glass bottles in the forest?",
+    "score": 1,
+    "image": "files/A5rzqvWz1KX8hbC5yZXwl.jpg",
+    "difficulty": 1,
+    "updatedAt": null,
+    "gameLevelsChallenges": [
+      {
+        "GameLevelId": 6,
+        "updatedAt": null,
+        "gameLevel": {
+          "Name": "Bosque-Estación 5"
+        }
+      }
+
+    ],
+    "options": [
+      {
+        "ChallengeOptionId": 226,
+        "codename": "option_1A",
+        "correctOption": false,
+        "text": "Because animals could get cut.",
+        "image": "files/4G4D4-1UAfzUhw3M719dT.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 221,
+        "codename": "option_1B",
+        "correctOption": false,
+        "text": "Because it affects the photos I will take of the forest landscape.",
+        "image": "files/d9vSvrub6fJbIy6rbAJdR.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 229,
+        "codename": "option_1C",
+        "correctOption": true,
+        "text": "Because sunlight can pass through the glass and ignite the dry forest.",
+        "image": "files/qlghP86xPy_iUvAnYQrUZ.png",
+        "updatedAt": null
+      },
+      {
+        "ChallengeOptionId": 228,
+        "codename": "option_1D",
+        "correctOption": false,
+        "text": "It is not dangerous; it can be used to store water for animals.",
+        "image": "files/vURFjIV4mYNhZiQ7tBYjd.png",
+        "updatedAt": null
+      }
+    ],
+    "feedback": {
+      "ChallengeFeedbackId": 58,
+      "feedback": "Glass acts like a magnifying lens and can start a fire in the vegetation.",
+      "image": null,
+      "updatedAt": null
+    }
+  }
 ]
