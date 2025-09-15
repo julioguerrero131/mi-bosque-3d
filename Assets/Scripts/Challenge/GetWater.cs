@@ -15,34 +15,44 @@ public class GetWater : MonoBehaviour
 
     private void OnMouseDown()
     {
+        LanguageManager lm = LanguageManager.Instancia;
+        string txt0 = lm.ObtenerTexto("recordatorios.help_fogata_0");
+        string txt1 = lm.ObtenerTexto("recordatorios.help_fogata_1");
+        string txt2 = lm.ObtenerTexto("recordatorios.help_fogata_2");
+
         if (time.text != "0" && (panelbalde.activeSelf==true) && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {
             agua.SetActive(true);
             panelbalde.SetActive(false);
-            recordatorio.text = "Rápido, corre a la fogata y apágala!";
+            recordatorio.text = txt0;
             panelwater.SetActive(true);
-            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = "No hay tiempo que perder! Apaga la fogata ahora que tienes el agua!";
+            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = txt1;
         }
         else if (time.text != "0" && (panelbalde.activeSelf == false) && (panelwater.activeSelf == false) && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {
-            recordatorio.text = "Busca algo en que llevar agua!";
+            recordatorio.text = txt2;
         }
         
        
     }
     public void recogerAgua()
     {
+        LanguageManager lm = LanguageManager.Instancia;
+        string txt0 = lm.ObtenerTexto("recordatorios.help_fogata_0");
+        string txt1 = lm.ObtenerTexto("recordatorios.help_fogata_1");
+        string txt2 = lm.ObtenerTexto("recordatorios.help_fogata_2");
+
         if (time.text != "0" && (panelbalde.activeSelf == true) && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {
             agua.SetActive(true);
             panelbalde.SetActive(false);
-            recordatorio.text = "Rápido, corre a la fogata y apágala!";
+            recordatorio.text = txt0;
             panelwater.SetActive(true);
-            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = "No hay tiempo que perder! Apaga la fogata ahora que tienes el agua!";
+            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = txt1;
         }
         else if (time.text != "0" && (panelbalde.activeSelf == false) && (panelwater.activeSelf == false) && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {
-            recordatorio.text = "Busca algo en que llevar agua!";
+            recordatorio.text = txt2;
         }
     }
 

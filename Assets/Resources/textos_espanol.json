@@ -293,7 +293,12 @@
     "basura_plastico": "Plástico en plástico",
     "basura_vidrio": "Vidrio en vidrio",
     "basura_mal": "Eso no va ahí!",
-    "sembrando": "Sembrando, espera..."
+    "sembrando": "Sembrando, espera...",
+    "help_fogata_0": "Rápido, corre a la fogata y apágala!",
+    "help_fogata_1": "No hay tiempo que perder! Apaga la fogata ahora que tienes el agua!",
+    "help_fogata_2": "Rápido, corre a la fogata y apágala!",
+    "help_fogata_3": "Busca agua, ¡escucha a tu alrededor!",
+    "help_fogata_4": "Aún nos falta conseguir agua! Hay un lago cerca del pozo, sigue buscando!"
   },
   "first_challenge": {
     "title_0": "Bienvenido",

@@ -59,13 +59,17 @@ public class GetBucket : MonoBehaviour
     {
         if (time.text != "0" && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {
+            LanguageManager lm = LanguageManager.Instancia;
+            string txt3 = lm.ObtenerTexto("recordatorios.help_fogata_3");
+            string txt4 = lm.ObtenerTexto("recordatorios.help_fogata_4");
+
             startValue = this.transform.position;
             endValue = jugador.transform.position - 0.25f*(jugador.transform.position-this.transform.position) + new Vector3(0,-2.5f,0);
             movimiento = true;
             panelbalde.SetActive(true);
-            recordatorio.text = "Busca agua, ¡escucha a tu alrededor!";
+            recordatorio.text = txt3;
             Destroy(this.gameObject.GetComponent<BoxCollider>());
-            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = "Aún nos falta conseguir agua! Hay un lago cerca del pozo, sigue buscando!";
+            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = txt4;
             //Destroy(objeto);
         }
         panelbalde.SetActive(true);

@@ -261,7 +261,12 @@
     "basura_plastico": "Plastic in plastic bin",
     "basura_vidrio": "Glass in glass bin",
     "basura_mal": "That doesn't go there!",
-    "sembrando": "Sowing, wait..."
+    "sembrando": "Sowing, wait...",
+    "help_fogata_0": "Quick, run to the bonfire and put it out!",
+    "help_fogata_1": "No time to lose! Put out the bonfire now that you have the water!",
+    "help_fogata_2": "Quick, run to the bonfire and put it out!",
+    "help_fogata_3": "Look for water, listen around you!",
+    "help_fogata_4": "We still need to get water! There's a lake near the well, keep looking!"
   },
   "first_challenge": {
     "title_0": "Welcome",
