@@ -21,15 +21,29 @@ Un ejemplo son los textos de los botones de diferentes menús, se los divide por
 
 Los tres archivos (`textos_espanol.json`, `textos_english.json` y `textos_portugues.json`) deben tener la misma estructura y las mismas claves para no tener problemas de que algún texto no se muestre en cierto idioma en específico.
 
+<p align="center">
+  <img src="ImagenesDocumentacion/estructura_json.png" alt="ChallengeID" width="400"/>
+</p>
+
 ### Procesar el texto en LanguageManager.cs
 El **`LanguageManager`** está diseñado como un Singleton, que sirve para recorrer todas las secciones del JSON y añadir automáticamente los textos al diccionario interno (`textos`). Al añadir una nueva clave-valor, es necesario ingresarlo dentro de la función `CargarIdioma()`, que se encarga de guardar todos los textos del JSON en el diccionario textos.
 
 Para las claves que se ingresan en el diccionario, se sigue la convención de ingresar las claves, indicando jerarquía de las claves mediante puntos `<clave_padre>.<clave_hijo>`. La forma de nombrarla no es necesaria que siga el mismo formato, sin embargo, es para poder ubicar de mejor manera los diferentes textos.
 
+<p align="center">
+  <img src="ImagenesDocumentacion/cargar_textos.png" alt="ChallengeID" width="400"/>
+</p>
+
 ### Añadir a la Estructura de Clases
 Debe seguirse la estructura de los JSON para la creación de las clases para mapear los textos. **`DatosIdioma`** es la clase principal, y de ella se van dividiendo para las distintas escenas, botones, avisos, etc.
 
 Tanto el JSON como las clases siguen una misma estructura. Con comentarios se indica en el código qué clase pertenece a qué parte del JSON.
+
+<p align="center">
+  <img src="ImagenesDocumentacion/datos_idioma.png" alt="ChallengeID" width="300"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="ImagenesDocumentacion/botones_interfaz_perfil.png" alt="ChallengeID" width="400"/>
+</p>
 
 Es importante recalcar que los nombres de las propiedades de las clases deben tener el mismo nombre, escritos de la misma forma. Por ejemplo, dentro del JSON hay una clave llamada "botones", que tiene los textos de todos los botones que hay dentro del juego, y como se puede ver en la captura, existe una propiedad con el mismo nombre, "botones".
 
@@ -43,6 +57,10 @@ Una de las formas de uso es de forma directa dentro de algún script, obteniendo
 Esta se usa principalmente para textos que se cargan dentro scripts, fuera de la interfaz de Unity.
 
 Esto ocurre en escenas como la del Tutorial, que manejan los textos de forma diferente a las otras escenas. También se utiliza para la creación dentro del juego de las misiones y logros que tendrá que completar el jugador, dentro del script **`LogrosGlobales`**.
+
+<p align="center">
+  <img src="ImagenesDocumentacion/logros_misiones.png" alt="ChallengeID" width="400"/>
+</p>
 
 ## 🔤 Componentes Text
 
@@ -67,9 +85,14 @@ El script **`TranslatableText.cs`** se utiliza cuando el objeto en escena contie
   Corrutina que espera hasta que `LanguageManager` esté disponible. Una vez listo, se suscribe al evento y actualiza el texto.
 
 ### 🔧 Uso
+
 1. Añadir el script **`TranslatableText.cs`** a un objeto que contenga un componente Text.
 2. Definir la clave correspondiente en el inspector.
 3. Al ejecutar y cambiar de idioma, el texto se actualizará automáticamente.
+
+<p align="center">
+  <img src="ImagenesDocumentacion/translatable_text.png" alt="ChallengeID" width="400"/>
+</p>
 
 ## 🎨 Componentes TextMesh, TextMeshPro y TextMeshProUGUI
 
@@ -106,6 +129,10 @@ En cambio, el script **`TranslatableTMP2.cs`** es una versión más flexible, pe
 3. Definir la clave en el inspector.
 4. El texto se traducirá automáticamente al cambiar de idioma.
 
+<p align="center">
+  <img src="ImagenesDocumentacion/translatable_tmp2.png" alt="ChallengeID" width="400"/>
+</p>
+
 ## 💬 Componente DialogueTrigger
 
 Para los diálogos que se muestran mediante un canvas, para indicar información sobre los retos que deben completar los jugadores, o información adicional que se quiere mostrar, se utiliza activadores que llaman al **`DialogueTrigger`** y este utiliza dos scripts más para funcionar, estos dos scripts que son **`DialogueManager`** y **`LanguageManager`**.
@@ -127,6 +154,11 @@ El **`LanguageManager`** es utilizado dentro de **`DialogueManager`** en el mét
 Esto asegura que los diálogos no dependan de strings estáticos, sino de claves de idioma dinámicas que se resuelven en tiempo de ejecución.
 
 Estas claves fueron definidas como ya se específico en el **`LanguageManager`**, y se utilizan las claves definidas en el diccionario `textos`, de este mismo script.
+
+<p align="center">
+  <img src="ImagenesDocumentacion/dialogue_trigger.png" alt="ChallengeID" width="300"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="ImagenesDocumentacion/claves_language.png" alt="ChallengeID" width="500"/>
 
 ### 🔗 Integración y Ventajas
 
