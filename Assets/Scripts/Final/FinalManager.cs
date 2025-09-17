@@ -1,10 +1,10 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FinalManager : MonoBehaviour
 {
+    [Header("Referencias")]
     public GameObject camera;
     public GameObject polo;
     public GameObject NPCs;
@@ -15,34 +15,43 @@ public class FinalManager : MonoBehaviour
     public Canvas canvas;
     public Transform target;
 
-    // Velocidades y control
-    public int currentSpeed = 6;                 // velocidad de la cámara
-    public float diplomaScaleTarget = 0.5f;      // tamaño final del diploma
-    public float diplomaScaleSpeed = 3f;         // rapidez del escalado
-    public float pauseBeforeCredits = 1.0f;      // pausa antes de créditos
-
     public GameObject miniCertificado;
     public Text playerName;
     public PlayerData playerData;
     public GameObject diploma;
-
-    bool onDiplome = true;
-    GameObject background;
+    public GameObject background;
     public GameObject credits;
 
-    // Flags de control
+    [Header("Configuración")]
+    public int currentSpeed = 6;               // velocidad de la cámara
+    public float diplomaScaleTarget = 0.5f;    // tamaño final del diploma
+    public float diplomaScaleSpeed = 3f;       // rapidez del escalado
+    public float pauseBeforeCredits = 1.0f;    // pausa antes de créditos
+    public float fadeSpeed = 2.0f;             // velocidad de fades
+
+    // Estados internos
+    private bool onDiplome = true;
     private bool fadingToCredits = false;
     private bool creditsLaunched = false;
 
-    // Start is called before the first frame update
+    private float diplomaAlpha = 1f;
+    private float backgroundAlpha = 0f;
+
+    private Image diplomaImage;
+    private Image backgroundImage;
+
     void Start()
     {
         loadData();
-        background = canvas.transform.GetChild(0).gameObject;
-        diploma = canvas.transform.GetChild(1).gameObject;
+
+        diplomaImage = diploma.GetComponent<Image>();
+        backgroundImage = background.GetComponent<Image>();
+
+        // Inicializar estados
+        background.SetActive(false);
+        credits.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Time.time > 2)
@@ -52,14 +61,10 @@ public class FinalManager : MonoBehaviour
         }
 
         if (onDiplome)
-        {
             activeDiplome();
-        }
 
         if (fadingToCredits)
-        {
             transitionToCredits();
-        }
     }
 
     void cameraAutoMove()
@@ -70,7 +75,7 @@ public class FinalManager : MonoBehaviour
 
     void statePolo()
     {
-        if (!audioClap.GetComponent<AudioSource>().isPlaying)
+        if (!audioClap.isPlaying)
         {
             polo.GetComponent<Animator>().SetInteger("state", 1);
         }
@@ -104,32 +109,35 @@ public class FinalManager : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         fadingToCredits = true;
+        background.SetActive(true); // se prepara el fondo
     }
 
     void transitionToCredits()
     {
-        audioClap.GetComponent<AudioSource>().Stop();
+        // Parar aplausos
+        audioClap.Stop();
 
-        Color colorDiplome = diploma.GetComponent<Image>().color;
-        colorDiplome.a = Mathf.Lerp(colorDiplome.a, 0.0f, 2 * Time.deltaTime);
-        diploma.GetComponent<Image>().color = colorDiplome;
+        // Fade out diploma
+        diplomaAlpha = Mathf.MoveTowards(diplomaAlpha, 0f, fadeSpeed * Time.deltaTime);
+        diplomaImage.color = new Color(diplomaImage.color.r, diplomaImage.color.g, diplomaImage.color.b, diplomaAlpha);
 
-        if (colorDiplome.a < 0.5f)
+        if (diplomaAlpha <= 0.5f)
         {
-            diploma.transform.GetChild(0).gameObject.SetActive(false);
+            if (diploma.transform.childCount > 0)
+                diploma.transform.GetChild(0).gameObject.SetActive(false);
         }
 
-        background.SetActive(true);
-        Color colorBackground = background.GetComponent<Image>().color;
-        colorBackground.a = Mathf.Lerp(colorBackground.a, 1.0f, 2 * Time.deltaTime);
-        background.GetComponent<Image>().color = colorBackground;
+        // Fade in background
+        backgroundAlpha = Mathf.MoveTowards(backgroundAlpha, 1f, fadeSpeed * Time.deltaTime);
+        backgroundImage.color = new Color(backgroundImage.color.r, backgroundImage.color.g, backgroundImage.color.b, backgroundAlpha);
 
-        if (colorBackground.a > 0.99f)
+        // Solo lanzar créditos cuando el fondo esté completamente opaco
+        if (backgroundAlpha >= 1f)
         {
             offElements();
             credits.SetActive(true);
             playCredits();
-            fadingToCredits = false; // evitar que siga llamando
+            fadingToCredits = false; // transición completada
         }
     }
 
