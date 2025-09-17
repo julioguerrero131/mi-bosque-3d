@@ -1129,10 +1129,6 @@ MonoBehaviour:
   audioClap: {fileID: 1180146545}
   canvas: {fileID: 794940030}
   target: {fileID: 470975052}
-  currentSpeed: 8
-  diplomaScaleTarget: 0.5
-  diplomaScaleSpeed: 4
-  pauseBeforeCredits: 1
   miniCertificado: {fileID: 663448173}
   playerName: {fileID: 898452435}
   playerData:
@@ -1169,7 +1165,13 @@ MonoBehaviour:
     - 
     isRegistered: 0
   diploma: {fileID: 889037237}
+  background: {fileID: 1384351796}
   credits: {fileID: 1820763798}
+  currentSpeed: 8
+  diplomaScaleTarget: 0.5
+  diplomaScaleSpeed: 4
+  pauseBeforeCredits: 1
+  fadeSpeed: 2
 --- !u!4 &397346575
 Transform:
   m_ObjectHideFlags: 0
